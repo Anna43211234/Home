@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="4.258"><testcase classname="rostest.runner.RosTest" name="testcrash_opencv" time="4.2580" /><system-out>&lt;![CDATA[
+[ROSTEST]setup[/home/clover/catkin_ws/src/clover/aruco_pose/test/crash_opencv.test] run_id[f495da62-d8c5-11ed-86ec-4d218940b1cd] starting
+&amp;#x001B;[1mstarted roslaunch server http://ubuntu:45693/&amp;#x001B;[0m
+
+SUMMARY
+========
+
+CLEAR PARAMETERS
+ * /aruco_detect_01/
+ * /aruco_detect_02/
+ * /aruco_detect_03/
+
+PARAMETERS
+ * /aruco_detect_01/cornerRefinementMethod: 2
+ * /aruco_detect_01/length: 0.33
+ * /aruco_detect_02/cornerRefinementMethod: 2
+ * /aruco_detect_02/length: 0.33
+ * /aruco_detect_03/cornerRefinementMethod: 2
+ * /aruco_detect_03/length: 0.33
+ * /imgpub_01/camera_info_url: file:///home/clov...
+ * /imgpub_01/frame_id: main_camera_optical
+ * /imgpub_01/publish_rate: 10
+ * /imgpub_02/camera_info_url: file:///home/clov...
+ * /imgpub_02/frame_id: main_camera_optical
+ * /imgpub_02/publish_rate: 10
+ * /imgpub_03/camera_info_url: file:///home/clov...
+ * /imgpub_03/frame_id: main_camera_optical
+ * /imgpub_03/publish_rate: 10
+ * /rosdistro: noetic
+ * /rosversion: 1.16.0
+ * /test_module: /home/clover/catk...
+
+NODES
+  /
+    aruco_detect_01 (nodelet/nodelet)
+    aruco_detect_02 (nodelet/nodelet)
+    aruco_detect_03 (nodelet/nodelet)
+    imgpub_01 (image_publisher/image_publisher)
+    imgpub_02 (image_publisher/image_publisher)
+    imgpub_03 (image_publisher/image_publisher)
+    nodelet_manager_01 (nodelet/nodelet)
+    nodelet_manager_02 (nodelet/nodelet)
+    nodelet_manager_03 (nodelet/nodelet)
+
+[ROSTEST]setup[/home/clover/catkin_ws/src/clover/aruco_pose/test/crash_opencv.test] run_id[f495da62-d8c5-11ed-86ec-4d218940b1cd] done
+[ROSTEST]Running test [crash_opencv]
+&amp;#x001B;[1mROS_MASTER_URI=http://ubuntu:46479/&amp;#x001B;[0m
+&amp;#x001B;[1msetting /run_id to f495da62-d8c5-11ed-86ec-4d218940b1cd&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[imgpub_01-1]: started with pid [48472]&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[imgpub_02-2]: started with pid [48473]&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[imgpub_03-3]: started with pid [48474]&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[nodelet_manager_01-4]: started with pid [48475]&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[aruco_detect_01-5]: started with pid [48477]&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[nodelet_manager_02-6]: started with pid [48480]&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[aruco_detect_02-7]: started with pid [48481]&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[nodelet_manager_03-8]: started with pid [48483]&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[aruco_detect_03-9]: started with pid [48498]&amp;#x001B;[0m
+[ROSTEST]running test crash_opencv
+&amp;#x001B;[1mprocess[crash_opencv-10]: started with pid [48504]&amp;#x001B;[0m
+&amp;#x001B;[1m[crash_opencv-10] process has finished cleanly
+log file: /home/clover/.ros/log/f495da62-d8c5-11ed-86ec-4d218940b1cd/crash_opencv-10*.log&amp;#x001B;[0m
+[ROSTEST]test [crash_opencv] finished
+[ROSTEST]test [crash_opencv] results are in [/home/clover/catkin_ws/build/test_results/aruco_pose/rosunit-crash_opencv.xml]
+[ROSTEST]test [crash_opencv] results summary: 0 errors, 0 failures, 3 tests
+[ROSTEST][ROSTEST] test [crash_opencv] done
+[ROSTEST]tearDown[/home/clover/catkin_ws/src/clover/aruco_pose/test/crash_opencv.test]
+shutting down processing monitor...
+[aruco_detect_03-9] killing on exit
+[nodelet_manager_03-8] killing on exit
+[aruco_detect_02-7] killing on exit
+[nodelet_manager_02-6] killing on exit
+[aruco_detect_01-5] killing on exit
+[nodelet_manager_01-4] killing on exit
+[imgpub_03-3] killing on exit
+[imgpub_02-2] killing on exit
+[imgpub_01-1] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/clover/catkin_ws/src/clover/aruco_pose/test/crash_opencv.test complete
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

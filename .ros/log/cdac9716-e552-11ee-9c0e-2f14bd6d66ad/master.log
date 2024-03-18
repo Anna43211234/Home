@@ -1,0 +1,14 @@
+[rosmaster.main][INFO] 2024-03-18 21:10:32,139: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2024-03-18 21:10:32,139: Starting ROS Master Node
+[xmlrpc][INFO] 2024-03-18 21:10:32,139: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2024-03-18 21:10:32,139: Started XML-RPC server [http://clover-dev.local:11311/]
+[xmlrpc][INFO] 2024-03-18 21:10:32,139: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2024-03-18 21:10:32,140: Master initialized: port[11311], uri[http://clover-dev.local:11311/]
+[rosmaster.master][INFO] 2024-03-18 21:10:32,155: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2024-03-18 21:10:32,156: +PARAM [/roslaunch/uris/host_clover_dev_local__46077] by /roslaunch
+[rosmaster.master][INFO] 2024-03-18 21:10:32,190: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-03-18 21:10:32,190: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-03-18 21:10:32,568: +SERVICE [/rosout/get_loggers] /rosout http://clover-dev.local:36089/
+[rosmaster.master][INFO] 2024-03-18 21:10:32,568: +SERVICE [/rosout/set_logger_level] /rosout http://clover-dev.local:36089/
+[rosmaster.master][INFO] 2024-03-18 21:10:32,575: +PUB [/rosout_agg] /rosout http://clover-dev.local:36089/
+[rosmaster.master][INFO] 2024-03-18 21:10:32,582: +SUB [/rosout] /rosout http://clover-dev.local:36089/

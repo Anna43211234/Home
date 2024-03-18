@@ -1,0 +1,10 @@
+[ROSUNIT] Outputting test results to /home/clover/catkin_ws/build/test_results/aruco_pose/rosunit-test_aruco_pose_largemap.xml
+[Testcase: test_map_image] ... ok
+[Testcase: test_map_visualization] ... ok
+-------------------------------------------------------------
+SUMMARY:
+[32m * RESULT: SUCCESS[0m
+ * TESTS: 2
+ * ERRORS: 0 []
+ * FAILURES: 0 []
+

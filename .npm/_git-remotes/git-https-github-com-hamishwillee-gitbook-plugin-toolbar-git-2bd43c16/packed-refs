@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+ac2f654ce3bce7d54344691993290427d0111441 refs/heads/master
+54e49184670ac7c3ca77829503468c227e615ea9 refs/heads/support_injecting_pathname
+c7534a8192c5a013a713b7189811b79d46c08180 refs/pull/1/head
+54042386fb85e73876d408cd46208d83b1b00bfd refs/pull/2/head
+54042386fb85e73876d408cd46208d83b1b00bfd refs/pull/3/head
+54e49184670ac7c3ca77829503468c227e615ea9 refs/pull/4/head

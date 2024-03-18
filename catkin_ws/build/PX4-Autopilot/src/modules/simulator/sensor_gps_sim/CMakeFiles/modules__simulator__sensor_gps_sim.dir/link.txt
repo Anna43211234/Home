@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/clover/catkin_ws/devel/lib/libmodules__simulator__sensor_gps_sim.a  CMakeFiles/modules__simulator__sensor_gps_sim.dir/SensorGpsSim.cpp.o
+/usr/bin/ranlib /home/clover/catkin_ws/devel/lib/libmodules__simulator__sensor_gps_sim.a

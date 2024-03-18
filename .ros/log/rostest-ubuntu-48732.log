@@ -1,0 +1,298 @@
+[rostest][INFO] 2023-04-12 03:07:15,082: rostest starting with options {'text_mode': False, 'pkg_dir': '/home/clover/catkin_ws/src/clover/aruco_pose', 'package': 'aruco_pose', 'results_filename': 'test_test_parser_empty_map.xml', 'results_base_dir': '/home/clover/catkin_ws/build/test_results', 'reuse_master': None, 'clear': None}, args ['/home/clover/catkin_ws/src/clover/aruco_pose/test/test_parser_empty_map.test']
+[roslaunch][INFO] 2023-04-12 03:07:15,082: loading roscore config file /opt/ros/noetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2023-04-12 03:07:15,294: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2023-04-12 03:07:15,294: loading config file /home/clover/catkin_ws/src/clover/aruco_pose/test/test_parser_empty_map.test
+[roslaunch][INFO] 2023-04-12 03:07:15,297: Added node of type [nodelet/nodelet] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:07:15,349: Added node of type [nodelet/nodelet] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:07:15,353: ... selected machine [] for node of type [nodelet/nodelet]
+[roslaunch][INFO] 2023-04-12 03:07:15,354: ... selected machine [] for node of type [nodelet/nodelet]
+[roslaunch][INFO] 2023-04-12 03:07:15,354: ... selected machine [] for node of type [ros_pytest/ros_pytest_runner]
+[rostest][INFO] 2023-04-12 03:07:15,411: setup[/home/clover/catkin_ws/src/clover/aruco_pose/test/test_parser_empty_map.test] run_id[fb44f488-d8c5-11ed-86ec-4d218940b1cd] starting
+[roslaunch.pmon][INFO] 2023-04-12 03:07:15,411: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2023-04-12 03:07:15,411: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2023-04-12 03:07:15,412: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2023-04-12 03:07:15,412: starting parent XML-RPC server
+[roslaunch.server][INFO] 2023-04-12 03:07:15,412: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2023-04-12 03:07:15,412: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2023-04-12 03:07:15,412: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2023-04-12 03:07:15,413: Started XML-RPC server [http://ubuntu:42721/]
+[xmlrpc][INFO] 2023-04-12 03:07:15,413: xml rpc node: starting XML-RPC server
+[rostest][INFO] 2023-04-12 03:07:15,424: started roslaunch server http://ubuntu:42721/
+[roslaunch.parent][INFO] 2023-04-12 03:07:15,424: ... parent XML-RPC server started
+[xmlrpc][INFO] 2023-04-12 03:07:15,425: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2023-04-12 03:07:15,426: Started XML-RPC server [http://ubuntu:42243/]
+[xmlrpc][INFO] 2023-04-12 03:07:15,426: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2023-04-12 03:07:15,426: Master initialized: port[0], uri[http://ubuntu:42243/]
+[rostest][INFO] 2023-04-12 03:07:15,426: _addRostestParent [<rostest.rostest_parent.ROSTestLaunchParent object at 0x7f85e28bb640>]
+[rostest][INFO] 2023-04-12 03:07:15,427: setup[/home/clover/catkin_ws/src/clover/aruco_pose/test/test_parser_empty_map.test] run_id[fb44f488-d8c5-11ed-86ec-4d218940b1cd] done
+[rostest][INFO] 2023-04-12 03:07:15,427: Running test [test_node_empty_map]
+[roslaunch][INFO] 2023-04-12 03:07:15,427: master.is_running[http://ubuntu:42243/]
+[roslaunch][INFO] 2023-04-12 03:07:15,428: master.is_running[http://ubuntu:42243/]
+[rostest][INFO] 2023-04-12 03:07:15,429: ROS_MASTER_URI=http://ubuntu:42243/
+[rostest][INFO] 2023-04-12 03:07:15,430: setting /run_id to fb44f488-d8c5-11ed-86ec-4d218940b1cd
+[rosmaster.master][INFO] 2023-04-12 03:07:15,431: +PARAM [/run_id] by /roslaunch
+[roslaunch][INFO] 2023-04-12 03:07:15,431: setting /roslaunch/uris/host_ubuntu__42721' to http://ubuntu:42721/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,432: +PARAM [/roslaunch/uris/host_ubuntu__42721] by /roslaunch
+[roslaunch][INFO] 2023-04-12 03:07:15,432: load_parameters starting ...
+[rosmaster.master][INFO] 2023-04-12 03:07:15,435: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:07:15,435: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:07:15,436: +PARAM [/aruco_map/type] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:07:15,436: +PARAM [/aruco_map/map] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:07:15,436: +PARAM [/test_module] by /roslaunch
+[roslaunch][INFO] 2023-04-12 03:07:15,436: ... load_parameters complete
+[roslaunch][INFO] 2023-04-12 03:07:15,436: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2023-04-12 03:07:15,437: ... preparing to launch node of type [nodelet/nodelet]
+[roslaunch][INFO] 2023-04-12 03:07:15,437: create_node_process: package[nodelet] type[nodelet] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://ubuntu:42243/]
+[roslaunch][INFO] 2023-04-12 03:07:15,437: process[nodelet_manager-1]: env[{'USER': 'clover', 'LANGUAGE': 'en_US:', 'SSH_CLIENT': '10.0.2.2 49195 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'SHLVL': '1', 'HOME': '/home/clover', 'OLDPWD': '/home/clover/catkin_ws/build', 'MOTD_SHOWN': 'pam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': 's -j1 -l1', 'ROS_DISTRO': 'noetic', 'LOGNAME': 'clover', '_': '/opt/ros/noetic/bin/catkin_make', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_VERSION': '1', 'XDG_SESSION_ID': '2', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/tmp/rostest_bin_hookmdm3bp9g:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAKELEVEL': '4', 'LANG': 'en_US', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://ubuntu:42243/', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'PWD': '/home/clover/catkin_ws/build/clover/aruco_pose', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'PASSWORD': 'clover', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'MFLAGS': '-s -j1 -l1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/rostest-ubuntu-48732.log'}]
+[roslaunch][INFO] 2023-04-12 03:07:15,487: process[nodelet_manager-1]: args[['/opt/ros/noetic/lib/nodelet/nodelet', 'manager', '__name:=nodelet_manager']]
+[roslaunch][INFO] 2023-04-12 03:07:15,488: ... created process [nodelet_manager-1]
+[roslaunch.pmon][INFO] 2023-04-12 03:07:15,488: ProcessMonitor.register[nodelet_manager-1]
+[roslaunch.pmon][INFO] 2023-04-12 03:07:15,488: ProcessMonitor.register[nodelet_manager-1] complete
+[roslaunch][INFO] 2023-04-12 03:07:15,488: ... registered process [nodelet_manager-1]
+[roslaunch][INFO] 2023-04-12 03:07:15,488: process[nodelet_manager-1]: starting os process
+[roslaunch][INFO] 2023-04-12 03:07:15,488: process[nodelet_manager-1]: start w/ args [['/opt/ros/noetic/lib/nodelet/nodelet', 'manager', '__name:=nodelet_manager', '__log:=/home/clover/.ros/log/fb44f488-d8c5-11ed-86ec-4d218940b1cd/nodelet_manager-1.log']]
+[roslaunch][INFO] 2023-04-12 03:07:15,488: process[nodelet_manager-1]: cwd will be [/home/clover/.ros]
+[rostest][INFO] 2023-04-12 03:07:15,501: process[nodelet_manager-1]: started with pid [48749]
+[roslaunch][INFO] 2023-04-12 03:07:15,502: ... successfully launched [nodelet_manager-1]
+[roslaunch][INFO] 2023-04-12 03:07:15,502: ... preparing to launch node of type [nodelet/nodelet]
+[roslaunch][INFO] 2023-04-12 03:07:15,502: create_node_process: package[nodelet] type[nodelet] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://ubuntu:42243/]
+[roslaunch][INFO] 2023-04-12 03:07:15,502: process[aruco_map-2]: env[{'USER': 'clover', 'LANGUAGE': 'en_US:', 'SSH_CLIENT': '10.0.2.2 49195 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'SHLVL': '1', 'HOME': '/home/clover', 'OLDPWD': '/home/clover/catkin_ws/build', 'MOTD_SHOWN': 'pam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': 's -j1 -l1', 'ROS_DISTRO': 'noetic', 'LOGNAME': 'clover', '_': '/opt/ros/noetic/bin/catkin_make', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_VERSION': '1', 'XDG_SESSION_ID': '2', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/tmp/rostest_bin_hookmdm3bp9g:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAKELEVEL': '4', 'LANG': 'en_US', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://ubuntu:42243/', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'PWD': '/home/clover/catkin_ws/build/clover/aruco_pose', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'PASSWORD': 'clover', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'MFLAGS': '-s -j1 -l1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/rostest-ubuntu-48732.log'}]
+[roslaunch][INFO] 2023-04-12 03:07:15,503: process[aruco_map-2]: args[['/opt/ros/noetic/lib/nodelet/nodelet', 'load', 'aruco_pose/aruco_map', 'nodelet_manager', 'image_raw:=main_camera/image_raw', 'camera_info:=main_camera/camera_info', 'markers:=aruco_detect/markers', '__name:=aruco_map']]
+[roslaunch][INFO] 2023-04-12 03:07:15,503: ... created process [aruco_map-2]
+[roslaunch.pmon][INFO] 2023-04-12 03:07:15,503: ProcessMonitor.register[aruco_map-2]
+[roslaunch.pmon][INFO] 2023-04-12 03:07:15,503: ProcessMonitor.register[aruco_map-2] complete
+[roslaunch][INFO] 2023-04-12 03:07:15,503: ... registered process [aruco_map-2]
+[roslaunch][INFO] 2023-04-12 03:07:15,504: process[aruco_map-2]: starting os process
+[roslaunch][INFO] 2023-04-12 03:07:15,504: process[aruco_map-2]: start w/ args [['/opt/ros/noetic/lib/nodelet/nodelet', 'load', 'aruco_pose/aruco_map', 'nodelet_manager', 'image_raw:=main_camera/image_raw', 'camera_info:=main_camera/camera_info', 'markers:=aruco_detect/markers', '__name:=aruco_map', '__log:=/home/clover/.ros/log/fb44f488-d8c5-11ed-86ec-4d218940b1cd/aruco_map-2.log']]
+[roslaunch][INFO] 2023-04-12 03:07:15,504: process[aruco_map-2]: cwd will be [/home/clover/.ros]
+[rostest][INFO] 2023-04-12 03:07:15,511: process[aruco_map-2]: started with pid [48750]
+[roslaunch][INFO] 2023-04-12 03:07:15,512: ... successfully launched [aruco_map-2]
+[roslaunch][INFO] 2023-04-12 03:07:15,512: ... launch_nodes complete
+[rostest][INFO] 2023-04-12 03:07:15,512: running test test_node_empty_map
+[roslaunch][INFO] 2023-04-12 03:07:15,512: ... preparing to run test [test_node_empty_map] of type [ros_pytest/ros_pytest_runner]
+[roslaunch][INFO] 2023-04-12 03:07:15,512: ... preparing to launch node of type [ros_pytest/ros_pytest_runner]
+[roslaunch][INFO] 2023-04-12 03:07:15,512: create_node_process: package[ros_pytest] type[ros_pytest_runner] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://ubuntu:42243/]
+[roslaunch][INFO] 2023-04-12 03:07:15,513: process[test_node_empty_map-3]: env[{'USER': 'clover', 'LANGUAGE': 'en_US:', 'SSH_CLIENT': '10.0.2.2 49195 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'SHLVL': '1', 'HOME': '/home/clover', 'OLDPWD': '/home/clover/catkin_ws/build', 'MOTD_SHOWN': 'pam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': 's -j1 -l1', 'ROS_DISTRO': 'noetic', 'LOGNAME': 'clover', '_': '/opt/ros/noetic/bin/catkin_make', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_VERSION': '1', 'XDG_SESSION_ID': '2', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/tmp/rostest_bin_hookmdm3bp9g:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAKELEVEL': '4', 'LANG': 'en_US', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://ubuntu:42243/', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'PWD': '/home/clover/catkin_ws/build/clover/aruco_pose', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'PASSWORD': 'clover', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'MFLAGS': '-s -j1 -l1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/rostest-ubuntu-48732.log'}]
+[roslaunch][INFO] 2023-04-12 03:07:15,513: process[test_node_empty_map-3]: args[['/opt/ros/noetic/lib/ros_pytest/ros_pytest_runner', '--gtest_output=xml:/home/clover/catkin_ws/build/test_results/aruco_pose/rosunit-test_node_empty_map.xml', '__name:=test_node_empty_map']]
+[roslaunch][INFO] 2023-04-12 03:07:15,514: ... created process [test_node_empty_map-3]
+[roslaunch.pmon][INFO] 2023-04-12 03:07:15,514: ProcessMonitor.register[test_node_empty_map-3]
+[roslaunch.pmon][INFO] 2023-04-12 03:07:15,514: ProcessMonitor.register[test_node_empty_map-3] complete
+[roslaunch][INFO] 2023-04-12 03:07:15,514: ... registered process [test_node_empty_map-3]
+[roslaunch][INFO] 2023-04-12 03:07:15,514: process[test_node_empty_map-3]: starting os process
+[roslaunch][INFO] 2023-04-12 03:07:15,514: process[test_node_empty_map-3]: start w/ args [['/opt/ros/noetic/lib/ros_pytest/ros_pytest_runner', '--gtest_output=xml:/home/clover/catkin_ws/build/test_results/aruco_pose/rosunit-test_node_empty_map.xml', '__name:=test_node_empty_map', '__log:=/home/clover/.ros/log/fb44f488-d8c5-11ed-86ec-4d218940b1cd/test_node_empty_map-3.log']]
+[roslaunch][INFO] 2023-04-12 03:07:15,514: process[test_node_empty_map-3]: cwd will be [/home/clover/.ros]
+[rostest][INFO] 2023-04-12 03:07:15,540: process[test_node_empty_map-3]: started with pid [48751]
+[roslaunch][INFO] 2023-04-12 03:07:15,540: ... successfully launched [test_node_empty_map-3]
+[rosmaster.master][INFO] 2023-04-12 03:07:15,569: +PUB [/rosout] /aruco_map http://ubuntu:45359/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,569: +SERVICE [/aruco_map/get_loggers] /aruco_map http://ubuntu:45359/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,570: +SERVICE [/aruco_map/set_logger_level] /aruco_map http://ubuntu:45359/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,570: +CACHEDPARAM [/rosout_disable_topics_generation] by /aruco_map
+[rosmaster.master][INFO] 2023-04-12 03:07:15,572: +PARAM [/aruco_map] by /aruco_map
+[rosmaster.master][INFO] 2023-04-12 03:07:15,608: +PUB [/rosout] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,609: +SERVICE [/nodelet_manager/get_loggers] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,609: +SERVICE [/nodelet_manager/set_logger_level] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,610: +CACHEDPARAM [/rosout_disable_topics_generation] by /nodelet_manager
+[rosmaster.master][INFO] 2023-04-12 03:07:15,611: +SERVICE [/nodelet_manager/load_nodelet] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,611: +SERVICE [/nodelet_manager/unload_nodelet] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,612: +SERVICE [/nodelet_manager/list] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,777: +PUB [/tf] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,780: +PUB [/tf_static] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,783: +SUB [/tf] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,793: +SUB [/tf_static] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,795: +PUB [/aruco_map/image] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,795: +PUB [/aruco_map/map] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,804: +PUB [/aruco_map/pose] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,806: +PUB [/aruco_map/visualization] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,808: +PUB [/aruco_map/debug] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,829: +SUB [/main_camera/image_raw] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,831: +SUB [/main_camera/camera_info] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,838: +SUB [/aruco_detect/markers] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,838: +SERVICE [/aruco_map/set_parameters] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,839: +PUB [/aruco_map/parameter_descriptions] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,839: +PUB [/aruco_map/parameter_updates] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,841: +PARAM [/aruco_map/enabled] by /nodelet_manager
+[rosmaster.master][INFO] 2023-04-12 03:07:15,841: +PARAM [/aruco_map/map] by /nodelet_manager
+[rosmaster.master][INFO] 2023-04-12 03:07:15,841: +PARAM [/aruco_map/image_axis] by /nodelet_manager
+[rosmaster.master][INFO] 2023-04-12 03:07:15,842: +PARAM [/aruco_map/enabled] by /nodelet_manager
+[rosmaster.master][INFO] 2023-04-12 03:07:15,842: +PARAM [/aruco_map/map] by /nodelet_manager
+[rosmaster.master][INFO] 2023-04-12 03:07:15,843: +PARAM [/aruco_map/image_axis] by /nodelet_manager
+[rosmaster.master][INFO] 2023-04-12 03:07:15,843: +PUB [/nodelet_manager/bond] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,849: +SUB [/nodelet_manager/bond] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,891: +PUB [/nodelet_manager/bond] /aruco_map http://ubuntu:45359/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,893: +SUB [/nodelet_manager/bond] /aruco_map http://ubuntu:45359/
+[rosmaster.master][INFO] 2023-04-12 03:07:15,949: publisherUpdate[/nodelet_manager/bond] -> http://ubuntu:38433/ ['http://ubuntu:38433/', 'http://ubuntu:45359/']
+[rosmaster.master][INFO] 2023-04-12 03:07:15,951: publisherUpdate[/nodelet_manager/bond] -> http://ubuntu:38433/ ['http://ubuntu:38433/', 'http://ubuntu:45359/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:07:16,249: +PUB [/rosout] /test_node_empty_map http://ubuntu:33133/
+[rosmaster.master][INFO] 2023-04-12 03:07:16,251: +SERVICE [/test_node_empty_map/get_loggers] /test_node_empty_map http://ubuntu:33133/
+[rosmaster.master][INFO] 2023-04-12 03:07:16,252: +SERVICE [/test_node_empty_map/set_logger_level] /test_node_empty_map http://ubuntu:33133/
+[rosmaster.master][INFO] 2023-04-12 03:07:16,254: +SUB [/aruco_map/visualization] /test_node_empty_map http://ubuntu:33133/
+[rosmaster.master][INFO] 2023-04-12 03:07:16,265: -SUB [/aruco_map/visualization] /test_node_empty_map http://ubuntu:33133/
+[rosmaster.master][INFO] 2023-04-12 03:07:16,271: -PUB [/rosout] /test_node_empty_map http://ubuntu:33133/
+[rosmaster.master][INFO] 2023-04-12 03:07:16,271: -SERVICE [/test_node_empty_map/get_loggers] /test_node_empty_map rosrpc://ubuntu:35181
+[rosmaster.master][INFO] 2023-04-12 03:07:16,271: -SERVICE [/test_node_empty_map/set_logger_level] /test_node_empty_map rosrpc://ubuntu:35181
+[rostest][INFO] 2023-04-12 03:07:16,973: [test_node_empty_map-3] process has finished cleanly
+log file: /home/clover/.ros/log/fb44f488-d8c5-11ed-86ec-4d218940b1cd/test_node_empty_map-3*.log
+[roslaunch.pmon][INFO] 2023-04-12 03:07:16,973: ProcessMonitor.unregister[test_node_empty_map-3] starting
+[roslaunch.pmon][INFO] 2023-04-12 03:07:16,973: ProcessMonitor.unregister[test_node_empty_map-3] complete
+[rostest][INFO] 2023-04-12 03:07:17,073: test [test_node_empty_map] finished
+[rostest][INFO] 2023-04-12 03:07:17,073: test [test_node_empty_map] results are in [/home/clover/catkin_ws/build/test_results/aruco_pose/rosunit-test_node_empty_map.xml]
+[rostest][INFO] 2023-04-12 03:07:17,074: test [test_node_empty_map] results summary: 0 errors, 0 failures, 1 tests
+[rostest][INFO] 2023-04-12 03:07:17,075: [ROSTEST] test [test_node_empty_map] done
+[rostest][INFO] 2023-04-12 03:07:17,075: tearDown[/home/clover/catkin_ws/src/clover/aruco_pose/test/test_parser_empty_map.test]
+[roslaunch][INFO] 2023-04-12 03:07:17,075: runner.stop()
+[rostest][INFO] 2023-04-12 03:07:17,075: shutting down processing monitor...
+[roslaunch][INFO] 2023-04-12 03:07:17,075: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, started daemon 140213007484672)>
+[roslaunch.pmon][INFO] 2023-04-12 03:07:17,075: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140213007484672)>
+[roslaunch.pmon][INFO] 2023-04-12 03:07:17,075: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140213007484672)>
+[roslaunch.pmon][INFO] 2023-04-12 03:07:17,075: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140213007484672)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7f85e2839bb0>, <roslaunch.nodeprocess.LocalProcess object at 0x7f85e2839e20>]
+[roslaunch.pmon][INFO] 2023-04-12 03:07:17,076: ProcessMonitor exit: killing aruco_map-2
+[rostest][INFO] 2023-04-12 03:07:17,076: [aruco_map-2] killing on exit
+[roslaunch][INFO] 2023-04-12 03:07:17,076: process[aruco_map-2]: killing os process with pid[48750] pgid[48750]
+[roslaunch][INFO] 2023-04-12 03:07:17,076: [aruco_map-2] sending SIGINT to pgid [48750]
+[roslaunch][INFO] 2023-04-12 03:07:17,076: [aruco_map-2] sent SIGINT to pgid [48750]
+[roslaunch.pmon][INFO] 2023-04-12 03:07:17,083: ProcessMonitor exit: killing nodelet_manager-1
+[rostest][INFO] 2023-04-12 03:07:17,083: [nodelet_manager-1] killing on exit
+[roslaunch][INFO] 2023-04-12 03:07:17,083: process[nodelet_manager-1]: killing os process with pid[48749] pgid[48749]
+[roslaunch][INFO] 2023-04-12 03:07:17,084: [nodelet_manager-1] sending SIGINT to pgid [48749]
+[roslaunch][INFO] 2023-04-12 03:07:17,084: [nodelet_manager-1] sent SIGINT to pgid [48749]
+[rosmaster.master][INFO] 2023-04-12 03:07:17,272: -PUB [/rosout] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,272: -PUB [/tf] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,273: -PUB [/tf_static] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,273: -PUB [/aruco_map/image] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,273: -PUB [/aruco_map/map] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,274: -PUB [/aruco_map/pose] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,281: -PUB [/aruco_map/visualization] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,282: -PUB [/aruco_map/debug] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,282: -PUB [/aruco_map/parameter_descriptions] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,282: -PUB [/aruco_map/parameter_updates] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,283: -PUB [/nodelet_manager/bond] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,284: -SUB [/tf] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,284: -SUB [/tf_static] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,284: -SUB [/main_camera/image_raw] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,291: publisherUpdate[/tf] -> http://ubuntu:38433/ []
+[rosmaster.master][INFO] 2023-04-12 03:07:17,292: publisherUpdate[/nodelet_manager/bond] -> http://ubuntu:45359/ ['http://ubuntu:45359/']
+[rosmaster.master][INFO] 2023-04-12 03:07:17,292: publisherUpdate[/nodelet_manager/bond] -> http://ubuntu:45359/ ['http://ubuntu:45359/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:07:17,293: -SUB [/main_camera/camera_info] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,293: publisherUpdate[/tf] -> http://ubuntu:38433/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:07:17,294: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:07:17,294: publisherUpdate[/tf_static] -> http://ubuntu:38433/ []
+[rosmaster.master][INFO] 2023-04-12 03:07:17,295: -SUB [/aruco_detect/markers] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,295: -SUB [/nodelet_manager/bond] /nodelet_manager http://ubuntu:38433/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,296: publisherUpdate[/tf_static] -> http://ubuntu:38433/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:07:17,296: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:07:17,296: publisherUpdate[/nodelet_manager/bond] -> http://ubuntu:38433/ ['http://ubuntu:45359/']
+[rosmaster.master][INFO] 2023-04-12 03:07:17,301: publisherUpdate[/nodelet_manager/bond] -> http://ubuntu:38433/ ['http://ubuntu:45359/']: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:07:17,301: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:07:17,302: -SERVICE [/nodelet_manager/get_loggers] /nodelet_manager rosrpc://ubuntu:51109
+[rosmaster.master][INFO] 2023-04-12 03:07:17,302: -SERVICE [/nodelet_manager/set_logger_level] /nodelet_manager rosrpc://ubuntu:51109
+[rosmaster.master][INFO] 2023-04-12 03:07:17,303: -SERVICE [/nodelet_manager/load_nodelet] /nodelet_manager rosrpc://ubuntu:51109
+[rosmaster.master][INFO] 2023-04-12 03:07:17,303: -SERVICE [/nodelet_manager/unload_nodelet] /nodelet_manager rosrpc://ubuntu:51109
+[rosmaster.master][INFO] 2023-04-12 03:07:17,311: -SERVICE [/nodelet_manager/list] /nodelet_manager rosrpc://ubuntu:51109
+[rosmaster.master][INFO] 2023-04-12 03:07:17,312: -SERVICE [/aruco_map/set_parameters] /nodelet_manager rosrpc://ubuntu:51109
+[rosmaster.master][INFO] 2023-04-12 03:07:17,312: -CACHEDPARAM [/rosout_disable_topics_generation] by /nodelet_manager
+[rosmaster.master][INFO] 2023-04-12 03:07:17,502: -PUB [/rosout] /aruco_map http://ubuntu:45359/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,502: -PUB [/nodelet_manager/bond] /aruco_map http://ubuntu:45359/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,503: -SUB [/nodelet_manager/bond] /aruco_map http://ubuntu:45359/
+[rosmaster.master][INFO] 2023-04-12 03:07:17,503: -SERVICE [/aruco_map/get_loggers] /aruco_map rosrpc://ubuntu:43299
+[rosmaster.master][INFO] 2023-04-12 03:07:17,503: -SERVICE [/aruco_map/set_logger_level] /aruco_map rosrpc://ubuntu:43299
+[rosmaster.master][INFO] 2023-04-12 03:07:17,504: -CACHEDPARAM [/rosout_disable_topics_generation] by /aruco_map
+[rosmaster.master][INFO] 2023-04-12 03:07:17,511: publisherUpdate[/nodelet_manager/bond] -> http://ubuntu:45359/ []
+[roslaunch][INFO] 2023-04-12 03:07:17,512: process[nodelet_manager-1]: SIGINT killed with return value 0
+[rosmaster.master][INFO] 2023-04-12 03:07:17,521: publisherUpdate[/nodelet_manager/bond] -> http://ubuntu:45359/ []: sec=0.01, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2023-04-12 03:07:17,522: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[roslaunch][INFO] 2023-04-12 03:07:17,612: process[aruco_map-2]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2023-04-12 03:07:17,612: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2023-04-12 03:07:17,613: ProcessMonitor exit: pmon has shutdown
+[rostest][INFO] 2023-04-12 03:07:17,613: ... shutting down processing monitor complete
+[roslaunch.pmon][INFO] 2023-04-12 03:07:17,613: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140213007484672)>
+[rostest][INFO] 2023-04-12 03:07:17,613: rostest teardown /home/clover/catkin_ws/src/clover/aruco_pose/test/test_parser_empty_map.test complete
+[rostest][INFO] 2023-04-12 03:07:17,614: finally rostest parent tearDown [<rostest.rostest_parent.ROSTestLaunchParent object at 0x7f85e28bb640>]
+[roslaunch][INFO] 2023-04-12 03:07:17,614: runner.stop()
+[roslaunch][INFO] 2023-04-12 03:07:17,614: ... roslaunch runner has already been stopped
+[rostest][INFO] 2023-04-12 03:07:17,614: calling pmon_shutdown
+[rostest][INFO] 2023-04-12 03:07:17,614: ... done calling pmon_shutdown
+[rospy.core][INFO] 2023-04-12 03:07:17,615: signal_shutdown [atexit]

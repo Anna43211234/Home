@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/clover/catkin_ws/devel/lib/libworld_magnetic_model.a  CMakeFiles/world_magnetic_model.dir/geo_mag_declination.cpp.o
+/usr/bin/ranlib /home/clover/catkin_ws/devel/lib/libworld_magnetic_model.a

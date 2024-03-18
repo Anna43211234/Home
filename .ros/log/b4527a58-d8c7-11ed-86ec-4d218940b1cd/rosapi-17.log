@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2023-04-12 03:19:40,802: init_node, name[/rosapi], pid[59554]
+[xmlrpc][INFO] 2023-04-12 03:19:40,819: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2023-04-12 03:19:40,820: Started XML-RPC server [http://clover-dev:40201/]
+[rospy.impl.masterslave][INFO] 2023-04-12 03:19:40,820: _ready: http://clover-dev:40201/
+[rospy.init][INFO] 2023-04-12 03:19:40,829: ROS Slave URI: [http://clover-dev:40201/]
+[xmlrpc][INFO] 2023-04-12 03:19:40,829: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2023-04-12 03:19:40,830: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2023-04-12 03:19:40,930: registered with master
+[rospy.rosout][INFO] 2023-04-12 03:19:40,930: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-12 03:19:40,934: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-12 03:19:40,938: initializing /clock core topic
+[rospy.simtime][INFO] 2023-04-12 03:19:40,939: connected to core topic /clock
+[rosout][INFO] 2023-04-12 03:19:41,015: Rosapi started
+[rospy.internal][INFO] 2023-04-12 03:19:41,201: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2023-04-12 03:19:42,052: topic[/clock] adding connection to [http://clover-dev:40397/], count 0
+[rospy.core][INFO] 2023-04-12 03:19:43,554: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2023-04-12 03:19:43,603: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2023-04-12 03:19:43,603: topic[/clock] removing connection to http://clover-dev:40397/
+[rospy.impl.masterslave][INFO] 2023-04-12 03:19:43,603: signal-2
+[rospy.core][INFO] 2023-04-12 03:19:44,162: signal_shutdown [atexit]

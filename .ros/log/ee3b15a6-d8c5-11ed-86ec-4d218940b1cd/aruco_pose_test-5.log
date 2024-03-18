@@ -1,0 +1,43 @@
+[rospy.client][INFO] 2023-04-12 03:06:55,283: init_node, name[/aruco_pose_test], pid[48291]
+[xmlrpc][INFO] 2023-04-12 03:06:55,284: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2023-04-12 03:06:55,284: Started XML-RPC server [http://ubuntu:42883/]
+[rospy.impl.masterslave][INFO] 2023-04-12 03:06:55,284: _ready: http://ubuntu:42883/
+[rospy.registration][INFO] 2023-04-12 03:06:55,284: Registering with master node http://ubuntu:39671/
+[xmlrpc][INFO] 2023-04-12 03:06:55,284: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-12 03:06:55,285: ROS Slave URI: [http://ubuntu:42883/]
+[rospy.init][INFO] 2023-04-12 03:06:55,285: registered with master
+[rospy.rosout][INFO] 2023-04-12 03:06:55,285: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-12 03:06:55,286: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-12 03:06:55,287: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2023-04-12 03:06:55,292: topic[/aruco_detect/markers] adding connection to [http://ubuntu:33225/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:55,312: topic impl's ref count is zero, deleting topic /aruco_detect/markers...
+[rospy.internal][INFO] 2023-04-12 03:06:55,312: topic[/aruco_detect/markers] removing connection to http://ubuntu:33225/
+[rospy.internal][INFO] 2023-04-12 03:06:55,323: topic[/tf] adding connection to [http://ubuntu:33225/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:55,325: topic[/tf_static] adding connection to [http://ubuntu:33225/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:55,432: topic[/aruco_detect/visualization] adding connection to [http://ubuntu:33225/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:55,512: topic impl's ref count is zero, deleting topic /aruco_detect/visualization...
+[rospy.internal][INFO] 2023-04-12 03:06:55,513: topic[/aruco_detect/visualization] removing connection to http://ubuntu:33225/
+[rospy.internal][INFO] 2023-04-12 03:06:55,519: topic[/aruco_detect/debug] adding connection to [http://ubuntu:33225/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:55,620: topic impl's ref count is zero, deleting topic /aruco_detect/debug...
+[rospy.internal][INFO] 2023-04-12 03:06:55,620: topic[/aruco_detect/debug] removing connection to http://ubuntu:33225/
+[rospy.internal][INFO] 2023-04-12 03:06:55,626: topic[/aruco_map/pose] adding connection to [http://ubuntu:33225/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:55,721: topic impl's ref count is zero, deleting topic /aruco_map/pose...
+[rospy.internal][INFO] 2023-04-12 03:06:55,722: topic[/aruco_map/pose] removing connection to http://ubuntu:33225/
+[rospy.internal][INFO] 2023-04-12 03:06:55,728: topic[/aruco_map/image] adding connection to [http://ubuntu:33225/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:55,761: topic impl's ref count is zero, deleting topic /aruco_map/image...
+[rospy.internal][INFO] 2023-04-12 03:06:55,762: topic[/aruco_map/image] removing connection to http://ubuntu:33225/
+[rospy.internal][INFO] 2023-04-12 03:06:55,768: topic[/aruco_map/map] adding connection to [http://ubuntu:33225/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:55,777: topic impl's ref count is zero, deleting topic /aruco_map/map...
+[rospy.internal][INFO] 2023-04-12 03:06:55,778: topic[/aruco_map/map] removing connection to http://ubuntu:33225/
+[rospy.internal][INFO] 2023-04-12 03:06:55,784: topic[/aruco_map/visualization] adding connection to [http://ubuntu:33225/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:55,793: topic impl's ref count is zero, deleting topic /aruco_map/visualization...
+[rospy.internal][INFO] 2023-04-12 03:06:55,793: topic[/aruco_map/visualization] removing connection to http://ubuntu:33225/
+[rospy.internal][INFO] 2023-04-12 03:06:55,799: topic[/aruco_map/debug] adding connection to [http://ubuntu:33225/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:55,822: topic impl's ref count is zero, deleting topic /aruco_map/debug...
+[rospy.internal][INFO] 2023-04-12 03:06:55,822: topic[/aruco_map/debug] removing connection to http://ubuntu:33225/
+[rospy.core][INFO] 2023-04-12 03:06:55,827: signal_shutdown [atexit]
+[rospy.internal][INFO] 2023-04-12 03:06:55,830: topic[/tf] removing connection to http://ubuntu:33225/
+[rospy.internal][INFO] 2023-04-12 03:06:55,830: topic[/tf] removing connection to http://ubuntu:33225/
+[rospy.internal][INFO] 2023-04-12 03:06:55,830: topic[/tf_static] removing connection to http://ubuntu:33225/
+[rospy.internal][INFO] 2023-04-12 03:06:55,830: topic[/tf_static] removing connection to http://ubuntu:33225/
+[rospy.impl.masterslave][INFO] 2023-04-12 03:06:55,830: atexit

@@ -1,0 +1,1449 @@
+[rosmaster.main][INFO] 2023-04-12 03:19:36,639: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2023-04-12 03:19:36,639: Starting ROS Master Node
+[xmlrpc][INFO] 2023-04-12 03:19:36,640: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2023-04-12 03:19:36,640: Started XML-RPC server [http://clover-dev:11311/]
+[xmlrpc][INFO] 2023-04-12 03:19:36,640: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2023-04-12 03:19:36,640: Master initialized: port[11311], uri[http://clover-dev:11311/]
+[rosmaster.master][INFO] 2023-04-12 03:19:36,734: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,735: +PARAM [/roslaunch/uris/host_clover_dev__43883] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,852: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,852: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,852: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,853: +PARAM [/gazebo/enable_ros_network] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,853: +PARAM [/drone_description] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,853: +PARAM [/mavros/startup_px4_usb_quirk] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,853: +PARAM [/mavros/conn/heartbeat_rate] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,853: +PARAM [/mavros/conn/timeout] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,853: +PARAM [/mavros/conn/timesync_rate] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,853: +PARAM [/mavros/conn/system_time_rate] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,853: +PARAM [/mavros/time/time_ref_source] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,853: +PARAM [/mavros/time/timesync_mode] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,853: +PARAM [/mavros/time/timesync_avg_alpha] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,854: +PARAM [/mavros/time/publish_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,854: +PARAM [/mavros/global_position/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,854: +PARAM [/mavros/global_position/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,854: +PARAM [/mavros/global_position/rot_covariance] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,854: +PARAM [/mavros/global_position/gps_uere] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,854: +PARAM [/mavros/global_position/use_relative_alt] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,854: +PARAM [/mavros/global_position/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,854: +PARAM [/mavros/global_position/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,854: +PARAM [/mavros/global_position/tf/global_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,854: +PARAM [/mavros/global_position/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,854: +PARAM [/mavros/imu/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,855: +PARAM [/mavros/imu/linear_acceleration_stdev] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,855: +PARAM [/mavros/imu/angular_velocity_stdev] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,855: +PARAM [/mavros/imu/orientation_stdev] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,855: +PARAM [/mavros/imu/magnetic_stdev] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,855: +PARAM [/mavros/local_position/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,855: +PARAM [/mavros/local_position/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,855: +PARAM [/mavros/local_position/tf/send_fcu] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,855: +PARAM [/mavros/setpoint_attitude/reverse_thrust] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,855: +PARAM [/mavros/setpoint_attitude/use_quaternion] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,855: +PARAM [/mavros/setpoint_attitude/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,856: +PARAM [/mavros/setpoint_attitude/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,856: +PARAM [/mavros/setpoint_attitude/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,856: +PARAM [/mavros/setpoint_attitude/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,856: +PARAM [/mavros/setpoint_raw/thrust_scaling] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,856: +PARAM [/mavros/setpoint_position/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,856: +PARAM [/mavros/setpoint_position/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,858: +SERVICE [/rosout/get_loggers] /rosout http://clover-dev:44107/
+[rosmaster.master][INFO] 2023-04-12 03:19:36,858: +SERVICE [/rosout/set_logger_level] /rosout http://clover-dev:44107/
+[rosmaster.master][INFO] 2023-04-12 03:19:36,858: +PARAM [/mavros/setpoint_position/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,860: +PARAM [/mavros/setpoint_position/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,860: +PARAM [/mavros/setpoint_position/mav_frame] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,860: +PARAM [/mavros/setpoint_velocity/mav_frame] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,860: +PARAM [/mavros/mission/pull_after_gcs] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,860: +PARAM [/mavros/distance_sensor/rangefinder/id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,861: +PARAM [/mavros/distance_sensor/rangefinder/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,861: +PARAM [/mavros/distance_sensor/rangefinder/orientation] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,861: +PARAM [/mavros/distance_sensor/rangefinder/field_of_view] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,861: +PARAM [/mavros/distance_sensor/rangefinder_sub/subscriber] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,861: +PARAM [/mavros/distance_sensor/rangefinder_sub/id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,861: +PARAM [/mavros/distance_sensor/rangefinder_sub/orientation] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,861: +PARAM [/mavros/distance_sensor/rangefinder_sub/covariance] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,862: +PARAM [/mavros/fake_gps/use_mocap] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,862: +PARAM [/mavros/fake_gps/mocap_transform] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,862: +PARAM [/mavros/fake_gps/use_vision] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,862: +PARAM [/mavros/fake_gps/geo_origin/lat] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,863: +SUB [/clock] /rosout http://clover-dev:44107/
+[rosmaster.master][INFO] 2023-04-12 03:19:36,864: +PUB [/rosout_agg] /rosout http://clover-dev:44107/
+[rosmaster.master][INFO] 2023-04-12 03:19:36,863: +PARAM [/mavros/fake_gps/geo_origin/lon] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,865: +PARAM [/mavros/fake_gps/geo_origin/alt] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,865: +PARAM [/mavros/fake_gps/eph] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,866: +PARAM [/mavros/fake_gps/epv] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,866: +PARAM [/mavros/fake_gps/satellites_visible] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,866: +PARAM [/mavros/fake_gps/fix_type] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,866: +PARAM [/mavros/fake_gps/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,866: +PARAM [/mavros/fake_gps/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,866: +PARAM [/mavros/fake_gps/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,866: +PARAM [/mavros/fake_gps/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,867: +PARAM [/mavros/fake_gps/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,867: +PARAM [/mavros/fake_gps/gps_rate] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,867: +PARAM [/mavros/mocap/use_tf] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,867: +PARAM [/mavros/mocap/use_pose] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,867: +PARAM [/mavros/odometry/in/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,867: +PARAM [/mavros/odometry/in/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,867: +PARAM [/mavros/odometry/in/frame_tf/local_frame] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,867: +PARAM [/mavros/odometry/in/frame_tf/body_frame_orientation] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,867: +PARAM [/mavros/odometry/out/frame_tf/local_frame] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,867: +PARAM [/mavros/odometry/out/frame_tf/body_frame_orientation] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,868: +PARAM [/mavros/px4flow/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,868: +PARAM [/mavros/px4flow/ranger_fov] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,868: +PARAM [/mavros/px4flow/ranger_min_range] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,868: +PARAM [/mavros/px4flow/ranger_max_range] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,868: +PARAM [/mavros/vision_pose/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,868: +PARAM [/mavros/vision_speed/listen_twist] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,868: +PARAM [/mavros/vision_speed/twist_cov] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,868: +PARAM [/mavros/vibration/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,868: +PARAM [/mavros/plugin_whitelist] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,868: +PARAM [/mavros/fcu_url] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,868: +PARAM [/mavros/target_system_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,869: +PARAM [/mavros/gcs_url] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,869: +PARAM [/mavros/gcs_quiet_mode] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,869: +PARAM [/rangefinder/range/subscriber] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,869: +PARAM [/rangefinder/range/id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,869: +PARAM [/rangefinder/range/orientation] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,869: +PARAM [/rangefinder/range/covariance] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,869: +PARAM [/visualization/fixed_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,869: +PARAM [/visualization/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,869: +PARAM [/visualization/marker_scale] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,870: +PARAM [/visualization/max_track_size] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,870: +PARAM [/visualization/num_rotors] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,870: +PARAM [/web_video_server/default_stream_type] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,870: +PARAM [/web_video_server/publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,870: +PARAM [/vpe_publisher/force_init] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,870: +PARAM [/vpe_publisher/offset_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,870: +PARAM [/optical_flow/calc_flow_gyro] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,870: +PARAM [/optical_flow/roi_rad] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,871: +PARAM [/optical_flow/disable_on_vpe] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,871: +PARAM [/simple_offboard/reference_frames/main_camera_optical] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,871: +PARAM [/simple_offboard/terrain_frame_mode] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,871: +SUB [/rosout] /rosout http://clover-dev:44107/
+[rosmaster.master][INFO] 2023-04-12 03:19:36,872: +PARAM [/main_camera_nodelet_manager/num_worker_threads] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,872: +PARAM [/main_camera/main_camera_markers/scale] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,872: +PARAM [/rosbridge_websocket/authenticate] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,872: +PARAM [/rosbridge_websocket/port] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,872: +PARAM [/rosbridge_websocket/address] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,872: +PARAM [/rosbridge_websocket/retry_startup_delay] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,872: +PARAM [/rosbridge_websocket/fragment_timeout] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,873: +PARAM [/rosbridge_websocket/delay_between_messages] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,873: +PARAM [/rosbridge_websocket/max_message_size] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,873: +PARAM [/rosbridge_websocket/unregister_timeout] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,873: +PARAM [/rosbridge_websocket/use_compression] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,873: +PARAM [/rosbridge_websocket/websocket_ping_interval] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,873: +PARAM [/rosbridge_websocket/websocket_ping_timeout] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,873: +PARAM [/rosbridge_websocket/websocket_external_port] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,873: +PARAM [/rosbridge_websocket/topics_glob] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,873: +PARAM [/rosbridge_websocket/services_glob] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,873: +PARAM [/rosbridge_websocket/params_glob] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,873: +PARAM [/rosbridge_websocket/bson_only_mode] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,874: +PARAM [/rosapi/topics_glob] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,874: +PARAM [/rosapi/services_glob] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,874: +PARAM [/rosapi/params_glob] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,874: +PARAM [/led/led_effect/notify/startup/r] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,874: +PARAM [/led/led_effect/notify/startup/g] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,874: +PARAM [/led/led_effect/notify/startup/b] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,874: +PARAM [/led/led_effect/notify/connected/effect] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,874: +PARAM [/led/led_effect/notify/disconnected/effect] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,874: +PARAM [/led/led_effect/notify/disconnected/r] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,874: +PARAM [/led/led_effect/notify/disconnected/g] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,875: +PARAM [/led/led_effect/notify/disconnected/b] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,875: +PARAM [/led/led_effect/notify/acro/r] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,875: +PARAM [/led/led_effect/notify/acro/g] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,875: +PARAM [/led/led_effect/notify/acro/b] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,875: +PARAM [/led/led_effect/notify/stabilized/r] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,875: +PARAM [/led/led_effect/notify/stabilized/g] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,875: +PARAM [/led/led_effect/notify/stabilized/b] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,875: +PARAM [/led/led_effect/notify/altctl/r] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,875: +PARAM [/led/led_effect/notify/altctl/g] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,875: +PARAM [/led/led_effect/notify/altctl/b] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,876: +PARAM [/led/led_effect/notify/posctl/r] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,876: +PARAM [/led/led_effect/notify/posctl/g] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,876: +PARAM [/led/led_effect/notify/posctl/b] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,876: +PARAM [/led/led_effect/notify/offboard/r] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,876: +PARAM [/led/led_effect/notify/offboard/g] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,876: +PARAM [/led/led_effect/notify/offboard/b] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,876: +PARAM [/led/led_effect/notify/low_battery/threshold] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,876: +PARAM [/led/led_effect/notify/low_battery/effect] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,876: +PARAM [/led/led_effect/notify/low_battery/r] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,876: +PARAM [/led/led_effect/notify/low_battery/g] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,877: +PARAM [/led/led_effect/notify/low_battery/b] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,877: +PARAM [/led/led_effect/notify/error/effect] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,877: +PARAM [/led/led_effect/notify/error/r] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,877: +PARAM [/led/led_effect/notify/error/g] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,877: +PARAM [/led/led_effect/notify/error/b] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,877: +PARAM [/led/led_effect/notify/error/ignore] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,877: +PARAM [/led/led_effect/blink_rate] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,877: +PARAM [/led/led_effect/fade_period] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:36,877: +PARAM [/led/led_effect/rainbow_period] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:19:37,748: +PUB [/rosout] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,757: +SERVICE [/mavros/get_loggers] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,757: +SERVICE [/mavros/set_logger_level] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,759: +SUB [/clock] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,760: +PUB [/diagnostics] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,760: +CACHEDPARAM [/mavros/diagnostic_period] by /mavros
+[rosmaster.master][INFO] 2023-04-12 03:19:37,777: +PUB [/rosout] /rangefinder_frame http://clover-dev:33995/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,779: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:37,801: +SERVICE [/rangefinder_frame/get_loggers] /rangefinder_frame http://clover-dev:33995/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,801: +SERVICE [/rangefinder_frame/set_logger_level] /rangefinder_frame http://clover-dev:33995/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,817: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/']: sec=0.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:37,817: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/']
+[rosmaster.master][INFO] 2023-04-12 03:19:37,837: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:37,848: +PUB [/rosout] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,857: +SUB [/clock] /rangefinder_frame http://clover-dev:33995/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,860: +SERVICE [/visualization/get_loggers] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,860: +SERVICE [/visualization/set_logger_level] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,861: +PUB [/tf_static] /rangefinder_frame http://clover-dev:33995/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,867: +CACHEDPARAM [/rosout_disable_topics_generation] by /rangefinder_frame
+[rosmaster.master][INFO] 2023-04-12 03:19:37,872: +SUB [/clock] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,897: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/']
+[rosmaster.master][INFO] 2023-04-12 03:19:37,918: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:37,950: +PUB [/track_markers] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,950: +PUB [/vehicle_marker] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,951: +PUB [/wp_markers] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,957: +PUB [/landing_target] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:37,985: +SUB [/mavros/local_position/pose] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,007: +SUB [/tf] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,014: +PUB [/rosout] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,022: +SERVICE [/vpe_publisher/get_loggers] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,025: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/']
+[rosmaster.master][INFO] 2023-04-12 03:19:38,025: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:38,028: +SERVICE [/vpe_publisher/set_logger_level] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,034: +SUB [/tf_static] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,043: +PUB [/tf] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,053: publisherUpdate[/tf] -> http://clover-dev:39731/ ['http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:38,054: publisherUpdate[/tf] -> http://clover-dev:39731/ ['http://clover-dev:39731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:38,054: +SUB [/mavros/setpoint_position/local] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,056: +PUB [/tf_static] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,068: +SUB [/clock] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,087: +PUB [/rosout] /optical_flow http://clover-dev:44499/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,097: +SERVICE [/optical_flow/get_loggers] /optical_flow http://clover-dev:44499/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,107: +SUB [/lt_marker] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,108: +SERVICE [/optical_flow/set_logger_level] /optical_flow http://clover-dev:44499/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,121: publisherUpdate[/tf_static] -> http://clover-dev:39731/ ['http://clover-dev:33995/', 'http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:38,147: publisherUpdate[/tf_static] -> http://clover-dev:39731/ ['http://clover-dev:33995/', 'http://clover-dev:39731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:38,147: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/']
+[rosmaster.master][INFO] 2023-04-12 03:19:38,148: +SUB [/tf] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,207: +PUB [/rosout] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,222: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/']: sec=0.08, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:38,223: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/']
+[rosmaster.master][INFO] 2023-04-12 03:19:38,225: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:38,242: +SERVICE [/simple_offboard/get_loggers] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,249: +SUB [/tf_static] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,285: +PUB [/rosout] /main_camera_frame http://clover-dev:36597/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,287: +SERVICE [/simple_offboard/set_logger_level] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,300: +SERVICE [/main_camera_frame/get_loggers] /main_camera_frame http://clover-dev:36597/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,350: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/']
+[rosmaster.master][INFO] 2023-04-12 03:19:38,362: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:38,364: +SUB [/clock] /optical_flow http://clover-dev:44499/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,390: +CACHEDPARAM [/rosout_disable_topics_generation] by /optical_flow
+[rosmaster.master][INFO] 2023-04-12 03:19:38,401: +SERVICE [/main_camera_frame/set_logger_level] /main_camera_frame http://clover-dev:36597/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,483: +CACHEDPARAM [/rosout_disable_topics_generation] by /vpe_publisher
+[rosmaster.master][INFO] 2023-04-12 03:19:38,497: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2023-04-12 03:19:38,570: +SUB [/clock] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,600: +PUB [/rosout] /main_camera/main_camera_throttle http://clover-dev:40945/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,609: +PARAM [/optical_flow] by /optical_flow
+[rosmaster.master][INFO] 2023-04-12 03:19:38,637: +PUB [/rosout] /main_camera/main_camera_markers http://clover-dev:43199/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,677: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/']
+[rosmaster.master][INFO] 2023-04-12 03:19:38,678: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:38,678: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/']
+[rosmaster.master][INFO] 2023-04-12 03:19:38,687: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:38,688: +PUB [/rosout] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,697: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/']
+[rosmaster.master][INFO] 2023-04-12 03:19:38,707: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:38,720: +SERVICE [/main_camera/main_camera_markers/get_loggers] /main_camera/main_camera_markers http://clover-dev:43199/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,723: +SERVICE [/main_camera/main_camera_throttle/get_loggers] /main_camera/main_camera_throttle http://clover-dev:40945/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,725: +SUB [/clock] /main_camera_frame http://clover-dev:36597/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,728: +SUB [/vpe_publisher/pose] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,730: +SERVICE [/main_camera_nodelet_manager/get_loggers] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,736: +PUB [/tf_static] /main_camera_frame http://clover-dev:36597/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,758: +SERVICE [/main_camera/main_camera_markers/set_logger_level] /main_camera/main_camera_markers http://clover-dev:43199/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,758: +SERVICE [/main_camera_nodelet_manager/set_logger_level] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,764: +SUB [/tf] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,787: publisherUpdate[/tf_static] -> http://clover-dev:39731/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/']
+[rosmaster.master][INFO] 2023-04-12 03:19:38,796: publisherUpdate[/tf_static] -> http://clover-dev:41703/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/']
+[rosmaster.master][INFO] 2023-04-12 03:19:38,809: publisherUpdate[/tf_static] -> http://clover-dev:39731/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:38,822: +CACHEDPARAM [/rosout_disable_topics_generation] by /main_camera_frame
+[rosmaster.master][INFO] 2023-04-12 03:19:38,827: +PUB [/rosout] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,836: +SERVICE [/main_camera/main_camera_throttle/set_logger_level] /main_camera/main_camera_throttle http://clover-dev:40945/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,849: +SERVICE [/tf2_web_republisher/get_loggers] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,860: +CACHEDPARAM [/rosout_disable_topics_generation] by /mavros
+[rosmaster.master][INFO] 2023-04-12 03:19:38,878: +SERVICE [/tf2_web_republisher/set_logger_level] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,900: +SUB [/vpe_publisher/pose_cov] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,904: publisherUpdate[/tf_static] -> http://clover-dev:41703/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/']: sec=0.11, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:38,904: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/']
+[rosmaster.master][INFO] 2023-04-12 03:19:38,905: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:38,905: +PUB [/rosout] /led/led_effect http://clover-dev:35769/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,917: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/']
+[rosmaster.master][INFO] 2023-04-12 03:19:38,920: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:38,931: +PUB [/mavlink/from] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,958: +PUB [/mavros/vision_pose/pose] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,961: +SERVICE [/led/led_effect/get_loggers] /led/led_effect http://clover-dev:35769/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,961: +SUB [/tf_static] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,964: +SUB [/clock] /main_camera/main_camera_markers http://clover-dev:43199/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,966: +SERVICE [/led/led_effect/set_logger_level] /led/led_effect http://clover-dev:35769/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,966: +PUB [/tf] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,992: +SUB [/clock] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:38,999: +PUB [/tf_static] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,008: publisherUpdate[/tf] -> http://clover-dev:39731/ ['http://clover-dev:39731/', 'http://clover-dev:39303/']
+[rosmaster.master][INFO] 2023-04-12 03:19:39,009: +SUB [/clock] /main_camera/main_camera_throttle http://clover-dev:40945/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,028: publisherUpdate[/tf] -> http://clover-dev:41703/ ['http://clover-dev:39731/', 'http://clover-dev:39303/']
+[rosmaster.master][INFO] 2023-04-12 03:19:39,029: publisherUpdate[/tf] -> http://clover-dev:39303/ ['http://clover-dev:39731/', 'http://clover-dev:39303/']
+[rosmaster.master][INFO] 2023-04-12 03:19:39,029: publisherUpdate[/tf] -> http://clover-dev:39303/ ['http://clover-dev:39731/', 'http://clover-dev:39303/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:39,029: publisherUpdate[/tf_static] -> http://clover-dev:39303/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/', 'http://clover-dev:39303/']
+[rosmaster.master][INFO] 2023-04-12 03:19:39,030: publisherUpdate[/tf] -> http://clover-dev:41703/ ['http://clover-dev:39731/', 'http://clover-dev:39303/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:39,030: publisherUpdate[/tf_static] -> http://clover-dev:41703/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/', 'http://clover-dev:39303/']
+[rosmaster.master][INFO] 2023-04-12 03:19:39,040: publisherUpdate[/tf_static] -> http://clover-dev:39303/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/', 'http://clover-dev:39303/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:39,040: publisherUpdate[/tf_static] -> http://clover-dev:41703/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/', 'http://clover-dev:39303/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:39,062: +SUB [/mavlink/to] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,068: publisherUpdate[/tf] -> http://clover-dev:39731/ ['http://clover-dev:39731/', 'http://clover-dev:39303/']: sec=0.06, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:39,068: publisherUpdate[/tf_static] -> http://clover-dev:39731/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/', 'http://clover-dev:39303/']
+[rosmaster.master][INFO] 2023-04-12 03:19:39,110: publisherUpdate[/tf_static] -> http://clover-dev:39731/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/', 'http://clover-dev:39303/']: sec=0.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:39,116: +CACHEDPARAM [/rosout_disable_topics_generation] by /main_camera_nodelet_manager
+[rosmaster.master][INFO] 2023-04-12 03:19:39,132: +PUB [/mavros/altitude] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,140: +SUB [/clock] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,151: +SERVICE [/main_camera_nodelet_manager/load_nodelet] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,154: +SUB [/main_camera/camera_info] /main_camera/main_camera_markers http://clover-dev:43199/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,167: +SUB [/clock] /led/led_effect http://clover-dev:35769/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,190: +SUB [/mavros/local_position/pose] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,191: +SERVICE [/main_camera_nodelet_manager/unload_nodelet] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,193: +SERVICE [/vpe_publisher/reset] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,196: +SERVICE [/main_camera_nodelet_manager/list] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,200: +SERVICE [/mavros/cmd/command] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,223: +SERVICE [/mavros/cmd/command_ack] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,230: +PUB [/rosout] /web_video_server http://clover-dev:46671/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,248: +SUB [/main_camera/image_raw] /main_camera/main_camera_throttle http://clover-dev:40945/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,258: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/']
+[rosmaster.master][INFO] 2023-04-12 03:19:39,259: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:39,259: +SERVICE [/mavros/cmd/command_int] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,265: +SUB [/tf] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,266: +SERVICE [/web_video_server/get_loggers] /web_video_server http://clover-dev:46671/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,287: +SERVICE [/mavros/cmd/arming] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,293: +SERVICE [/web_video_server/set_logger_level] /web_video_server http://clover-dev:46671/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,294: +SERVICE [/mavros/cmd/set_home] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,301: +SERVICE [/mavros/cmd/takeoff] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,316: +SERVICE [/mavros/cmd/land] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,322: +SUB [/tf_static] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,329: +SERVICE [/mavros/cmd/trigger_control] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,363: +SERVICE [/republish_tfs] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,363: +SERVICE [/mavros/cmd/trigger_interval] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,382: +SUB [/clock] /web_video_server http://clover-dev:46671/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,383: +SERVICE [/mavros/cmd/vtol_transition] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,394: +PUB [/tf2_web_republisher/result] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,394: +CACHEDPARAM [/rosout_disable_topics_generation] by /led/led_effect
+[rosmaster.master][INFO] 2023-04-12 03:19:39,409: +PUB [/tf2_web_republisher/feedback] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,421: +PUB [/tf2_web_republisher/status] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,459: +PUB [/mavros/distance_sensor/rangefinder] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,477: +CACHEDPARAM [/rosout_disable_topics_generation] by /web_video_server
+[rosmaster.master][INFO] 2023-04-12 03:19:39,496: +SUB [/mavros/state] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,530: +SUB [/tf2_web_republisher/goal] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,541: +SUB [/mavros/local_position/velocity_body] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,559: +SUB [/tf2_web_republisher/cancel] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,582: +SUB [/mavros/global_position/global] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,583: +SUB [/rangefinder/range] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,586: +SERVICE [/mavros/ftp/list] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,588: +SERVICE [/mavros/ftp/open] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,607: +SERVICE [/mavros/ftp/close] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,607: +SUB [/mavros/battery] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,617: +SERVICE [/mavros/ftp/read] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,628: +SERVICE [/mavros/ftp/write] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,629: +SERVICE [/mavros/ftp/mkdir] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,630: +SERVICE [/mavros/ftp/rmdir] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,630: +SUB [/mavros/statustext/recv] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,637: +SERVICE [/mavros/ftp/remove] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,638: +SERVICE [/mavros/ftp/truncate] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,639: +SERVICE [/mavros/ftp/reset] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,639: +SERVICE [/mavros/ftp/rename] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,640: +SERVICE [/mavros/ftp/checksum] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,641: +SUB [/mavros/manual_control/control] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,678: +SUB [/mavros/local_position/pose] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,698: +SUB [/rangefinder/range] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,699: +PUB [/mavros/setpoint_position/local] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,704: +PUB [/mavros/setpoint_raw/local] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,728: +PUB [/mavros/setpoint_attitude/attitude] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,728: +PUB [/mavros/global_position/raw/fix] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,729: +PUB [/mavros/setpoint_raw/attitude] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,729: +PUB [/mavros/global_position/raw/gps_vel] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,736: +PUB [/mavros/setpoint_attitude/cmd_vel] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,737: publisherUpdate[/mavros/setpoint_position/local] -> http://clover-dev:37811/ ['http://clover-dev:39303/']
+[rosmaster.master][INFO] 2023-04-12 03:19:39,748: publisherUpdate[/mavros/setpoint_position/local] -> http://clover-dev:37811/ ['http://clover-dev:39303/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:39,748: +PUB [/mavros/global_position/raw/satellites] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,758: +PUB [/mavros/setpoint_attitude/thrust] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,758: +PUB [/mavros/global_position/global] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,759: +PUB [/simple_offboard/state] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,759: +PUB [/mavros/global_position/local] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,759: +PUB [/mavros/global_position/rel_alt] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,760: +SERVICE [/get_telemetry] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,760: +PUB [/mavros/global_position/compass_hdg] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,761: +SERVICE [/navigate] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,761: +PUB [/mavros/global_position/gp_origin] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,762: +SERVICE [/navigate_global] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,762: +SERVICE [/set_altitude] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,768: +SUB [/tf] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,779: +SUB [/tf_static] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,787: publisherUpdate[/mavros/global_position/global] -> http://clover-dev:39303/ ['http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:39,808: publisherUpdate[/mavros/global_position/global] -> http://clover-dev:39303/ ['http://clover-dev:39731/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:39,808: +SERVICE [/set_yaw] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,810: +SERVICE [/set_yaw_rate] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,811: +SERVICE [/set_position] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,812: +SUB [/mavros/global_position/set_gp_origin] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,812: +SERVICE [/set_velocity] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,813: +SERVICE [/set_attitude] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,816: +SERVICE [/set_rates] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,825: +PUB [/optical_flow/debug] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,835: +SERVICE [/land] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,836: +PUB [/mavros/px4flow/raw/send] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,837: +SERVICE [/simple_offboard/release] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,837: +SUB [/mavros/global_position/home] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,837: +PUB [/optical_flow/angular_velocity] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,845: +PUB [/mavros/global_position/gp_lp_offset] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,855: +PUB [/optical_flow/shift] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,855: +CACHEDPARAM [/rosout_disable_topics_generation] by /simple_offboard
+[rosmaster.master][INFO] 2023-04-12 03:19:39,865: +SUB [/main_camera/image_raw] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,909: +PUB [/mavros/imu/data] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,909: +SUB [/main_camera/camera_info] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,910: +PUB [/mavros/imu/mag] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,911: +PUB [/mavros/imu/temperature_imu] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,911: +PUB [/mavros/imu/temperature_baro] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,912: +PUB [/mavros/imu/static_pressure] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,913: +PUB [/mavros/imu/diff_pressure] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,914: +SUB [/mavros/vision_pose/pose] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,915: +PUB [/mavros/imu/data_raw] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,917: +SERVICE [/optical_flow/set_parameters] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,926: +PUB [/optical_flow/parameter_descriptions] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,951: +PUB [/optical_flow/parameter_updates] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:39,972: +PARAM [/optical_flow/enabled] by /main_camera_nodelet_manager
+[rosmaster.master][INFO] 2023-04-12 03:19:39,977: +PARAM [/optical_flow/enabled] by /main_camera_nodelet_manager
+[rosmaster.master][INFO] 2023-04-12 03:19:39,980: +PUB [/mavros/local_position/pose] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,001: +PUB [/main_camera_nodelet_manager/bond] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,002: +PUB [/mavros/local_position/pose_cov] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,017: publisherUpdate[/mavros/local_position/pose] -> http://clover-dev:37811/ ['http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:40,031: publisherUpdate[/mavros/local_position/pose] -> http://clover-dev:41703/ ['http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:40,036: publisherUpdate[/mavros/local_position/pose] -> http://clover-dev:41703/ ['http://clover-dev:39731/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:40,036: publisherUpdate[/mavros/local_position/pose] -> http://clover-dev:39303/ ['http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:40,041: publisherUpdate[/mavros/local_position/pose] -> http://clover-dev:37811/ ['http://clover-dev:39731/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:40,061: publisherUpdate[/mavros/local_position/pose] -> http://clover-dev:39303/ ['http://clover-dev:39731/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:40,061: +PUB [/mavros/local_position/velocity_local] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,062: +PUB [/mavros/local_position/velocity_body] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,062: +PUB [/mavros/local_position/velocity_body_cov] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,071: +PUB [/mavros/local_position/accel] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,071: +PUB [/mavros/local_position/odom] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,073: +PUB [/mavros/manual_control/control] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,074: +SUB [/main_camera_nodelet_manager/bond] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,107: +SUB [/mavros/manual_control/send] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,108: +SERVICE [/mavros/param/pull] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,109: +SERVICE [/mavros/param/push] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,109: +SERVICE [/mavros/param/set] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,109: +SERVICE [/mavros/param/get] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,110: +PUB [/mavros/param/param_value] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,126: +PUB [/mavros/px4flow/raw/optical_flow_rad] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,126: +PUB [/mavros/px4flow/ground_distance] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,127: +PUB [/mavros/px4flow/temperature] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,135: +SUB [/mavros/px4flow/raw/send] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,138: +PUB [/mavros/rc/in] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,138: +PUB [/mavros/rc/out] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,147: publisherUpdate[/mavros/local_position/velocity_body] -> http://clover-dev:39303/ ['http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:40,148: publisherUpdate[/mavros/local_position/velocity_body] -> http://clover-dev:39303/ ['http://clover-dev:39731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:40,148: publisherUpdate[/mavros/manual_control/control] -> http://clover-dev:39303/ ['http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:40,150: publisherUpdate[/mavros/manual_control/control] -> http://clover-dev:39303/ ['http://clover-dev:39731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:40,172: +SUB [/mavros/rc/override] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,193: +SUB [/mavros/setpoint_attitude/thrust] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,204: +SUB [/mavros/setpoint_attitude/attitude] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,222: +SUB [/mavros/setpoint_position/local] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,227: +SUB [/mavros/setpoint_position/global] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,235: +PUB [/main_camera_nodelet_manager/bond] /optical_flow http://clover-dev:44499/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,260: publisherUpdate[/main_camera_nodelet_manager/bond] -> http://clover-dev:40795/ ['http://clover-dev:40795/', 'http://clover-dev:44499/']
+[rosmaster.master][INFO] 2023-04-12 03:19:40,267: publisherUpdate[/main_camera_nodelet_manager/bond] -> http://clover-dev:40795/ ['http://clover-dev:40795/', 'http://clover-dev:44499/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:40,274: +SUB [/main_camera_nodelet_manager/bond] /optical_flow http://clover-dev:44499/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,288: +SUB [/mavros/setpoint_position/global_to_local] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,299: +SUB [/mavros/global_position/global] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,304: +SUB [/mavros/local_position/pose] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,304: +SERVICE [/mavros/setpoint_position/mav_frame] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,323: +SUB [/mavros/setpoint_raw/local] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,332: +SUB [/mavros/setpoint_raw/global] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,346: +SUB [/mavros/setpoint_raw/attitude] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,347: +PUB [/mavros/setpoint_raw/target_local] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,347: +PUB [/mavros/setpoint_raw/target_global] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,358: +PUB [/mavros/setpoint_raw/target_attitude] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,375: +SUB [/mavros/setpoint_velocity/cmd_vel] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,397: +SUB [/mavros/setpoint_velocity/cmd_vel_unstamped] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,398: +SERVICE [/mavros/setpoint_velocity/mav_frame] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,419: +PUB [/mavros/state] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,419: +PUB [/mavros/extended_state] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,419: +PUB [/mavros/battery] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,420: +PUB [/mavros/estimator_status] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,420: +PUB [/mavros/statustext/recv] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,432: +SUB [/mavros/statustext/send] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,432: +SERVICE [/mavros/set_stream_rate] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,433: +SERVICE [/mavros/set_mode] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,433: +SERVICE [/mavros/vehicle_info_get] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,433: +SERVICE [/mavros/set_message_interval] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,473: +PUB [/mavros/time_reference] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,473: +PUB [/mavros/timesync_status] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,480: publisherUpdate[/mavros/state] -> http://clover-dev:39303/ ['http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:40,481: publisherUpdate[/mavros/state] -> http://clover-dev:39303/ ['http://clover-dev:39731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:40,481: publisherUpdate[/mavros/battery] -> http://clover-dev:39303/ ['http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:40,482: publisherUpdate[/mavros/battery] -> http://clover-dev:39303/ ['http://clover-dev:39731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:40,482: publisherUpdate[/mavros/statustext/recv] -> http://clover-dev:39303/ ['http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:40,482: publisherUpdate[/mavros/statustext/recv] -> http://clover-dev:39303/ ['http://clover-dev:39731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:40,483: +PUB [/rosout] /spawn_clover_dev_59352_7714706151760075533 http://clover-dev:39223/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,497: +SUB [/mavros/vision_pose/pose] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,507: +SUB [/clock] /spawn_clover_dev_59352_7714706151760075533 http://clover-dev:39223/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,509: +SERVICE [/spawn_clover_dev_59352_7714706151760075533/get_loggers] /spawn_clover_dev_59352_7714706151760075533 http://clover-dev:39223/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,510: +SERVICE [/spawn_clover_dev_59352_7714706151760075533/set_logger_level] /spawn_clover_dev_59352_7714706151760075533 http://clover-dev:39223/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,511: +SUB [/mavros/vision_pose/pose_cov] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,515: +CACHEDPARAM [/rosout_disable_topics_generation] by /spawn_clover_dev_59352_7714706151760075533
+[rosmaster.master][INFO] 2023-04-12 03:19:40,540: +CACHEDPARAM [/rosout_disable_topics_generation] by /spawn_clover_dev_59352_7714706151760075533
+[rosmaster.master][INFO] 2023-04-12 03:19:40,581: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/', 'http://clover-dev:39223/']
+[rosmaster.master][INFO] 2023-04-12 03:19:40,582: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/', 'http://clover-dev:39223/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:40,933: +PUB [/rosout] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,939: +SUB [/clock] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,942: +SERVICE [/rosapi/get_loggers] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,943: +SERVICE [/rosapi/set_logger_level] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,960: +SERVICE [/rosapi/topics] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,961: +SERVICE [/rosapi/topics_for_type] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,963: +SERVICE [/rosapi/services] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,965: +SERVICE [/rosapi/services_for_type] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,966: +SERVICE [/rosapi/nodes] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,970: +SERVICE [/rosapi/node_details] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,971: +SERVICE [/rosapi/action_servers] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,972: +SERVICE [/rosapi/topic_type] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,972: +SERVICE [/rosapi/service_type] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,973: +SERVICE [/rosapi/publishers] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,974: +SERVICE [/rosapi/subscribers] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,975: +SERVICE [/rosapi/service_providers] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,975: +SERVICE [/rosapi/service_node] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,980: +SERVICE [/rosapi/service_host] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,985: +SERVICE [/rosapi/message_details] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,991: +SERVICE [/rosapi/service_request_details] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,992: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/', 'http://clover-dev:39223/', 'http://clover-dev:40201/']
+[rosmaster.master][INFO] 2023-04-12 03:19:40,993: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/', 'http://clover-dev:39223/', 'http://clover-dev:40201/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:40,994: +SERVICE [/rosapi/service_response_details] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:40,999: +SERVICE [/rosapi/set_param] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,001: +SERVICE [/rosapi/get_param] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,006: +SERVICE [/rosapi/has_param] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,007: +SERVICE [/rosapi/search_param] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,013: +SERVICE [/rosapi/delete_param] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,013: +SERVICE [/rosapi/get_param_names] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,014: +SERVICE [/rosapi/get_time] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,015: +SERVICE [/rosapi/topics_and_raw_types] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,017: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosapi
+[rosmaster.master][INFO] 2023-04-12 03:19:41,190: +PUB [/rosout] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,193: +SERVICE [/gazebo/get_loggers] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,197: +SERVICE [/gazebo/set_logger_level] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,200: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/', 'http://clover-dev:39223/', 'http://clover-dev:40201/', 'http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:41,203: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/', 'http://clover-dev:39223/', 'http://clover-dev:40201/', 'http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:41,213: +SUB [/clock] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,216: +CACHEDPARAM [/rosout_disable_topics_generation] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:41,599: +PUB [/rosout] /rosbridge_websocket http://clover-dev:46167/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,603: +SUB [/clock] /rosbridge_websocket http://clover-dev:46167/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,604: +SERVICE [/rosbridge_websocket/get_loggers] /rosbridge_websocket http://clover-dev:46167/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,605: +SERVICE [/rosbridge_websocket/set_logger_level] /rosbridge_websocket http://clover-dev:46167/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,616: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/', 'http://clover-dev:39223/', 'http://clover-dev:40201/', 'http://clover-dev:40397/', 'http://clover-dev:46167/']
+[rosmaster.master][INFO] 2023-04-12 03:19:41,617: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/', 'http://clover-dev:39223/', 'http://clover-dev:40201/', 'http://clover-dev:40397/', 'http://clover-dev:46167/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:41,627: +PUB [/client_count] /rosbridge_websocket http://clover-dev:46167/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,627: +PUB [/connected_clients] /rosbridge_websocket http://clover-dev:46167/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,632: +PARAM [/rosbridge_websocket/actual_port] by /rosbridge_websocket
+[rosmaster.master][INFO] 2023-04-12 03:19:41,644: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2023-04-12 03:19:41,972: +PUB [/clock] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,975: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,976: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,976: +SERVICE [/gazebo/delete_model] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,976: +SERVICE [/gazebo/delete_light] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,977: +SERVICE [/gazebo/get_model_properties] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,978: +SERVICE [/gazebo/get_model_state] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,978: +SERVICE [/gazebo/get_world_properties] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,979: +SERVICE [/gazebo/get_joint_properties] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,979: +SERVICE [/gazebo/get_link_properties] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,980: +SERVICE [/gazebo/get_link_state] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,980: +SERVICE [/gazebo/get_light_properties] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,980: +SERVICE [/gazebo/set_light_properties] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,981: +SERVICE [/gazebo/get_physics_properties] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,981: +PUB [/gazebo/link_states] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,982: +PUB [/gazebo/model_states] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,982: +PUB [/gazebo/performance_metrics] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,983: +SERVICE [/gazebo/set_link_properties] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,984: +SERVICE [/gazebo/set_physics_properties] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,984: +SERVICE [/gazebo/set_model_state] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,985: +SERVICE [/gazebo/set_model_configuration] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,985: +SERVICE [/gazebo/set_joint_properties] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,986: +SERVICE [/gazebo/set_link_state] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,988: +SUB [/gazebo/set_link_state] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,990: +SUB [/gazebo/set_model_state] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,990: +SERVICE [/gazebo/pause_physics] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,991: +SERVICE [/gazebo/unpause_physics] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,991: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,992: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,992: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,993: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,993: +SERVICE [/gazebo/reset_simulation] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:41,994: +SERVICE [/gazebo/reset_world] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:42,009: +SERVICE [/gazebo/set_parameters] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:42,010: +PUB [/gazebo/parameter_descriptions] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:42,011: +PUB [/gazebo/parameter_updates] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:42,016: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,016: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,016: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,018: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,018: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,019: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,019: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,019: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,020: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,020: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,021: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,021: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,021: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,022: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,022: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,027: publisherUpdate[/clock] -> http://clover-dev:44107/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,027: publisherUpdate[/clock] -> http://clover-dev:39731/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,028: publisherUpdate[/clock] -> http://clover-dev:33995/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,031: publisherUpdate[/clock] -> http://clover-dev:44107/ ['http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,031: publisherUpdate[/clock] -> http://clover-dev:37811/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,032: publisherUpdate[/clock] -> http://clover-dev:33995/ ['http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,032: publisherUpdate[/clock] -> http://clover-dev:41703/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,033: publisherUpdate[/clock] -> http://clover-dev:39731/ ['http://clover-dev:40397/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,033: publisherUpdate[/clock] -> http://clover-dev:44499/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,033: publisherUpdate[/clock] -> http://clover-dev:37811/ ['http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,034: publisherUpdate[/clock] -> http://clover-dev:39303/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,034: publisherUpdate[/clock] -> http://clover-dev:41703/ ['http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,034: publisherUpdate[/clock] -> http://clover-dev:36597/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,035: publisherUpdate[/clock] -> http://clover-dev:44499/ ['http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,035: publisherUpdate[/clock] -> http://clover-dev:43199/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,036: publisherUpdate[/clock] -> http://clover-dev:39303/ ['http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,036: publisherUpdate[/clock] -> http://clover-dev:40795/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,038: publisherUpdate[/clock] -> http://clover-dev:36597/ ['http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,038: publisherUpdate[/clock] -> http://clover-dev:40945/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,039: publisherUpdate[/clock] -> http://clover-dev:43199/ ['http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,040: publisherUpdate[/clock] -> http://clover-dev:37657/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,041: publisherUpdate[/clock] -> http://clover-dev:40795/ ['http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,041: publisherUpdate[/clock] -> http://clover-dev:35769/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,042: publisherUpdate[/clock] -> http://clover-dev:40945/ ['http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,042: publisherUpdate[/clock] -> http://clover-dev:46671/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,043: publisherUpdate[/clock] -> http://clover-dev:35769/ ['http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,043: publisherUpdate[/clock] -> http://clover-dev:39223/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,044: publisherUpdate[/clock] -> http://clover-dev:37657/ ['http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,044: publisherUpdate[/clock] -> http://clover-dev:40201/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,045: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,046: publisherUpdate[/clock] -> http://clover-dev:46671/ ['http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,046: publisherUpdate[/clock] -> http://clover-dev:40397/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,050: publisherUpdate[/clock] -> http://clover-dev:39223/ ['http://clover-dev:40397/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,050: publisherUpdate[/clock] -> http://clover-dev:46167/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,054: publisherUpdate[/clock] -> http://clover-dev:40201/ ['http://clover-dev:40397/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,054: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,055: publisherUpdate[/clock] -> http://clover-dev:40397/ ['http://clover-dev:40397/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,055: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,060: publisherUpdate[/clock] -> http://clover-dev:46167/ ['http://clover-dev:40397/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,061: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,061: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,061: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,062: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,062: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,063: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,063: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,063: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,064: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,064: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,065: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,065: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:42,068: +CACHEDPARAM [/rosout_disable_topics_generation] by /spawn_clover_dev_59352_7714706151760075533
+[rosmaster.master][INFO] 2023-04-12 03:19:42,487: +PUB [/rangefinder/range] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:42,491: +CACHEDPARAM [/rosout_disable_topics_generation] by /spawn_clover_dev_59352_7714706151760075533
+[rosmaster.master][INFO] 2023-04-12 03:19:42,495: -SUB [/clock] /spawn_clover_dev_59352_7714706151760075533 http://clover-dev:39223/
+[rosmaster.master][INFO] 2023-04-12 03:19:42,495: -PUB [/rosout] /spawn_clover_dev_59352_7714706151760075533 http://clover-dev:39223/
+[rosmaster.master][INFO] 2023-04-12 03:19:42,495: -SERVICE [/spawn_clover_dev_59352_7714706151760075533/get_loggers] /spawn_clover_dev_59352_7714706151760075533 rosrpc://clover-dev:34667
+[rosmaster.master][INFO] 2023-04-12 03:19:42,495: -SERVICE [/spawn_clover_dev_59352_7714706151760075533/set_logger_level] /spawn_clover_dev_59352_7714706151760075533 rosrpc://clover-dev:34667
+[rosmaster.master][INFO] 2023-04-12 03:19:42,566: publisherUpdate[/rangefinder/range] -> http://clover-dev:39731/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,567: publisherUpdate[/rangefinder/range] -> http://clover-dev:39303/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,567: publisherUpdate[/rangefinder/range] -> http://clover-dev:39303/ ['http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,567: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/', 'http://clover-dev:40201/', 'http://clover-dev:40397/', 'http://clover-dev:46167/']
+[rosmaster.master][INFO] 2023-04-12 03:19:42,568: publisherUpdate[/rangefinder/range] -> http://clover-dev:39731/ ['http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,568: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/', 'http://clover-dev:40201/', 'http://clover-dev:40397/', 'http://clover-dev:46167/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:42,803: +SERVICE [/led/set_leds] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:42,803: +PUB [/led/state] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:42,840: +SUB [/led/state] /led/led_effect http://clover-dev:35769/
+[rosmaster.master][INFO] 2023-04-12 03:19:42,968: -SUB [/led/state] /led/led_effect http://clover-dev:35769/
+[rosmaster.master][INFO] 2023-04-12 03:19:42,970: +SUB [/led/state] /led/led_effect http://clover-dev:35769/
+[rosmaster.master][INFO] 2023-04-12 03:19:42,971: +SERVICE [/led/set_effect] /led/led_effect http://clover-dev:35769/
+[rosmaster.master][INFO] 2023-04-12 03:19:42,980: +SUB [/led/mavros/state] /led/led_effect http://clover-dev:35769/
+[rosmaster.master][INFO] 2023-04-12 03:19:42,984: +SUB [/led/mavros/battery] /led/led_effect http://clover-dev:35769/
+[rosmaster.master][INFO] 2023-04-12 03:19:42,991: +SUB [/rosout_agg] /led/led_effect http://clover-dev:35769/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,557: -SUB [/clock] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,557: -PUB [/rosout] /rosapi http://clover-dev:40201/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,557: -SERVICE [/rosapi/get_loggers] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,557: -SERVICE [/rosapi/set_logger_level] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,558: -SERVICE [/rosapi/topics] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,558: -SERVICE [/rosapi/topics_for_type] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,558: -SERVICE [/rosapi/services] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,558: -SERVICE [/rosapi/services_for_type] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,558: -SERVICE [/rosapi/nodes] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,558: -SERVICE [/rosapi/node_details] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,558: -SERVICE [/rosapi/action_servers] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,558: -SERVICE [/rosapi/topic_type] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,558: -SERVICE [/rosapi/service_type] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,559: -SERVICE [/rosapi/publishers] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,559: -SERVICE [/rosapi/subscribers] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,559: -SERVICE [/rosapi/service_providers] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,572: -SERVICE [/rosapi/service_node] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,573: -SUB [/clock] /rosbridge_websocket http://clover-dev:46167/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,573: -PUB [/rosout] /rosbridge_websocket http://clover-dev:46167/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,573: -PUB [/client_count] /rosbridge_websocket http://clover-dev:46167/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,573: -PUB [/connected_clients] /rosbridge_websocket http://clover-dev:46167/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,573: -SERVICE [/rosbridge_websocket/get_loggers] /rosbridge_websocket rosrpc://clover-dev:35053
+[rosmaster.master][INFO] 2023-04-12 03:19:43,573: -SERVICE [/rosbridge_websocket/set_logger_level] /rosbridge_websocket rosrpc://clover-dev:35053
+[rosmaster.master][INFO] 2023-04-12 03:19:43,596: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/', 'http://clover-dev:40397/', 'http://clover-dev:46167/']
+[rosmaster.master][INFO] 2023-04-12 03:19:43,599: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/', 'http://clover-dev:40397/', 'http://clover-dev:46167/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:43,599: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:43,600: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:43199/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:43,600: -SERVICE [/rosapi/service_host] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,600: -SERVICE [/rosapi/message_details] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,600: -SERVICE [/rosapi/service_request_details] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,601: -SERVICE [/rosapi/service_response_details] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,601: -SERVICE [/rosapi/set_param] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,601: -SERVICE [/rosapi/get_param] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,601: -SERVICE [/rosapi/has_param] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,601: -SERVICE [/rosapi/search_param] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,601: -SERVICE [/rosapi/delete_param] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,601: -SERVICE [/rosapi/get_param_names] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,601: -SERVICE [/rosapi/get_time] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,601: -SERVICE [/rosapi/topics_and_raw_types] /rosapi rosrpc://clover-dev:39985
+[rosmaster.master][INFO] 2023-04-12 03:19:43,688: -PUB [/rosout] /main_camera/main_camera_markers http://clover-dev:43199/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,689: -SUB [/clock] /main_camera/main_camera_markers http://clover-dev:43199/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,689: -SUB [/main_camera/camera_info] /main_camera/main_camera_markers http://clover-dev:43199/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,690: -SERVICE [/main_camera/main_camera_markers/get_loggers] /main_camera/main_camera_markers rosrpc://clover-dev:47149
+[rosmaster.master][INFO] 2023-04-12 03:19:43,690: -SERVICE [/main_camera/main_camera_markers/set_logger_level] /main_camera/main_camera_markers rosrpc://clover-dev:47149
+[rosmaster.master][INFO] 2023-04-12 03:19:43,706: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:43,709: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:35769/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:43,782: -PUB [/rosout] /led/led_effect http://clover-dev:35769/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,782: -SUB [/clock] /led/led_effect http://clover-dev:35769/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,783: -SUB [/led/state] /led/led_effect http://clover-dev:35769/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,783: -SUB [/led/mavros/state] /led/led_effect http://clover-dev:35769/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,784: -SUB [/led/mavros/battery] /led/led_effect http://clover-dev:35769/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,784: -SUB [/rosout_agg] /led/led_effect http://clover-dev:35769/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,788: -SERVICE [/led/led_effect/get_loggers] /led/led_effect rosrpc://clover-dev:33479
+[rosmaster.master][INFO] 2023-04-12 03:19:43,808: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:43,809: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:39303/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:43,824: -PUB [/rosout] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,825: -PUB [/tf] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,826: -PUB [/tf_static] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,837: -PUB [/mavros/setpoint_position/local] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,838: -PUB [/mavros/setpoint_raw/local] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,839: -SERVICE [/led/led_effect/set_logger_level] /led/led_effect rosrpc://clover-dev:33479
+[rosmaster.master][INFO] 2023-04-12 03:19:43,839: -PUB [/mavros/setpoint_attitude/attitude] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,841: -PUB [/mavros/setpoint_raw/attitude] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,842: -PUB [/mavros/setpoint_attitude/cmd_vel] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,845: -PUB [/rosout] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,845: -PUB [/mavros/setpoint_attitude/thrust] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,847: -PUB [/simple_offboard/state] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,857: -PUB [/tf2_web_republisher/result] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,857: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:43,868: -PUB [/rosout] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,877: -PUB [/rosout] /main_camera_frame http://clover-dev:36597/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,878: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:40795/', 'http://clover-dev:37657/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:43,878: publisherUpdate[/tf] -> http://clover-dev:39731/ ['http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:43,888: -PUB [/optical_flow/debug] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,891: publisherUpdate[/tf] -> http://clover-dev:39731/ ['http://clover-dev:39731/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:43,891: publisherUpdate[/tf] -> http://clover-dev:41703/ ['http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:43,899: -PUB [/rosout] /main_camera/main_camera_throttle http://clover-dev:40945/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,899: -SERVICE [/led/set_effect] /led/led_effect rosrpc://clover-dev:33479
+[rosmaster.master][INFO] 2023-04-12 03:19:43,907: publisherUpdate[/tf] -> http://clover-dev:41703/ ['http://clover-dev:39731/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:43,907: publisherUpdate[/tf] -> http://clover-dev:39303/ ['http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:43,909: publisherUpdate[/tf] -> http://clover-dev:39303/ ['http://clover-dev:39731/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:19:43,910: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:19:43,910: publisherUpdate[/tf] -> http://clover-dev:37657/ ['http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:43,913: publisherUpdate[/tf] -> http://clover-dev:40795/ ['http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:43,913: publisherUpdate[/tf_static] -> http://clover-dev:39731/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/']
+[rosmaster.master][INFO] 2023-04-12 03:19:43,921: publisherUpdate[/tf_static] -> http://clover-dev:39731/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:43,921: publisherUpdate[/tf_static] -> http://clover-dev:41703/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/']
+[rosmaster.master][INFO] 2023-04-12 03:19:43,929: -PUB [/tf_static] /main_camera_frame http://clover-dev:36597/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,929: -PUB [/tf2_web_republisher/feedback] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,949: publisherUpdate[/tf] -> http://clover-dev:40795/ ['http://clover-dev:39731/']: sec=0.04, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:19:43,949: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:19:43,949: publisherUpdate[/tf_static] -> http://clover-dev:39303/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/']
+[rosmaster.master][INFO] 2023-04-12 03:19:43,961: -SUB [/clock] /main_camera/main_camera_throttle http://clover-dev:40945/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,962: publisherUpdate[/tf_static] -> http://clover-dev:41703/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/']: sec=0.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:43,962: publisherUpdate[/tf_static] -> http://clover-dev:40795/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/']
+[rosmaster.master][INFO] 2023-04-12 03:19:43,966: -PUB [/mavros/px4flow/raw/send] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,967: -CACHEDPARAM [/rosout_disable_topics_generation] by /led/led_effect
+[rosmaster.master][INFO] 2023-04-12 03:19:43,987: -SUB [/clock] /main_camera_frame http://clover-dev:36597/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,987: -PUB [/tf2_web_republisher/status] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:43,988: publisherUpdate[/tf_static] -> http://clover-dev:40795/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/']: sec=0.03, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:19:43,988: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:19:43,988: publisherUpdate[/mavros/setpoint_position/local] -> http://clover-dev:37811/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:44,010: -SUB [/main_camera/image_raw] /main_camera/main_camera_throttle http://clover-dev:40945/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,012: -SERVICE [/main_camera_frame/get_loggers] /main_camera_frame rosrpc://clover-dev:50513
+[rosmaster.master][INFO] 2023-04-12 03:19:44,019: -PUB [/optical_flow/angular_velocity] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,019: -SERVICE [/main_camera_frame/set_logger_level] /main_camera_frame rosrpc://clover-dev:50513
+[rosmaster.master][INFO] 2023-04-12 03:19:44,020: publisherUpdate[/tf_static] -> http://clover-dev:39303/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/']: sec=0.07, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:19:44,020: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:19:44,020: publisherUpdate[/mavros/setpoint_position/local] -> http://clover-dev:39731/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:44,034: -SUB [/clock] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,042: -SUB [/tf] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,043: publisherUpdate[/mavros/setpoint_position/local] -> http://clover-dev:37811/ []: sec=0.05, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,043: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:40795/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:44,077: -SERVICE [/main_camera/main_camera_throttle/get_loggers] /main_camera/main_camera_throttle rosrpc://clover-dev:58567
+[rosmaster.master][INFO] 2023-04-12 03:19:44,078: -CACHEDPARAM [/rosout_disable_topics_generation] by /main_camera_frame
+[rosmaster.master][INFO] 2023-04-12 03:19:44,091: -PUB [/optical_flow/shift] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,092: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:40795/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']: sec=0.05, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,092: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:44,101: -SERVICE [/main_camera/main_camera_throttle/set_logger_level] /main_camera/main_camera_throttle rosrpc://clover-dev:58567
+[rosmaster.master][INFO] 2023-04-12 03:19:44,101: -SUB [/clock] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,107: publisherUpdate[/mavros/setpoint_position/local] -> http://clover-dev:39731/ []: sec=0.09, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,107: publisherUpdate[/mavros/setpoint_raw/local] -> http://clover-dev:39731/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:44,115: -SUB [/tf_static] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,147: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:36597/', 'http://clover-dev:40945/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']: sec=0.06, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,148: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:40945/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:44,148: publisherUpdate[/tf] -> http://clover-dev:37657/ ['http://clover-dev:39731/']: sec=0.24, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:19:44,149: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:19:44,149: publisherUpdate[/tf_static] -> http://clover-dev:37657/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/']
+[rosmaster.master][INFO] 2023-04-12 03:19:44,149: -SUB [/tf] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,169: -SUB [/tf_static] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,174: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:40945/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,174: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:44,192: -SUB [/tf2_web_republisher/goal] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,196: publisherUpdate[/mavros/setpoint_raw/local] -> http://clover-dev:39731/ []: sec=0.09, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,196: publisherUpdate[/mavros/setpoint_attitude/attitude] -> http://clover-dev:39731/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:44,206: +PUB [/mavlink/gcs_ip] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,206: -PUB [/optical_flow/parameter_descriptions] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,207: publisherUpdate[/tf_static] -> http://clover-dev:37657/ ['http://clover-dev:33995/', 'http://clover-dev:39731/', 'http://clover-dev:36597/']: sec=0.06, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:19:44,207: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:19:44,207: publisherUpdate[/tf_static] -> http://clover-dev:41703/ ['http://clover-dev:33995/', 'http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:44,220: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:41703/', 'http://clover-dev:44499/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']: sec=0.05, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,220: publisherUpdate[/tf_static] -> http://clover-dev:39303/ ['http://clover-dev:33995/', 'http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:44,221: -SUB [/mavros/state] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,222: publisherUpdate[/mavros/setpoint_attitude/attitude] -> http://clover-dev:39731/ []: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,222: publisherUpdate[/mavros/setpoint_raw/attitude] -> http://clover-dev:39731/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:44,226: -SUB [/mavros/local_position/velocity_body] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,229: publisherUpdate[/mavros/setpoint_raw/attitude] -> http://clover-dev:39731/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,229: publisherUpdate[/mavros/setpoint_attitude/thrust] -> http://clover-dev:39731/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:44,263: publisherUpdate[/tf_static] -> http://clover-dev:39303/ ['http://clover-dev:33995/', 'http://clover-dev:39731/']: sec=0.04, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:19:44,263: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:19:44,263: publisherUpdate[/tf_static] -> http://clover-dev:37657/ ['http://clover-dev:33995/', 'http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:44,264: -SUB [/mavros/global_position/global] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,273: -SUB [/tf2_web_republisher/cancel] /tf2_web_republisher http://clover-dev:37657/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,273: publisherUpdate[/tf_static] -> http://clover-dev:41703/ ['http://clover-dev:33995/', 'http://clover-dev:39731/']: sec=0.07, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,273: publisherUpdate[/tf_static] -> http://clover-dev:40795/ ['http://clover-dev:33995/', 'http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:44,277: publisherUpdate[/mavros/setpoint_attitude/thrust] -> http://clover-dev:39731/ []: sec=0.05, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,277: publisherUpdate[/tf_static] -> http://clover-dev:39731/ ['http://clover-dev:33995/', 'http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:44,287: -PUB [/optical_flow/parameter_updates] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,288: publisherUpdate[/tf_static] -> http://clover-dev:40795/ ['http://clover-dev:33995/', 'http://clover-dev:39731/']: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:19:44,288: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:19:44,288: -SUB [/mavros/battery] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,312: -SERVICE [/tf2_web_republisher/get_loggers] /tf2_web_republisher rosrpc://clover-dev:59593
+[rosmaster.master][INFO] 2023-04-12 03:19:44,312: -SUB [/mavros/statustext/recv] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,322: publisherUpdate[/tf_static] -> http://clover-dev:39731/ ['http://clover-dev:33995/', 'http://clover-dev:39731/']: sec=0.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,322: publisherUpdate[/mavros/px4flow/raw/send] -> http://clover-dev:39731/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:44,322: -SUB [/mavros/manual_control/control] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,323: publisherUpdate[/tf_static] -> http://clover-dev:37657/ ['http://clover-dev:33995/', 'http://clover-dev:39731/']: sec=0.06, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:19:44,323: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:19:44,323: -SUB [/mavros/local_position/pose] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,328: publisherUpdate[/mavros/px4flow/raw/send] -> http://clover-dev:39731/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,328: -SUB [/rangefinder/range] /simple_offboard http://clover-dev:39303/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,351: -SERVICE [/tf2_web_republisher/set_logger_level] /tf2_web_republisher rosrpc://clover-dev:59593
+[rosmaster.master][INFO] 2023-04-12 03:19:44,352: -SERVICE [/simple_offboard/get_loggers] /simple_offboard rosrpc://clover-dev:57059
+[rosmaster.master][INFO] 2023-04-12 03:19:44,377: -SERVICE [/simple_offboard/set_logger_level] /simple_offboard rosrpc://clover-dev:57059
+[rosmaster.master][INFO] 2023-04-12 03:19:44,388: -SERVICE [/get_telemetry] /simple_offboard rosrpc://clover-dev:57059
+[rosmaster.master][INFO] 2023-04-12 03:19:44,394: -SERVICE [/navigate] /simple_offboard rosrpc://clover-dev:57059
+[rosmaster.master][INFO] 2023-04-12 03:19:44,398: -PUB [/main_camera_nodelet_manager/bond] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,399: -SERVICE [/navigate_global] /simple_offboard rosrpc://clover-dev:57059
+[rosmaster.master][INFO] 2023-04-12 03:19:44,405: -SUB [/clock] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,407: -SERVICE [/set_altitude] /simple_offboard rosrpc://clover-dev:57059
+[rosmaster.master][INFO] 2023-04-12 03:19:44,409: -SERVICE [/set_yaw] /simple_offboard rosrpc://clover-dev:57059
+[rosmaster.master][INFO] 2023-04-12 03:19:44,428: -PUB [/rosout] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,429: -SERVICE [/set_yaw_rate] /simple_offboard rosrpc://clover-dev:57059
+[rosmaster.master][INFO] 2023-04-12 03:19:44,437: publisherUpdate[/main_camera_nodelet_manager/bond] -> http://clover-dev:40795/ ['http://clover-dev:44499/']
+[rosmaster.master][INFO] 2023-04-12 03:19:44,437: -SUB [/tf] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,438: publisherUpdate[/main_camera_nodelet_manager/bond] -> http://clover-dev:44499/ ['http://clover-dev:44499/']
+[rosmaster.master][INFO] 2023-04-12 03:19:44,442: publisherUpdate[/main_camera_nodelet_manager/bond] -> http://clover-dev:44499/ ['http://clover-dev:44499/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,447: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:44499/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:44,448: -SERVICE [/republish_tfs] /tf2_web_republisher rosrpc://clover-dev:59593
+[rosmaster.master][INFO] 2023-04-12 03:19:44,460: publisherUpdate[/main_camera_nodelet_manager/bond] -> http://clover-dev:40795/ ['http://clover-dev:44499/']: sec=0.02, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:19:44,460: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:19:44,470: -SUB [/tf_static] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,470: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:44499/', 'http://clover-dev:46671/', 'http://clover-dev:40397/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,498: -PUB [/rosout] /web_video_server http://clover-dev:46671/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,504: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:44499/', 'http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:44,515: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:37811/', 'http://clover-dev:44499/', 'http://clover-dev:40397/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,525: -SUB [/clock] /web_video_server http://clover-dev:46671/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,535: -PUB [/mavros/vision_pose/pose] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,536: -SUB [/main_camera/image_raw] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,536: -SERVICE [/web_video_server/get_loggers] /web_video_server rosrpc://clover-dev:57025
+[rosmaster.master][INFO] 2023-04-12 03:19:44,560: -SUB [/clock] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,560: -SERVICE [/web_video_server/set_logger_level] /web_video_server rosrpc://clover-dev:57025
+[rosmaster.master][INFO] 2023-04-12 03:19:44,561: -SERVICE [/set_position] /simple_offboard rosrpc://clover-dev:57059
+[rosmaster.master][INFO] 2023-04-12 03:19:44,574: publisherUpdate[/mavros/vision_pose/pose] -> http://clover-dev:40795/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:44,574: publisherUpdate[/mavros/vision_pose/pose] -> http://clover-dev:39731/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:44,581: -SUB [/tf] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,582: publisherUpdate[/mavros/vision_pose/pose] -> http://clover-dev:39731/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,582: -SERVICE [/set_velocity] /simple_offboard rosrpc://clover-dev:57059
+[rosmaster.master][INFO] 2023-04-12 03:19:44,591: publisherUpdate[/mavros/vision_pose/pose] -> http://clover-dev:40795/ []: sec=0.02, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:19:44,591: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:19:44,592: -SUB [/main_camera/camera_info] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,592: -SUB [/tf_static] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,607: -PUB [/rosout] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,608: -CACHEDPARAM [/rosout_disable_topics_generation] by /web_video_server
+[rosmaster.master][INFO] 2023-04-12 03:19:44,608: -SERVICE [/set_attitude] /simple_offboard rosrpc://clover-dev:57059
+[rosmaster.master][INFO] 2023-04-12 03:19:44,625: -PUB [/track_markers] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,626: -SERVICE [/set_rates] /simple_offboard rosrpc://clover-dev:57059
+[rosmaster.master][INFO] 2023-04-12 03:19:44,629: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:44499/', 'http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:44,647: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:33995/', 'http://clover-dev:44499/', 'http://clover-dev:40397/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,647: -SUB [/mavros/vision_pose/pose] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,647: -SUB [/vpe_publisher/pose] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,659: -SUB [/vpe_publisher/pose_cov] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,659: -SERVICE [/land] /simple_offboard rosrpc://clover-dev:57059
+[rosmaster.master][INFO] 2023-04-12 03:19:44,668: -SUB [/mavros/local_position/pose] /vpe_publisher http://clover-dev:41703/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,668: -SERVICE [/simple_offboard/release] /simple_offboard rosrpc://clover-dev:57059
+[rosmaster.master][INFO] 2023-04-12 03:19:44,669: -CACHEDPARAM [/rosout_disable_topics_generation] by /simple_offboard
+[rosmaster.master][INFO] 2023-04-12 03:19:44,687: -PUB [/vehicle_marker] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,690: -SUB [/main_camera_nodelet_manager/bond] /main_camera_nodelet_manager http://clover-dev:40795/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,711: -SERVICE [/main_camera_nodelet_manager/get_loggers] /main_camera_nodelet_manager rosrpc://clover-dev:51163
+[rosmaster.master][INFO] 2023-04-12 03:19:44,729: -SERVICE [/vpe_publisher/get_loggers] /vpe_publisher rosrpc://clover-dev:41391
+[rosmaster.master][INFO] 2023-04-12 03:19:44,731: -SERVICE [/vpe_publisher/set_logger_level] /vpe_publisher rosrpc://clover-dev:41391
+[rosmaster.master][INFO] 2023-04-12 03:19:44,732: -SERVICE [/vpe_publisher/reset] /vpe_publisher rosrpc://clover-dev:41391
+[rosmaster.master][INFO] 2023-04-12 03:19:44,732: -CACHEDPARAM [/rosout_disable_topics_generation] by /vpe_publisher
+[rosmaster.master][INFO] 2023-04-12 03:19:44,768: -PUB [/wp_markers] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,769: -PUB [/landing_target] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,770: -SUB [/clock] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,771: -SUB [/mavros/local_position/pose] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,771: -SUB [/mavros/setpoint_position/local] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,772: -SUB [/lt_marker] /visualization http://clover-dev:37811/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,779: -SERVICE [/visualization/get_loggers] /visualization rosrpc://clover-dev:58355
+[rosmaster.master][INFO] 2023-04-12 03:19:44,788: -SERVICE [/visualization/set_logger_level] /visualization rosrpc://clover-dev:58355
+[rosmaster.master][INFO] 2023-04-12 03:19:44,801: -SERVICE [/main_camera_nodelet_manager/set_logger_level] /main_camera_nodelet_manager rosrpc://clover-dev:51163
+[rosmaster.master][INFO] 2023-04-12 03:19:44,874: -SERVICE [/main_camera_nodelet_manager/load_nodelet] /main_camera_nodelet_manager rosrpc://clover-dev:51163
+[rosmaster.master][INFO] 2023-04-12 03:19:44,874: -SERVICE [/main_camera_nodelet_manager/unload_nodelet] /main_camera_nodelet_manager rosrpc://clover-dev:51163
+[rosmaster.master][INFO] 2023-04-12 03:19:44,875: -SERVICE [/main_camera_nodelet_manager/list] /main_camera_nodelet_manager rosrpc://clover-dev:51163
+[rosmaster.master][INFO] 2023-04-12 03:19:44,875: -SERVICE [/optical_flow/set_parameters] /main_camera_nodelet_manager rosrpc://clover-dev:51163
+[rosmaster.master][INFO] 2023-04-12 03:19:44,880: -CACHEDPARAM [/rosout_disable_topics_generation] by /main_camera_nodelet_manager
+[rosmaster.master][INFO] 2023-04-12 03:19:44,918: -SUB [/gazebo/set_link_state] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,919: -SUB [/gazebo/set_model_state] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,920: -PUB [/clock] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,921: -PUB [/gazebo/link_states] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,921: -PUB [/gazebo/model_states] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,922: -PUB [/gazebo/performance_metrics] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,922: -SERVICE [/gazebo/spawn_sdf_model] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,923: -SERVICE [/gazebo/spawn_urdf_model] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,926: -SERVICE [/gazebo/delete_model] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,926: -SERVICE [/gazebo/delete_light] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,936: -PUB [/rosout] /rangefinder_frame http://clover-dev:33995/
+[rosmaster.master][INFO] 2023-04-12 03:19:44,936: -SERVICE [/gazebo/get_model_properties] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,946: -SERVICE [/gazebo/get_model_state] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,946: -SERVICE [/gazebo/get_world_properties] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,956: publisherUpdate[/clock] -> http://clover-dev:44107/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:44,966: publisherUpdate[/clock] -> http://clover-dev:44107/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:44,966: publisherUpdate[/clock] -> http://clover-dev:39731/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:44,967: -SERVICE [/gazebo/get_joint_properties] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,976: -SERVICE [/gazebo/get_link_properties] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,976: -SERVICE [/gazebo/get_link_state] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,977: -SERVICE [/gazebo/get_light_properties] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,986: -SERVICE [/gazebo/set_light_properties] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,986: -SERVICE [/gazebo/get_physics_properties] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,987: -SERVICE [/gazebo/set_link_properties] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,987: -SERVICE [/gazebo/set_physics_properties] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,988: -SERVICE [/gazebo/set_model_state] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,988: -SERVICE [/gazebo/set_model_configuration] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,988: -SERVICE [/gazebo/set_joint_properties] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,989: -SERVICE [/gazebo/set_link_state] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,989: -SERVICE [/gazebo/pause_physics] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,995: publisherUpdate[/clock] -> http://clover-dev:33995/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:44,996: -SERVICE [/gazebo/unpause_physics] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,997: -SERVICE [/gazebo/apply_body_wrench] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:44,997: -SERVICE [/gazebo/apply_joint_effort] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:45,015: publisherUpdate[/clock] -> http://clover-dev:33995/ []: sec=0.02, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:19:45,016: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:19:45,016: publisherUpdate[/clock] -> http://clover-dev:44499/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:45,016: -PUB [/tf_static] /rangefinder_frame http://clover-dev:33995/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,016: -SERVICE [/gazebo/clear_joint_forces] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:45,025: publisherUpdate[/clock] -> http://clover-dev:40397/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:45,035: publisherUpdate[/clock] -> http://clover-dev:40397/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:45,035: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:44499/', 'http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:45,036: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:44499/', 'http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:45,036: -SERVICE [/gazebo/clear_body_wrenches] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:45,046: publisherUpdate[/clock] -> http://clover-dev:44499/ []: sec=0.03, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:45,047: -SERVICE [/gazebo/reset_simulation] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:45,047: -SERVICE [/gazebo/reset_world] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:45,054: -PUB [/gazebo/parameter_descriptions] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,055: -PUB [/gazebo/parameter_updates] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,055: -SERVICE [/gazebo/set_parameters] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:45,059: -PUB [/led/state] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,059: publisherUpdate[/clock] -> http://clover-dev:39731/ []: sec=0.09, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:45,060: publisherUpdate[/tf_static] -> http://clover-dev:39731/ ['http://clover-dev:39731/']
+[rosmaster.master][INFO] 2023-04-12 03:19:45,066: publisherUpdate[/tf_static] -> http://clover-dev:39731/ ['http://clover-dev:39731/']: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:45,066: -SERVICE [/led/set_leds] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:45,086: -SUB [/clock] /rangefinder_frame http://clover-dev:33995/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,086: -SERVICE [/rangefinder_frame/get_loggers] /rangefinder_frame rosrpc://clover-dev:47901
+[rosmaster.master][INFO] 2023-04-12 03:19:45,096: -SERVICE [/rangefinder_frame/set_logger_level] /rangefinder_frame rosrpc://clover-dev:47901
+[rosmaster.master][INFO] 2023-04-12 03:19:45,147: -PUB [/rangefinder/range] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,148: -CACHEDPARAM [/rosout_disable_topics_generation] by /rangefinder_frame
+[rosmaster.master][INFO] 2023-04-12 03:19:45,152: publisherUpdate[/rangefinder/range] -> http://clover-dev:39731/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:45,156: publisherUpdate[/rangefinder/range] -> http://clover-dev:39731/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:45,172: -PUB [/rosout] /optical_flow http://clover-dev:44499/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,173: -PUB [/main_camera_nodelet_manager/bond] /optical_flow http://clover-dev:44499/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,174: -SUB [/clock] /optical_flow http://clover-dev:44499/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,174: -SUB [/main_camera_nodelet_manager/bond] /optical_flow http://clover-dev:44499/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,174: -SERVICE [/optical_flow/get_loggers] /optical_flow rosrpc://clover-dev:54635
+[rosmaster.master][INFO] 2023-04-12 03:19:45,175: -SERVICE [/optical_flow/set_logger_level] /optical_flow rosrpc://clover-dev:54635
+[rosmaster.master][INFO] 2023-04-12 03:19:45,175: -CACHEDPARAM [/rosout_disable_topics_generation] by /optical_flow
+[rosmaster.master][INFO] 2023-04-12 03:19:45,246: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:45,247: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:39731/', 'http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:45,247: publisherUpdate[/main_camera_nodelet_manager/bond] -> http://clover-dev:44499/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:45,248: publisherUpdate[/main_camera_nodelet_manager/bond] -> http://clover-dev:44499/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2023-04-12 03:19:45,248: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2023-04-12 03:19:45,259: -PUB [/rosout] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,260: -PUB [/diagnostics] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,260: -PUB [/tf] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,260: -PUB [/tf_static] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,261: -PUB [/mavlink/from] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,261: -PUB [/mavros/altitude] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,266: -PUB [/mavros/distance_sensor/rangefinder] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,268: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:40397/']
+[rosmaster.master][INFO] 2023-04-12 03:19:45,268: publisherUpdate[/rosout] -> http://clover-dev:44107/ ['http://clover-dev:40397/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:45,268: publisherUpdate[/tf] -> http://clover-dev:39731/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:45,286: -PUB [/mavros/global_position/raw/fix] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,287: publisherUpdate[/tf] -> http://clover-dev:39731/ []: sec=0.02, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:19:45,287: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:19:45,287: publisherUpdate[/tf_static] -> http://clover-dev:39731/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:45,288: publisherUpdate[/tf_static] -> http://clover-dev:39731/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:19:45,288: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:19:45,296: -PUB [/mavros/global_position/raw/gps_vel] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,299: -PUB [/mavros/global_position/raw/satellites] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,299: -PUB [/mavros/global_position/global] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,300: -PUB [/mavros/global_position/local] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,300: -PUB [/mavros/global_position/rel_alt] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,301: -PUB [/mavros/global_position/compass_hdg] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,301: -PUB [/mavros/global_position/gp_origin] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,301: -PUB [/mavros/global_position/gp_lp_offset] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,306: -PUB [/mavros/imu/data] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,327: -PUB [/mavros/imu/mag] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,328: -PUB [/mavros/imu/temperature_imu] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,328: -PUB [/mavros/imu/temperature_baro] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,328: -PUB [/mavros/imu/static_pressure] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,329: -PUB [/mavros/imu/diff_pressure] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,329: -PUB [/mavros/imu/data_raw] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,336: -PUB [/mavros/local_position/pose] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,347: -PUB [/mavros/local_position/pose_cov] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,347: -PUB [/mavros/local_position/velocity_local] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,348: -PUB [/mavros/local_position/velocity_body] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,348: -PUB [/mavros/local_position/velocity_body_cov] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,349: -PUB [/mavros/local_position/accel] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,349: -PUB [/mavros/local_position/odom] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,349: -PUB [/mavros/manual_control/control] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,355: publisherUpdate[/mavros/global_position/global] -> http://clover-dev:39731/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:45,356: -PUB [/mavros/param/param_value] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,367: publisherUpdate[/mavros/global_position/global] -> http://clover-dev:39731/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:19:45,367: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:19:45,367: publisherUpdate[/mavros/local_position/pose] -> http://clover-dev:39731/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:45,368: -PUB [/mavros/px4flow/raw/optical_flow_rad] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,368: -PUB [/mavros/px4flow/ground_distance] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,369: publisherUpdate[/mavros/local_position/pose] -> http://clover-dev:39731/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:19:45,369: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:19:45,369: -PUB [/mavros/px4flow/temperature] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,371: -PUB [/mavros/rc/in] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,374: -PUB [/mavros/rc/out] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,375: -PUB [/mavros/setpoint_raw/target_local] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,375: -PUB [/mavros/setpoint_raw/target_global] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,377: -PUB [/mavros/setpoint_raw/target_attitude] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,377: -PUB [/mavros/state] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,377: -PUB [/mavros/extended_state] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,378: -PUB [/mavros/battery] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,387: -PUB [/mavros/estimator_status] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,406: -PUB [/mavros/statustext/recv] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,406: -PUB [/mavros/time_reference] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,407: -PUB [/mavros/timesync_status] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,407: -PUB [/mavlink/gcs_ip] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,408: -SUB [/clock] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,408: -SUB [/tf] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,416: -SUB [/tf_static] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,437: -SUB [/mavlink/to] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,438: -SUB [/rangefinder/range] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,438: -SUB [/mavros/global_position/set_gp_origin] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,439: -SUB [/mavros/global_position/home] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,439: -SUB [/mavros/manual_control/send] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,440: -SUB [/mavros/px4flow/raw/send] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,447: -SUB [/mavros/rc/override] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,457: -PUB [/rosout] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,458: -SUB [/clock] /gazebo http://clover-dev:40397/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,458: -SERVICE [/gazebo/get_loggers] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:45,459: -SERVICE [/gazebo/set_logger_level] /gazebo rosrpc://clover-dev:44847
+[rosmaster.master][INFO] 2023-04-12 03:19:45,459: -CACHEDPARAM [/rosout_disable_topics_generation] by /gazebo
+[rosmaster.master][INFO] 2023-04-12 03:19:45,468: -SUB [/mavros/setpoint_attitude/thrust] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,469: -SUB [/mavros/setpoint_attitude/attitude] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,477: publisherUpdate[/rosout] -> http://clover-dev:44107/ []
+[rosmaster.master][INFO] 2023-04-12 03:19:45,477: publisherUpdate[/rosout] -> http://clover-dev:44107/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:19:45,478: -SUB [/mavros/setpoint_position/local] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,500: -SUB [/mavros/setpoint_position/global] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,501: -SUB [/mavros/setpoint_position/global_to_local] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,501: -SUB [/mavros/global_position/global] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,501: -SUB [/mavros/local_position/pose] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,502: -SUB [/mavros/setpoint_raw/local] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,502: -SUB [/mavros/setpoint_raw/global] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,503: -SUB [/mavros/setpoint_raw/attitude] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,504: -SUB [/mavros/setpoint_velocity/cmd_vel] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,507: -SUB [/mavros/setpoint_velocity/cmd_vel_unstamped] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,508: -SUB [/mavros/statustext/send] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,509: -SUB [/mavros/vision_pose/pose] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,509: -SUB [/mavros/vision_pose/pose_cov] /mavros http://clover-dev:39731/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,510: -SERVICE [/mavros/get_loggers] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,510: -SERVICE [/mavros/set_logger_level] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,510: -SERVICE [/mavros/cmd/command] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,511: -SERVICE [/mavros/cmd/command_ack] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,513: -SERVICE [/mavros/cmd/command_int] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,520: -SERVICE [/mavros/cmd/arming] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,521: -SERVICE [/mavros/cmd/set_home] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,521: -SERVICE [/mavros/cmd/takeoff] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,521: -SERVICE [/mavros/cmd/land] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,522: -SERVICE [/mavros/cmd/trigger_control] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,523: -SERVICE [/mavros/cmd/trigger_interval] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,523: -SERVICE [/mavros/cmd/vtol_transition] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,532: -SERVICE [/mavros/ftp/list] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,536: -SERVICE [/mavros/ftp/open] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,547: -SERVICE [/mavros/ftp/close] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,548: -SERVICE [/mavros/ftp/read] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,548: -SERVICE [/mavros/ftp/write] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,549: -SERVICE [/mavros/ftp/mkdir] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,552: -SERVICE [/mavros/ftp/rmdir] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,555: -SERVICE [/mavros/ftp/remove] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,556: -SERVICE [/mavros/ftp/truncate] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,557: -SERVICE [/mavros/ftp/reset] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,557: -SERVICE [/mavros/ftp/rename] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,561: -SERVICE [/mavros/ftp/checksum] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,567: -SERVICE [/mavros/param/pull] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,573: -SERVICE [/mavros/param/push] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,577: -SERVICE [/mavros/param/set] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,577: -SERVICE [/mavros/param/get] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,578: -SERVICE [/mavros/setpoint_position/mav_frame] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,579: -SERVICE [/mavros/setpoint_velocity/mav_frame] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,583: -SERVICE [/mavros/set_stream_rate] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,590: -SERVICE [/mavros/set_mode] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,591: -SERVICE [/mavros/vehicle_info_get] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,591: -SERVICE [/mavros/set_message_interval] /mavros rosrpc://clover-dev:44479
+[rosmaster.master][INFO] 2023-04-12 03:19:45,592: -CACHEDPARAM [/mavros/diagnostic_period] by /mavros
+[rosmaster.master][INFO] 2023-04-12 03:19:45,592: -CACHEDPARAM [/rosout_disable_topics_generation] by /mavros
+[rosmaster.master][INFO] 2023-04-12 03:19:45,887: -PUB [/rosout_agg] /rosout http://clover-dev:44107/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,887: -SUB [/clock] /rosout http://clover-dev:44107/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,888: -SUB [/rosout] /rosout http://clover-dev:44107/
+[rosmaster.master][INFO] 2023-04-12 03:19:45,888: -SERVICE [/rosout/get_loggers] /rosout rosrpc://clover-dev:49537
+[rosmaster.master][INFO] 2023-04-12 03:19:45,888: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://clover-dev:49537
+[rosmaster.master][INFO] 2023-04-12 03:19:45,889: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2023-04-12 03:19:45,947: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2023-04-12 03:19:45,948: stopping master...
+[rospy.core][INFO] 2023-04-12 03:19:45,948: signal_shutdown [atexit]

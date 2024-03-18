@@ -1,0 +1,179 @@
+Dbg [parser.cc:574] Converting a deprecated source[/home/clover/catkin_ws/src/clover/clover_simulation/resources/worlds/clover_aruco.world].
+Dbg [Converter.cc:68] Version[1.5] to Version[1.7]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:574] Converting a deprecated source[/usr/share/gazebo-11/models/sun/model.sdf].
+Dbg [Converter.cc:68] Version[1.5] to Version[1.7]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:574] Converting a deprecated source[/home/clover/catkin_ws/src/clover/clover_simulation/models/parquet_plane/model.sdf].
+Dbg [Converter.cc:68] Version[1.5] to Version[1.7]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:574] Converting a deprecated source[/home/clover/catkin_ws/src/clover/clover_simulation/models/aruco_cmit_txt/aruco_model.sdf].
+Dbg [Converter.cc:68] Version[1.5] to Version[1.7]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser_urdf.cc:1511] extension [<plugin filename="libgazebo_multirotor_base_plugin.so" name="rosbag"><robotNamespace /><linkName>base_link</linkName><rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim></plugin>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:1511] extension [<plugin filename="libgazebo_motor_model.so" name="front_right_motor_model"><robotNamespace /><jointName>rotor_0_joint</jointName><linkName>rotor_0</linkName><turningDirection>ccw</turningDirection><timeConstantUp>0.0125</timeConstantUp><timeConstantDown>0.025</timeConstantDown><maxRotVelocity>1100</maxRotVelocity><motorConstant>8.54858e-06</motorConstant><momentConstant>0.06</momentConstant><commandSubTopic>/gazebo/command/motor_speed</commandSubTopic><motorNumber>0</motorNumber><rotorDragCoefficient>0.000175</rotorDragCoefficient><rollingMomentCoefficient>1e-06</rollingMomentCoefficient><motorSpeedPubTopic>/motor_speed/0</motorSpeedPubTopic><rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim></plugin>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:1511] extension [<plugin filename="libgazebo_motor_model.so" name="back_left_motor_model"><robotNamespace /><jointName>rotor_1_joint</jointName><linkName>rotor_1</linkName><turningDirection>ccw</turningDirection><timeConstantUp>0.0125</timeConstantUp><timeConstantDown>0.025</timeConstantDown><maxRotVelocity>1100</maxRotVelocity><motorConstant>8.54858e-06</motorConstant><momentConstant>0.06</momentConstant><commandSubTopic>/gazebo/command/motor_speed</commandSubTopic><motorNumber>1</motorNumber><rotorDragCoefficient>0.000175</rotorDragCoefficient><rollingMomentCoefficient>1e-06</rollingMomentCoefficient><motorSpeedPubTopic>/motor_speed/1</motorSpeedPubTopic><rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim></plugin>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:1511] extension [<plugin filename="libgazebo_motor_model.so" name="front_left_motor_model"><robotNamespace /><jointName>rotor_2_joint</jointName><linkName>rotor_2</linkName><turningDirection>cw</turningDirection><timeConstantUp>0.0125</timeConstantUp><timeConstantDown>0.025</timeConstantDown><maxRotVelocity>1100</maxRotVelocity><motorConstant>8.54858e-06</motorConstant><momentConstant>0.06</momentConstant><commandSubTopic>/gazebo/command/motor_speed</commandSubTopic><motorNumber>2</motorNumber><rotorDragCoefficient>0.000175</rotorDragCoefficient><rollingMomentCoefficient>1e-06</rollingMomentCoefficient><motorSpeedPubTopic>/motor_speed/2</motorSpeedPubTopic><rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim></plugin>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:1511] extension [<plugin filename="libgazebo_motor_model.so" name="back_right_motor_model"><robotNamespace /><jointName>rotor_3_joint</jointName><linkName>rotor_3</linkName><turningDirection>cw</turningDirection><timeConstantUp>0.0125</timeConstantUp><timeConstantDown>0.025</timeConstantDown><maxRotVelocity>1100</maxRotVelocity><motorConstant>8.54858e-06</motorConstant><momentConstant>0.06</momentConstant><commandSubTopic>/gazebo/command/motor_speed</commandSubTopic><motorNumber>3</motorNumber><rotorDragCoefficient>0.000175</rotorDragCoefficient><rollingMomentCoefficient>1e-06</rollingMomentCoefficient><motorSpeedPubTopic>/motor_speed/3</motorSpeedPubTopic><rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim></plugin>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:1511] extension [<plugin filename="libgazebo_groundtruth_plugin.so" name="groundtruth_plugin"><robotNamespace /></plugin>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:1511] extension [<plugin filename="libgazebo_magnetometer_plugin.so" name="magnetometer_plugin"><robotNamespace /><pubRate>100</pubRate><noiseDensity>0.0004</noiseDensity><randomWalk>6.4e-06</randomWalk><biasCorrelationTime>600</biasCorrelationTime><magTopic>/mag</magTopic></plugin>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:1511] extension [<plugin filename="libgazebo_barometer_plugin.so" name="barometer_plugin"><robotNamespace /><pubRate>50</pubRate><baroTopic>/baro</baroTopic><baroDriftPaPerSec>0</baroDriftPaPerSec></plugin>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:1511] extension [<plugin filename="libgazebo_mavlink_interface.so" name="mavlink_interface"><robotNamespace /><imuSubTopic>/imu</imuSubTopic><magSubTopic>/mag</magSubTopic><baroSubTopic>/baro</baroSubTopic><mavlink_addr>INADDR_ANY</mavlink_addr><mavlink_tcp_port>4560</mavlink_tcp_port><mavlink_udp_port>14560</mavlink_udp_port><serialEnabled>false</serialEnabled><serialDevice>/dev/ttyACM0</serialDevice><baudRate>921600</baudRate><qgc_addr>INADDR_ANY</qgc_addr><qgc_udp_port>14550</qgc_udp_port><sdk_addr>INADDR_ANY</sdk_addr><sdk_udp_port>14540</sdk_udp_port><hil_mode>false</hil_mode><hil_state_level>0</hil_state_level><send_vision_estimation>0</send_vision_estimation><send_odometry>1</send_odometry><enable_lockstep>1</enable_lockstep><use_tcp>1</use_tcp><motorSpeedCommandPubTopic>/gazebo/command/motor_speed</motorSpeedCommandPubTopic><control_channels><channel name="rotor1"><input_index>0</input_index><input_offset>0</input_offset><input_scaling>1000</input_scaling><zero_position_disarmed>0</zero_position_disarmed><zero_position_armed>100</zero_position_armed><joint_control_type>velocity</joint_control_type></channel><channel name="rotor2"><input_index>1</input_index><input_offset>0</input_offset><input_scaling>1000</input_scaling><zero_position_disarmed>0</zero_position_disarmed><zero_position_armed>100</zero_position_armed><joint_control_type>velocity</joint_control_type></channel><channel name="rotor3"><input_index>2</input_index><input_offset>0</input_offset><input_scaling>1000</input_scaling><zero_position_disarmed>0</zero_position_disarmed><zero_position_armed>100</zero_position_armed><joint_control_type>velocity</joint_control_type></channel><channel name="rotor4"><input_index>3</input_index><input_offset>0</input_offset><input_scaling>1000</input_scaling><zero_position_disarmed>0</zero_position_disarmed><zero_position_armed>100</zero_position_armed><joint_control_type>velocity</joint_control_type></channel><channel name="rotor5"><input_index>4</input_index><input_offset>1</input_offset><input_scaling>324.6</input_scaling><zero_position_disarmed>0</zero_position_disarmed><zero_position_armed>0</zero_position_armed><joint_control_type>velocity</joint_control_type><joint_control_pid><p>0.1</p><i>0</i><d>0</d><iMax>0.0</iMax><iMin>0.0</iMin><cmdMax>2</cmdMax><cmdMin>-2</cmdMin></joint_control_pid><joint_name>zephyr_delta_wing::propeller_joint</joint_name></channel><channel name="rotor6"><input_index>5</input_index><input_offset>0</input_offset><input_scaling>0.524</input_scaling><zero_position_disarmed>0</zero_position_disarmed><zero_position_armed>0</zero_position_armed><joint_control_type>position</joint_control_type><joint_name>zephyr_delta_wing::flap_left_joint</joint_name><joint_control_pid><p>10.0</p><i>0</i><d>0</d><iMax>0</iMax><iMin>0</iMin><cmdMax>20</cmdMax><cmdMin>-20</cmdMin></joint_control_pid></channel><channel name="rotor7"><input_index>6</input_index><input_offset>0</input_offset><input_scaling>0.524</input_scaling><zero_position_disarmed>0</zero_position_disarmed><zero_position_armed>0</zero_position_armed><joint_control_type>position</joint_control_type><joint_name>zephyr_delta_wing::flap_right_joint</joint_name><joint_control_pid><p>10.0</p><i>0</i><d>0</d><iMax>0</iMax><iMin>0</iMin><cmdMax>20</cmdMax><cmdMin>-20</cmdMin></joint_control_pid></channel><channel name="rotor8"><input_index>7</input_index><input_offset>0</input_offset><input_scaling>0.524</input_scaling><zero_position_disarmed>0</zero_position_disarmed><zero_position_armed>0</zero_position_armed><joint_control_type>position</joint_control_type></channel></control_channels></plugin>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:1511] extension [<plugin filename="libgazebo_imu_plugin.so" name="rotors_gazebo_imu_plugin"><robotNamespace /><linkName>/imu_link</linkName><imuTopic>/imu</imuTopic><gyroscopeNoiseDensity>0.00018665</gyroscopeNoiseDensity><gyroscopeRandomWalk>3.8785e-05</gyroscopeRandomWalk><gyroscopeBiasCorrelationTime>1000.0</gyroscopeBiasCorrelationTime><gyroscopeTurnOnBiasSigma>0.0087</gyroscopeTurnOnBiasSigma><accelerometerNoiseDensity>0.00186</accelerometerNoiseDensity><accelerometerRandomWalk>0.006</accelerometerRandomWalk><accelerometerBiasCorrelationTime>300.0</accelerometerBiasCorrelationTime><accelerometerTurnOnBiasSigma>0.196</accelerometerTurnOnBiasSigma></plugin>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:1511] extension [<sensor name="main_camera" type="camera"><camera><horizontal_fov>2.0943951023931953</horizontal_fov><image><format>B8G8R8</format><width>320</width><height>240</height></image><clip><near>0.02</near><far>1000</far></clip><distortion><k1>0</k1><k2>0</k2><k3>0</k3><p1>0</p1><p2>0</p2><center>0.5 0.5</center></distortion></camera><always_on>1</always_on><update_rate>40</update_rate><visualize>1</visualize><plugin filename="libgazebo_ros_camera.so" name="camera_plugin"><alwaysOn>true</alwaysOn><imageTopicName>image_raw</imageTopicName><cameraTopicName>camera_info</cameraTopicName><updateRate>40</updateRate><cameraName>main_camera</cameraName><frameName>/main_camera_optical</frameName><CxPrime>160.5</CxPrime><Cx>160.5</Cx><Cy>120.5</Cy><distortionK1>0</distortionK1><distortionK2>0</distortionK2><distortionK3>0</distortionK3><distortionT1>0</distortionT1><distortionT2>0</distortionT2><minUpdateRate>38.0</minUpdateRate><windowSize>40</windowSize><maxStDev>0.075</maxStDev><robotNamespace>/</robotNamespace></plugin></sensor>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:1511] extension [<sensor name="lidar_vl53l1x" type="ray"><pose>0 0 0 0 0 0</pose><ray><scan><horizontal><samples>1</samples><resolution>1</resolution><min_angle>-0</min_angle><max_angle>0</max_angle></horizontal></scan><range><min>0.03</min><max>4.0</max><resolution>0.01</resolution></range></ray><plugin filename="libgazebo_ros_range.so" name="laser"><robotNamespace /><topicName>/rangefinder/range</topicName><frameName>rangefinder</frameName><radiation>infrared</radiation><fov>0.471239</fov><gaussianNoise>0.001</gaussianNoise><updateRate>10</updateRate><min_distance>0.01</min_distance><max_distance>4.0</max_distance></plugin><always_on>1</always_on><update_rate>10</update_rate><visualize>true</visualize></sensor>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:1511] extension [<plugin filename="libsim_leds_controller.so" name="led_ros_controller"><robotNamespace /><ledCount>58</ledCount></plugin>] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:418] Fixed Joint Reduction: extension lumping from [base_link_inertia] to [base_link]
+Dbg [parser_urdf.cc:2514]   STRING REPLACE: instances of _link name [base_link_inertia] with [base_link]
+Dbg [parser_urdf.cc:2522]         INITIAL STRING link [base_link_inertia]-->[base_link]: [<plugin filename="libgazebo_multirotor_base_plugin.so" name="rosbag"><robotNamespace /><linkName>base_link</linkName><rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim></plugin>]
+Dbg [parser_urdf.cc:2514]   STRING REPLACE: instances of _link name [base_link_inertia] with [base_link]
+Dbg [parser_urdf.cc:2522]         INITIAL STRING link [base_link_inertia]-->[base_link]: [<plugin filename="libgazebo_motor_model.so" name="front_right_motor_model"><robotNamespace /><jointName>rotor_0_joint</jointName><linkName>rotor_0</linkName><turningDirection>ccw</turningDirection><timeConstantUp>0.0125</timeConstantUp><timeConstantDown>0.025</timeConstantDown><maxRotVelocity>1100</maxRotVelocity><motorConstant>8.54858e-06</motorConstant><momentConstant>0.06</momentConstant><commandSubTopic>/gazebo/command/motor_speed</commandSubTopic><motorNumber>0</motorNumber><rotorDragCoefficient>0.000175</rotorDragCoefficient><rollingMomentCoefficient>1e-06</rollingMomentCoefficient><motorSpeedPubTopic>/motor_speed/0</motorSpeedPubTopic><rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim></plugin>]
+Dbg [parser_urdf.cc:2514]   STRING REPLACE: instances of _link name [base_link_inertia] with [base_link]
+Dbg [parser_urdf.cc:2522]         INITIAL STRING link [base_link_inertia]-->[base_link]: [<plugin filename="libgazebo_motor_model.so" name="back_left_motor_model"><robotNamespace /><jointName>rotor_1_joint</jointName><linkName>rotor_1</linkName><turningDirection>ccw</turningDirection><timeConstantUp>0.0125</timeConstantUp><timeConstantDown>0.025</timeConstantDown><maxRotVelocity>1100</maxRotVelocity><motorConstant>8.54858e-06</motorConstant><momentConstant>0.06</momentConstant><commandSubTopic>/gazebo/command/motor_speed</commandSubTopic><motorNumber>1</motorNumber><rotorDragCoefficient>0.000175</rotorDragCoefficient><rollingMomentCoefficient>1e-06</rollingMomentCoefficient><motorSpeedPubTopic>/motor_speed/1</motorSpeedPubTopic><rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim></plugin>]
+Dbg [parser_urdf.cc:2514]   STRING REPLACE: instances of _link name [base_link_inertia] with [base_link]
+Dbg [parser_urdf.cc:2522]         INITIAL STRING link [base_link_inertia]-->[base_link]: [<plugin filename="libgazebo_motor_model.so" name="front_left_motor_model"><robotNamespace /><jointName>rotor_2_joint</jointName><linkName>rotor_2</linkName><turningDirection>cw</turningDirection><timeConstantUp>0.0125</timeConstantUp><timeConstantDown>0.025</timeConstantDown><maxRotVelocity>1100</maxRotVelocity><motorConstant>8.54858e-06</motorConstant><momentConstant>0.06</momentConstant><commandSubTopic>/gazebo/command/motor_speed</commandSubTopic><motorNumber>2</motorNumber><rotorDragCoefficient>0.000175</rotorDragCoefficient><rollingMomentCoefficient>1e-06</rollingMomentCoefficient><motorSpeedPubTopic>/motor_speed/2</motorSpeedPubTopic><rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim></plugin>]
+Dbg [parser_urdf.cc:2514]   STRING REPLACE: instances of _link name [base_link_inertia] with [base_link]
+Dbg [parser_urdf.cc:2522]         INITIAL STRING link [base_link_inertia]-->[base_link]: [<plugin filename="libgazebo_motor_model.so" name="back_right_motor_model"><robotNamespace /><jointName>rotor_3_joint</jointName><linkName>rotor_3</linkName><turningDirection>cw</turningDirection><timeConstantUp>0.0125</timeConstantUp><timeConstantDown>0.025</timeConstantDown><maxRotVelocity>1100</maxRotVelocity><motorConstant>8.54858e-06</motorConstant><momentConstant>0.06</momentConstant><commandSubTopic>/gazebo/command/motor_speed</commandSubTopic><motorNumber>3</motorNumber><rotorDragCoefficient>0.000175</rotorDragCoefficient><rollingMomentCoefficient>1e-06</rollingMomentCoefficient><motorSpeedPubTopic>/motor_speed/3</motorSpeedPubTopic><rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim></plugin>]
+Dbg [parser_urdf.cc:2514]   STRING REPLACE: instances of _link name [base_link_inertia] with [base_link]
+Dbg [parser_urdf.cc:2522]         INITIAL STRING link [base_link_inertia]-->[base_link]: [<plugin filename="libgazebo_groundtruth_plugin.so" name="groundtruth_plugin"><robotNamespace /></plugin>]
+Dbg [parser_urdf.cc:2522]         INITIAL STRING link [base_link_inertia]-->[base_link]: [<plugin filename="libgazebo_magnetometer_plugin.so" name="magnetometer_plugin"><robotNamespace /><pubRate>100</pubRate><noiseDensity>0.0004</noiseDensity><randomWalk>6.4e-06</randomWalk><biasCorrelationTime>600</biasCorrelationTime><magTopic>/mag</magTopic></plugin>]
+Dbg [parser_urdf.cc:2522]         INITIAL STRING link [base_link_inertia]-->[base_link]: [<plugin filename="libgazebo_barometer_plugin.so" name="barometer_plugin"><robotNamespace /><pubRate>50</pubRate><baroTopic>/baro</baroTopic><baroDriftPaPerSec>0</baroDriftPaPerSec></plugin>]
+Dbg [parser_urdf.cc:2522]         INITIAL STRING link [base_link_inertia]-->[base_link]: [<plugin filename="libgazebo_mavlink_interface.so" name="mavlink_interface"><robotNamespace /><imuSubTopic>/imu</imuSubTopic><magSubTopic>/mag</magSubTopic><baroSubTopic>/baro</baroSubTopic><mavlink_addr>INADDR_ANY</mavlink_addr><mavlink_tcp_port>4560</mavlink_tcp_port><mavlink_udp_port>14560</mavlink_udp_port><serialEnabled>false</serialEnabled><serialDevice>/dev/ttyACM0</serialDevice><baudRate>921600</baudRate><qgc_addr>INADDR_ANY</qgc_addr><qgc_udp_port>14550</qgc_udp_port><sdk_addr>INADDR_ANY</sdk_addr><sdk_udp_port>14540</sdk_udp_port><hil_mode>false</hil_mode><hil_state_level>0</hil_state_level><send_vision_estimation>0</send_vision_estimation><send_odometry>1</send_odometry><enable_lockstep>1</enable_lockstep><use_tcp>1</use_tcp><motorSpeedCommandPubTopic>/gazebo/command/motor_speed</motorSpeedCommandPubTopic><control_channels><channel name="rotor1"><input_index>0</input_index><input_offset>0</input_offset><input_scaling>1000</input_scaling><zero_position_disarmed>0</zero_position_disarmed><zero_position_armed>100</zero_position_armed><joint_control_type>velocity</joint_control_type></channel><channel name="rotor2"><input_index>1</input_index><input_offset>0</input_offset><input_scaling>1000</input_scaling><zero_position_disarmed>0</zero_position_disarmed><zero_position_armed>100</zero_position_armed><joint_control_type>velocity</joint_control_type></channel><channel name="rotor3"><input_index>2</input_index><input_offset>0</input_offset><input_scaling>1000</input_scaling><zero_position_disarmed>0</zero_position_disarmed><zero_position_armed>100</zero_position_armed><joint_control_type>velocity</joint_control_type></channel><channel name="rotor4"><input_index>3</input_index><input_offset>0</input_offset><input_scaling>1000</input_scaling><zero_position_disarmed>0</zero_position_disarmed><zero_position_armed>100</zero_position_armed><joint_control_type>velocity</joint_control_type></channel><channel name="rotor5"><input_index>4</input_index><input_offset>1</input_offset><input_scaling>324.6</input_scaling><zero_position_disarmed>0</zero_position_disarmed><zero_position_armed>0</zero_position_armed><joint_control_type>velocity</joint_control_type><joint_control_pid><p>0.1</p><i>0</i><d>0</d><iMax>0.0</iMax><iMin>0.0</iMin><cmdMax>2</cmdMax><cmdMin>-2</cmdMin></joint_control_pid><joint_name>zephyr_delta_wing::propeller_joint</joint_name></channel><channel name="rotor6"><input_index>5</input_index><input_offset>0</input_offset><input_scaling>0.524</input_scaling><zero_position_disarmed>0</zero_position_disarmed><zero_position_armed>0</zero_position_armed><joint_control_type>position</joint_control_type><joint_name>zephyr_delta_wing::flap_left_joint</joint_name><joint_control_pid><p>10.0</p><i>0</i><d>0</d><iMax>0</iMax><iMin>0</iMin><cmdMax>20</cmdMax><cmdMin>-20</cmdMin></joint_control_pid></channel><channel name="rotor7"><input_index>6</input_index><input_offset>0</input_offset><input_scaling>0.524</input_scaling><zero_position_disarmed>0</zero_position_disarmed><zero_position_armed>0</zero_position_armed><joint_control_type>position</joint_control_type><joint_name>zephyr_delta_wing::flap_right_joint</joint_name><joint_control_pid><p>10.0</p><i>0</i><d>0</d><iMax>0</iMax><iMin>0</iMin><cmdMax>20</cmdMax><cmdMin>-20</cmdMin></joint_control_pid></channel><channel name="rotor8"><input_index>7</input_index><input_offset>0</input_offset><input_scaling>0.524</input_scaling><zero_position_disarmed>0</zero_position_disarmed><zero_position_armed>0</zero_position_armed><joint_control_type>position</joint_control_type></channel></control_channels></plugin>]
+Dbg [parser_urdf.cc:2522]         INITIAL STRING link [base_link_inertia]-->[base_link]: [<plugin filename="libgazebo_imu_plugin.so" name="rotors_gazebo_imu_plugin"><robotNamespace /><linkName>/imu_link</linkName><imuTopic>/imu</imuTopic><gyroscopeNoiseDensity>0.00018665</gyroscopeNoiseDensity><gyroscopeRandomWalk>3.8785e-05</gyroscopeRandomWalk><gyroscopeBiasCorrelationTime>1000.0</gyroscopeBiasCorrelationTime><gyroscopeTurnOnBiasSigma>0.0087</gyroscopeTurnOnBiasSigma><accelerometerNoiseDensity>0.00186</accelerometerNoiseDensity><accelerometerRandomWalk>0.006</accelerometerRandomWalk><accelerometerBiasCorrelationTime>300.0</accelerometerBiasCorrelationTime><accelerometerTurnOnBiasSigma>0.196</accelerometerTurnOnBiasSigma></plugin>]
+Dbg [parser_urdf.cc:2514]   STRING REPLACE: instances of _link name [base_link_inertia] with [base_link]
+Dbg [parser_urdf.cc:2522]         INITIAL STRING link [base_link_inertia]-->[base_link]: [<plugin filename="libsim_leds_controller.so" name="led_ros_controller"><robotNamespace /><ledCount>58</ledCount></plugin>]
+Dbg [parser_urdf.cc:2514]   STRING REPLACE: instances of _link name [base_link_inertia] with [base_link]
+Dbg [parser_urdf.cc:2514]   STRING REPLACE: instances of _link name [base_link_inertia] with [base_link]
+Dbg [parser_urdf.cc:2514]   STRING REPLACE: instances of _link name [base_link_inertia] with [base_link]
+Dbg [parser_urdf.cc:2514]   STRING REPLACE: instances of _link name [base_link_inertia] with [base_link]
+Dbg [parser_urdf.cc:2514]   STRING REPLACE: instances of _link name [base_link_inertia] with [base_link]
+Dbg [parser_urdf.cc:2514]   STRING REPLACE: instances of _link name [base_link_inertia] with [base_link]
+Dbg [parser_urdf.cc:2514]   STRING REPLACE: instances of _link name [base_link_inertia] with [base_link]
+Dbg [parser_urdf.cc:2514]   STRING REPLACE: instances of _link name [base_link_inertia] with [base_link]
+Dbg [parser_urdf.cc:2522]         INITIAL STRING link [base_link_inertia]-->[base_link]: [<sensor name="lidar_vl53l1x" type="ray"><pose>0 0 0 0 0 0</pose><ray><scan><horizontal><samples>1</samples><resolution>1</resolution><min_angle>-0</min_angle><max_angle>0</max_angle></horizontal></scan><range><min>0.03</min><max>4.0</max><resolution>0.01</resolution></range></ray><plugin filename="libgazebo_ros_range.so" name="laser"><robotNamespace /><topicName>/rangefinder/range</topicName><frameName>rangefinder</frameName><radiation>infrared</radiation><fov>0.471239</fov><gaussianNoise>0.001</gaussianNoise><updateRate>10</updateRate><min_distance>0.01</min_distance><max_distance>4.0</max_distance></plugin><always_on>1</always_on><update_rate>10</update_rate><visualize>true</visualize></sensor>]
+Dbg [parser_urdf.cc:2514]   STRING REPLACE: instances of _link name [base_link_inertia] with [base_link]
+Dbg [parser_urdf.cc:2514]   STRING REPLACE: instances of _link name [base_link_inertia] with [base_link]
+Dbg [parser_urdf.cc:2522]         INITIAL STRING link [base_link_inertia]-->[base_link]: [<sensor name="main_camera" type="camera"><camera><horizontal_fov>2.0943951023931953</horizontal_fov><image><format>B8G8R8</format><width>320</width><height>240</height></image><clip><near>0.02</near><far>1000</far></clip><distortion><k1>0</k1><k2>0</k2><k3>0</k3><p1>0</p1><p2>0</p2><center>0.5 0.5</center></distortion></camera><always_on>1</always_on><update_rate>40</update_rate><visualize>1</visualize><plugin filename="libgazebo_ros_camera.so" name="camera_plugin"><alwaysOn>true</alwaysOn><imageTopicName>image_raw</imageTopicName><cameraTopicName>camera_info</cameraTopicName><updateRate>40</updateRate><cameraName>main_camera</cameraName><frameName>/main_camera_optical</frameName><CxPrime>160.5</CxPrime><Cx>160.5</Cx><Cy>120.5</Cy><distortionK1>0</distortionK1><distortionK2>0</distortionK2><distortionK3>0</distortionK3><distortionT1>0</distortionT1><distortionT2>0</distortionT2><minUpdateRate>38.0</minUpdateRate><windowSize>40</windowSize><maxStDev>0.075</maxStDev><robotNamespace>/</robotNamespace></plugin></sensor>]
+Dbg [parser_urdf.cc:717] LINK NAME: [parent: base_link] from dMass
+Dbg [parser_urdf.cc:718]      MASS: [0]
+Dbg [parser_urdf.cc:719]        CG: [0, 0, 0]
+Dbg [parser_urdf.cc:721]         I: [0, 0, 0]
+Dbg [parser_urdf.cc:723]            [0, 0, 0]
+Dbg [parser_urdf.cc:725]            [0, 0, 0]
+Dbg [parser_urdf.cc:717] LINK NAME: [link : base_link_inertia] from dMass
+Dbg [parser_urdf.cc:718]      MASS: [1.5]
+Dbg [parser_urdf.cc:719]        CG: [0, 0, 0]
+Dbg [parser_urdf.cc:721]         I: [0.0172345, 0, 0]
+Dbg [parser_urdf.cc:723]            [0, 0.0172345, 0]
+Dbg [parser_urdf.cc:725]            [0, 0, 0.030625]
+Dbg [parser_urdf.cc:717] LINK NAME: [link in parent link: base_link_inertia] from dMass
+Dbg [parser_urdf.cc:718]      MASS: [1.5]
+Dbg [parser_urdf.cc:719]        CG: [0, 0, 0]
+Dbg [parser_urdf.cc:721]         I: [0.0172345, 0, 0]
+Dbg [parser_urdf.cc:723]            [0, 0.0172345, 0]
+Dbg [parser_urdf.cc:725]            [0, 0, 0.030625]
+Dbg [parser_urdf.cc:717] LINK NAME: [combined: base_link] from dMass
+Dbg [parser_urdf.cc:718]      MASS: [1.5]
+Dbg [parser_urdf.cc:719]        CG: [0, 0, 0]
+Dbg [parser_urdf.cc:721]         I: [0.0172345, 0, 0]
+Dbg [parser_urdf.cc:723]            [0, 0.0172345, 0]
+Dbg [parser_urdf.cc:725]            [0, 0, 0.030625]
+Dbg [parser_urdf.cc:733] LINK NAME: [base_link] from dMass
+Dbg [parser_urdf.cc:734]      MASS: [1.5]
+Dbg [parser_urdf.cc:735]        CG: [0, 0, 0]
+Dbg [parser_urdf.cc:738]         I: [0.0172345, 0, 0]
+Dbg [parser_urdf.cc:741]            [0, 0.0172345, 0]
+Dbg [parser_urdf.cc:744]            [0, 0, 0.030625]
+Dbg [parser_urdf.cc:944] lumping visual [body] for link [base_link_inertia] to parent [base_link] with name [body]
+Dbg [parser_urdf.cc:1003] lumping collision [] for link [base_link_inertia] to parent [base_link] with name [base_link_inertia]
+Dbg [parser_urdf.cc:2719] [base_link] has no parent joint
+Dbg [parser_urdf.cc:2763] creating collision for link [base_link] collision [base_link_inertia]
+Dbg [parser_urdf.cc:2808] creating visual for link [base_link] visual [body]
+Dbg [parser_urdf.cc:2060] inserting extension with reference [base_link] into link.
+Dbg [parser_urdf.cc:2763] creating collision for link [base_guard_link] collision []
+Dbg [parser_urdf.cc:2808] creating visual for link [base_guard_link] visual []
+Dbg [parser_urdf.cc:2060] inserting extension with reference [base_guard_link] into link.
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2808] creating visual for link [led_link] visual []
+Dbg [parser_urdf.cc:2060] inserting extension with reference [led_link] into link.
+Dbg [parser_urdf.cc:2763] creating collision for link [lidar_vl53l1x_link] collision []
+Dbg [parser_urdf.cc:2808] creating visual for link [lidar_vl53l1x_link] visual []
+Dbg [parser_urdf.cc:2060] inserting extension with reference [lidar_vl53l1x_link] into link.
+Dbg [parser_urdf.cc:2763] creating collision for link [main_camera_link] collision []
+Dbg [parser_urdf.cc:2808] creating visual for link [main_camera_link] visual []
+Dbg [parser_urdf.cc:2060] inserting extension with reference [main_camera_link] into link.
+Dbg [parser_urdf.cc:2763] creating collision for link [rotor_0] collision []
+Dbg [parser_urdf.cc:2808] creating visual for link [rotor_0] visual []
+Dbg [parser_urdf.cc:2763] creating collision for link [rotor_1] collision []
+Dbg [parser_urdf.cc:2808] creating visual for link [rotor_1] visual []
+Dbg [parser_urdf.cc:2763] creating collision for link [rotor_2] collision []
+Dbg [parser_urdf.cc:2808] creating visual for link [rotor_2] visual []
+Dbg [parser_urdf.cc:2763] creating collision for link [rotor_3] collision []
+Dbg [parser_urdf.cc:2808] creating visual for link [rotor_3] visual []
+Dbg [parser_urdf.cc:1137] multiple consistent <static> exists with [false] due to fixed joint reduction.
+Dbg [parser_urdf.cc:1137] multiple consistent <static> exists with [false] due to fixed joint reduction.
+Dbg [parser_urdf.cc:1137] multiple consistent <static> exists with [false] due to fixed joint reduction.
+Dbg [parser_urdf.cc:1137] multiple consistent <static> exists with [false] due to fixed joint reduction.
+Dbg [parser_urdf.cc:1137] multiple consistent <static> exists with [false] due to fixed joint reduction.
+Dbg [parser_urdf.cc:1137] multiple consistent <static> exists with [false] due to fixed joint reduction.
+Dbg [parser.cc:483] Parsing from urdf.

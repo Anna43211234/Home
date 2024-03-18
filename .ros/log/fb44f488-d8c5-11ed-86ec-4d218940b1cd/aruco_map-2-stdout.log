@@ -1,0 +1,7 @@
+[0m[ INFO] [1681258035.570687122]: Loading nodelet /aruco_map of type aruco_pose/aruco_map to manager nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1681258035.571778291]: /camera_info -> /main_camera/camera_info[0m
+[0m[ INFO] [1681258035.571791410]: /image_raw -> /main_camera/image_raw[0m
+[0m[ INFO] [1681258035.571799751]: /markers -> /aruco_detect/markers[0m
+[0m[ INFO] [1681258035.573032351]: waitForService: Service [/nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1681258035.628221094]: waitForService: Service [/nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1681258037.076522015]: Unloading nodelet /aruco_map from manager nodelet_manager[0m

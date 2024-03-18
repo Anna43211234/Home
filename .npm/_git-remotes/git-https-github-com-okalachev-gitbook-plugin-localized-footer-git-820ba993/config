@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = https://github.com/okalachev/gitbook-plugin-localized-footer.git
+	fetch = +refs/*:refs/*
+	mirror = true

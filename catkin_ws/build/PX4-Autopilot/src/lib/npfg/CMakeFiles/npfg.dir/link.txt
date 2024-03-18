@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/clover/catkin_ws/devel/lib/libnpfg.a  CMakeFiles/npfg.dir/npfg.cpp.o
+/usr/bin/ranlib /home/clover/catkin_ws/devel/lib/libnpfg.a

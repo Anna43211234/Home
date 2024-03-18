@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/clover/catkin_ws/devel/lib/libsystemcmds__actuator_test.a  CMakeFiles/systemcmds__actuator_test.dir/actuator_test.cpp.o
+/usr/bin/ranlib /home/clover/catkin_ws/devel/lib/libsystemcmds__actuator_test.a

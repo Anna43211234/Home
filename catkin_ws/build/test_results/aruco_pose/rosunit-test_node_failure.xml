@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="0" hostname="ubuntu" name="pytest" skipped="0" tests="1" time="0.167" timestamp="2023-04-12T03:07:19.239972"><testcase classname="" file="../../../src/clover/aruco_pose/test/test_node_failure.py" line="11" name="test_node_failure" time="0.066"></testcase></testsuite></testsuites>

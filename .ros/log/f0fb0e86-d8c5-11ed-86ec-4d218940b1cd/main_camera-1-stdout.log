@@ -1,0 +1,4 @@
+[0m[ INFO] [1681258018.922681756]: File name for publishing image is : /home/clover/catkin_ws/src/clover/aruco_pose/test/duplicate.png[0m
+[0m[ INFO] [1681258018.931500604]: Flip horizontal image is : false[0m
+[0m[ INFO] [1681258018.931985934]: Flip flip_vertical image is : false[0m
+[0m[ INFO] [1681258018.937939961]: camera calibration URL: file:///home/clover/catkin_ws/src/clover/aruco_pose/test/camera_info.yaml[0m

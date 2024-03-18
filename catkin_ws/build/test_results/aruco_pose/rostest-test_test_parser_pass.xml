@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="2.362"><testcase classname="rostest.runner.RosTest" name="testtest_node_pass" time="2.3613" /><system-out>&lt;![CDATA[
+[ROSTEST]setup[/home/clover/catkin_ws/src/clover/aruco_pose/test/test_parser_pass.test] run_id[f7a2302a-d8c5-11ed-86ec-4d218940b1cd] starting
+&amp;#x001B;[1mstarted roslaunch server http://ubuntu:37781/&amp;#x001B;[0m
+
+SUMMARY
+========
+
+CLEAR PARAMETERS
+ * /aruco_map/
+
+PARAMETERS
+ * /aruco_map/map: /home/clover/catk...
+ * /aruco_map/type: map
+ * /rosdistro: noetic
+ * /rosversion: 1.16.0
+ * /test_module: /home/clover/catk...
+
+NODES
+  /
+    aruco_map (nodelet/nodelet)
+    nodelet_manager (nodelet/nodelet)
+
+[ROSTEST]setup[/home/clover/catkin_ws/src/clover/aruco_pose/test/test_parser_pass.test] run_id[f7a2302a-d8c5-11ed-86ec-4d218940b1cd] done
+[ROSTEST]Running test [test_node_pass]
+&amp;#x001B;[1mROS_MASTER_URI=http://ubuntu:45941/&amp;#x001B;[0m
+&amp;#x001B;[1msetting /run_id to f7a2302a-d8c5-11ed-86ec-4d218940b1cd&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[nodelet_manager-1]: started with pid [48613]&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[aruco_map-2]: started with pid [48614]&amp;#x001B;[0m
+[ROSTEST]running test test_node_pass
+&amp;#x001B;[1mprocess[test_node_pass-3]: started with pid [48615]&amp;#x001B;[0m
+&amp;#x001B;[1m[test_node_pass-3] process has finished cleanly
+log file: /home/clover/.ros/log/f7a2302a-d8c5-11ed-86ec-4d218940b1cd/test_node_pass-3*.log&amp;#x001B;[0m
+[ROSTEST]test [test_node_pass] finished
+[ROSTEST]test [test_node_pass] results are in [/home/clover/catkin_ws/build/test_results/aruco_pose/rosunit-test_node_pass.xml]
+[ROSTEST]test [test_node_pass] results summary: 0 errors, 0 failures, 2 tests
+[ROSTEST][ROSTEST] test [test_node_pass] done
+[ROSTEST]tearDown[/home/clover/catkin_ws/src/clover/aruco_pose/test/test_parser_pass.test]
+shutting down processing monitor...
+[aruco_map-2] killing on exit
+[nodelet_manager-1] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/clover/catkin_ws/src/clover/aruco_pose/test/test_parser_pass.test complete
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

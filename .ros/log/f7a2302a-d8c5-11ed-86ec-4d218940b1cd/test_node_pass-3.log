@@ -1,0 +1,19 @@
+[rospy.client][INFO] 2023-04-12 03:07:10,363: init_node, name[/test_node_pass], pid[48615]
+[xmlrpc][INFO] 2023-04-12 03:07:10,363: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2023-04-12 03:07:10,364: Started XML-RPC server [http://ubuntu:34101/]
+[rospy.impl.masterslave][INFO] 2023-04-12 03:07:10,364: _ready: http://ubuntu:34101/
+[rospy.registration][INFO] 2023-04-12 03:07:10,364: Registering with master node http://ubuntu:45941/
+[xmlrpc][INFO] 2023-04-12 03:07:10,364: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-12 03:07:10,365: ROS Slave URI: [http://ubuntu:34101/]
+[rospy.init][INFO] 2023-04-12 03:07:10,365: registered with master
+[rospy.rosout][INFO] 2023-04-12 03:07:10,365: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-12 03:07:10,366: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-12 03:07:10,367: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2023-04-12 03:07:10,373: topic[/aruco_map/visualization] adding connection to [http://ubuntu:39081/], count 0
+[rospy.internal][INFO] 2023-04-12 03:07:10,382: topic impl's ref count is zero, deleting topic /aruco_map/visualization...
+[rospy.internal][INFO] 2023-04-12 03:07:10,383: topic[/aruco_map/visualization] removing connection to http://ubuntu:39081/
+[rospy.internal][INFO] 2023-04-12 03:07:10,390: topic[/aruco_map/image] adding connection to [http://ubuntu:39081/], count 0
+[rospy.internal][INFO] 2023-04-12 03:07:10,436: topic impl's ref count is zero, deleting topic /aruco_map/image...
+[rospy.internal][INFO] 2023-04-12 03:07:10,437: topic[/aruco_map/image] removing connection to http://ubuntu:39081/
+[rospy.core][INFO] 2023-04-12 03:07:10,442: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2023-04-12 03:07:10,445: atexit

@@ -1,0 +1,10 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+rootdir: /home/clover/catkin_ws/build/test_results/aruco_pose
+plugins: cov-2.8.1
+collected 1 item
+
+../catkin_ws/build/test_results/aruco_pose .                             [100%]
+
+- generated xml file: /home/clover/catkin_ws/build/test_results/aruco_pose/rosunit-test_node_failure.xml -
+=========================== 1 passed in 0.16 seconds ===========================

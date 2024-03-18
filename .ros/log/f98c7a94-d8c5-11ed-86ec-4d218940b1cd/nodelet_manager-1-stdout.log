@@ -1,0 +1,3 @@
+[0m[ INFO] [1681258032.719146333]: Initializing nodelet with 1 worker threads.[0m
+[0m[ INFO] [1681258032.897632694]: loading /home/clover/catkin_ws/src/clover/aruco_pose/test/largemap.txt complete (11 markers)[0m
+[0m[ INFO] [1681258032.965769070]: ready[0m

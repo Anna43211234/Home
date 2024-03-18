@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="9.461"><testcase classname="rostest.runner.RosTest" name="testoffboard_test" time="9.4605" /><system-out>&lt;![CDATA[
+[ROSTEST]setup[/home/clover/catkin_ws/src/clover/clover/test/offboard.test] run_id[e34c605a-d8c5-11ed-86ec-4d218940b1cd] starting
+&amp;#x001B;[1mstarted roslaunch server http://ubuntu:41885/&amp;#x001B;[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.0
+ * /test_module: /home/clover/catk...
+
+NODES
+  /
+    simple_offboard (clover/simple_offboard)
+    test2_frame (tf2_ros/static_transform_publisher)
+    test_frame (tf2_ros/static_transform_publisher)
+
+[ROSTEST]setup[/home/clover/catkin_ws/src/clover/clover/test/offboard.test] run_id[e34c605a-d8c5-11ed-86ec-4d218940b1cd] done
+[ROSTEST]Running test [offboard_test]
+&amp;#x001B;[1mROS_MASTER_URI=http://ubuntu:41755/&amp;#x001B;[0m
+&amp;#x001B;[1msetting /run_id to e34c605a-d8c5-11ed-86ec-4d218940b1cd&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[simple_offboard-1]: started with pid [47906]&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[test_frame-2]: started with pid [47907]&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[test2_frame-3]: started with pid [47908]&amp;#x001B;[0m
+[ROSTEST]running test offboard_test
+&amp;#x001B;[1mprocess[offboard_test-4]: started with pid [47909]&amp;#x001B;[0m
+&amp;#x001B;[1m[offboard_test-4] process has finished cleanly
+log file: /home/clover/.ros/log/e34c605a-d8c5-11ed-86ec-4d218940b1cd/offboard_test-4*.log&amp;#x001B;[0m
+[ROSTEST]test [offboard_test] finished
+[ROSTEST]test [offboard_test] results are in [/home/clover/catkin_ws/build/test_results/clover/rosunit-offboard_test.xml]
+[ROSTEST]test [offboard_test] results summary: 0 errors, 0 failures, 1 tests
+[ROSTEST][ROSTEST] test [offboard_test] done
+[ROSTEST]tearDown[/home/clover/catkin_ws/src/clover/clover/test/offboard.test]
+shutting down processing monitor...
+[test2_frame-3] killing on exit
+[test_frame-2] killing on exit
+[simple_offboard-1] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/clover/catkin_ws/src/clover/clover/test/offboard.test complete
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

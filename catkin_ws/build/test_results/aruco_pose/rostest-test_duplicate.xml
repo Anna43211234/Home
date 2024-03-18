@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="5.125"><testcase classname="rostest.runner.RosTest" name="testaruco_pose_test" time="5.1251" /><system-out>&lt;![CDATA[
+[ROSTEST]setup[/home/clover/catkin_ws/src/clover/aruco_pose/test/duplicate.test] run_id[f0fb0e86-d8c5-11ed-86ec-4d218940b1cd] starting
+&amp;#x001B;[1mstarted roslaunch server http://ubuntu:35659/&amp;#x001B;[0m
+
+SUMMARY
+========
+
+CLEAR PARAMETERS
+ * /aruco_detect/
+
+PARAMETERS
+ * /aruco_detect/cornerRefinementMethod: 1
+ * /aruco_detect/estimate_poses: True
+ * /aruco_detect/length: 0.33
+ * /aruco_detect/send_tf: True
+ * /main_camera/camera_info_url: file:///home/clov...
+ * /main_camera/frame_id: main_camera_optical
+ * /main_camera/publish_rate: 10
+ * /rosdistro: noetic
+ * /rosversion: 1.16.0
+ * /test_module: /home/clover/catk...
+
+NODES
+  /
+    aruco_detect (nodelet/nodelet)
+    main_camera (image_publisher/image_publisher)
+    nodelet_manager (nodelet/nodelet)
+
+[ROSTEST]setup[/home/clover/catkin_ws/src/clover/aruco_pose/test/duplicate.test] run_id[f0fb0e86-d8c5-11ed-86ec-4d218940b1cd] done
+[ROSTEST]Running test [aruco_pose_test]
+&amp;#x001B;[1mROS_MASTER_URI=http://ubuntu:40311/&amp;#x001B;[0m
+&amp;#x001B;[1msetting /run_id to f0fb0e86-d8c5-11ed-86ec-4d218940b1cd&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[main_camera-1]: started with pid [48392]&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[nodelet_manager-2]: started with pid [48393]&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[aruco_detect-3]: started with pid [48394]&amp;#x001B;[0m
+[ROSTEST]removing previous test results file [/home/clover/catkin_ws/build/test_results/aruco_pose/rosunit-aruco_pose_test.xml]
+[ROSTEST]running test aruco_pose_test
+&amp;#x001B;[1mprocess[aruco_pose_test-4]: started with pid [48395]&amp;#x001B;[0m
+&amp;#x001B;[1m[aruco_pose_test-4] process has finished cleanly
+log file: /home/clover/.ros/log/f0fb0e86-d8c5-11ed-86ec-4d218940b1cd/aruco_pose_test-4*.log&amp;#x001B;[0m
+[ROSTEST]test [aruco_pose_test] finished
+[ROSTEST]test [aruco_pose_test] results are in [/home/clover/catkin_ws/build/test_results/aruco_pose/rosunit-aruco_pose_test.xml]
+[ROSTEST]test [aruco_pose_test] results summary: 0 errors, 0 failures, 1 tests
+[ROSTEST][ROSTEST] test [aruco_pose_test] done
+[ROSTEST]tearDown[/home/clover/catkin_ws/src/clover/aruco_pose/test/duplicate.test]
+shutting down processing monitor...
+[aruco_detect-3] killing on exit
+[nodelet_manager-2] killing on exit
+[main_camera-1] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/clover/catkin_ws/src/clover/aruco_pose/test/duplicate.test complete
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

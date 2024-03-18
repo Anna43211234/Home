@@ -1,0 +1,15 @@
+2023-04-12 03:08:19.803 [info] CLI main {"_":[],"diff":false,"merge":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"help":false,"list-extensions":false,"show-versions":false,"install-extension":["ms-vscode.cmake-tools"],"pre-release":false,"version":false,"verbose":false,"status":false,"prof-startup":false,"no-cached-data":false,"prof-v8-extensions":false,"disable-extensions":false,"disable-gpu":false,"ms-enable-electron-run-as-node":false,"telemetry":false,"debugRenderer":false,"enable-smoke-test-driver":false,"logExtensionHostCommunication":false,"skip-release-notes":false,"skip-welcome":false,"disable-telemetry":false,"disable-updates":false,"disable-keytar":false,"disable-workspace-trust":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"file-write":false,"file-chmod":false,"force":false,"do-not-sync":false,"trace":false,"force-user-env":false,"force-disable-user-env":false,"open-devtools":false,"disable-gpu-sandbox":false,"__enable-file-policy":false,"enable-coi":false,"no-proxy-server":false,"no-sandbox":false,"nolazy":false,"force-renderer-accessibility":false,"ignore-certificate-errors":false,"allow-insecure-localhost":false,"disable-dev-shm-usage":false,"profile-temp":false,"logsPath":"/home/clover/.config/Code/logs/20230412T030819"}
+2023-04-12 03:08:20.295 [info] Getting Manifest... ms-vscode.cmake-tools
+2023-04-12 03:08:20.325 [info] Installing extension: ms-vscode.cmake-tools
+2023-04-12 03:08:20.634 [info] Getting Manifest... twxs.cmake
+2023-04-12 03:08:20.857 [info] Installing extension: twxs.cmake ms-vscode.cmake-tools
+2023-04-12 03:08:22.449 [info] Extension signature is verified: twxs.cmake
+2023-04-12 03:08:22.775 [info] Extracted extension to /home/clover/.vscode/extensions/.521c9f13-755b-4b4c-98e8-cfcb110e6a58: twxs.cmake
+2023-04-12 03:08:22.782 [info] Renamed to /home/clover/.vscode/extensions/twxs.cmake-0.0.17
+2023-04-12 03:08:22.784 [info] Extracting extension completed. twxs.cmake
+2023-04-12 03:08:24.186 [info] Extension signature is verified: ms-vscode.cmake-tools
+2023-04-12 03:08:24.461 [info] Extracted extension to /home/clover/.vscode/extensions/.31f223bb-3db7-46ee-8872-365b0c2260d2: ms-vscode.cmake-tools
+2023-04-12 03:08:24.528 [info] Renamed to /home/clover/.vscode/extensions/ms-vscode.cmake-tools-1.13.45
+2023-04-12 03:08:24.532 [info] Extracting extension completed. ms-vscode.cmake-tools
+2023-04-12 03:08:24.540 [info] Extension installed successfully: twxs.cmake
+2023-04-12 03:08:24.540 [info] Extension installed successfully: ms-vscode.cmake-tools

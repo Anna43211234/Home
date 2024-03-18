@@ -1,0 +1,1317 @@
+[rostest][INFO] 2023-04-12 03:06:45,058: rostest starting with options {'text_mode': False, 'pkg_dir': '/home/clover/catkin_ws/src/clover/clover', 'package': 'clover', 'results_filename': 'test_basic.xml', 'results_base_dir': '/home/clover/catkin_ws/build/test_results', 'reuse_master': None, 'clear': None}, args ['/home/clover/catkin_ws/src/clover/clover/test/basic.test']
+[roslaunch][INFO] 2023-04-12 03:06:45,059: loading roscore config file /opt/ros/noetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2023-04-12 03:06:45,250: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2023-04-12 03:06:45,251: loading config file /home/clover/catkin_ws/src/clover/clover/test/basic.test
+[roslaunch][INFO] 2023-04-12 03:06:45,328: Added node of type [mavros/mavros_node] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:06:45,328: Added node of type [mavros_extras/visualization] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:06:45,328: Added node of type [web_video_server/web_video_server] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:06:45,329: Added node of type [tf2_ros/static_transform_publisher] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:06:45,329: Added node of type [clover/simple_offboard] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:06:45,329: Added node of type [tf2_web_republisher/tf2_web_republisher] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:06:45,329: Added node of type [clover/rc] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:06:45,329: Added node of type [clover/shell] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:06:45,330: Added node of type [clover/led] in namespace [/led/]
+[roslaunch][INFO] 2023-04-12 03:06:45,330: Added node of type [clover_blocks/clover_blocks] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:06:45,331: Added node of type [topic_tools/throttle] in namespace [/main_camera/]
+[roslaunch][INFO] 2023-04-12 03:06:45,331: ... selected machine [] for node of type [mavros/mavros_node]
+[roslaunch][INFO] 2023-04-12 03:06:45,331: ... selected machine [] for node of type [mavros_extras/visualization]
+[roslaunch][INFO] 2023-04-12 03:06:45,331: ... selected machine [] for node of type [web_video_server/web_video_server]
+[roslaunch][INFO] 2023-04-12 03:06:45,331: ... selected machine [] for node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2023-04-12 03:06:45,331: ... selected machine [] for node of type [clover/simple_offboard]
+[roslaunch][INFO] 2023-04-12 03:06:45,332: ... selected machine [] for node of type [tf2_web_republisher/tf2_web_republisher]
+[roslaunch][INFO] 2023-04-12 03:06:45,332: ... selected machine [] for node of type [clover/rc]
+[roslaunch][INFO] 2023-04-12 03:06:45,332: ... selected machine [] for node of type [clover/shell]
+[roslaunch][INFO] 2023-04-12 03:06:45,332: ... selected machine [] for node of type [clover/led]
+[roslaunch][INFO] 2023-04-12 03:06:45,332: ... selected machine [] for node of type [clover_blocks/clover_blocks]
+[roslaunch][INFO] 2023-04-12 03:06:45,332: ... selected machine [] for node of type [topic_tools/throttle]
+[roslaunch][INFO] 2023-04-12 03:06:45,332: ... selected machine [] for node of type [ros_pytest/ros_pytest_runner]
+[rostest][INFO] 2023-04-12 03:06:45,386: setup[/home/clover/catkin_ws/src/clover/clover/test/basic.test] run_id[e95f7c5c-d8c5-11ed-86ec-4d218940b1cd] starting
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,386: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,386: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,386: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2023-04-12 03:06:45,386: starting parent XML-RPC server
+[roslaunch.server][INFO] 2023-04-12 03:06:45,386: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2023-04-12 03:06:45,387: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2023-04-12 03:06:45,387: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2023-04-12 03:06:45,387: Started XML-RPC server [http://ubuntu:43815/]
+[xmlrpc][INFO] 2023-04-12 03:06:45,387: xml rpc node: starting XML-RPC server
+[rostest][INFO] 2023-04-12 03:06:45,399: started roslaunch server http://ubuntu:43815/
+[roslaunch.parent][INFO] 2023-04-12 03:06:45,399: ... parent XML-RPC server started
+[xmlrpc][INFO] 2023-04-12 03:06:45,400: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2023-04-12 03:06:45,400: Started XML-RPC server [http://ubuntu:43227/]
+[xmlrpc][INFO] 2023-04-12 03:06:45,400: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2023-04-12 03:06:45,400: Master initialized: port[0], uri[http://ubuntu:43227/]
+[rostest][INFO] 2023-04-12 03:06:45,402: _addRostestParent [<rostest.rostest_parent.ROSTestLaunchParent object at 0x7f071c5fae50>]
+[rostest][INFO] 2023-04-12 03:06:45,402: setup[/home/clover/catkin_ws/src/clover/clover/test/basic.test] run_id[e95f7c5c-d8c5-11ed-86ec-4d218940b1cd] done
+[rostest][INFO] 2023-04-12 03:06:45,402: Running test [basic_test]
+[roslaunch][INFO] 2023-04-12 03:06:45,402: master.is_running[http://ubuntu:43227/]
+[roslaunch][INFO] 2023-04-12 03:06:45,403: master.is_running[http://ubuntu:43227/]
+[rostest][INFO] 2023-04-12 03:06:45,404: ROS_MASTER_URI=http://ubuntu:43227/
+[rostest][INFO] 2023-04-12 03:06:45,405: setting /run_id to e95f7c5c-d8c5-11ed-86ec-4d218940b1cd
+[rosmaster.master][INFO] 2023-04-12 03:06:45,406: +PARAM [/run_id] by /roslaunch
+[roslaunch][INFO] 2023-04-12 03:06:45,406: setting /roslaunch/uris/host_ubuntu__43815' to http://ubuntu:43815/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,407: +PARAM [/roslaunch/uris/host_ubuntu__43815] by /roslaunch
+[roslaunch][INFO] 2023-04-12 03:06:45,407: load_parameters starting ...
+[rosmaster.master][INFO] 2023-04-12 03:06:45,414: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,414: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,414: +PARAM [/mavros/startup_px4_usb_quirk] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,414: +PARAM [/mavros/conn/heartbeat_rate] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,415: +PARAM [/mavros/conn/timeout] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,415: +PARAM [/mavros/conn/timesync_rate] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,415: +PARAM [/mavros/conn/system_time_rate] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,415: +PARAM [/mavros/time/time_ref_source] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,415: +PARAM [/mavros/time/timesync_mode] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,415: +PARAM [/mavros/time/timesync_avg_alpha] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,415: +PARAM [/mavros/time/publish_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,415: +PARAM [/mavros/global_position/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,415: +PARAM [/mavros/global_position/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,415: +PARAM [/mavros/global_position/rot_covariance] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,415: +PARAM [/mavros/global_position/gps_uere] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,416: +PARAM [/mavros/global_position/use_relative_alt] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,416: +PARAM [/mavros/global_position/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,416: +PARAM [/mavros/global_position/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,416: +PARAM [/mavros/global_position/tf/global_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,416: +PARAM [/mavros/global_position/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,416: +PARAM [/mavros/imu/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,416: +PARAM [/mavros/imu/linear_acceleration_stdev] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,416: +PARAM [/mavros/imu/angular_velocity_stdev] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,416: +PARAM [/mavros/imu/orientation_stdev] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,416: +PARAM [/mavros/imu/magnetic_stdev] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,417: +PARAM [/mavros/local_position/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,417: +PARAM [/mavros/local_position/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,417: +PARAM [/mavros/local_position/tf/send_fcu] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,417: +PARAM [/mavros/setpoint_attitude/reverse_thrust] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,417: +PARAM [/mavros/setpoint_attitude/use_quaternion] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,417: +PARAM [/mavros/setpoint_attitude/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,417: +PARAM [/mavros/setpoint_attitude/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,417: +PARAM [/mavros/setpoint_attitude/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,417: +PARAM [/mavros/setpoint_attitude/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,417: +PARAM [/mavros/setpoint_raw/thrust_scaling] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,418: +PARAM [/mavros/setpoint_position/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,418: +PARAM [/mavros/setpoint_position/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,418: +PARAM [/mavros/setpoint_position/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,418: +PARAM [/mavros/setpoint_position/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,418: +PARAM [/mavros/setpoint_position/mav_frame] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,418: +PARAM [/mavros/setpoint_velocity/mav_frame] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,418: +PARAM [/mavros/mission/pull_after_gcs] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,418: +PARAM [/mavros/distance_sensor/rangefinder/id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,418: +PARAM [/mavros/distance_sensor/rangefinder/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,418: +PARAM [/mavros/distance_sensor/rangefinder/orientation] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,418: +PARAM [/mavros/distance_sensor/rangefinder/field_of_view] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,419: +PARAM [/mavros/distance_sensor/rangefinder_sub/subscriber] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,419: +PARAM [/mavros/distance_sensor/rangefinder_sub/id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,419: +PARAM [/mavros/distance_sensor/rangefinder_sub/orientation] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,419: +PARAM [/mavros/distance_sensor/rangefinder_sub/covariance] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,419: +PARAM [/mavros/fake_gps/use_mocap] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,419: +PARAM [/mavros/fake_gps/mocap_transform] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,419: +PARAM [/mavros/fake_gps/use_vision] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,419: +PARAM [/mavros/fake_gps/geo_origin/lat] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,419: +PARAM [/mavros/fake_gps/geo_origin/lon] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,419: +PARAM [/mavros/fake_gps/geo_origin/alt] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,420: +PARAM [/mavros/fake_gps/eph] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,420: +PARAM [/mavros/fake_gps/epv] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,420: +PARAM [/mavros/fake_gps/satellites_visible] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,420: +PARAM [/mavros/fake_gps/fix_type] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,420: +PARAM [/mavros/fake_gps/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,420: +PARAM [/mavros/fake_gps/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,420: +PARAM [/mavros/fake_gps/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,420: +PARAM [/mavros/fake_gps/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,420: +PARAM [/mavros/fake_gps/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,420: +PARAM [/mavros/fake_gps/gps_rate] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,420: +PARAM [/mavros/mocap/use_tf] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,421: +PARAM [/mavros/mocap/use_pose] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,421: +PARAM [/mavros/odometry/in/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,421: +PARAM [/mavros/odometry/in/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,421: +PARAM [/mavros/odometry/in/frame_tf/local_frame] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,421: +PARAM [/mavros/odometry/in/frame_tf/body_frame_orientation] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,421: +PARAM [/mavros/odometry/out/frame_tf/local_frame] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,421: +PARAM [/mavros/odometry/out/frame_tf/body_frame_orientation] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,422: +PARAM [/mavros/px4flow/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,422: +PARAM [/mavros/px4flow/ranger_fov] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,422: +PARAM [/mavros/px4flow/ranger_min_range] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,422: +PARAM [/mavros/px4flow/ranger_max_range] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,422: +PARAM [/mavros/vision_pose/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,422: +PARAM [/mavros/vision_speed/listen_twist] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,422: +PARAM [/mavros/vision_speed/twist_cov] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,422: +PARAM [/mavros/vibration/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,422: +PARAM [/mavros/fcu_url] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,422: +PARAM [/visualization/fixed_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,422: +PARAM [/visualization/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,423: +PARAM [/visualization/marker_scale] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,423: +PARAM [/visualization/max_track_size] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,423: +PARAM [/visualization/num_rotors] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,423: +PARAM [/web_video_server/default_stream_type] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,423: +PARAM [/web_video_server/publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,423: +PARAM [/led/led_effect/notify/startup/r] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,423: +PARAM [/led/led_effect/notify/startup/g] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,423: +PARAM [/led/led_effect/notify/startup/b] by /roslaunch
+[rosmaster.master][INFO] 2023-04-12 03:06:45,423: +PARAM [/test_module] by /roslaunch
+[roslaunch][INFO] 2023-04-12 03:06:45,443: ... load_parameters complete
+[roslaunch][INFO] 2023-04-12 03:06:45,444: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2023-04-12 03:06:45,445: ... preparing to launch node of type [mavros/mavros_node]
+[roslaunch][INFO] 2023-04-12 03:06:45,445: create_node_process: package[mavros] type[mavros_node] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://ubuntu:43227/]
+[roslaunch][INFO] 2023-04-12 03:06:45,445: process[mavros-1]: env[{'USER': 'clover', 'LANGUAGE': 'en_US:', 'SSH_CLIENT': '10.0.2.2 49195 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'SHLVL': '1', 'HOME': '/home/clover', 'OLDPWD': '/home/clover/catkin_ws/build', 'MOTD_SHOWN': 'pam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': 's -j1 -l1', 'ROS_DISTRO': 'noetic', 'LOGNAME': 'clover', '_': '/opt/ros/noetic/bin/catkin_make', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_VERSION': '1', 'XDG_SESSION_ID': '2', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/tmp/rostest_bin_hookivk08a21:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAKELEVEL': '4', 'LANG': 'en_US', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://ubuntu:43227/', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'PWD': '/home/clover/catkin_ws/build/clover/clover', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'PASSWORD': 'clover', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'MFLAGS': '-s -j1 -l1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/rostest-ubuntu-48054.log'}]
+[roslaunch][INFO] 2023-04-12 03:06:45,499: process[mavros-1]: args[['/opt/ros/noetic/lib/mavros/mavros_node', '__name:=mavros']]
+[roslaunch][INFO] 2023-04-12 03:06:45,499: ... created process [mavros-1]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,499: ProcessMonitor.register[mavros-1]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,499: ProcessMonitor.register[mavros-1] complete
+[roslaunch][INFO] 2023-04-12 03:06:45,499: ... registered process [mavros-1]
+[roslaunch][INFO] 2023-04-12 03:06:45,499: process[mavros-1]: starting os process
+[roslaunch][INFO] 2023-04-12 03:06:45,500: process[mavros-1]: start w/ args [['/opt/ros/noetic/lib/mavros/mavros_node', '__name:=mavros', '__log:=/home/clover/.ros/log/e95f7c5c-d8c5-11ed-86ec-4d218940b1cd/mavros-1.log']]
+[roslaunch][INFO] 2023-04-12 03:06:45,500: process[mavros-1]: cwd will be [/home/clover/.ros]
+[rostest][INFO] 2023-04-12 03:06:45,508: process[mavros-1]: started with pid [48071]
+[roslaunch][INFO] 2023-04-12 03:06:45,508: ... successfully launched [mavros-1]
+[roslaunch][INFO] 2023-04-12 03:06:45,509: ... preparing to launch node of type [mavros_extras/visualization]
+[roslaunch][INFO] 2023-04-12 03:06:45,509: create_node_process: package[mavros_extras] type[visualization] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://ubuntu:43227/]
+[roslaunch][INFO] 2023-04-12 03:06:45,509: process[visualization-2]: env[{'USER': 'clover', 'LANGUAGE': 'en_US:', 'SSH_CLIENT': '10.0.2.2 49195 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'SHLVL': '1', 'HOME': '/home/clover', 'OLDPWD': '/home/clover/catkin_ws/build', 'MOTD_SHOWN': 'pam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': 's -j1 -l1', 'ROS_DISTRO': 'noetic', 'LOGNAME': 'clover', '_': '/opt/ros/noetic/bin/catkin_make', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_VERSION': '1', 'XDG_SESSION_ID': '2', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/tmp/rostest_bin_hookivk08a21:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAKELEVEL': '4', 'LANG': 'en_US', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://ubuntu:43227/', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'PWD': '/home/clover/catkin_ws/build/clover/clover', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'PASSWORD': 'clover', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'MFLAGS': '-s -j1 -l1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/rostest-ubuntu-48054.log'}]
+[roslaunch][INFO] 2023-04-12 03:06:45,513: process[visualization-2]: args[['/opt/ros/noetic/lib/mavros_extras/visualization', 'local_position:=mavros/local_position/pose', 'local_setpoint:=mavros/setpoint_position/local', '__name:=visualization']]
+[roslaunch][INFO] 2023-04-12 03:06:45,513: ... created process [visualization-2]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,513: ProcessMonitor.register[visualization-2]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,514: ProcessMonitor.register[visualization-2] complete
+[roslaunch][INFO] 2023-04-12 03:06:45,514: ... registered process [visualization-2]
+[roslaunch][INFO] 2023-04-12 03:06:45,514: process[visualization-2]: starting os process
+[roslaunch][INFO] 2023-04-12 03:06:45,514: process[visualization-2]: start w/ args [['/opt/ros/noetic/lib/mavros_extras/visualization', 'local_position:=mavros/local_position/pose', 'local_setpoint:=mavros/setpoint_position/local', '__name:=visualization', '__log:=/home/clover/.ros/log/e95f7c5c-d8c5-11ed-86ec-4d218940b1cd/visualization-2.log']]
+[roslaunch][INFO] 2023-04-12 03:06:45,515: process[visualization-2]: cwd will be [/home/clover/.ros]
+[rostest][INFO] 2023-04-12 03:06:45,529: process[visualization-2]: started with pid [48072]
+[roslaunch][INFO] 2023-04-12 03:06:45,535: ... successfully launched [visualization-2]
+[roslaunch][INFO] 2023-04-12 03:06:45,535: ... preparing to launch node of type [web_video_server/web_video_server]
+[roslaunch][INFO] 2023-04-12 03:06:45,535: create_node_process: package[web_video_server] type[web_video_server] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://ubuntu:43227/]
+[roslaunch][INFO] 2023-04-12 03:06:45,536: process[web_video_server-3]: env[{'USER': 'clover', 'LANGUAGE': 'en_US:', 'SSH_CLIENT': '10.0.2.2 49195 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'SHLVL': '1', 'HOME': '/home/clover', 'OLDPWD': '/home/clover/catkin_ws/build', 'MOTD_SHOWN': 'pam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': 's -j1 -l1', 'ROS_DISTRO': 'noetic', 'LOGNAME': 'clover', '_': '/opt/ros/noetic/bin/catkin_make', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_VERSION': '1', 'XDG_SESSION_ID': '2', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/tmp/rostest_bin_hookivk08a21:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAKELEVEL': '4', 'LANG': 'en_US', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://ubuntu:43227/', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'PWD': '/home/clover/catkin_ws/build/clover/clover', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'PASSWORD': 'clover', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'MFLAGS': '-s -j1 -l1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/rostest-ubuntu-48054.log'}]
+[roslaunch][INFO] 2023-04-12 03:06:45,537: process[web_video_server-3]: args[['/opt/ros/noetic/lib/web_video_server/web_video_server', '__name:=web_video_server']]
+[roslaunch][INFO] 2023-04-12 03:06:45,537: ... created process [web_video_server-3]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,537: ProcessMonitor.register[web_video_server-3]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,537: ProcessMonitor.register[web_video_server-3] complete
+[roslaunch][INFO] 2023-04-12 03:06:45,537: ... registered process [web_video_server-3]
+[roslaunch][INFO] 2023-04-12 03:06:45,537: process[web_video_server-3]: starting os process
+[roslaunch][INFO] 2023-04-12 03:06:45,537: process[web_video_server-3]: start w/ args [['/opt/ros/noetic/lib/web_video_server/web_video_server', '__name:=web_video_server', '__log:=/home/clover/.ros/log/e95f7c5c-d8c5-11ed-86ec-4d218940b1cd/web_video_server-3.log']]
+[roslaunch][INFO] 2023-04-12 03:06:45,537: process[web_video_server-3]: cwd will be [/home/clover/.ros]
+[rostest][INFO] 2023-04-12 03:06:45,559: process[web_video_server-3]: started with pid [48073]
+[roslaunch][INFO] 2023-04-12 03:06:45,560: ... successfully launched [web_video_server-3]
+[roslaunch][INFO] 2023-04-12 03:06:45,560: ... preparing to launch node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2023-04-12 03:06:45,572: create_node_process: package[tf2_ros] type[static_transform_publisher] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://ubuntu:43227/]
+[roslaunch][INFO] 2023-04-12 03:06:45,573: process[map_flipped_frame-4]: env[{'USER': 'clover', 'LANGUAGE': 'en_US:', 'SSH_CLIENT': '10.0.2.2 49195 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'SHLVL': '1', 'HOME': '/home/clover', 'OLDPWD': '/home/clover/catkin_ws/build', 'MOTD_SHOWN': 'pam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': 's -j1 -l1', 'ROS_DISTRO': 'noetic', 'LOGNAME': 'clover', '_': '/opt/ros/noetic/bin/catkin_make', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_VERSION': '1', 'XDG_SESSION_ID': '2', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/tmp/rostest_bin_hookivk08a21:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAKELEVEL': '4', 'LANG': 'en_US', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://ubuntu:43227/', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'PWD': '/home/clover/catkin_ws/build/clover/clover', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'PASSWORD': 'clover', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'MFLAGS': '-s -j1 -l1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/rostest-ubuntu-48054.log'}]
+[roslaunch][INFO] 2023-04-12 03:06:45,574: process[map_flipped_frame-4]: args[['/opt/ros/noetic/lib/tf2_ros/static_transform_publisher', '0', '0', '0', '3.1415926', '3.1415926', '0', 'map', 'map_flipped', '__name:=map_flipped_frame']]
+[roslaunch][INFO] 2023-04-12 03:06:45,574: ... created process [map_flipped_frame-4]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,574: ProcessMonitor.register[map_flipped_frame-4]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,574: ProcessMonitor.register[map_flipped_frame-4] complete
+[roslaunch][INFO] 2023-04-12 03:06:45,574: ... registered process [map_flipped_frame-4]
+[roslaunch][INFO] 2023-04-12 03:06:45,575: process[map_flipped_frame-4]: starting os process
+[roslaunch][INFO] 2023-04-12 03:06:45,575: process[map_flipped_frame-4]: start w/ args [['/opt/ros/noetic/lib/tf2_ros/static_transform_publisher', '0', '0', '0', '3.1415926', '3.1415926', '0', 'map', 'map_flipped', '__name:=map_flipped_frame', '__log:=/home/clover/.ros/log/e95f7c5c-d8c5-11ed-86ec-4d218940b1cd/map_flipped_frame-4.log']]
+[roslaunch][INFO] 2023-04-12 03:06:45,575: process[map_flipped_frame-4]: cwd will be [/home/clover/.ros]
+[rostest][INFO] 2023-04-12 03:06:45,616: process[map_flipped_frame-4]: started with pid [48074]
+[roslaunch][INFO] 2023-04-12 03:06:45,616: ... successfully launched [map_flipped_frame-4]
+[roslaunch][INFO] 2023-04-12 03:06:45,617: ... preparing to launch node of type [clover/simple_offboard]
+[roslaunch][INFO] 2023-04-12 03:06:45,617: create_node_process: package[clover] type[simple_offboard] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://ubuntu:43227/]
+[roslaunch][INFO] 2023-04-12 03:06:45,617: process[simple_offboard-5]: env[{'USER': 'clover', 'LANGUAGE': 'en_US:', 'SSH_CLIENT': '10.0.2.2 49195 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'SHLVL': '1', 'HOME': '/home/clover', 'OLDPWD': '/home/clover/catkin_ws/build', 'MOTD_SHOWN': 'pam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': 's -j1 -l1', 'ROS_DISTRO': 'noetic', 'LOGNAME': 'clover', '_': '/opt/ros/noetic/bin/catkin_make', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_VERSION': '1', 'XDG_SESSION_ID': '2', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/tmp/rostest_bin_hookivk08a21:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAKELEVEL': '4', 'LANG': 'en_US', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://ubuntu:43227/', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'PWD': '/home/clover/catkin_ws/build/clover/clover', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'PASSWORD': 'clover', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'MFLAGS': '-s -j1 -l1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/rostest-ubuntu-48054.log'}]
+[roslaunch][INFO] 2023-04-12 03:06:45,619: process[simple_offboard-5]: args[['/home/clover/catkin_ws/devel/lib/clover/simple_offboard', '__name:=simple_offboard']]
+[roslaunch][INFO] 2023-04-12 03:06:45,619: ... created process [simple_offboard-5]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,619: ProcessMonitor.register[simple_offboard-5]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,619: ProcessMonitor.register[simple_offboard-5] complete
+[roslaunch][INFO] 2023-04-12 03:06:45,619: ... registered process [simple_offboard-5]
+[roslaunch][INFO] 2023-04-12 03:06:45,619: process[simple_offboard-5]: starting os process
+[roslaunch][INFO] 2023-04-12 03:06:45,619: process[simple_offboard-5]: start w/ args [['/home/clover/catkin_ws/devel/lib/clover/simple_offboard', '__name:=simple_offboard', '__log:=/home/clover/.ros/log/e95f7c5c-d8c5-11ed-86ec-4d218940b1cd/simple_offboard-5.log']]
+[roslaunch][INFO] 2023-04-12 03:06:45,619: process[simple_offboard-5]: cwd will be [/home/clover/.ros]
+[rosmaster.master][INFO] 2023-04-12 03:06:45,624: +PUB [/rosout] /visualization http://ubuntu:45935/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,647: +PUB [/rosout] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,656: +SERVICE [/mavros/get_loggers] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,658: +PUB [/rosout] /map_flipped_frame http://ubuntu:37259/
+[rostest][INFO] 2023-04-12 03:06:45,658: process[simple_offboard-5]: started with pid [48079]
+[roslaunch][INFO] 2023-04-12 03:06:45,658: ... successfully launched [simple_offboard-5]
+[roslaunch][INFO] 2023-04-12 03:06:45,658: ... preparing to launch node of type [tf2_web_republisher/tf2_web_republisher]
+[roslaunch][INFO] 2023-04-12 03:06:45,658: create_node_process: package[tf2_web_republisher] type[tf2_web_republisher] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://ubuntu:43227/]
+[roslaunch][INFO] 2023-04-12 03:06:45,658: process[tf2_web_republisher-6]: env[{'USER': 'clover', 'LANGUAGE': 'en_US:', 'SSH_CLIENT': '10.0.2.2 49195 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'SHLVL': '1', 'HOME': '/home/clover', 'OLDPWD': '/home/clover/catkin_ws/build', 'MOTD_SHOWN': 'pam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': 's -j1 -l1', 'ROS_DISTRO': 'noetic', 'LOGNAME': 'clover', '_': '/opt/ros/noetic/bin/catkin_make', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_VERSION': '1', 'XDG_SESSION_ID': '2', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/tmp/rostest_bin_hookivk08a21:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAKELEVEL': '4', 'LANG': 'en_US', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://ubuntu:43227/', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'PWD': '/home/clover/catkin_ws/build/clover/clover', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'PASSWORD': 'clover', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'MFLAGS': '-s -j1 -l1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/rostest-ubuntu-48054.log'}]
+[roslaunch][INFO] 2023-04-12 03:06:45,660: process[tf2_web_republisher-6]: args[['/opt/ros/noetic/lib/tf2_web_republisher/tf2_web_republisher', '__name:=tf2_web_republisher']]
+[roslaunch][INFO] 2023-04-12 03:06:45,660: ... created process [tf2_web_republisher-6]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,660: ProcessMonitor.register[tf2_web_republisher-6]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,660: ProcessMonitor.register[tf2_web_republisher-6] complete
+[roslaunch][INFO] 2023-04-12 03:06:45,660: ... registered process [tf2_web_republisher-6]
+[roslaunch][INFO] 2023-04-12 03:06:45,660: process[tf2_web_republisher-6]: starting os process
+[roslaunch][INFO] 2023-04-12 03:06:45,660: process[tf2_web_republisher-6]: start w/ args [['/opt/ros/noetic/lib/tf2_web_republisher/tf2_web_republisher', '__name:=tf2_web_republisher', '__log:=/home/clover/.ros/log/e95f7c5c-d8c5-11ed-86ec-4d218940b1cd/tf2_web_republisher-6.log']]
+[roslaunch][INFO] 2023-04-12 03:06:45,660: process[tf2_web_republisher-6]: cwd will be [/home/clover/.ros]
+[rosmaster.master][INFO] 2023-04-12 03:06:45,664: +SERVICE [/mavros/set_logger_level] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,680: +SERVICE [/map_flipped_frame/get_loggers] /map_flipped_frame http://ubuntu:37259/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,681: +SERVICE [/visualization/get_loggers] /visualization http://ubuntu:45935/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,682: +SERVICE [/visualization/set_logger_level] /visualization http://ubuntu:45935/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,683: +PUB [/rosout] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,684: +SERVICE [/map_flipped_frame/set_logger_level] /map_flipped_frame http://ubuntu:37259/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,685: +SERVICE [/simple_offboard/get_loggers] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,687: +PUB [/tf_static] /map_flipped_frame http://ubuntu:37259/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,687: +CACHEDPARAM [/rosout_disable_topics_generation] by /map_flipped_frame
+[rosmaster.master][INFO] 2023-04-12 03:06:45,696: +SERVICE [/simple_offboard/set_logger_level] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,703: +PUB [/diagnostics] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,705: +CACHEDPARAM [/mavros/diagnostic_period] by /mavros
+[rostest][INFO] 2023-04-12 03:06:45,716: process[tf2_web_republisher-6]: started with pid [48088]
+[roslaunch][INFO] 2023-04-12 03:06:45,716: ... successfully launched [tf2_web_republisher-6]
+[roslaunch][INFO] 2023-04-12 03:06:45,735: ... preparing to launch node of type [clover/rc]
+[roslaunch][INFO] 2023-04-12 03:06:45,735: create_node_process: package[clover] type[rc] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://ubuntu:43227/]
+[roslaunch][INFO] 2023-04-12 03:06:45,735: process[rc-7]: env[{'USER': 'clover', 'LANGUAGE': 'en_US:', 'SSH_CLIENT': '10.0.2.2 49195 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'SHLVL': '1', 'HOME': '/home/clover', 'OLDPWD': '/home/clover/catkin_ws/build', 'MOTD_SHOWN': 'pam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': 's -j1 -l1', 'ROS_DISTRO': 'noetic', 'LOGNAME': 'clover', '_': '/opt/ros/noetic/bin/catkin_make', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_VERSION': '1', 'XDG_SESSION_ID': '2', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/tmp/rostest_bin_hookivk08a21:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAKELEVEL': '4', 'LANG': 'en_US', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://ubuntu:43227/', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'PWD': '/home/clover/catkin_ws/build/clover/clover', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'PASSWORD': 'clover', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'MFLAGS': '-s -j1 -l1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/rostest-ubuntu-48054.log'}]
+[roslaunch][INFO] 2023-04-12 03:06:45,737: process[rc-7]: args[['/home/clover/catkin_ws/devel/lib/clover/rc', '__name:=rc']]
+[roslaunch][INFO] 2023-04-12 03:06:45,737: ... created process [rc-7]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,737: ProcessMonitor.register[rc-7]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,737: ProcessMonitor.register[rc-7] complete
+[roslaunch][INFO] 2023-04-12 03:06:45,737: ... registered process [rc-7]
+[roslaunch][INFO] 2023-04-12 03:06:45,737: process[rc-7]: starting os process
+[roslaunch][INFO] 2023-04-12 03:06:45,737: process[rc-7]: start w/ args [['/home/clover/catkin_ws/devel/lib/clover/rc', '__name:=rc', '__log:=/home/clover/.ros/log/e95f7c5c-d8c5-11ed-86ec-4d218940b1cd/rc-7.log']]
+[roslaunch][INFO] 2023-04-12 03:06:45,737: process[rc-7]: cwd will be [/home/clover/.ros]
+[rosmaster.master][INFO] 2023-04-12 03:06:45,753: +SUB [/tf] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,768: +PUB [/rosout] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,768: +SUB [/tf_static] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,772: +PUB [/track_markers] /visualization http://ubuntu:45935/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,775: +PUB [/tf] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,775: +SERVICE [/tf2_web_republisher/get_loggers] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,786: +PUB [/vehicle_marker] /visualization http://ubuntu:45935/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,788: +PUB [/tf_static] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,788: +SERVICE [/tf2_web_republisher/set_logger_level] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,793: +PUB [/wp_markers] /visualization http://ubuntu:45935/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,797: +PUB [/landing_target] /visualization http://ubuntu:45935/
+[rostest][INFO] 2023-04-12 03:06:45,802: process[rc-7]: started with pid [48097]
+[roslaunch][INFO] 2023-04-12 03:06:45,803: ... successfully launched [rc-7]
+[roslaunch][INFO] 2023-04-12 03:06:45,803: ... preparing to launch node of type [clover/shell]
+[roslaunch][INFO] 2023-04-12 03:06:45,803: create_node_process: package[clover] type[shell] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://ubuntu:43227/]
+[roslaunch][INFO] 2023-04-12 03:06:45,803: process[shell-8]: env[{'USER': 'clover', 'LANGUAGE': 'en_US:', 'SSH_CLIENT': '10.0.2.2 49195 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'SHLVL': '1', 'HOME': '/home/clover', 'OLDPWD': '/home/clover/catkin_ws/build', 'MOTD_SHOWN': 'pam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': 's -j1 -l1', 'ROS_DISTRO': 'noetic', 'LOGNAME': 'clover', '_': '/opt/ros/noetic/bin/catkin_make', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_VERSION': '1', 'XDG_SESSION_ID': '2', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/tmp/rostest_bin_hookivk08a21:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAKELEVEL': '4', 'LANG': 'en_US', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://ubuntu:43227/', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'PWD': '/home/clover/catkin_ws/build/clover/clover', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'PASSWORD': 'clover', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'MFLAGS': '-s -j1 -l1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/rostest-ubuntu-48054.log'}]
+[roslaunch][INFO] 2023-04-12 03:06:45,805: process[shell-8]: args[['/home/clover/catkin_ws/devel/lib/clover/shell', '__name:=shell']]
+[roslaunch][INFO] 2023-04-12 03:06:45,805: ... created process [shell-8]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,805: ProcessMonitor.register[shell-8]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,805: ProcessMonitor.register[shell-8] complete
+[roslaunch][INFO] 2023-04-12 03:06:45,805: ... registered process [shell-8]
+[roslaunch][INFO] 2023-04-12 03:06:45,805: process[shell-8]: starting os process
+[roslaunch][INFO] 2023-04-12 03:06:45,805: process[shell-8]: start w/ args [['/home/clover/catkin_ws/devel/lib/clover/shell', '__name:=shell', '__log:=/home/clover/.ros/log/e95f7c5c-d8c5-11ed-86ec-4d218940b1cd/shell-8.log']]
+[roslaunch][INFO] 2023-04-12 03:06:45,805: process[shell-8]: cwd will be [/home/clover/.ros]
+[rosmaster.master][INFO] 2023-04-12 03:06:45,823: publisherUpdate[/tf] -> http://ubuntu:42465/ ['http://ubuntu:42465/']
+[rosmaster.master][INFO] 2023-04-12 03:06:45,833: publisherUpdate[/tf] -> http://ubuntu:42465/ ['http://ubuntu:42465/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:45,833: publisherUpdate[/tf_static] -> http://ubuntu:42465/ ['http://ubuntu:37259/', 'http://ubuntu:42465/']
+[rosmaster.master][INFO] 2023-04-12 03:06:45,834: publisherUpdate[/tf_static] -> http://ubuntu:42465/ ['http://ubuntu:37259/', 'http://ubuntu:42465/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:45,835: +SUB [/tf] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,840: +PUB [/rosout] /rc http://ubuntu:38521/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,842: +SUB [/tf] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,854: +SERVICE [/rc/get_loggers] /rc http://ubuntu:38521/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,854: +SUB [/tf_static] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,855: +SUB [/mavros/local_position/pose] /visualization http://ubuntu:45935/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,856: +PUB [/tf] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,857: +SERVICE [/rc/set_logger_level] /rc http://ubuntu:38521/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,858: +PUB [/tf_static] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,877: +SUB [/mavros/setpoint_position/local] /visualization http://ubuntu:45935/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,895: +SUB [/tf_static] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,903: +SUB [/mavros/state] /rc http://ubuntu:38521/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,913: +PUB [/mavlink/to] /rc http://ubuntu:38521/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,914: +SERVICE [/republish_tfs] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,922: +PUB [/mavros/manual_control/send] /rc http://ubuntu:38521/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,923: +PUB [/state_latched] /rc http://ubuntu:38521/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,924: +CACHEDPARAM [/rosout_disable_topics_generation] by /rc
+[rostest][INFO] 2023-04-12 03:06:45,925: process[shell-8]: started with pid [48104]
+[roslaunch][INFO] 2023-04-12 03:06:45,925: ... successfully launched [shell-8]
+[roslaunch][INFO] 2023-04-12 03:06:45,925: ... preparing to launch node of type [clover/led]
+[roslaunch][INFO] 2023-04-12 03:06:45,925: create_node_process: package[clover] type[led] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://ubuntu:43227/]
+[roslaunch][INFO] 2023-04-12 03:06:45,925: process[led/led_effect-9]: env[{'USER': 'clover', 'LANGUAGE': 'en_US:', 'SSH_CLIENT': '10.0.2.2 49195 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'SHLVL': '1', 'HOME': '/home/clover', 'OLDPWD': '/home/clover/catkin_ws/build', 'MOTD_SHOWN': 'pam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': 's -j1 -l1', 'ROS_DISTRO': 'noetic', 'LOGNAME': 'clover', '_': '/opt/ros/noetic/bin/catkin_make', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_VERSION': '1', 'XDG_SESSION_ID': '2', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/tmp/rostest_bin_hookivk08a21:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAKELEVEL': '4', 'LANG': 'en_US', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://ubuntu:43227/', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'PWD': '/home/clover/catkin_ws/build/clover/clover', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'PASSWORD': 'clover', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'MFLAGS': '-s -j1 -l1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/rostest-ubuntu-48054.log', 'ROS_NAMESPACE': '/led'}]
+[roslaunch][INFO] 2023-04-12 03:06:45,927: process[led/led_effect-9]: args[['/home/clover/catkin_ws/devel/lib/clover/led', '__name:=led_effect']]
+[roslaunch][INFO] 2023-04-12 03:06:45,927: ... created process [led/led_effect-9]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,927: ProcessMonitor.register[led/led_effect-9]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:45,927: ProcessMonitor.register[led/led_effect-9] complete
+[roslaunch][INFO] 2023-04-12 03:06:45,927: ... registered process [led/led_effect-9]
+[roslaunch][INFO] 2023-04-12 03:06:45,927: process[led/led_effect-9]: starting os process
+[roslaunch][INFO] 2023-04-12 03:06:45,927: process[led/led_effect-9]: start w/ args [['/home/clover/catkin_ws/devel/lib/clover/led', '__name:=led_effect', '__log:=/home/clover/.ros/log/e95f7c5c-d8c5-11ed-86ec-4d218940b1cd/led-led_effect-9.log']]
+[roslaunch][INFO] 2023-04-12 03:06:45,928: process[led/led_effect-9]: cwd will be [/home/clover/.ros]
+[rosmaster.master][INFO] 2023-04-12 03:06:45,944: publisherUpdate[/tf] -> http://ubuntu:42465/ ['http://ubuntu:42465/', 'http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:45,952: publisherUpdate[/tf] -> http://ubuntu:35369/ ['http://ubuntu:42465/', 'http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:45,960: publisherUpdate[/tf] -> http://ubuntu:38893/ ['http://ubuntu:42465/', 'http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:45,962: publisherUpdate[/tf] -> http://ubuntu:38893/ ['http://ubuntu:42465/', 'http://ubuntu:35369/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:45,963: publisherUpdate[/tf] -> http://ubuntu:35369/ ['http://ubuntu:42465/', 'http://ubuntu:35369/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:45,963: publisherUpdate[/tf_static] -> http://ubuntu:35369/ ['http://ubuntu:37259/', 'http://ubuntu:42465/', 'http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:45,964: publisherUpdate[/tf] -> http://ubuntu:42465/ ['http://ubuntu:42465/', 'http://ubuntu:35369/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:45,964: publisherUpdate[/tf_static] -> http://ubuntu:42465/ ['http://ubuntu:37259/', 'http://ubuntu:42465/', 'http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:45,965: publisherUpdate[/tf_static] -> http://ubuntu:42465/ ['http://ubuntu:37259/', 'http://ubuntu:42465/', 'http://ubuntu:35369/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:45,969: publisherUpdate[/tf_static] -> http://ubuntu:35369/ ['http://ubuntu:37259/', 'http://ubuntu:42465/', 'http://ubuntu:35369/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:45,972: +PUB [/rosout] /shell http://ubuntu:43761/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,985: +SUB [/lt_marker] /visualization http://ubuntu:45935/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,986: +PUB [/tf2_web_republisher/result] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,988: +PUB [/tf2_web_republisher/feedback] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,988: +SERVICE [/shell/get_loggers] /shell http://ubuntu:43761/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,989: +PUB [/tf2_web_republisher/status] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:45,990: +SERVICE [/shell/set_logger_level] /shell http://ubuntu:43761/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,000: +SERVICE [/exec] /shell http://ubuntu:43761/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,000: +CACHEDPARAM [/rosout_disable_topics_generation] by /mavros
+[rosmaster.master][INFO] 2023-04-12 03:06:46,002: +CACHEDPARAM [/rosout_disable_topics_generation] by /shell
+[rosmaster.master][INFO] 2023-04-12 03:06:46,033: +PUB [/mavlink/from] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,035: +SUB [/mavros/state] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,037: +SUB [/tf2_web_republisher/goal] /tf2_web_republisher http://ubuntu:38893/
+[rostest][INFO] 2023-04-12 03:06:46,038: process[led/led_effect-9]: started with pid [48117]
+[roslaunch][INFO] 2023-04-12 03:06:46,038: ... successfully launched [led/led_effect-9]
+[roslaunch][INFO] 2023-04-12 03:06:46,038: ... preparing to launch node of type [clover_blocks/clover_blocks]
+[roslaunch][INFO] 2023-04-12 03:06:46,038: create_node_process: package[clover_blocks] type[clover_blocks] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://ubuntu:43227/]
+[roslaunch][INFO] 2023-04-12 03:06:46,039: process[clover_blocks-10]: env[{'USER': 'clover', 'LANGUAGE': 'en_US:', 'SSH_CLIENT': '10.0.2.2 49195 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'SHLVL': '1', 'HOME': '/home/clover', 'OLDPWD': '/home/clover/catkin_ws/build', 'MOTD_SHOWN': 'pam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': 's -j1 -l1', 'ROS_DISTRO': 'noetic', 'LOGNAME': 'clover', '_': '/opt/ros/noetic/bin/catkin_make', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_VERSION': '1', 'XDG_SESSION_ID': '2', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/tmp/rostest_bin_hookivk08a21:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAKELEVEL': '4', 'LANG': 'en_US', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://ubuntu:43227/', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'PWD': '/home/clover/catkin_ws/build/clover/clover', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'PASSWORD': 'clover', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'MFLAGS': '-s -j1 -l1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/rostest-ubuntu-48054.log'}]
+[roslaunch][INFO] 2023-04-12 03:06:46,040: process[clover_blocks-10]: args[['/home/clover/catkin_ws/devel/lib/clover_blocks/clover_blocks', '__name:=clover_blocks']]
+[roslaunch][INFO] 2023-04-12 03:06:46,040: ... created process [clover_blocks-10]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:46,040: ProcessMonitor.register[clover_blocks-10]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:46,040: ProcessMonitor.register[clover_blocks-10] complete
+[roslaunch][INFO] 2023-04-12 03:06:46,040: ... registered process [clover_blocks-10]
+[roslaunch][INFO] 2023-04-12 03:06:46,041: process[clover_blocks-10]: starting os process
+[roslaunch][INFO] 2023-04-12 03:06:46,041: process[clover_blocks-10]: start w/ args [['/home/clover/catkin_ws/devel/lib/clover_blocks/clover_blocks', '__name:=clover_blocks', '__log:=/home/clover/.ros/log/e95f7c5c-d8c5-11ed-86ec-4d218940b1cd/clover_blocks-10.log']]
+[roslaunch][INFO] 2023-04-12 03:06:46,041: process[clover_blocks-10]: cwd will be [/home/clover/.ros]
+[rosmaster.master][INFO] 2023-04-12 03:06:46,066: +SUB [/tf2_web_republisher/cancel] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,067: +SUB [/mavros/local_position/velocity_body] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,068: +SUB [/mavlink/to] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,082: +SUB [/mavros/global_position/global] /simple_offboard http://ubuntu:42465/
+[rostest][INFO] 2023-04-12 03:06:46,105: process[clover_blocks-10]: started with pid [48123]
+[roslaunch][INFO] 2023-04-12 03:06:46,105: ... successfully launched [clover_blocks-10]
+[roslaunch][INFO] 2023-04-12 03:06:46,115: ... preparing to launch node of type [topic_tools/throttle]
+[roslaunch][INFO] 2023-04-12 03:06:46,115: create_node_process: package[topic_tools] type[throttle] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://ubuntu:43227/]
+[roslaunch][INFO] 2023-04-12 03:06:46,115: process[main_camera/main_camera_throttle-11]: env[{'USER': 'clover', 'LANGUAGE': 'en_US:', 'SSH_CLIENT': '10.0.2.2 49195 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'SHLVL': '1', 'HOME': '/home/clover', 'OLDPWD': '/home/clover/catkin_ws/build', 'MOTD_SHOWN': 'pam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': 's -j1 -l1', 'ROS_DISTRO': 'noetic', 'LOGNAME': 'clover', '_': '/opt/ros/noetic/bin/catkin_make', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_VERSION': '1', 'XDG_SESSION_ID': '2', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/tmp/rostest_bin_hookivk08a21:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAKELEVEL': '4', 'LANG': 'en_US', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://ubuntu:43227/', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'PWD': '/home/clover/catkin_ws/build/clover/clover', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'PASSWORD': 'clover', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'MFLAGS': '-s -j1 -l1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/rostest-ubuntu-48054.log', 'ROS_NAMESPACE': '/main_camera'}]
+[rosmaster.master][INFO] 2023-04-12 03:06:46,128: +PUB [/rosout] /led/led_effect http://ubuntu:38415/
+[roslaunch][INFO] 2023-04-12 03:06:46,175: process[main_camera/main_camera_throttle-11]: args[['/opt/ros/noetic/lib/topic_tools/throttle', 'messages', 'image_raw', '5.0', 'image_raw_throttled', '__name:=main_camera_throttle']]
+[roslaunch][INFO] 2023-04-12 03:06:46,176: ... created process [main_camera/main_camera_throttle-11]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:46,176: ProcessMonitor.register[main_camera/main_camera_throttle-11]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:46,176: ProcessMonitor.register[main_camera/main_camera_throttle-11] complete
+[roslaunch][INFO] 2023-04-12 03:06:46,176: ... registered process [main_camera/main_camera_throttle-11]
+[roslaunch][INFO] 2023-04-12 03:06:46,176: process[main_camera/main_camera_throttle-11]: starting os process
+[roslaunch][INFO] 2023-04-12 03:06:46,176: process[main_camera/main_camera_throttle-11]: start w/ args [['/opt/ros/noetic/lib/topic_tools/throttle', 'messages', 'image_raw', '5.0', 'image_raw_throttled', '__name:=main_camera_throttle', '__log:=/home/clover/.ros/log/e95f7c5c-d8c5-11ed-86ec-4d218940b1cd/main_camera-main_camera_throttle-11.log']]
+[roslaunch][INFO] 2023-04-12 03:06:46,176: process[main_camera/main_camera_throttle-11]: cwd will be [/home/clover/.ros]
+[rosmaster.master][INFO] 2023-04-12 03:06:46,190: +SERVICE [/led/led_effect/get_loggers] /led/led_effect http://ubuntu:38415/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,197: +SUB [/mavros/battery] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,212: +SERVICE [/led/led_effect/set_logger_level] /led/led_effect http://ubuntu:38415/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,216: +PUB [/mavros/radio_status] /mavros http://ubuntu:35369/
+[rostest][INFO] 2023-04-12 03:06:46,217: process[main_camera/main_camera_throttle-11]: started with pid [48129]
+[roslaunch][INFO] 2023-04-12 03:06:46,217: ... successfully launched [main_camera/main_camera_throttle-11]
+[roslaunch][INFO] 2023-04-12 03:06:46,217: ... launch_nodes complete
+[rostest][INFO] 2023-04-12 03:06:46,218: running test basic_test
+[roslaunch][INFO] 2023-04-12 03:06:46,218: ... preparing to run test [basic_test] of type [ros_pytest/ros_pytest_runner]
+[roslaunch][INFO] 2023-04-12 03:06:46,218: ... preparing to launch node of type [ros_pytest/ros_pytest_runner]
+[roslaunch][INFO] 2023-04-12 03:06:46,218: create_node_process: package[ros_pytest] type[ros_pytest_runner] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://ubuntu:43227/]
+[roslaunch][INFO] 2023-04-12 03:06:46,218: process[basic_test-12]: env[{'USER': 'clover', 'LANGUAGE': 'en_US:', 'SSH_CLIENT': '10.0.2.2 49195 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'SHLVL': '1', 'HOME': '/home/clover', 'OLDPWD': '/home/clover/catkin_ws/build', 'MOTD_SHOWN': 'pam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': 's -j1 -l1', 'ROS_DISTRO': 'noetic', 'LOGNAME': 'clover', '_': '/opt/ros/noetic/bin/catkin_make', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_VERSION': '1', 'XDG_SESSION_ID': '2', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/tmp/rostest_bin_hookivk08a21:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MAKELEVEL': '4', 'LANG': 'en_US', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://ubuntu:43227/', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'PWD': '/home/clover/catkin_ws/build/clover/clover', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'PASSWORD': 'clover', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'MFLAGS': '-s -j1 -l1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/rostest-ubuntu-48054.log'}]
+[roslaunch][INFO] 2023-04-12 03:06:46,219: process[basic_test-12]: args[['/opt/ros/noetic/lib/ros_pytest/ros_pytest_runner', '--gtest_output=xml:/home/clover/catkin_ws/build/test_results/clover/rosunit-basic_test.xml', '__name:=basic_test']]
+[roslaunch][INFO] 2023-04-12 03:06:46,219: ... created process [basic_test-12]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:46,219: ProcessMonitor.register[basic_test-12]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:46,219: ProcessMonitor.register[basic_test-12] complete
+[roslaunch][INFO] 2023-04-12 03:06:46,220: ... registered process [basic_test-12]
+[roslaunch][INFO] 2023-04-12 03:06:46,220: process[basic_test-12]: starting os process
+[roslaunch][INFO] 2023-04-12 03:06:46,220: process[basic_test-12]: start w/ args [['/opt/ros/noetic/lib/ros_pytest/ros_pytest_runner', '--gtest_output=xml:/home/clover/catkin_ws/build/test_results/clover/rosunit-basic_test.xml', '__name:=basic_test', '__log:=/home/clover/.ros/log/e95f7c5c-d8c5-11ed-86ec-4d218940b1cd/basic_test-12.log']]
+[roslaunch][INFO] 2023-04-12 03:06:46,220: process[basic_test-12]: cwd will be [/home/clover/.ros]
+[rosmaster.master][INFO] 2023-04-12 03:06:46,263: +PUB [/mavros/target_actuator_control] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,264: +SUB [/mavros/statustext/recv] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,273: +PUB [/rosout] /web_video_server http://ubuntu:46177/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,275: +SERVICE [/web_video_server/get_loggers] /web_video_server http://ubuntu:46177/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,277: +SERVICE [/web_video_server/set_logger_level] /web_video_server http://ubuntu:46177/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,283: +SUB [/mavros/actuator_control] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,285: +SUB [/mavros/manual_control/control] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,295: +CACHEDPARAM [/rosout_disable_topics_generation] by /led/led_effect
+[rostest][INFO] 2023-04-12 03:06:46,305: process[basic_test-12]: started with pid [48130]
+[roslaunch][INFO] 2023-04-12 03:06:46,305: ... successfully launched [basic_test-12]
+[rosmaster.master][INFO] 2023-04-12 03:06:46,322: +PUB [/mavros/adsb/vehicle] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,331: +PUB [/rosout] /main_camera/main_camera_throttle http://ubuntu:44855/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,331: +SUB [/mavros/adsb/send] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,333: +SERVICE [/main_camera/main_camera_throttle/get_loggers] /main_camera/main_camera_throttle http://ubuntu:44855/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,342: +SUB [/mavros/local_position/pose] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,343: +SERVICE [/main_camera/main_camera_throttle/set_logger_level] /main_camera/main_camera_throttle http://ubuntu:44855/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,344: +PUB [/mavros/altitude] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,353: +PUB [/mavros/cam_imu_sync/cam_imu_stamp] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,356: +CACHEDPARAM [/rosout_disable_topics_generation] by /web_video_server
+[rosmaster.master][INFO] 2023-04-12 03:06:46,357: +PUB [/mavros/camera/image_captured] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,359: +SUB [/mavros/altitude] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,363: +PUB [/mavros/setpoint_position/local] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,376: +PUB [/mavros/setpoint_raw/local] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,382: +SUB [/mavros/cellular_status/status] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,384: +PUB [/mavros/setpoint_attitude/attitude] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,384: publisherUpdate[/mavros/setpoint_position/local] -> http://ubuntu:45935/ ['http://ubuntu:42465/']
+[rosmaster.master][INFO] 2023-04-12 03:06:46,386: publisherUpdate[/mavros/setpoint_position/local] -> http://ubuntu:45935/ ['http://ubuntu:42465/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:46,386: +SUB [/main_camera/image_raw] /main_camera/main_camera_throttle http://ubuntu:44855/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,387: +PUB [/mavros/setpoint_raw/attitude] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,387: +SERVICE [/mavros/cmd/command] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,388: +PUB [/mavros/setpoint_attitude/cmd_vel] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,388: +SERVICE [/mavros/cmd/command_ack] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,389: +PUB [/mavros/setpoint_attitude/thrust] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,399: +SERVICE [/mavros/cmd/command_int] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,400: +PUB [/simple_offboard/state] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,400: +SERVICE [/mavros/cmd/arming] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,401: +SERVICE [/get_telemetry] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,401: +SERVICE [/mavros/cmd/set_home] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,411: +SERVICE [/navigate] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,412: +SERVICE [/mavros/cmd/takeoff] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,412: +SERVICE [/mavros/cmd/land] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,413: +SERVICE [/navigate_global] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,413: +SERVICE [/mavros/cmd/trigger_control] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,414: +SERVICE [/set_altitude] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,414: +SERVICE [/mavros/cmd/trigger_interval] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,414: +SERVICE [/set_yaw] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,415: +SERVICE [/mavros/cmd/vtol_transition] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,415: +SERVICE [/set_yaw_rate] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,416: +SERVICE [/set_position] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,421: +SERVICE [/set_velocity] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,422: +SERVICE [/set_attitude] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,423: +SUB [/mavros/companion_process/status] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,423: +SERVICE [/set_rates] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,424: +SERVICE [/land] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,425: +SERVICE [/simple_offboard/release] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,442: +CACHEDPARAM [/rosout_disable_topics_generation] by /simple_offboard
+[rosmaster.master][INFO] 2023-04-12 03:06:46,443: +SUB [/mavros/debug_value/send] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,444: +PUB [/mavros/debug_value/debug] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,444: +PUB [/mavros/debug_value/debug_vector] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,445: +PUB [/mavros/debug_value/debug_float_array] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,445: +PUB [/mavros/debug_value/named_value_float] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,445: +PUB [/mavros/debug_value/named_value_int] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,451: +PUB [/mavros/distance_sensor/rangefinder] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,467: +SUB [/mavros/distance_sensor/rangefinder_sub] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,468: +PUB [/mavros/esc_info] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,468: +PUB [/mavros/esc_status] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,477: +PUB [/mavros/esc_telemetry] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,530: +SUB [/mavros/fake_gps/mocap/tf] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,531: +SERVICE [/mavros/ftp/list] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,531: +SERVICE [/mavros/ftp/open] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,532: +SERVICE [/mavros/ftp/close] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,533: +SERVICE [/mavros/ftp/read] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,534: +SERVICE [/mavros/ftp/write] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,535: +SERVICE [/mavros/ftp/mkdir] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,539: +SERVICE [/mavros/ftp/rmdir] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,540: +SERVICE [/mavros/ftp/remove] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,540: +SERVICE [/mavros/ftp/truncate] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,541: +SERVICE [/mavros/ftp/reset] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,543: +SERVICE [/mavros/ftp/rename] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,544: +SERVICE [/mavros/ftp/checksum] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,552: +PUB [/mavros/geofence/waypoints] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,563: +SERVICE [/mavros/geofence/pull] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,563: +SERVICE [/mavros/geofence/push] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,564: +SERVICE [/mavros/geofence/clear] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,573: +PUB [/mavros/global_position/raw/fix] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,574: +PUB [/mavros/global_position/raw/gps_vel] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,574: +PUB [/mavros/global_position/raw/satellites] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,575: +PUB [/mavros/global_position/global] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,575: +PUB [/mavros/global_position/local] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,576: +PUB [/mavros/global_position/rel_alt] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,576: +PUB [/mavros/global_position/compass_hdg] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,582: +PUB [/mavros/global_position/gp_origin] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,594: publisherUpdate[/mavros/global_position/global] -> http://ubuntu:42465/ ['http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:46,595: publisherUpdate[/mavros/global_position/global] -> http://ubuntu:42465/ ['http://ubuntu:35369/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:46,597: +SUB [/mavros/global_position/set_gp_origin] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,599: +SUB [/mavros/global_position/home] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,599: +PUB [/mavros/global_position/gp_lp_offset] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,604: +SUB [/mavros/gps_input/gps_input] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,613: +SUB [/mavros/gps_rtk/send_rtcm] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,614: +PUB [/mavros/gps_rtk/rtk_baseline] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,614: +PUB [/mavros/gpsstatus/gps1/raw] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,623: +PUB [/mavros/gpsstatus/gps2/raw] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,623: +PUB [/mavros/gpsstatus/gps1/rtk] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,624: +PUB [/mavros/gpsstatus/gps2/rtk] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,626: +PUB [/move_base_simple/goal] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,627: +SUB [/mavros/global_position/gp_origin] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,634: +SUB [/mavros/hil/state] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,636: +SUB [/mavros/hil/gps] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,653: +SUB [/mavros/hil/imu_ned] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,655: +SUB [/mavros/hil/optical_flow] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,657: +SUB [/mavros/hil/rc_inputs] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,657: +PUB [/mavros/hil/controls] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,658: +PUB [/mavros/hil/actuator_controls] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,658: +PUB [/mavros/home_position/home] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,665: +SUB [/mavros/home_position/set] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,665: +SERVICE [/mavros/home_position/req_update] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,683: +PUB [/mavros/imu/data] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,688: +PUB [/mavros/imu/mag] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,689: +PUB [/mavros/imu/temperature_imu] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,689: +PUB [/mavros/imu/temperature_baro] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,690: +PUB [/mavros/imu/static_pressure] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,692: +PUB [/mavros/imu/diff_pressure] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,693: +PUB [/mavros/imu/data_raw] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,708: +PUB [/mavros/landing_target/pose_in] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,709: +PUB [/mavros/landing_target/lt_marker] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,712: +SUB [/mavros/landing_target/pose] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,724: +PUB [/mavros/local_position/pose] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,725: +PUB [/mavros/local_position/pose_cov] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,725: +PUB [/mavros/local_position/velocity_local] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,726: +PUB [/mavros/local_position/velocity_body] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,733: +PUB [/mavros/local_position/velocity_body_cov] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,733: +PUB [/mavros/local_position/accel] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,734: +PUB [/mavros/local_position/odom] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,734: +PUB [/mavros/log_transfer/raw/log_entry] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,735: +PUB [/mavros/log_transfer/raw/log_data] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,735: +SERVICE [/mavros/log_transfer/raw/log_request_list] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,736: +SERVICE [/mavros/log_transfer/raw/log_request_data] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,742: +SERVICE [/mavros/log_transfer/raw/log_request_end] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,743: +SERVICE [/mavros/log_transfer/raw/log_request_erase] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,745: +PUB [/mavros/mag_calibration/status] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,746: +PUB [/mavros/mag_calibration/report] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,754: +PUB [/mavros/manual_control/control] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,761: +SUB [/mavros/manual_control/send] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,781: +SUB [/mavros/mocap/pose] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,790: +SUB [/mavros/mount_control/command] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,790: +PUB [/mavros/mount_control/orientation] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,791: +PUB [/mavros/mount_control/status] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,791: +SERVICE [/mavros/mount_control/configure] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,801: publisherUpdate[/mavros/local_position/pose] -> http://ubuntu:45935/ ['http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:46,802: publisherUpdate[/mavros/local_position/pose] -> http://ubuntu:45935/ ['http://ubuntu:35369/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:46,802: publisherUpdate[/mavros/local_position/pose] -> http://ubuntu:42465/ ['http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:46,811: publisherUpdate[/mavros/local_position/pose] -> http://ubuntu:42465/ ['http://ubuntu:35369/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:46,811: publisherUpdate[/mavros/local_position/velocity_body] -> http://ubuntu:42465/ ['http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:46,811: publisherUpdate[/mavros/local_position/velocity_body] -> http://ubuntu:42465/ ['http://ubuntu:35369/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:46,811: publisherUpdate[/mavros/manual_control/control] -> http://ubuntu:42465/ ['http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:46,812: publisherUpdate[/mavros/manual_control/control] -> http://ubuntu:42465/ ['http://ubuntu:35369/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:46,821: +PUB [/mavros/nav_controller_output] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,832: +SUB [/mavros/obstacle/send] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,833: +PUB [/mavros/odometry/in] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,842: +SUB [/mavros/odometry/out] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,844: +SUB [/mavros/onboard_computer/status] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,852: +SERVICE [/mavros/param/pull] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,853: +SERVICE [/mavros/param/push] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,854: +SERVICE [/mavros/param/set] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,854: +SERVICE [/mavros/param/get] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,855: +PUB [/mavros/param/param_value] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,862: +SUB [/mavros/play_tune] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,883: +PUB [/mavros/px4flow/raw/optical_flow_rad] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,884: +PUB [/mavros/px4flow/ground_distance] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,884: +PUB [/mavros/px4flow/temperature] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,886: +SUB [/mavros/px4flow/raw/send] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,888: +PUB [/mavros/rallypoint/waypoints] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,888: +SERVICE [/mavros/rallypoint/pull] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,888: +SERVICE [/mavros/rallypoint/push] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,889: +SERVICE [/mavros/rallypoint/clear] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,889: +PUB [/mavros/rangefinder/rangefinder] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,890: +PUB [/mavros/rc/in] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,890: +PUB [/mavros/rc/out] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,905: +SUB [/mavros/rc/override] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,915: +SUB [/mavros/safety_area/set] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,915: +PUB [/mavros/safety_area/get] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,918: +SUB [/mavros/setpoint_accel/accel] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,944: +SUB [/mavros/setpoint_attitude/thrust] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,947: +SUB [/mavros/setpoint_attitude/attitude] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,963: +SUB [/mavros/setpoint_position/local] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,965: +SUB [/mavros/setpoint_position/global] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,973: +SUB [/mavros/setpoint_position/global_to_local] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,978: +SUB [/mavros/global_position/global] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,980: +SUB [/mavros/local_position/pose] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,980: +SERVICE [/mavros/setpoint_position/mav_frame] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,993: +SUB [/mavros/setpoint_raw/local] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,995: +SUB [/mavros/setpoint_raw/global] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,998: +SUB [/mavros/setpoint_raw/attitude] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:46,998: +PUB [/mavros/setpoint_raw/target_local] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,002: +PUB [/mavros/setpoint_raw/target_global] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,009: +PUB [/mavros/setpoint_raw/target_attitude] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,011: +SUB [/mavros/setpoint_trajectory/local] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,012: +PUB [/mavros/setpoint_trajectory/desired] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,018: +SERVICE [/mavros/setpoint_trajectory/reset] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,018: +SERVICE [/mavros/setpoint_trajectory/mav_frame] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,024: +SUB [/mavros/setpoint_velocity/cmd_vel] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,026: +SUB [/mavros/setpoint_velocity/cmd_vel_unstamped] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,027: +SERVICE [/mavros/setpoint_velocity/mav_frame] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,042: +PUB [/mavros/state] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,043: +PUB [/mavros/extended_state] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,043: +PUB [/mavros/battery] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,044: +PUB [/mavros/estimator_status] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,047: +PUB [/mavros/statustext/recv] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,052: +SUB [/mavros/statustext/send] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,052: +SERVICE [/mavros/set_stream_rate] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,053: +SERVICE [/mavros/set_mode] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,053: +SERVICE [/mavros/vehicle_info_get] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,057: +SERVICE [/mavros/set_message_interval] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,079: +PUB [/mavros/time_reference] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,080: +PUB [/mavros/timesync_status] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,080: +PUB [/mavros/terrain/report] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,082: +SUB [/mavros/trajectory/generated] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,099: +SUB [/mavros/trajectory/path] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,099: +PUB [/mavros/trajectory/desired] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,101: +SUB [/mavros/tunnel/in] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,102: +PUB [/mavros/tunnel/out] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,103: +PUB [/mavros/vfr_hud] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,104: +PUB [/mavros/vibration/raw/vibration] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,115: +SUB [/mavros/vision_pose/pose] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,119: publisherUpdate[/mavros/state] -> http://ubuntu:38521/ ['http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:47,129: publisherUpdate[/mavros/state] -> http://ubuntu:42465/ ['http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:47,130: publisherUpdate[/mavros/state] -> http://ubuntu:38521/ ['http://ubuntu:35369/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:47,131: publisherUpdate[/mavros/state] -> http://ubuntu:42465/ ['http://ubuntu:35369/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:47,131: publisherUpdate[/mavros/battery] -> http://ubuntu:42465/ ['http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:47,139: publisherUpdate[/mavros/battery] -> http://ubuntu:42465/ ['http://ubuntu:35369/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:47,139: publisherUpdate[/mavros/statustext/recv] -> http://ubuntu:42465/ ['http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:47,140: publisherUpdate[/mavros/statustext/recv] -> http://ubuntu:42465/ ['http://ubuntu:35369/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:47,141: +SUB [/mavros/vision_pose/pose_cov] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,146: +SUB [/mavros/vision_speed/speed_twist_cov] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,148: +PUB [/mavros/mission/waypoints] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,148: +SERVICE [/mavros/mission/pull] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,149: +SERVICE [/mavros/mission/push] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,149: +SERVICE [/mavros/mission/clear] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,152: +PUB [/mavros/mission/reached] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,153: +SERVICE [/mavros/mission/set_current] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,173: +PUB [/mavros/wind_estimation] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,237: +PUB [/rosout] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,244: +SERVICE [/clover_blocks/get_loggers] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,245: +SERVICE [/clover_blocks/set_logger_level] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,246: +PUB [/clover_blocks/running] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,247: +PUB [/clover_blocks/block] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,248: +PUB [/clover_blocks/print] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,248: +PUB [/clover_blocks/prompt] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,249: +PUB [/clover_blocks/error] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,253: +SERVICE [/clover_blocks/run] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,254: +SERVICE [/clover_blocks/stop] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,262: +SERVICE [/clover_blocks/load] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,263: +SERVICE [/clover_blocks/store] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,264: +CACHEDPARAM [/rosout_disable_topics_generation] by /clover_blocks
+[rosmaster.master][INFO] 2023-04-12 03:06:47,641: +PUB [/rosout] /basic_test http://ubuntu:37239/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,643: +SERVICE [/basic_test/get_loggers] /basic_test http://ubuntu:37239/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,644: +SERVICE [/basic_test/set_logger_level] /basic_test http://ubuntu:37239/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,646: +SUB [/mavros/state] /basic_test http://ubuntu:37239/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,658: -SUB [/mavros/state] /basic_test http://ubuntu:37239/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,696: +SUB [/clover_blocks/print] /basic_test http://ubuntu:37239/
+[rosmaster.master][INFO] 2023-04-12 03:06:47,799: +CACHEDPARAM [/rosout_disable_topics_generation] by /clover_blocks
+[rosmaster.master][INFO] 2023-04-12 03:06:47,800: +CACHEDPARAM [/rosout_disable_topics_generation] by /clover_blocks
+[rosmaster.master][INFO] 2023-04-12 03:06:47,801: +CACHEDPARAM [/rosout_disable_topics_generation] by /clover_blocks
+[rosmaster.master][INFO] 2023-04-12 03:06:47,803: -SUB [/clover_blocks/print] /basic_test http://ubuntu:37239/
+[rosmaster.master][INFO] 2023-04-12 03:06:48,175: +PUB [/mavlink/gcs_ip] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:48,912: -PUB [/rosout] /basic_test http://ubuntu:37239/
+[rosmaster.master][INFO] 2023-04-12 03:06:48,912: -SERVICE [/basic_test/get_loggers] /basic_test rosrpc://ubuntu:42859
+[rosmaster.master][INFO] 2023-04-12 03:06:48,912: -SERVICE [/basic_test/set_logger_level] /basic_test rosrpc://ubuntu:42859
+[rostest][INFO] 2023-04-12 03:06:49,684: [basic_test-12] process has finished cleanly
+log file: /home/clover/.ros/log/e95f7c5c-d8c5-11ed-86ec-4d218940b1cd/basic_test-12*.log
+[roslaunch.pmon][INFO] 2023-04-12 03:06:49,685: ProcessMonitor.unregister[basic_test-12] starting
+[roslaunch.pmon][INFO] 2023-04-12 03:06:49,685: ProcessMonitor.unregister[basic_test-12] complete
+[rostest][INFO] 2023-04-12 03:06:49,703: test [basic_test] finished
+[rostest][INFO] 2023-04-12 03:06:49,703: test [basic_test] results are in [/home/clover/catkin_ws/build/test_results/clover/rosunit-basic_test.xml]
+[rostest][INFO] 2023-04-12 03:06:49,705: test [basic_test] results summary: 0 errors, 0 failures, 5 tests
+[rostest][INFO] 2023-04-12 03:06:49,705: [ROSTEST] test [basic_test] done
+[rostest][INFO] 2023-04-12 03:06:49,705: tearDown[/home/clover/catkin_ws/src/clover/clover/test/basic.test]
+[roslaunch][INFO] 2023-04-12 03:06:49,706: runner.stop()
+[rostest][INFO] 2023-04-12 03:06:49,706: shutting down processing monitor...
+[roslaunch][INFO] 2023-04-12 03:06:49,706: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, started daemon 139668517148416)>
+[roslaunch.pmon][INFO] 2023-04-12 03:06:49,706: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 139668517148416)>
+[roslaunch.pmon][INFO] 2023-04-12 03:06:49,785: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 139668517148416)>
+[roslaunch.pmon][INFO] 2023-04-12 03:06:49,786: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 139668517148416)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7f071b55ff70>, <roslaunch.nodeprocess.LocalProcess object at 0x7f071b57efa0>, <roslaunch.nodeprocess.LocalProcess object at 0x7f071b575670>, <roslaunch.nodeprocess.LocalProcess object at 0x7f071852b9a0>, <roslaunch.nodeprocess.LocalProcess object at 0x7f071852ba30>, <roslaunch.nodeprocess.LocalProcess object at 0x7f071852bc70>, <roslaunch.nodeprocess.LocalProcess object at 0x7f071852bfa0>, <roslaunch.nodeprocess.LocalProcess object at 0x7f071c5e7640>, <roslaunch.nodeprocess.LocalProcess object at 0x7f071c5e7040>, <roslaunch.nodeprocess.LocalProcess object at 0x7f071c5e7ca0>, <roslaunch.nodeprocess.LocalProcess object at 0x7f071853c070>]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:49,786: ProcessMonitor exit: killing main_camera/main_camera_throttle-11
+[rostest][INFO] 2023-04-12 03:06:49,786: [main_camera/main_camera_throttle-11] killing on exit
+[roslaunch][INFO] 2023-04-12 03:06:49,786: process[main_camera/main_camera_throttle-11]: killing os process with pid[48129] pgid[48129]
+[roslaunch][INFO] 2023-04-12 03:06:49,786: [main_camera/main_camera_throttle-11] sending SIGINT to pgid [48129]
+[roslaunch][INFO] 2023-04-12 03:06:49,787: [main_camera/main_camera_throttle-11] sent SIGINT to pgid [48129]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:49,787: ProcessMonitor exit: killing clover_blocks-10
+[rostest][INFO] 2023-04-12 03:06:49,787: [clover_blocks-10] killing on exit
+[roslaunch][INFO] 2023-04-12 03:06:49,787: process[clover_blocks-10]: killing os process with pid[48123] pgid[48123]
+[roslaunch][INFO] 2023-04-12 03:06:49,787: [clover_blocks-10] sending SIGINT to pgid [48123]
+[roslaunch][INFO] 2023-04-12 03:06:49,788: [clover_blocks-10] sent SIGINT to pgid [48123]
+[rosmaster.master][INFO] 2023-04-12 03:06:49,790: -PUB [/rosout] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:49,790: -PUB [/clover_blocks/running] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:49,790: -PUB [/clover_blocks/block] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:49,791: -PUB [/clover_blocks/print] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:49,791: -PUB [/clover_blocks/prompt] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:49,791: -PUB [/clover_blocks/error] /clover_blocks http://ubuntu:46179/
+[rosmaster.master][INFO] 2023-04-12 03:06:49,791: -SERVICE [/clover_blocks/get_loggers] /clover_blocks rosrpc://ubuntu:41097
+[rosmaster.master][INFO] 2023-04-12 03:06:49,792: -SERVICE [/clover_blocks/set_logger_level] /clover_blocks rosrpc://ubuntu:41097
+[rosmaster.master][INFO] 2023-04-12 03:06:49,792: -SERVICE [/clover_blocks/run] /clover_blocks rosrpc://ubuntu:41097
+[rosmaster.master][INFO] 2023-04-12 03:06:49,792: -SERVICE [/clover_blocks/stop] /clover_blocks rosrpc://ubuntu:41097
+[rosmaster.master][INFO] 2023-04-12 03:06:49,792: -SERVICE [/clover_blocks/load] /clover_blocks rosrpc://ubuntu:41097
+[rosmaster.master][INFO] 2023-04-12 03:06:49,792: -SERVICE [/clover_blocks/store] /clover_blocks rosrpc://ubuntu:41097
+[roslaunch.pmon][INFO] 2023-04-12 03:06:49,795: ProcessMonitor exit: killing led/led_effect-9
+[rostest][INFO] 2023-04-12 03:06:49,795: [led/led_effect-9] killing on exit
+[roslaunch][INFO] 2023-04-12 03:06:49,796: process[led/led_effect-9]: killing os process with pid[48117] pgid[48117]
+[roslaunch][INFO] 2023-04-12 03:06:49,796: [led/led_effect-9] sending SIGINT to pgid [48117]
+[roslaunch][INFO] 2023-04-12 03:06:49,797: [led/led_effect-9] sent SIGINT to pgid [48117]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:49,797: ProcessMonitor exit: killing shell-8
+[rostest][INFO] 2023-04-12 03:06:49,797: [shell-8] killing on exit
+[roslaunch][INFO] 2023-04-12 03:06:49,797: process[shell-8]: killing os process with pid[48104] pgid[48104]
+[roslaunch][INFO] 2023-04-12 03:06:49,797: [shell-8] sending SIGINT to pgid [48104]
+[roslaunch][INFO] 2023-04-12 03:06:49,798: [shell-8] sent SIGINT to pgid [48104]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:49,798: ProcessMonitor exit: killing rc-7
+[rostest][INFO] 2023-04-12 03:06:49,798: [rc-7] killing on exit
+[roslaunch][INFO] 2023-04-12 03:06:49,798: process[rc-7]: killing os process with pid[48097] pgid[48097]
+[roslaunch][INFO] 2023-04-12 03:06:49,799: [rc-7] sending SIGINT to pgid [48097]
+[roslaunch][INFO] 2023-04-12 03:06:49,799: [rc-7] sent SIGINT to pgid [48097]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:49,799: ProcessMonitor exit: killing tf2_web_republisher-6
+[rostest][INFO] 2023-04-12 03:06:49,799: [tf2_web_republisher-6] killing on exit
+[roslaunch][INFO] 2023-04-12 03:06:49,799: process[tf2_web_republisher-6]: killing os process with pid[48088] pgid[48088]
+[roslaunch][INFO] 2023-04-12 03:06:49,800: [tf2_web_republisher-6] sending SIGINT to pgid [48088]
+[roslaunch][INFO] 2023-04-12 03:06:49,800: [tf2_web_republisher-6] sent SIGINT to pgid [48088]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:49,800: ProcessMonitor exit: killing simple_offboard-5
+[rostest][INFO] 2023-04-12 03:06:49,800: [simple_offboard-5] killing on exit
+[roslaunch][INFO] 2023-04-12 03:06:49,801: process[simple_offboard-5]: killing os process with pid[48079] pgid[48079]
+[roslaunch][INFO] 2023-04-12 03:06:49,801: [simple_offboard-5] sending SIGINT to pgid [48079]
+[roslaunch][INFO] 2023-04-12 03:06:49,801: [simple_offboard-5] sent SIGINT to pgid [48079]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:49,801: ProcessMonitor exit: killing map_flipped_frame-4
+[rostest][INFO] 2023-04-12 03:06:49,801: [map_flipped_frame-4] killing on exit
+[roslaunch][INFO] 2023-04-12 03:06:49,802: process[map_flipped_frame-4]: killing os process with pid[48074] pgid[48074]
+[roslaunch][INFO] 2023-04-12 03:06:49,802: [map_flipped_frame-4] sending SIGINT to pgid [48074]
+[roslaunch][INFO] 2023-04-12 03:06:49,802: [map_flipped_frame-4] sent SIGINT to pgid [48074]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:49,802: ProcessMonitor exit: killing web_video_server-3
+[rostest][INFO] 2023-04-12 03:06:49,802: [web_video_server-3] killing on exit
+[roslaunch][INFO] 2023-04-12 03:06:49,802: process[web_video_server-3]: killing os process with pid[48073] pgid[48073]
+[roslaunch][INFO] 2023-04-12 03:06:49,802: [web_video_server-3] sending SIGINT to pgid [48073]
+[roslaunch][INFO] 2023-04-12 03:06:49,803: [web_video_server-3] sent SIGINT to pgid [48073]
+[roslaunch.pmon][INFO] 2023-04-12 03:06:49,803: ProcessMonitor exit: killing visualization-2
+[rostest][INFO] 2023-04-12 03:06:49,803: [visualization-2] killing on exit
+[roslaunch][INFO] 2023-04-12 03:06:49,803: process[visualization-2]: killing os process with pid[48072] pgid[48072]
+[roslaunch][INFO] 2023-04-12 03:06:49,803: [visualization-2] sending SIGINT to pgid [48072]
+[roslaunch][INFO] 2023-04-12 03:06:49,803: [visualization-2] sent SIGINT to pgid [48072]
+[rosmaster.master][INFO] 2023-04-12 03:06:49,962: -PUB [/rosout] /map_flipped_frame http://ubuntu:37259/
+[rosmaster.master][INFO] 2023-04-12 03:06:49,963: -PUB [/tf_static] /map_flipped_frame http://ubuntu:37259/
+[rosmaster.master][INFO] 2023-04-12 03:06:49,964: -SERVICE [/map_flipped_frame/get_loggers] /map_flipped_frame rosrpc://ubuntu:37285
+[rosmaster.master][INFO] 2023-04-12 03:06:49,964: -SERVICE [/map_flipped_frame/set_logger_level] /map_flipped_frame rosrpc://ubuntu:37285
+[rosmaster.master][INFO] 2023-04-12 03:06:49,965: -CACHEDPARAM [/rosout_disable_topics_generation] by /map_flipped_frame
+[rosmaster.master][INFO] 2023-04-12 03:06:49,972: -PUB [/rosout] /led/led_effect http://ubuntu:38415/
+[rosmaster.master][INFO] 2023-04-12 03:06:49,972: -SERVICE [/led/led_effect/get_loggers] /led/led_effect rosrpc://ubuntu:34833
+[rosmaster.master][INFO] 2023-04-12 03:06:49,973: -SERVICE [/led/led_effect/set_logger_level] /led/led_effect rosrpc://ubuntu:34833
+[rosmaster.master][INFO] 2023-04-12 03:06:49,973: -CACHEDPARAM [/rosout_disable_topics_generation] by /led/led_effect
+[rosmaster.master][INFO] 2023-04-12 03:06:49,982: -PUB [/rosout] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:49,982: publisherUpdate[/tf_static] -> http://ubuntu:42465/ ['http://ubuntu:42465/', 'http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:49,983: publisherUpdate[/tf_static] -> http://ubuntu:35369/ ['http://ubuntu:42465/', 'http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:49,983: publisherUpdate[/tf_static] -> http://ubuntu:35369/ ['http://ubuntu:42465/', 'http://ubuntu:35369/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:49,983: publisherUpdate[/tf_static] -> http://ubuntu:38893/ ['http://ubuntu:42465/', 'http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:50,003: -PUB [/rosout] /main_camera/main_camera_throttle http://ubuntu:44855/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,005: -PUB [/rosout] /web_video_server http://ubuntu:46177/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,023: -PUB [/rosout] /shell http://ubuntu:43761/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,023: -PUB [/rosout] /visualization http://ubuntu:45935/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,043: -PUB [/rosout] /rc http://ubuntu:38521/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,043: -SERVICE [/shell/get_loggers] /shell rosrpc://ubuntu:56203
+[rosmaster.master][INFO] 2023-04-12 03:06:50,051: -PUB [/track_markers] /visualization http://ubuntu:45935/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,052: -PUB [/rosout] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,052: publisherUpdate[/tf_static] -> http://ubuntu:42465/ ['http://ubuntu:42465/', 'http://ubuntu:35369/']: sec=0.07, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:50,061: -PUB [/tf] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,072: -PUB [/tf2_web_republisher/result] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,073: publisherUpdate[/tf_static] -> http://ubuntu:38893/ ['http://ubuntu:42465/', 'http://ubuntu:35369/']: sec=0.09, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:06:50,074: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:06:50,074: publisherUpdate[/tf] -> http://ubuntu:42465/ ['http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:50,082: -SUB [/main_camera/image_raw] /main_camera/main_camera_throttle http://ubuntu:44855/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,092: -SERVICE [/web_video_server/get_loggers] /web_video_server rosrpc://ubuntu:52015
+[rosmaster.master][INFO] 2023-04-12 03:06:50,112: -PUB [/vehicle_marker] /visualization http://ubuntu:45935/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,123: -PUB [/mavlink/to] /rc http://ubuntu:38521/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,123: -SERVICE [/shell/set_logger_level] /shell rosrpc://ubuntu:56203
+[rosmaster.master][INFO] 2023-04-12 03:06:50,124: -SERVICE [/exec] /shell rosrpc://ubuntu:56203
+[rosmaster.master][INFO] 2023-04-12 03:06:50,124: -CACHEDPARAM [/rosout_disable_topics_generation] by /shell
+[roslaunch][INFO] 2023-04-12 03:06:50,131: process[map_flipped_frame-4]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2023-04-12 03:06:50,131: ProcessMonitor exit: killing mavros-1
+[rostest][INFO] 2023-04-12 03:06:50,131: [mavros-1] killing on exit
+[roslaunch][INFO] 2023-04-12 03:06:50,131: process[mavros-1]: killing os process with pid[48071] pgid[48071]
+[roslaunch][INFO] 2023-04-12 03:06:50,131: [mavros-1] sending SIGINT to pgid [48071]
+[roslaunch][INFO] 2023-04-12 03:06:50,132: [mavros-1] sent SIGINT to pgid [48071]
+[rosmaster.master][INFO] 2023-04-12 03:06:50,132: publisherUpdate[/tf] -> http://ubuntu:35369/ ['http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:50,142: publisherUpdate[/tf] -> http://ubuntu:35369/ ['http://ubuntu:35369/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:50,142: publisherUpdate[/tf] -> http://ubuntu:38893/ ['http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:50,153: -PUB [/tf_static] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,153: publisherUpdate[/mavlink/to] -> http://ubuntu:35369/ []
+[rosmaster.master][INFO] 2023-04-12 03:06:50,154: publisherUpdate[/tf] -> http://ubuntu:42465/ ['http://ubuntu:35369/']: sec=0.08, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:06:50,154: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:06:50,154: publisherUpdate[/tf_static] -> http://ubuntu:42465/ ['http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:50,162: -PUB [/tf2_web_republisher/feedback] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,163: -SERVICE [/main_camera/main_camera_throttle/get_loggers] /main_camera/main_camera_throttle rosrpc://ubuntu:54025
+[rosmaster.master][INFO] 2023-04-12 03:06:50,163: publisherUpdate[/tf] -> http://ubuntu:38893/ ['http://ubuntu:35369/']: sec=0.02, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:06:50,164: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:06:50,164: publisherUpdate[/tf_static] -> http://ubuntu:38893/ ['http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:50,172: -PUB [/tf2_web_republisher/status] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,173: publisherUpdate[/tf_static] -> http://ubuntu:38893/ ['http://ubuntu:35369/']: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:06:50,173: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:06:50,182: -SERVICE [/web_video_server/set_logger_level] /web_video_server rosrpc://ubuntu:52015
+[rosmaster.master][INFO] 2023-04-12 03:06:50,188: -PUB [/wp_markers] /visualization http://ubuntu:45935/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,191: -PUB [/mavros/manual_control/send] /rc http://ubuntu:38521/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,194: publisherUpdate[/mavlink/to] -> http://ubuntu:35369/ []: sec=0.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:50,194: publisherUpdate[/tf_static] -> http://ubuntu:35369/ ['http://ubuntu:35369/']
+[rosmaster.master][INFO] 2023-04-12 03:06:50,212: -SERVICE [/main_camera/main_camera_throttle/set_logger_level] /main_camera/main_camera_throttle rosrpc://ubuntu:54025
+[rosmaster.master][INFO] 2023-04-12 03:06:50,213: -PUB [/landing_target] /visualization http://ubuntu:45935/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,214: -PUB [/state_latched] /rc http://ubuntu:38521/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,222: -PUB [/mavros/setpoint_position/local] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,223: publisherUpdate[/tf_static] -> http://ubuntu:42465/ ['http://ubuntu:35369/']: sec=0.07, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:06:50,223: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:06:50,223: publisherUpdate[/mavros/setpoint_position/local] -> http://ubuntu:45935/ []
+[roslaunch][INFO] 2023-04-12 03:06:50,234: process[shell-8]: SIGINT killed with return value 0
+[rosmaster.master][INFO] 2023-04-12 03:06:50,243: publisherUpdate[/tf_static] -> http://ubuntu:35369/ ['http://ubuntu:35369/']: sec=0.05, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:50,243: publisherUpdate[/mavros/manual_control/send] -> http://ubuntu:35369/ []
+[rosmaster.master][INFO] 2023-04-12 03:06:50,243: -SUB [/mavros/state] /rc http://ubuntu:38521/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,244: -PUB [/mavros/setpoint_raw/local] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,265: -SUB [/tf] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,266: -SUB [/mavros/local_position/pose] /visualization http://ubuntu:45935/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,266: -PUB [/mavros/setpoint_attitude/attitude] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,268: publisherUpdate[/mavros/setpoint_position/local] -> http://ubuntu:45935/ []: sec=0.04, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:06:50,268: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:06:50,292: -CACHEDPARAM [/rosout_disable_topics_generation] by /web_video_server
+[rosmaster.master][INFO] 2023-04-12 03:06:50,293: -SUB [/tf_static] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,303: publisherUpdate[/mavros/manual_control/send] -> http://ubuntu:35369/ []: sec=0.06, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:50,303: publisherUpdate[/mavros/setpoint_position/local] -> http://ubuntu:35369/ []
+[rosmaster.master][INFO] 2023-04-12 03:06:50,313: publisherUpdate[/mavros/setpoint_position/local] -> http://ubuntu:35369/ []: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:50,313: publisherUpdate[/mavros/setpoint_raw/local] -> http://ubuntu:35369/ []
+[rosmaster.master][INFO] 2023-04-12 03:06:50,313: publisherUpdate[/mavros/setpoint_raw/local] -> http://ubuntu:35369/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:50,313: publisherUpdate[/mavros/setpoint_attitude/attitude] -> http://ubuntu:35369/ []
+[rosmaster.master][INFO] 2023-04-12 03:06:50,323: publisherUpdate[/mavros/setpoint_attitude/attitude] -> http://ubuntu:35369/ []: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:50,333: -SERVICE [/rc/get_loggers] /rc rosrpc://ubuntu:53975
+[rosmaster.master][INFO] 2023-04-12 03:06:50,335: -PUB [/mavros/setpoint_raw/attitude] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,343: -PUB [/mavros/setpoint_attitude/cmd_vel] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,352: -SUB [/mavros/setpoint_position/local] /visualization http://ubuntu:45935/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,353: -SUB [/lt_marker] /visualization http://ubuntu:45935/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,353: -SERVICE [/visualization/get_loggers] /visualization rosrpc://ubuntu:37191
+[rosmaster.master][INFO] 2023-04-12 03:06:50,354: -SERVICE [/visualization/set_logger_level] /visualization rosrpc://ubuntu:37191
+[rosmaster.master][INFO] 2023-04-12 03:06:50,372: publisherUpdate[/mavros/setpoint_raw/attitude] -> http://ubuntu:35369/ []
+[rosmaster.master][INFO] 2023-04-12 03:06:50,373: -SUB [/tf2_web_republisher/goal] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,374: -SUB [/tf2_web_republisher/cancel] /tf2_web_republisher http://ubuntu:38893/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,374: -SERVICE [/tf2_web_republisher/get_loggers] /tf2_web_republisher rosrpc://ubuntu:47223
+[rosmaster.master][INFO] 2023-04-12 03:06:50,374: -SERVICE [/tf2_web_republisher/set_logger_level] /tf2_web_republisher rosrpc://ubuntu:47223
+[rosmaster.master][INFO] 2023-04-12 03:06:50,375: -SERVICE [/republish_tfs] /tf2_web_republisher rosrpc://ubuntu:47223
+[rosmaster.master][INFO] 2023-04-12 03:06:50,382: publisherUpdate[/mavros/setpoint_raw/attitude] -> http://ubuntu:35369/ []: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2023-04-12 03:06:50,383: -PUB [/mavros/setpoint_attitude/thrust] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,383: -PUB [/rosout] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,392: -PUB [/simple_offboard/state] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,402: publisherUpdate[/mavros/setpoint_attitude/thrust] -> http://ubuntu:35369/ []
+[rosmaster.master][INFO] 2023-04-12 03:06:50,403: -PUB [/diagnostics] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,422: -SERVICE [/rc/set_logger_level] /rc rosrpc://ubuntu:53975
+[roslaunch][INFO] 2023-04-12 03:06:50,426: process[main_camera/main_camera_throttle-11]: SIGINT killed with return value 0
+[rosmaster.master][INFO] 2023-04-12 03:06:50,442: -SUB [/tf] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,443: -SUB [/tf_static] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,444: -SUB [/mavros/state] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,444: -SUB [/mavros/local_position/velocity_body] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,444: -SUB [/mavros/global_position/global] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,445: -SUB [/mavros/battery] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,448: -SUB [/mavros/statustext/recv] /simple_offboard http://ubuntu:42465/
+[roslaunch][INFO] 2023-04-12 03:06:50,452: process[tf2_web_republisher-6]: SIGINT killed with return value 0
+[rosmaster.master][INFO] 2023-04-12 03:06:50,452: -SUB [/mavros/manual_control/control] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,463: -PUB [/tf] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,464: publisherUpdate[/mavros/setpoint_attitude/thrust] -> http://ubuntu:35369/ []: sec=0.06, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:06:50,464: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:06:50,464: publisherUpdate[/tf] -> http://ubuntu:35369/ []
+[rosmaster.master][INFO] 2023-04-12 03:06:50,472: -CACHEDPARAM [/rosout_disable_topics_generation] by /rc
+[roslaunch][INFO] 2023-04-12 03:06:50,482: process[visualization-2]: SIGINT killed with return value 0
+[rosmaster.master][INFO] 2023-04-12 03:06:50,492: -SUB [/mavros/local_position/pose] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,502: -PUB [/tf_static] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,504: publisherUpdate[/tf] -> http://ubuntu:35369/ []: sec=0.04, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:06:50,504: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:06:50,504: publisherUpdate[/tf_static] -> http://ubuntu:35369/ []
+[rosmaster.master][INFO] 2023-04-12 03:06:50,512: -PUB [/mavlink/from] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,512: publisherUpdate[/tf_static] -> http://ubuntu:35369/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:06:50,513: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:06:50,517: -SUB [/mavros/altitude] /simple_offboard http://ubuntu:42465/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,518: -SERVICE [/simple_offboard/get_loggers] /simple_offboard rosrpc://ubuntu:45719
+[rosmaster.master][INFO] 2023-04-12 03:06:50,518: -PUB [/mavros/radio_status] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,522: -SERVICE [/simple_offboard/set_logger_level] /simple_offboard rosrpc://ubuntu:45719
+[rosmaster.master][INFO] 2023-04-12 03:06:50,523: -PUB [/mavros/target_actuator_control] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,523: -PUB [/mavros/adsb/vehicle] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,525: -PUB [/mavros/altitude] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,532: -SERVICE [/get_telemetry] /simple_offboard rosrpc://ubuntu:45719
+[rosmaster.master][INFO] 2023-04-12 03:06:50,535: -PUB [/mavros/cam_imu_sync/cam_imu_stamp] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,536: -PUB [/mavros/camera/image_captured] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,536: -PUB [/mavros/debug_value/debug] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,542: -PUB [/mavros/debug_value/debug_vector] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,552: -SERVICE [/navigate] /simple_offboard rosrpc://ubuntu:45719
+[roslaunch][INFO] 2023-04-12 03:06:50,555: process[rc-7]: SIGINT killed with return value 0
+[rosmaster.master][INFO] 2023-04-12 03:06:50,555: -SERVICE [/navigate_global] /simple_offboard rosrpc://ubuntu:45719
+[rosmaster.master][INFO] 2023-04-12 03:06:50,556: -SERVICE [/set_altitude] /simple_offboard rosrpc://ubuntu:45719
+[rosmaster.master][INFO] 2023-04-12 03:06:50,556: -SERVICE [/set_yaw] /simple_offboard rosrpc://ubuntu:45719
+[rosmaster.master][INFO] 2023-04-12 03:06:50,557: -SERVICE [/set_yaw_rate] /simple_offboard rosrpc://ubuntu:45719
+[rosmaster.master][INFO] 2023-04-12 03:06:50,562: -SERVICE [/set_position] /simple_offboard rosrpc://ubuntu:45719
+[rosmaster.master][INFO] 2023-04-12 03:06:50,562: -PUB [/mavros/debug_value/debug_float_array] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,565: -PUB [/mavros/debug_value/named_value_float] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,572: -PUB [/mavros/debug_value/named_value_int] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,573: -PUB [/mavros/distance_sensor/rangefinder] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,575: -PUB [/mavros/esc_info] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,576: -PUB [/mavros/esc_status] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,576: -PUB [/mavros/esc_telemetry] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,576: -PUB [/mavros/geofence/waypoints] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,582: -PUB [/mavros/global_position/raw/fix] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,582: -SERVICE [/set_velocity] /simple_offboard rosrpc://ubuntu:45719
+[rosmaster.master][INFO] 2023-04-12 03:06:50,583: -SERVICE [/set_attitude] /simple_offboard rosrpc://ubuntu:45719
+[rosmaster.master][INFO] 2023-04-12 03:06:50,583: -SERVICE [/set_rates] /simple_offboard rosrpc://ubuntu:45719
+[rosmaster.master][INFO] 2023-04-12 03:06:50,585: -SERVICE [/land] /simple_offboard rosrpc://ubuntu:45719
+[rosmaster.master][INFO] 2023-04-12 03:06:50,592: -SERVICE [/simple_offboard/release] /simple_offboard rosrpc://ubuntu:45719
+[rosmaster.master][INFO] 2023-04-12 03:06:50,593: -CACHEDPARAM [/rosout_disable_topics_generation] by /simple_offboard
+[rosmaster.master][INFO] 2023-04-12 03:06:50,596: -PUB [/mavros/global_position/raw/gps_vel] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,597: -PUB [/mavros/global_position/raw/satellites] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,597: -PUB [/mavros/global_position/global] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,602: -PUB [/mavros/global_position/local] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,602: -PUB [/mavros/global_position/rel_alt] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,603: -PUB [/mavros/global_position/compass_hdg] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,605: -PUB [/mavros/global_position/gp_origin] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,607: -PUB [/mavros/global_position/gp_lp_offset] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,607: -PUB [/mavros/gps_rtk/rtk_baseline] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,607: -PUB [/mavros/gpsstatus/gps1/raw] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,610: -PUB [/mavros/gpsstatus/gps2/raw] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,612: -PUB [/mavros/gpsstatus/gps1/rtk] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,615: publisherUpdate[/mavros/global_position/global] -> http://ubuntu:35369/ []
+[rosmaster.master][INFO] 2023-04-12 03:06:50,615: -PUB [/mavros/gpsstatus/gps2/rtk] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,627: publisherUpdate[/mavros/global_position/global] -> http://ubuntu:35369/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:06:50,628: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:06:50,628: publisherUpdate[/mavros/global_position/gp_origin] -> http://ubuntu:35369/ []
+[rosmaster.master][INFO] 2023-04-12 03:06:50,628: -PUB [/move_base_simple/goal] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,631: publisherUpdate[/mavros/global_position/gp_origin] -> http://ubuntu:35369/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:06:50,631: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:06:50,632: -PUB [/mavros/hil/controls] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,641: -PUB [/mavros/hil/actuator_controls] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,646: -PUB [/mavros/home_position/home] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,647: -PUB [/mavros/imu/data] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,648: -PUB [/mavros/imu/mag] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,651: -PUB [/mavros/imu/temperature_imu] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,652: -PUB [/mavros/imu/temperature_baro] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,653: -PUB [/mavros/imu/static_pressure] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,655: -PUB [/mavros/imu/diff_pressure] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,661: -PUB [/mavros/imu/data_raw] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,668: -PUB [/mavros/landing_target/pose_in] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,672: -PUB [/mavros/landing_target/lt_marker] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,672: -PUB [/mavros/local_position/pose] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,677: -PUB [/mavros/local_position/pose_cov] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,687: -PUB [/mavros/local_position/velocity_local] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,688: -PUB [/mavros/local_position/velocity_body] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,690: -PUB [/mavros/local_position/velocity_body_cov] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,692: -PUB [/mavros/local_position/accel] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,694: -PUB [/mavros/local_position/odom] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,696: publisherUpdate[/mavros/local_position/pose] -> http://ubuntu:35369/ []
+[rosmaster.master][INFO] 2023-04-12 03:06:50,698: -PUB [/mavros/log_transfer/raw/log_entry] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,700: publisherUpdate[/mavros/local_position/pose] -> http://ubuntu:35369/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2023-04-12 03:06:50,700: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2023-04-12 03:06:50,710: -PUB [/mavros/log_transfer/raw/log_data] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,720: -PUB [/mavros/mag_calibration/status] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,727: -PUB [/mavros/mag_calibration/report] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,727: -PUB [/mavros/manual_control/control] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,728: -PUB [/mavros/mount_control/orientation] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,728: -PUB [/mavros/mount_control/status] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,729: -PUB [/mavros/nav_controller_output] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,730: -PUB [/mavros/odometry/in] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,730: -PUB [/mavros/param/param_value] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,731: -PUB [/mavros/px4flow/raw/optical_flow_rad] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,741: -PUB [/mavros/px4flow/ground_distance] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,744: -PUB [/mavros/px4flow/temperature] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,747: -PUB [/mavros/rallypoint/waypoints] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,748: -PUB [/mavros/rangefinder/rangefinder] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,749: -PUB [/mavros/rc/in] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,750: -PUB [/mavros/rc/out] /mavros http://ubuntu:35369/
+[roslaunch][INFO] 2023-04-12 03:06:50,761: process[clover_blocks-10]: SIGINT killed with return value 0
+[roslaunch][INFO] 2023-04-12 03:06:50,761: process[simple_offboard-5]: SIGINT killed with return value 0
+[rosmaster.master][INFO] 2023-04-12 03:06:50,762: -PUB [/mavros/safety_area/get] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,763: -PUB [/mavros/setpoint_raw/target_local] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,765: -PUB [/mavros/setpoint_raw/target_global] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,766: -PUB [/mavros/setpoint_raw/target_attitude] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,767: -PUB [/mavros/setpoint_trajectory/desired] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,769: -PUB [/mavros/state] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,771: -PUB [/mavros/extended_state] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,775: -PUB [/mavros/battery] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,778: -PUB [/mavros/estimator_status] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,780: -PUB [/mavros/statustext/recv] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,782: -PUB [/mavros/time_reference] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,786: -PUB [/mavros/timesync_status] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,792: -PUB [/mavros/terrain/report] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,794: -PUB [/mavros/trajectory/desired] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,795: -PUB [/mavros/tunnel/out] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,797: -PUB [/mavros/vfr_hud] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,799: -PUB [/mavros/vibration/raw/vibration] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,801: -PUB [/mavros/mission/waypoints] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,805: -PUB [/mavros/mission/reached] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,809: -PUB [/mavros/wind_estimation] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,812: -PUB [/mavlink/gcs_ip] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,814: -SUB [/tf] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,820: -SUB [/tf_static] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,830: -SUB [/mavlink/to] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,837: -SUB [/mavros/actuator_control] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,837: -SUB [/mavros/adsb/send] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,838: -SUB [/mavros/cellular_status/status] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,838: -SUB [/mavros/companion_process/status] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,839: -SUB [/mavros/debug_value/send] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,839: -SUB [/mavros/distance_sensor/rangefinder_sub] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,841: -SUB [/mavros/fake_gps/mocap/tf] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,844: -SUB [/mavros/global_position/set_gp_origin] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,845: -SUB [/mavros/global_position/home] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,852: -SUB [/mavros/gps_input/gps_input] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,853: -SUB [/mavros/gps_rtk/send_rtcm] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,862: -SUB [/mavros/global_position/gp_origin] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,862: -SUB [/mavros/hil/state] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,863: -SUB [/mavros/hil/gps] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,872: -SUB [/mavros/hil/imu_ned] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,878: -SUB [/mavros/hil/optical_flow] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,880: -SUB [/mavros/hil/rc_inputs] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,880: -SUB [/mavros/home_position/set] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,880: -SUB [/mavros/landing_target/pose] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,892: -SUB [/mavros/manual_control/send] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,902: -SUB [/mavros/mocap/pose] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,903: -SUB [/mavros/mount_control/command] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,912: -SUB [/mavros/obstacle/send] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,912: -SUB [/mavros/odometry/out] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,913: -SUB [/mavros/onboard_computer/status] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,913: -SUB [/mavros/play_tune] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,922: -SUB [/mavros/px4flow/raw/send] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,922: -SUB [/mavros/rc/override] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,923: -SUB [/mavros/safety_area/set] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,923: -SUB [/mavros/setpoint_accel/accel] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,923: -SUB [/mavros/setpoint_attitude/thrust] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,924: -SUB [/mavros/setpoint_attitude/attitude] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,930: -SUB [/mavros/setpoint_position/local] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,941: -SUB [/mavros/setpoint_position/global] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,943: -SUB [/mavros/setpoint_position/global_to_local] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,944: -SUB [/mavros/global_position/global] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,946: -SUB [/mavros/local_position/pose] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,947: -SUB [/mavros/setpoint_raw/local] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,952: -SUB [/mavros/setpoint_raw/global] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,953: -SUB [/mavros/setpoint_raw/attitude] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,956: -SUB [/mavros/setpoint_trajectory/local] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,957: -SUB [/mavros/setpoint_velocity/cmd_vel] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,961: -SUB [/mavros/setpoint_velocity/cmd_vel_unstamped] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,962: -SUB [/mavros/statustext/send] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,963: -SUB [/mavros/trajectory/generated] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,971: -SUB [/mavros/trajectory/path] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,972: -SUB [/mavros/tunnel/in] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,973: -SUB [/mavros/vision_pose/pose] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,982: -SUB [/mavros/vision_pose/pose_cov] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,983: -SUB [/mavros/vision_speed/speed_twist_cov] /mavros http://ubuntu:35369/
+[rosmaster.master][INFO] 2023-04-12 03:06:50,984: -SERVICE [/mavros/get_loggers] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:50,988: -SERVICE [/mavros/set_logger_level] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:50,988: -SERVICE [/mavros/cmd/command] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:50,992: -SERVICE [/mavros/cmd/command_ack] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:50,995: -SERVICE [/mavros/cmd/command_int] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:50,996: -SERVICE [/mavros/cmd/arming] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:50,997: -SERVICE [/mavros/cmd/set_home] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:50,998: -SERVICE [/mavros/cmd/takeoff] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,002: -SERVICE [/mavros/cmd/land] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,004: -SERVICE [/mavros/cmd/trigger_control] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,006: -SERVICE [/mavros/cmd/trigger_interval] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,009: -SERVICE [/mavros/cmd/vtol_transition] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,012: -SERVICE [/mavros/ftp/list] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,015: -SERVICE [/mavros/ftp/open] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,016: -SERVICE [/mavros/ftp/close] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,016: -SERVICE [/mavros/ftp/read] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,017: -SERVICE [/mavros/ftp/write] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,019: -SERVICE [/mavros/ftp/mkdir] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,020: -SERVICE [/mavros/ftp/rmdir] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,023: -SERVICE [/mavros/ftp/remove] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,023: -SERVICE [/mavros/ftp/truncate] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,028: -SERVICE [/mavros/ftp/reset] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,029: -SERVICE [/mavros/ftp/rename] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,031: -SERVICE [/mavros/ftp/checksum] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,032: -SERVICE [/mavros/geofence/pull] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,032: -SERVICE [/mavros/geofence/push] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,033: -SERVICE [/mavros/geofence/clear] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,033: -SERVICE [/mavros/home_position/req_update] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,033: -SERVICE [/mavros/log_transfer/raw/log_request_list] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,041: -SERVICE [/mavros/log_transfer/raw/log_request_data] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,045: -SERVICE [/mavros/log_transfer/raw/log_request_end] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,045: -SERVICE [/mavros/log_transfer/raw/log_request_erase] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,047: -SERVICE [/mavros/mount_control/configure] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,050: -SERVICE [/mavros/param/pull] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,063: -SERVICE [/mavros/param/push] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,065: -SERVICE [/mavros/param/set] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,069: -SERVICE [/mavros/param/get] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,070: -SERVICE [/mavros/rallypoint/pull] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,070: -SERVICE [/mavros/rallypoint/push] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,071: -SERVICE [/mavros/rallypoint/clear] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,072: -SERVICE [/mavros/setpoint_position/mav_frame] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,073: -SERVICE [/mavros/setpoint_trajectory/reset] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,087: -SERVICE [/mavros/setpoint_trajectory/mav_frame] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,087: -SERVICE [/mavros/setpoint_velocity/mav_frame] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,088: -SERVICE [/mavros/set_stream_rate] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,088: -SERVICE [/mavros/set_mode] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,088: -SERVICE [/mavros/vehicle_info_get] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,089: -SERVICE [/mavros/set_message_interval] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,091: -SERVICE [/mavros/mission/pull] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,091: -SERVICE [/mavros/mission/push] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,091: -SERVICE [/mavros/mission/clear] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,092: -SERVICE [/mavros/mission/set_current] /mavros rosrpc://ubuntu:50421
+[rosmaster.master][INFO] 2023-04-12 03:06:51,092: -CACHEDPARAM [/mavros/diagnostic_period] by /mavros
+[rosmaster.master][INFO] 2023-04-12 03:06:51,102: -CACHEDPARAM [/rosout_disable_topics_generation] by /mavros
+[roslaunch][INFO] 2023-04-12 03:06:51,173: process[led/led_effect-9]: SIGINT killed with return value -11
+[roslaunch][INFO] 2023-04-12 03:06:51,273: process[mavros-1]: SIGINT killed with return value 0
+[roslaunch][INFO] 2023-04-12 03:06:51,374: process[web_video_server-3]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2023-04-12 03:06:51,374: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2023-04-12 03:06:51,374: ProcessMonitor exit: pmon has shutdown
+[rostest][INFO] 2023-04-12 03:06:51,374: ... shutting down processing monitor complete
+[roslaunch.pmon][INFO] 2023-04-12 03:06:51,375: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 139668517148416)>
+[rostest][INFO] 2023-04-12 03:06:51,375: rostest teardown /home/clover/catkin_ws/src/clover/clover/test/basic.test complete
+[rostest][INFO] 2023-04-12 03:06:51,376: finally rostest parent tearDown [<rostest.rostest_parent.ROSTestLaunchParent object at 0x7f071c5fae50>]
+[roslaunch][INFO] 2023-04-12 03:06:51,376: runner.stop()
+[roslaunch][INFO] 2023-04-12 03:06:51,376: ... roslaunch runner has already been stopped
+[rostest][INFO] 2023-04-12 03:06:51,376: calling pmon_shutdown
+[rostest][INFO] 2023-04-12 03:06:51,376: ... done calling pmon_shutdown
+[rospy.core][INFO] 2023-04-12 03:06:51,377: signal_shutdown [atexit]

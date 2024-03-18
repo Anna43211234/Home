@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="en" xml:lang="en">
+<head>
+    <title>Объявления</title>
+    <link rel="shortcut icon" href="http://moodle.ggpi.org/theme/image.php/boost/theme/1689586546/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Объявления" />
+<link rel="stylesheet" type="text/css" href="http://moodle.ggpi.org/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="http://moodle.ggpi.org/theme/styles.php/boost/1689586546/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"http:\/\/moodle.ggpi.org","sesskey":"0stxdx4WSB","themerev":"1689586546","slasharguments":1,"theme":"boost","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1689586546","admin":"admin","svgicons":true,"usertimezone":"Europe\/Samara","contextid":208037};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"http:\/\/moodle.ggpi.org\/lib\/yuilib\/3.17.2\/","comboBase":"http:\/\/moodle.ggpi.org\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"http:\/\/moodle.ggpi.org\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"http:\/\/moodle.ggpi.org\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"http:\/\/moodle.ggpi.org\/theme\/yui_combo.php?m\/1689586546\/","combine":true,"comboBase":"http:\/\/moodle.ggpi.org\/theme\/yui_combo.php?","ext":false,"root":"m\/1689586546\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"http:\/\/moodle.ggpi.org\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"http:\/\/moodle.ggpi.org\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1689586546\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"http:\/\/moodle.ggpi.org\/lib\/javascript.php\/1689586546\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"http:\/\/moodle.ggpi.org\/lib\/javascript.php\/1689586546\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.1\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body  id="page-mod-forum-view" class="format-topics forumtype-news  path-mod path-mod-forum gecko dir-ltr lang-en yui-skin-sam yui3-skin-sam moodle-ggpi-org pagelayout-incourse course-3185 context-208037 cmid-65698 category-22 drawer-open-left">
+
+<div id="page-wrapper">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
+</div><script type="text/javascript" src="http://moodle.ggpi.org/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script type="text/javascript" src="http://moodle.ggpi.org/lib/javascript.php/1689586546/lib/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <header role="banner" class="pos-f-t navbar navbar-full navbar-light bg-faded navbar-static-top moodle-has-zindex">
+    
+        <div class="container-fluid navbar-nav">
+    
+            <div data-region="drawer-toggle">
+                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn pull-xs-left m-r-1 btn-secondary" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true" title="" aria-label=""></i><span class="sr-only">Side panel</span></button>
+            </div>
+    
+            <a href="http://moodle.ggpi.org" class="navbar-brand 
+                    hidden-sm-down
+                    ">
+                <span class="site-name hidden-sm-down">Электронное  обучение</span>
+            </a>
+    
+            <!-- user_menu -->
+            <div class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items" id="action-menu-1" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar" id="action-menu-1-menubar" role="menubar">
+
+            <div class="dropdown d-inline">
+    <a href="#" class="dropdown-toggle" id="dropdown-1" title="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="userbutton"><span class="usertext">Анна Ивановна Корепанова</span><span class="avatars"><span class="avatar current"><img src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/u/f2" alt="Picture of Анна Ивановна Корепанова" title="Picture of Анна Ивановна Корепанова" class="userpicture defaultuserpic" width="35" height="35" role="presentation" /></span></span></span><b class="caret"></b></a>
+        <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
+            <a href="http://moodle.ggpi.org/my/" class="dropdown-item menu-action" role="menuitem"data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1"><i class="icon fa fa-tachometer fa-fw " aria-hidden="true" title="Dashboard" aria-label="Dashboard"></i><span class="menu-action-text" id="actionmenuaction-1">Dashboard</span></a><div class="dropdown-divider"></div><a href="http://moodle.ggpi.org/user/profile.php?id=7721" class="dropdown-item menu-action" role="menuitem"data-title="profile,moodle" aria-labelledby="actionmenuaction-2"><i class="icon fa fa-user fa-fw " aria-hidden="true" title="Profile" aria-label="Profile"></i><span class="menu-action-text" id="actionmenuaction-2">Profile</span></a><a href="http://moodle.ggpi.org/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem"data-title="grades,grades" aria-labelledby="actionmenuaction-3"><i class="icon fa fa-table fa-fw " aria-hidden="true" title="Grades" aria-label="Grades"></i><span class="menu-action-text" id="actionmenuaction-3">Grades</span></a><a href="http://moodle.ggpi.org/message/index.php" class="dropdown-item menu-action" role="menuitem"data-title="messages,message" aria-labelledby="actionmenuaction-4"><i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Messages" aria-label="Messages"></i><span class="menu-action-text" id="actionmenuaction-4">Messages</span></a><a href="http://moodle.ggpi.org/user/preferences.php" class="dropdown-item menu-action" role="menuitem"data-title="preferences,moodle" aria-labelledby="actionmenuaction-5"><i class="icon fa fa-wrench fa-fw " aria-hidden="true" title="Preferences" aria-label="Preferences"></i><span class="menu-action-text" id="actionmenuaction-5">Preferences</span></a><div class="dropdown-divider"></div><a href="http://moodle.ggpi.org/login/logout.php?sesskey=0stxdx4WSB" class="dropdown-item menu-action" role="menuitem"data-title="logout,moodle" aria-labelledby="actionmenuaction-6"><i class="icon fa fa-sign-out fa-fw " aria-hidden="true" title="Log out" aria-label="Log out"></i><span class="menu-action-text" id="actionmenuaction-6">Log out</span></a>
+        </div>
+</div>
+
+
+        </div>
+
+</div></div>
+    
+            <!-- navbar_plugin_output -->
+            <div class="popover-region collapsed popover-region-messages"
+    id="nav-message-popover-container" data-userid="7721"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-region="popover-region-toggle"
+        aria-role="button"
+        aria-controls="popover-region-container-65ef41ae1dca565ef41ae14fc511"
+        aria-haspopup="true"
+        aria-label="Show message window with no new messages"
+        tabindex="0">
+                <i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Toggle messages menu" aria-label="Toggle messages menu"></i>
+        <div class="count-container hidden" data-region="count-container"></div>
+
+    </div>
+    <div 
+        id="popover-region-container-65ef41ae1dca565ef41ae14fc511"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Notification window"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Messages</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <div class="newmessage-link">
+                <a href="http://moodle.ggpi.org/message/index.php?contactsfirst=1">New message
+                </a>
+        </div>
+        <div class="hover-tooltip-container">
+                    <a class="mark-all-read-button"
+                    href="#"
+                    role="button"
+                    title="Mark all as read"
+                    data-action="mark-all-read">
+                    <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true" title="Mark all as read" aria-label="Mark all as read"></i></span>
+                    <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/y/loading" /></span>
+                </a>
+
+    <div class="hover-tooltip">
+        Mark all as read
+    </div>
+</div>
+        <div class="hover-tooltip-container">
+                    <a href="http://moodle.ggpi.org/message/edit.php?id=7721"
+                    title="Message preferences">
+                    <i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Message preferences" aria-label="Message preferences"></i>
+                </a>
+
+    <div class="hover-tooltip">
+        Message preferences
+    </div>
+</div>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="messages" data-region="messages" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" data-region="empty-message" tabindex="0">No messages</div>
+
+            </div>
+            <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/y/loading" /></span>
+        </div>
+                <a class="see-all-link"
+                    href="http://moodle.ggpi.org/message/index.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div><div class="popover-region collapsed popover-region-notifications"
+    id="nav-notification-popover-container" data-userid="7721"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-region="popover-region-toggle"
+        aria-role="button"
+        aria-controls="popover-region-container-65ef41ae211c365ef41ae14fc512"
+        aria-haspopup="true"
+        aria-label="Show notification window with no new notifications"
+        tabindex="0">
+                <i class="icon fa fa-bell fa-fw " aria-hidden="true" title="Toggle notifications menu" aria-label="Toggle notifications menu"></i>
+        <div class="count-container hidden" data-region="count-container"></div>
+
+    </div>
+    <div 
+        id="popover-region-container-65ef41ae211c365ef41ae14fc512"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Notification window"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notifications</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <div class="hover-tooltip-container">
+                    <a class="mark-all-read-button"
+                    href="#"
+                    title="Mark all as read"
+                    data-action="mark-all-read"
+                    role="button">
+                    <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true" title="Mark all as read" aria-label="Mark all as read"></i></span>
+                    <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/y/loading" /></span>
+                </a>
+
+    <div class="hover-tooltip">
+        Mark all as read
+    </div>
+</div>
+        <div class="hover-tooltip-container">
+                    <a href="http://moodle.ggpi.org/message/notificationpreferences.php?userid=7721"
+                    title="Notification preferences">
+                    <i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Notification preferences" aria-label="Notification preferences"></i>
+                </a>
+
+    <div class="hover-tooltip">
+        Notification preferences
+    </div>
+</div>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications"
+            data-region="all-notifications"
+            role="log"
+            aria-busy="false"
+            aria-atomic="false"
+            aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">You have no notifications</div>
+
+            </div>
+            <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/y/loading" /></span>
+        </div>
+                <a class="see-all-link"
+                    href="http://moodle.ggpi.org/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div>
+    
+            <!-- search_box -->
+            <span class="hidden-md-down">
+            
+            </span>
+    
+            <nav class="nav navbar-nav hidden-md-down">
+                <!-- custom_menu -->
+                <div class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-65ef41ae247fd65ef41ae14fc515" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+        English ‎(en)‎
+    </a>
+    <div class="dropdown-menu" aria-labelledby="drop-down-65ef41ae247fd65ef41ae14fc515">
+                <a class="dropdown-item" href="http://moodle.ggpi.org/mod/forum/view.php?id=65698&amp;lang=ru" title="Русский ‎(ru)‎">Русский ‎(ru)‎</a>
+                <a class="dropdown-item" href="http://moodle.ggpi.org/mod/forum/view.php?id=65698&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a>
+    </div>
+</div>
+                <!-- page_heading_menu -->
+                
+            </nav>
+        </div>
+    </header>
+    
+
+    <div id="page" class="container-fluid">
+        <header id="page-header" class="row"><div class="col-xs-12 p-a-1"><div class="card"><div class="card-block"><div class="pull-xs-right context-header-settings-menu"></div><div class="pull-xs-left"><div class="page-context-header"><div class="page-header-headings"><h1>Внедрение и поддержка компьютерных систем</h1></div></div></div><div class="clearfix w-100 pull-xs-left" id="page-navbar"><div class="breadcrumb-nav"><nav role="navigation">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="http://moodle.ggpi.org/my/" >Dashboard</a></li>
+                <li class="breadcrumb-item">My courses</li>
+                <li class="breadcrumb-item"><a href="http://moodle.ggpi.org/course/view.php?id=3185" title="Внедрение и поддержка компьютерных систем">Внедрение и поддержка компьютерных систем</a></li>
+                <li class="breadcrumb-item"><a href="http://moodle.ggpi.org/course/view.php?id=3185#section-0" >General</a></li>
+                <li class="breadcrumb-item"><a href="http://moodle.ggpi.org/mod/forum/view.php?id=65698" title="Forum">Объявления</a></li>
+    </ol>
+</nav></div><div class="breadcrumb-button pull-xs-right"><div class="forumsearch">
+    <form action="http://moodle.ggpi.org/mod/forum/search.php" class="form-inline">
+        <input type="hidden" name="id" value="3185">
+        <div class="form-group">
+                <a class="btn btn-link p-a-0" role="button"
+                    data-container="body" data-toggle="popover"
+                    data-placement="right" data-content="&lt;div class=&quot;no-overflow&quot;&gt;&lt;p&gt;For basic searching of one or more words anywhere in the text, just type them separated by spaces. All words longer than two characters are used.&lt;/p&gt;
+
+&lt;p&gt;For advanced searching, press the search button without typing anything in the search box to access the advanced search form.&lt;/p&gt;
+&lt;/div&gt; "
+                    data-html="true" tabindex="0" data-trigger="focus">
+                  <i class="icon fa fa-question-circle text-info fa-fw " aria-hidden="true" title="Help with Search" aria-label="Help with Search"></i>
+                </a>
+            <label class="sr-only" for="search">Search</label>
+            <input id="search" name="search" type="text" class="form-control" value="">
+        </div>
+        <button class="btn btn-secondary" id="searchforums" type="submit">Search forums</button>
+    </form>
+</div></div></div><div id="course-header"></div></div></div></div></header>
+
+        <div id="page-content" class="row">
+            <div id="region-main-box" class="col-xs-12">
+                <div id="region-main-settings-menu" class="hidden-print ">
+                    <div> <div class="action-menu moodle-actionmenu" id="action-menu-3" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar" id="action-menu-3-menubar" role="menubar">
+
+            <div class="dropdown d-inline">
+    <a href="#" class="dropdown-toggle" id="dropdown-3" title="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon fa fa-cog fa-fw " aria-hidden="true" title="" aria-label=""></i></a>
+        <div class="dropdown-menu dropdown-menu-right menu align-tr-br" id="action-menu-3-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-3" role="menu" data-align="tr-br">
+            <div class="dropdown-item">
+
+    <span class="currentlink "  role="menuitem" ><i class="icon fa fa-fw fa-fw " aria-hidden="true" title="" aria-label=""></i>Forced subscription</span>
+
+
+
+</div>
+        </div>
+</div>
+
+
+        </div>
+
+</div> </div>
+                </div>
+                <section id="region-main" >
+                    <div class="card card-block">
+                        <div class="region_main_settings_menu_proxy"></div>
+                    <span class="notifications" id="user-notifications"></span>
+                    <div role="main"><span id="maincontent"></span><h2>Объявления</h2><div id="intro" class="box generalbox p-y-1"><div class="no-overflow">Здесь размещаются главные новости и объявления от преподавателя. Каждый раз входя в систему, начинайте изучение материала с этой страницы.</div></div><br /><table cellspacing="0" class="forumheaderlist"><thead><tr><th class="header topic" scope="col">Discussion</th><th class="header author" scope="col">Started by</th><th class="header replies" scope="col">Replies</th><th class="header lastpost" scope="col">Last post</th></tr></thead><tbody>
+
+<tr class="discussion r0"><td class="topic starter"><a href="http://moodle.ggpi.org/mod/forum/discuss.php?d=36325">27 февраля, 10:05</a></td>
+<td class="author"><span class="picture"><a href="http://moodle.ggpi.org/user/view.php?id=292&amp;course=3185"><img src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/u/f2" alt="Picture of Кирилл Александрович Касаткин" title="Picture of Кирилл Александрович Касаткин" class="userpicture defaultuserpic" width="35" height="35" /></a></span><span class="name"><a href="http://moodle.ggpi.org/user/view.php?id=292&amp;course=3185">Кирилл Александрович Касаткин</a></span></td>
+<td class="replies"><a href="http://moodle.ggpi.org/mod/forum/discuss.php?d=36325">1</a></td>
+<td class="lastpost"><a href="http://moodle.ggpi.org/user/view.php?id=292&amp;course=3185">Кирилл Александрович Касаткин</a><br /><a href="http://moodle.ggpi.org/mod/forum/discuss.php?d=36325&amp;parent=370135">Mon, 26 Feb 2024, 7:33 PM</a></td>
+</tr>
+
+
+
+<tr class="discussion r1"><td class="topic starter"><a href="http://moodle.ggpi.org/mod/forum/discuss.php?d=36324">27 февраля, 08:20</a></td>
+<td class="author"><span class="picture"><a href="http://moodle.ggpi.org/user/view.php?id=292&amp;course=3185"><img src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/u/f2" alt="Picture of Кирилл Александрович Касаткин" title="Picture of Кирилл Александрович Касаткин" class="userpicture defaultuserpic" width="35" height="35" /></a></span><span class="name"><a href="http://moodle.ggpi.org/user/view.php?id=292&amp;course=3185">Кирилл Александрович Касаткин</a></span></td>
+<td class="replies"><a href="http://moodle.ggpi.org/mod/forum/discuss.php?d=36324">1</a></td>
+<td class="lastpost"><a href="http://moodle.ggpi.org/user/view.php?id=292&amp;course=3185">Кирилл Александрович Касаткин</a><br /><a href="http://moodle.ggpi.org/mod/forum/discuss.php?d=36324&amp;parent=370133">Mon, 26 Feb 2024, 7:30 PM</a></td>
+</tr>
+
+
+
+<tr class="discussion r0"><td class="topic starter"><a href="http://moodle.ggpi.org/mod/forum/discuss.php?d=36314">26 февраля, 10:05</a></td>
+<td class="author"><span class="picture"><a href="http://moodle.ggpi.org/user/view.php?id=292&amp;course=3185"><img src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/u/f2" alt="Picture of Кирилл Александрович Касаткин" title="Picture of Кирилл Александрович Касаткин" class="userpicture defaultuserpic" width="35" height="35" /></a></span><span class="name"><a href="http://moodle.ggpi.org/user/view.php?id=292&amp;course=3185">Кирилл Александрович Касаткин</a></span></td>
+<td class="replies"><a href="http://moodle.ggpi.org/mod/forum/discuss.php?d=36314">1</a></td>
+<td class="lastpost"><a href="http://moodle.ggpi.org/user/view.php?id=292&amp;course=3185">Кирилл Александрович Касаткин</a><br /><a href="http://moodle.ggpi.org/mod/forum/discuss.php?d=36314&amp;parent=370119">Mon, 26 Feb 2024, 6:55 AM</a></td>
+</tr>
+
+</tbody></table></div>
+                    
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="nav-drawer" data-region="drawer" class="hidden-print moodle-has-zindex " aria-hidden="false" tabindex="-1">
+        <nav class="list-group">
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185" data-key="coursehome">
+                <div class="m-l-0">
+                        Внедрение и поддержка компьютерных систем
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/user/index.php?id=3185" data-key="participants">
+                <div class="m-l-0">
+                        Participants
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/badges/view.php?type=2&amp;id=3185" data-key="badgesview">
+                <div class="m-l-0">
+                        Badges
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/admin/tool/lp/coursecompetencies.php?courseid=3185" data-key="2">
+                <div class="m-l-0">
+                        Competencies
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/grade/report/index.php?id=3185" data-key="grades">
+                <div class="m-l-0">
+                        Grades
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action font-weight-bold" href="http://moodle.ggpi.org/course/view.php?id=3185#section-0" data-key="27802">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">General</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-1" data-key="27844">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">Лекционные занятия</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-2" data-key="27803">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">1. ГОСТ Р ИСО/МЭК 12207. Основные понятия АИС</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-3" data-key="27804">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">2. Виды внедрения, план внедрения. Жизненный цикл АИС. Модели жизненного цикла АИС</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-4" data-key="27805">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">3. Функции менеджера сопровождения и менеджера развертывания</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-5" data-key="27806">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">4. Типовые функции инструментария для автоматизации процесса внедрения информационной системы</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-6" data-key="27827">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">5. Оценка качества функционирования информационной системы</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-7" data-key="27828">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">6. Организация процесса обновления в информационной системе</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-8" data-key="27829">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">7. Тестирование программного обеспечения в процессе внедрения и эксплуатации</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-9" data-key="27830">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">8. Эксплуатационная документация</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-10" data-key="27831">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">9. Понятие совместимости программного обеспечения</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-11" data-key="27832">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">10. Причины возникновения проблем совместимости</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-12" data-key="27833">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">11. Выполнение чистой загрузки</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-13" data-key="27834">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">12. Проблемы перехода на новые версии программ</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-14" data-key="27835">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">13. Анализ приложений с проблемами совместимости</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-15" data-key="27836">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">14. Создание в системе виртуальной машины для исполнения приложений</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-16" data-key="27837">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">15. Изменение настроек по умолчанию в образе</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-17" data-key="27838">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">16. Решение проблем конфигурации с помощью групповых политик</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-18" data-key="27839">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">17. Тестирование на совместимость в безопасном режиме</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-19" data-key="27840">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">18. Производительность ПК</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-20" data-key="27841">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">19. Настройка управления питанием</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-21" data-key="27845">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">Практические занятия</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-22" data-key="27842">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">1. Разработка сценария внедрения программного продукта для рабочего места</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-23" data-key="27846">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">2. Разработка руководства оператора</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-24" data-key="27847">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">3. Разработка (подготовка) документации и отчетных форм для внедрения программных средств</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-25" data-key="27848">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">4. Средства диагностики оборудования. Разрешение проблем аппаратного сбоя</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-26" data-key="27849">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">5. Аппаратно-программные платформы серверов и рабочих станций</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-27" data-key="27850">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">6. Установка серверной части. Виды серверного программного обеспечения</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185#section-28" data-key="27851">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">7. Особенности эксплуатации различных видов серверного программного обеспечения</span>
+                        </div>
+                </div>
+            </a>
+        </nav>
+        <nav class="list-group m-t-1">
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/my/" data-key="myhome">
+                <div class="m-l-0">
+                        Dashboard
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/?redirect=0" data-key="home">
+                <div class="m-l-0">
+                        Site home
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/calendar/view.php?view=month" data-key="calendar">
+                <div class="m-l-0">
+                        Calendar
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/user/files.php" data-key="privatefiles">
+                <div class="m-l-0">
+                        Private files
+                </div>
+            </a>
+            <div class="list-group-item" data-key="mycourses">
+                <div class="m-l-0">
+                    My courses
+                </div>
+            </div>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3186" data-key="3186">
+                <div class="m-l-1">
+                        Технология хранения, передачи и публикации цифровой мультимедийной информации
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185" data-key="3185">
+                <div class="m-l-1">
+                        Внедрение и поддержка компьютерных систем
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3184" data-key="3184">
+                <div class="m-l-1">
+                        Основы алгоритмизации и программирования
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3041" data-key="3041">
+                <div class="m-l-1">
+                        ДМиМЛ
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=87" data-key="87">
+                <div class="m-l-1">
+                        ИТ
+                </div>
+            </a>
+        </nav>
+    </div>
+</div>
+<footer id="page-footer" class="p-y-1 bg-inverse">
+    <div class="container">
+        <div id="course-footer"></div>
+
+
+        <div class="logininfo">You are logged in as <a href="http://moodle.ggpi.org/user/profile.php?id=7721" title="View profile">Анна Ивановна Корепанова</a> (<a href="http://moodle.ggpi.org/login/logout.php?sesskey=0stxdx4WSB">Log out</a>)</div>
+        <div class="homelink"><a href="http://moodle.ggpi.org/course/view.php?id=3185">Внедрение и поддержка компьютерных систем</a></div>
+        <nav class="nav navbar-nav hidden-lg-up">
+                <ul class="list-unstyled p-t-1">
+                                    <li><a href="#" title="Language">English ‎(en)‎</a></li>
+                                <li>
+                                    <ul class="list-unstyled m-l-1">
+                                                        <li><a href="http://moodle.ggpi.org/mod/forum/view.php?id=65698&amp;lang=ru" title="Русский ‎(ru)‎">Русский ‎(ru)‎</a></li>
+                                                        <li><a href="http://moodle.ggpi.org/mod/forum/view.php?id=65698&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a></li>
+                                    </ul>
+                                </li>
+                </ul>
+        </nav>
+        
+        <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'http://moodle.ggpi.org/lib/requirejs.php/1689586546/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'http://moodle.ggpi.org/lib/javascript.php/1689586546/lib/jquery/jquery-3.1.0.min',
+        jqueryui: 'http://moodle.ggpi.org/lib/javascript.php/1689586546/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'http://moodle.ggpi.org/lib/javascript.php/1689586546/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="http://moodle.ggpi.org/lib/javascript.php/1689586546/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "http://moodle.ggpi.org/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("en",{
+ "Play": "Play",
+ "Pause": "Pause",
+ "Current Time": "Current Time",
+ "Duration Time": "Duration Time",
+ "Remaining Time": "Remaining Time",
+ "Stream Type": "Stream Type",
+ "LIVE": "LIVE",
+ "Loaded": "Loaded",
+ "Progress": "Progress",
+ "Fullscreen": "Fullscreen",
+ "Non-Fullscreen": "Non-Fullscreen",
+ "Mute": "Mute",
+ "Unmute": "Unmute",
+ "Playback Rate": "Playback Rate",
+ "Subtitles": "Subtitles",
+ "subtitles off": "subtitles off",
+ "Captions": "Captions",
+ "captions off": "captions off",
+ "Chapters": "Chapters",
+ "Close Modal Dialog": "Close Modal Dialog",
+ "Descriptions": "Descriptions",
+ "descriptions off": "descriptions off",
+ "Audio Track": "Audio Track",
+ "You aborted the media playback": "You aborted the media playback",
+ "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+ "No compatible source was found for this media.": "No compatible source was found for this media.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+ "Play Video": "Play Video",
+ "Close": "Close",
+ "Modal Window": "Modal Window",
+ "This is a modal window": "This is a modal window",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+ ", opens captions settings dialog": ", opens captions settings dialog",
+ ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+ ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+ ", selected": ", selected"
+});
+
+    });
+});;
+
+require(['jquery', 'message_popup/message_popover_controller'], function($, controller) {
+    var container = $('#nav-message-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select65ef41ae14fc514').change(function() {
+        $('#single_select_f65ef41ae14fc513').submit();
+    });
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select65ef41ae14fc518').change(function() {
+        $('#single_select_f65ef41ae14fc517').submit();
+    });
+});
+;
+
+require(['theme_boost/loader']);
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+});
+;
+require(["core/notification"], function(amd) { amd.init(208037, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"});
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-mod_forum-subscriptiontoggle",function() {Y.M.mod_forum.subscriptiontoggle.init();
+});
+ M.util.js_pending('random65ef41ae14fc519'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random65ef41ae14fc519'); });
+})();
+//]]>
+</script>
+
+    </div>
+</footer>
+
+</body>
+</html>�a�O�      e�A�e�A�F��e�A�   X    O^partitionKey=%28http%2Cggpi.org%29,:http://moodle.ggpi.org/mod/forum/view.php?id=65698 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Mon, 11 Mar 2024 17:38:53 GMT
+Server: Apache
+Cache-Control: private, pre-check=0, post-check=0, max-age=0, no-transform
+Pragma: no-cache
+Content-Language: en
+Content-Script-Type: text/javascript
+Content-Style-Type: text/css
+X-UA-Compatible: IE=edge
+Accept-Ranges: none
+X-Frame-Options: sameorigin
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Mon, 11 Mar 2024 17:38:53 GMT
+Server: Apache
+Expires: 
+Cache-Control: private, pre-check=0, post-check=0, max-age=0, no-transform
+Pragma: no-cache
+Content-Language: en
+Content-Script-Type: text/javascript
+Content-Style-Type: text/css
+X-UA-Compatible: IE=edge
+Accept-Ranges: none
+X-Frame-Options: sameorigin
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+ ctid 1 uncompressed-len 0 net-response-time-onstart 328 net-response-time-onstop 392  l

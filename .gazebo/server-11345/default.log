@@ -1,0 +1,20 @@
+Gazebo multi-robot simulator, version 11.12.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1681258781 223701602) [Msg] Waiting for master.
+(1681258781 229448196) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1681258781 229490525) [Msg] Publicized address: 10.0.2.15
+(1681258781 231927061) [Err] [RenderEngine.cc:749] Can't open display: 
+(1681258781 232009101) [Wrn] [RenderEngine.cc:89] Unable to create X window. Rendering will be disabled
+(1681258781 232056772) [Wrn] [RenderEngine.cc:292] Cannot initialize render engine since render path type is NONE. Ignore this warning ifrendering has been turned off on purpose.
+(1681258781 812402452) [Msg] Loading world file [/home/clover/catkin_ws/src/clover/clover_simulation/resources/worlds/clover_aruco.world]
+(1681258781 997583562) Init world[default]
+(1681258782 481032794) [Err] [CameraSensor.cc:125] Unable to create CameraSensor. Rendering is disabled.
+(1681258782 724538260) [Msg] Connecting to PX4 SITL using TCP
+(1681258782 724575993) [Msg] Lockstep is enabled
+(1681258782 724601897) [Msg] Speed factor set to: 1
+(1681258782 739614502) [Wrn] [gazebo_mavlink_interface.cpp:152] No identifier on joint. Using 0 as default sensor ID
+(1681258782 740261595) [Msg] Using MAVLink protocol v2.0

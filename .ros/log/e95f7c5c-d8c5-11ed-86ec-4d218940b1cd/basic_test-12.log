@@ -1,0 +1,19 @@
+[rospy.client][INFO] 2023-04-12 03:06:47,638: init_node, name[/basic_test], pid[48130]
+[xmlrpc][INFO] 2023-04-12 03:06:47,639: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2023-04-12 03:06:47,639: Started XML-RPC server [http://ubuntu:37239/]
+[rospy.impl.masterslave][INFO] 2023-04-12 03:06:47,639: _ready: http://ubuntu:37239/
+[rospy.registration][INFO] 2023-04-12 03:06:47,640: Registering with master node http://ubuntu:43227/
+[xmlrpc][INFO] 2023-04-12 03:06:47,640: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-12 03:06:47,640: ROS Slave URI: [http://ubuntu:37239/]
+[rospy.init][INFO] 2023-04-12 03:06:47,640: registered with master
+[rospy.rosout][INFO] 2023-04-12 03:06:47,641: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-12 03:06:47,642: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-12 03:06:47,643: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2023-04-12 03:06:47,648: topic[/mavros/state] adding connection to [http://ubuntu:35369/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:47,657: topic impl's ref count is zero, deleting topic /mavros/state...
+[rospy.internal][INFO] 2023-04-12 03:06:47,658: topic[/mavros/state] removing connection to http://ubuntu:35369/
+[rospy.internal][INFO] 2023-04-12 03:06:47,699: topic[/clover_blocks/print] adding connection to [http://ubuntu:46179/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:47,802: topic impl's ref count is zero, deleting topic /clover_blocks/print...
+[rospy.internal][INFO] 2023-04-12 03:06:47,802: topic[/clover_blocks/print] removing connection to http://ubuntu:46179/
+[rospy.core][INFO] 2023-04-12 03:06:48,911: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2023-04-12 03:06:48,913: atexit

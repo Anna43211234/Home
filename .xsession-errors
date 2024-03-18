@@ -1,0 +1,86 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/clover/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting LANGUAGE=en_US:
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting PWD=/home/clover
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting LOGNAME=clover
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/clover/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/clover
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting HOME=/home/clover
+dbus-update-activation-environment: setting LANG=en_US
+dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=XFCE
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting USER=clover
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting PATH=/home/clover/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+
+(xfce4-session:626): xfce4-session-WARNING **: 22:00:24.484: xfsm_manager_load_session: Something wrong with /home/clover/.cache/sessions/xfce4-session-clover-dev:0, Does it exist? Permissions issue?
+** Message: 22:00:24.497: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+
+(xfwm4:761): xfwm4-WARNING **: 22:00:24.813: Unsupported GL renderer (llvmpipe (LLVM 10.0.0, 128 bits)).
+
+(wrapper-2.0:805): GLib-GIO-CRITICAL **: 22:00:25.599: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:805): GLib-GIO-CRITICAL **: 22:00:25.605: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:805): GLib-GObject-WARNING **: 22:00:25.606: invalid (NULL) pointer instance
+
+(wrapper-2.0:805): GLib-GObject-CRITICAL **: 22:00:25.606: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:805): Gtk-WARNING **: 22:00:25.606: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+** (wrapper-2.0:808): WARNING **: 22:00:25.624: No outputs have backlight property
+
+(wrapper-2.0:806): Gtk-WARNING **: 22:00:25.628: Theme parsing error: <data>:1:46: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(wrapper-2.0:806): Gtk-WARNING **: 22:00:25.628: Theme parsing error: <data>:1:78: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(wrapper-2.0:806): Gtk-WARNING **: 22:00:25.628: Theme parsing error: <data>:1:108: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(wrapper-2.0:806): Gtk-WARNING **: 22:00:25.628: Theme parsing error: <data>:1:136: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(wrapper-2.0:806): libindicator-CRITICAL **: 22:00:25.628: indicator_object_get_location: assertion 'INDICATOR_IS_OBJECT(io)' failed
+
+(wrapper-2.0:805): Gtk-WARNING **: 22:00:25.728: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:809): Gtk-WARNING **: 22:00:25.774: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:802): Gtk-WARNING **: 22:00:25.781: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:808): Gtk-WARNING **: 22:00:25.817: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+vmware-user: could not open /proc/fs/vmblock/dev
+Error: /usr/bin/vmtoolsd must be run inside a virtual machine on a VMware hypervisor product.
+
+(polkit-gnome-authentication-agent-1:846): GLib-CRITICAL **: 22:00:26.234: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:846): polkit-gnome-1-WARNING **: 22:00:26.235: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (xfce4-screensaver:839): WARNING **: 22:00:26.490: screensaver already running in this session
+
+(nm-applet:844): Gtk-WARNING **: 22:00:26.569: Can't set a parent on widget which has a parent
+
+(xfdesktop:803): GLib-CRITICAL **: 22:00:32.591: g_variant_new_string: assertion 'string != NULL' failed
+Working directory "/home/clover/[Invalid UTF-8]" does not exist. It won't be used when spawning "exo-open".
+(xfdesktop:803): GLib-CRITICAL **: 22:00:34.777: g_variant_new_string: assertion 'string != NULL' failed
+Working directory "/home/clover/[Invalid UTF-8]" does not exist. It won't be used when spawning "firefox".

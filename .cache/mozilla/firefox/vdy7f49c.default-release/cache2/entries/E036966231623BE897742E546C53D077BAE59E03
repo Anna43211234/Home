@@ -1,0 +1,2386 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="en" xml:lang="en">
+<head>
+    <title>Dashboard</title>
+    <link rel="shortcut icon" href="http://moodle.ggpi.org/theme/image.php/boost/theme/1689586546/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Dashboard" />
+<link rel="stylesheet" type="text/css" href="http://moodle.ggpi.org/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="http://moodle.ggpi.org/theme/styles.php/boost/1689586546/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"http:\/\/moodle.ggpi.org","sesskey":"0stxdx4WSB","themerev":"1689586546","slasharguments":1,"theme":"boost","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1689586546","admin":"admin","svgicons":true,"usertimezone":"Europe\/Samara","contextid":189247};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"http:\/\/moodle.ggpi.org\/lib\/yuilib\/3.17.2\/","comboBase":"http:\/\/moodle.ggpi.org\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"http:\/\/moodle.ggpi.org\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"http:\/\/moodle.ggpi.org\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"http:\/\/moodle.ggpi.org\/theme\/yui_combo.php?m\/1689586546\/","combine":true,"comboBase":"http:\/\/moodle.ggpi.org\/theme\/yui_combo.php?","ext":false,"root":"m\/1689586546\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"http:\/\/moodle.ggpi.org\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"http:\/\/moodle.ggpi.org\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1689586546\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"http:\/\/moodle.ggpi.org\/lib\/javascript.php\/1689586546\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"http:\/\/moodle.ggpi.org\/lib\/javascript.php\/1689586546\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.1\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body  id="page-my-index" class="format-site  path-my gecko dir-ltr lang-en yui-skin-sam yui3-skin-sam moodle-ggpi-org pagelayout-mydashboard course-1 context-189247 drawer-open-left">
+
+<div id="page-wrapper">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
+</div><script type="text/javascript" src="http://moodle.ggpi.org/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script type="text/javascript" src="http://moodle.ggpi.org/lib/javascript.php/1689586546/lib/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <header role="banner" class="pos-f-t navbar navbar-full navbar-light bg-faded navbar-static-top moodle-has-zindex">
+    
+        <div class="container-fluid navbar-nav">
+    
+            <div data-region="drawer-toggle">
+                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn pull-xs-left m-r-1 btn-secondary" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true" title="" aria-label=""></i><span class="sr-only">Side panel</span></button>
+            </div>
+    
+            <a href="http://moodle.ggpi.org" class="navbar-brand 
+                    hidden-sm-down
+                    ">
+                <span class="site-name hidden-sm-down">Электронное  обучение</span>
+            </a>
+    
+            <!-- user_menu -->
+            <div class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items" id="action-menu-1" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar" id="action-menu-1-menubar" role="menubar">
+
+            <div class="dropdown d-inline">
+    <a href="#" class="dropdown-toggle" id="dropdown-1" title="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="userbutton"><span class="usertext">Анна Ивановна Корепанова</span><span class="avatars"><span class="avatar current"><img src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/u/f2" alt="Picture of Анна Ивановна Корепанова" title="Picture of Анна Ивановна Корепанова" class="userpicture defaultuserpic" width="35" height="35" role="presentation" /></span></span></span><b class="caret"></b></a>
+        <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
+            <a href="http://moodle.ggpi.org/my/" class="dropdown-item menu-action" role="menuitem"data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1"><i class="icon fa fa-tachometer fa-fw " aria-hidden="true" title="Dashboard" aria-label="Dashboard"></i><span class="menu-action-text" id="actionmenuaction-1">Dashboard</span></a><div class="dropdown-divider"></div><a href="http://moodle.ggpi.org/user/profile.php?id=7721" class="dropdown-item menu-action" role="menuitem"data-title="profile,moodle" aria-labelledby="actionmenuaction-2"><i class="icon fa fa-user fa-fw " aria-hidden="true" title="Profile" aria-label="Profile"></i><span class="menu-action-text" id="actionmenuaction-2">Profile</span></a><a href="http://moodle.ggpi.org/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem"data-title="grades,grades" aria-labelledby="actionmenuaction-3"><i class="icon fa fa-table fa-fw " aria-hidden="true" title="Grades" aria-label="Grades"></i><span class="menu-action-text" id="actionmenuaction-3">Grades</span></a><a href="http://moodle.ggpi.org/message/index.php" class="dropdown-item menu-action" role="menuitem"data-title="messages,message" aria-labelledby="actionmenuaction-4"><i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Messages" aria-label="Messages"></i><span class="menu-action-text" id="actionmenuaction-4">Messages</span></a><a href="http://moodle.ggpi.org/user/preferences.php" class="dropdown-item menu-action" role="menuitem"data-title="preferences,moodle" aria-labelledby="actionmenuaction-5"><i class="icon fa fa-wrench fa-fw " aria-hidden="true" title="Preferences" aria-label="Preferences"></i><span class="menu-action-text" id="actionmenuaction-5">Preferences</span></a><div class="dropdown-divider"></div><a href="http://moodle.ggpi.org/login/logout.php?sesskey=0stxdx4WSB" class="dropdown-item menu-action" role="menuitem"data-title="logout,moodle" aria-labelledby="actionmenuaction-6"><i class="icon fa fa-sign-out fa-fw " aria-hidden="true" title="Log out" aria-label="Log out"></i><span class="menu-action-text" id="actionmenuaction-6">Log out</span></a>
+        </div>
+</div>
+
+
+        </div>
+
+</div></div>
+    
+            <!-- navbar_plugin_output -->
+            <div class="popover-region collapsed popover-region-messages"
+    id="nav-message-popover-container" data-userid="7721"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-region="popover-region-toggle"
+        aria-role="button"
+        aria-controls="popover-region-container-65ef41a48bbb665ef41a420fad12"
+        aria-haspopup="true"
+        aria-label="Show message window with no new messages"
+        tabindex="0">
+                <i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Toggle messages menu" aria-label="Toggle messages menu"></i>
+        <div class="count-container hidden" data-region="count-container"></div>
+
+    </div>
+    <div 
+        id="popover-region-container-65ef41a48bbb665ef41a420fad12"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Notification window"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Messages</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <div class="newmessage-link">
+                <a href="http://moodle.ggpi.org/message/index.php?contactsfirst=1">New message
+                </a>
+        </div>
+        <div class="hover-tooltip-container">
+                    <a class="mark-all-read-button"
+                    href="#"
+                    role="button"
+                    title="Mark all as read"
+                    data-action="mark-all-read">
+                    <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true" title="Mark all as read" aria-label="Mark all as read"></i></span>
+                    <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/y/loading" /></span>
+                </a>
+
+    <div class="hover-tooltip">
+        Mark all as read
+    </div>
+</div>
+        <div class="hover-tooltip-container">
+                    <a href="http://moodle.ggpi.org/message/edit.php?id=7721"
+                    title="Message preferences">
+                    <i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Message preferences" aria-label="Message preferences"></i>
+                </a>
+
+    <div class="hover-tooltip">
+        Message preferences
+    </div>
+</div>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="messages" data-region="messages" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" data-region="empty-message" tabindex="0">No messages</div>
+
+            </div>
+            <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/y/loading" /></span>
+        </div>
+                <a class="see-all-link"
+                    href="http://moodle.ggpi.org/message/index.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div><div class="popover-region collapsed popover-region-notifications"
+    id="nav-notification-popover-container" data-userid="7721"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-region="popover-region-toggle"
+        aria-role="button"
+        aria-controls="popover-region-container-65ef41a48ec5765ef41a420fad13"
+        aria-haspopup="true"
+        aria-label="Show notification window with no new notifications"
+        tabindex="0">
+                <i class="icon fa fa-bell fa-fw " aria-hidden="true" title="Toggle notifications menu" aria-label="Toggle notifications menu"></i>
+        <div class="count-container hidden" data-region="count-container"></div>
+
+    </div>
+    <div 
+        id="popover-region-container-65ef41a48ec5765ef41a420fad13"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Notification window"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notifications</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <div class="hover-tooltip-container">
+                    <a class="mark-all-read-button"
+                    href="#"
+                    title="Mark all as read"
+                    data-action="mark-all-read"
+                    role="button">
+                    <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true" title="Mark all as read" aria-label="Mark all as read"></i></span>
+                    <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/y/loading" /></span>
+                </a>
+
+    <div class="hover-tooltip">
+        Mark all as read
+    </div>
+</div>
+        <div class="hover-tooltip-container">
+                    <a href="http://moodle.ggpi.org/message/notificationpreferences.php?userid=7721"
+                    title="Notification preferences">
+                    <i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Notification preferences" aria-label="Notification preferences"></i>
+                </a>
+
+    <div class="hover-tooltip">
+        Notification preferences
+    </div>
+</div>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications"
+            data-region="all-notifications"
+            role="log"
+            aria-busy="false"
+            aria-atomic="false"
+            aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">You have no notifications</div>
+
+            </div>
+            <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/y/loading" /></span>
+        </div>
+                <a class="see-all-link"
+                    href="http://moodle.ggpi.org/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div>
+    
+            <!-- search_box -->
+            <span class="hidden-md-down">
+            
+            </span>
+    
+            <nav class="nav navbar-nav hidden-md-down">
+                <!-- custom_menu -->
+                <div class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-65ef41a4920ec65ef41a420fad16" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+        English ‎(en)‎
+    </a>
+    <div class="dropdown-menu" aria-labelledby="drop-down-65ef41a4920ec65ef41a420fad16">
+                <a class="dropdown-item" href="http://moodle.ggpi.org/my/index.php?lang=ru" title="Русский ‎(ru)‎">Русский ‎(ru)‎</a>
+                <a class="dropdown-item" href="http://moodle.ggpi.org/my/index.php?lang=en" title="English ‎(en)‎">English ‎(en)‎</a>
+    </div>
+</div>
+                <!-- page_heading_menu -->
+                
+            </nav>
+        </div>
+    </header>
+    
+
+    <div id="page" class="container-fluid">
+        <header id="page-header" class="row"><div class="col-xs-12 p-a-1"><div class="card"><div class="card-block"><div class="pull-xs-right context-header-settings-menu"></div><div class="pull-xs-left"><div class="page-context-header"><div class="page-header-image"><a href="http://moodle.ggpi.org/user/profile.php?id=7721"><img src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/u/f1" alt="Picture of Анна Ивановна Корепанова" title="Picture of Анна Ивановна Корепанова" class="userpicture defaultuserpic" width="100" height="100" /></a></div><div class="page-header-headings"><h1>Анна Ивановна Корепанова</h1></div></div></div><div class="breadcrumb-button nonavbar pull-xs-right"><div class="singlebutton">
+    <form method="post" action="http://moodle.ggpi.org/my/index.php" >
+            <input type="hidden" name="edit" value="1">
+            <input type="hidden" name="sesskey" value="0stxdx4WSB">
+        <button type="submit" class="btn btn-secondary"
+            id="single_button65ef41a420fad1"
+            title=""
+            >Customise this page</button>
+    </form>
+</div></div><div id="course-header"></div></div></div></div></header>
+
+        <div id="page-content" class="row">
+            <div id="region-main-box" class="col-xs-12">
+                <section id="region-main" class="has-blocks">
+                    <div class="card card-block">
+                    <span class="notifications" id="user-notifications"></span>
+                    <div role="main"><span id="maincontent"></span><aside id="block-region-content" class="block-region" data-blockregion="content" data-droptarget="1"><a href="#sb-8" class="sr-only sr-only-focusable">Skip Course overview</a>
+
+<aside id="inst121935"
+     class=" block block_myoverview  card m-b-1"
+     role="complementary"
+     data-block="myoverview"
+          aria-labelledby="instance-121935-header"
+     >
+
+    <div class="card-block">
+
+
+            <h3 id="instance-121935-header" class="card-title">Course overview</h3>
+
+        <div class="card-text content">
+            <div id="block-myoverview-65ef41a47109b65ef41a420fad2" class="block-myoverview" data-region="myoverview">
+    <ul id="block-myoverview-view-choices-65ef41a47109b65ef41a420fad2" class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" href="#myoverview_timeline_view" role="tab" data-toggle="tab" data-tabname="timeline">
+                Timeline
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="#myoverview_courses_view" role="tab" data-toggle="tab" data-tabname="courses">
+                Courses
+            </a>
+        </li>
+    </ul>
+    <div class="tab-content content-centred">
+        <div role="tabpanel" class="tab-pane fade in active" id="myoverview_timeline_view">
+            <div id="timeline-view-65ef41a47109b65ef41a420fad2" data-region="timeline-view">
+                <div class="row text-xs-center">
+                    <div class="btn-group m-t-2" role="group" data-toggle="btns">
+                        <a class="btn btn-default active" href="#myoverview_timeline_dates" data-toggle="tab">
+                            Sort by dates
+                        </a>
+                        <a class="btn btn-default" href="#myoverview_timeline_courses" data-toggle="tab">
+                            Sort by courses
+                        </a>
+                    </div>
+                </div>
+            
+                <div class="tab-content">
+                    <div class="tab-pane active fade in" id="myoverview_timeline_dates">
+                        <div data-region="timeline-view-dates" id="timeline-view-dates-65ef41a47109b65ef41a420fad2">
+                                                    <div data-region="event-list-container"
+                             data-limit="20"
+                             data-course-id=""
+                             data-last-id=""
+                             data-midnight="1710100800"
+                             id="event-list-container-">
+                        
+                            <div data-region="event-list-content">
+                                                        <div data-region="event-list-group-container"
+                             data-start-day="-14"
+                             data-end-day="0"
+                             class="hidden">
+                        
+                            <h5 class="h6 m-t-1 text-danger" id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Recently overdue</strong></h5>
+                            <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+                            </ul>
+                        </div>
+                                <div data-region="event-list-group-container"
+                             data-start-day="0"
+                             data-end-day="1"
+                             class="hidden">
+                        
+                            <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Today</strong></h5>
+                            <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+                            </ul>
+                        </div>
+                                <div data-region="event-list-group-container"
+                             data-start-day="1"
+                             data-end-day="7"
+                             class="hidden">
+                        
+                            <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Next 7 days</strong></h5>
+                            <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+                            </ul>
+                        </div>
+                                <div data-region="event-list-group-container"
+                             data-start-day="7"
+                             data-end-day="30"
+                             class="hidden">
+                        
+                            <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Next 30 days</strong></h5>
+                            <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+                            </ul>
+                        </div>
+                                <div data-region="event-list-group-container"
+                             data-start-day="30"
+                             data-end-day=""
+                             class="hidden">
+                        
+                            <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Future</strong></h5>
+                            <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+                            </ul>
+                        </div>
+
+                                <div class="text-xs-center text-center m-y-2">
+                                    <button type="button" class="btn btn-secondary" data-action="view-more">
+                                        View more
+                                        <span class="hidden" data-region="loading-icon-container">
+                                            <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/y/loading" /></span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hidden text-xs-center text-center m-t-3" data-region="empty-message">
+                                <img class="empty-placeholder-image-lg"
+                                     src="http://moodle.ggpi.org/theme/image.php/boost/block_myoverview/1689586546/activities"
+                                     alt="No upcoming activities due"
+                                     role="presentation">
+                                <p class="text-muted m-t-1">No upcoming activities due</p>
+                            </div>
+                        </div>
+</div>
+                    </div>
+                    <div class="tab-pane fade" id="myoverview_timeline_courses">
+                        <div id="sort-by-courses-view-65ef41a47109b65ef41a420fad2">
+                                            <ul class="list-group unstyled hidden" data-region="course-block">
+                                                 <li class="list-group-item m-y-1">
+<div data-region="course-events-container" id="course-events-container-3185" data-course-id="3185">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="course-info-container" id="course-info-container-3185">
+                <div class="hidden-sm-up hidden-tablet hidden-phone">
+                    <div class="progress-chart-container m-b-1">
+                        <div class="no-progress">
+                            <img class="icon " alt="" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/i/course" />
+                        </div>
+                    </div>
+                    <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3185" class="">Внедрение и поддержка компьютерных систем</a></h4>
+                </div>
+                <div class="hidden-sm-down hidden-tablet hidden-desktop">
+                    <div class="progress-chart-container m-b-1">
+                        <div class="no-progress">
+                            <img class="icon " alt="" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/i/course" />
+                        </div>
+                    </div>
+                    <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3185" class="">Внедрение и поддержка компьютерных систем</a></h4>
+                </div>
+                <div class="hidden-xs-down hidden-md-up visible-tablet">
+                    <div class="media">
+                        <div class="media-left">
+                            <div class="media-object">
+                                <div class="progress-chart-container m-b-1">
+                                    <div class="no-progress">
+                                        <img class="icon " alt="" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/i/course" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3185" class="">Внедрение и поддержка компьютерных систем</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-muted">
+                    
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <div data-region="event-list-container"
+     data-limit="10"
+     data-course-id="3185"
+     data-last-id=""
+     data-midnight="1710100800"
+     id="event-list-container-3185">
+
+    <div data-region="event-list-content">
+        <div data-region="event-list-group-container"
+     data-start-day="-14"
+     data-end-day="0"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 text-danger" id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Recently overdue</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="0"
+     data-end-day="1"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Today</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="1"
+     data-end-day="7"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Next 7 days</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="7"
+     data-end-day="30"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Next 30 days</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="30"
+     data-end-day=""
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Future</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+
+        <div class="text-xs-center text-center m-y-2">
+            <button type="button" class="btn btn-secondary" data-action="view-more">
+                View more
+                <span class="hidden" data-region="loading-icon-container">
+                    <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/y/loading" /></span>
+                </span>
+            </button>
+        </div>
+    </div>
+    <div class="hidden text-xs-center text-center m-y-3" data-region="empty-message">
+        <img class="empty-placeholder-image-sm"
+             src="http://moodle.ggpi.org/theme/image.php/boost/block_myoverview/1689586546/activities"
+             alt="No upcoming activities due"
+             role="presentation">
+        <p class="text-muted m-t-1">No upcoming activities due</p>
+        <a href="http://moodle.ggpi.org/course/view.php?id=3185" class="btn btn-secondary text-primary"
+           aria-label="View course Внедрение и поддержка компьютерных систем">
+            View course
+        </a>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+</li>
+  <li class="list-group-item m-y-1">
+<div data-region="course-events-container" id="course-events-container-3041" data-course-id="3041">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="course-info-container" id="course-info-container-3041">
+                <div class="hidden-sm-up hidden-tablet hidden-phone">
+                    <div class="progress-chart-container m-b-1">
+                        <div class="progress-doughnut">
+                            <div class="progress-text ">0&#37;</div>
+                            <div class="progress-indicator">
+                                <svg xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <title aria-hidden="true">0&#37;</title>
+                                        <circle class="circle percent-0"
+                                                r="27.5"
+                                                cx="35"
+                                                cy="35"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3041" class="">Дискретная математика с элементами математической логики</a></h4>
+                </div>
+                <div class="hidden-sm-down hidden-tablet hidden-desktop">
+                    <div class="progress-chart-container m-b-1">
+                        <div class="progress-doughnut">
+                            <div class="progress-text ">0&#37;</div>
+                            <div class="progress-indicator">
+                                <svg xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <title aria-hidden="true">0&#37;</title>
+                                        <circle class="circle percent-0"
+                                                r="27.5"
+                                                cx="35"
+                                                cy="35"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3041" class="">Дискретная математика с элементами математической логики</a></h4>
+                </div>
+                <div class="hidden-xs-down hidden-md-up visible-tablet">
+                    <div class="media">
+                        <div class="media-left">
+                            <div class="media-object">
+                                <div class="progress-chart-container m-b-1">
+                                    <div class="progress-doughnut">
+                                        <div class="progress-text ">0&#37;</div>
+                                        <div class="progress-indicator">
+                                            <svg xmlns="http://www.w3.org/2000/svg">
+                                                <g>
+                                                    <title aria-hidden="true">0&#37;</title>
+                                                    <circle class="circle percent-0"
+                                                            r="27.5"
+                                                            cx="35"
+                                                            cy="35"/>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3041" class="">Дискретная математика с элементами математической логики</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-muted">
+                    Курс предназначен для организации
+работы студентов СПО по соответствующей
+дисциплине
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <div data-region="event-list-container"
+     data-limit="10"
+     data-course-id="3041"
+     data-last-id=""
+     data-midnight="1710100800"
+     id="event-list-container-3041">
+
+    <div data-region="event-list-content">
+        <div data-region="event-list-group-container"
+     data-start-day="-14"
+     data-end-day="0"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 text-danger" id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Recently overdue</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="0"
+     data-end-day="1"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Today</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="1"
+     data-end-day="7"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Next 7 days</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="7"
+     data-end-day="30"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Next 30 days</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="30"
+     data-end-day=""
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Future</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+
+        <div class="text-xs-center text-center m-y-2">
+            <button type="button" class="btn btn-secondary" data-action="view-more">
+                View more
+                <span class="hidden" data-region="loading-icon-container">
+                    <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/y/loading" /></span>
+                </span>
+            </button>
+        </div>
+    </div>
+    <div class="hidden text-xs-center text-center m-y-3" data-region="empty-message">
+        <img class="empty-placeholder-image-sm"
+             src="http://moodle.ggpi.org/theme/image.php/boost/block_myoverview/1689586546/activities"
+             alt="No upcoming activities due"
+             role="presentation">
+        <p class="text-muted m-t-1">No upcoming activities due</p>
+        <a href="http://moodle.ggpi.org/course/view.php?id=3041" class="btn btn-secondary text-primary"
+           aria-label="View course Дискретная математика с элементами математической логики">
+            View course
+        </a>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+</li>
+  <li class="list-group-item m-y-1">
+<div data-region="course-events-container" id="course-events-container-87" data-course-id="87">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="course-info-container" id="course-info-container-87">
+                <div class="hidden-sm-up hidden-tablet hidden-phone">
+                    <div class="progress-chart-container m-b-1">
+                        <div class="progress-doughnut">
+                            <div class="progress-text has-percent">8&#37;</div>
+                            <div class="progress-indicator">
+                                <svg xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <title aria-hidden="true">8&#37;</title>
+                                        <circle class="circle percent-8"
+                                                r="27.5"
+                                                cx="35"
+                                                cy="35"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=87" class="">Информационные технологии (СПО)</a></h4>
+                </div>
+                <div class="hidden-sm-down hidden-tablet hidden-desktop">
+                    <div class="progress-chart-container m-b-1">
+                        <div class="progress-doughnut">
+                            <div class="progress-text has-percent">8&#37;</div>
+                            <div class="progress-indicator">
+                                <svg xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <title aria-hidden="true">8&#37;</title>
+                                        <circle class="circle percent-8"
+                                                r="27.5"
+                                                cx="35"
+                                                cy="35"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=87" class="">Информационные технологии (СПО)</a></h4>
+                </div>
+                <div class="hidden-xs-down hidden-md-up visible-tablet">
+                    <div class="media">
+                        <div class="media-left">
+                            <div class="media-object">
+                                <div class="progress-chart-container m-b-1">
+                                    <div class="progress-doughnut">
+                                        <div class="progress-text has-percent">8&#37;</div>
+                                        <div class="progress-indicator">
+                                            <svg xmlns="http://www.w3.org/2000/svg">
+                                                <g>
+                                                    <title aria-hidden="true">8&#37;</title>
+                                                    <circle class="circle percent-8"
+                                                            r="27.5"
+                                                            cx="35"
+                                                            cy="35"/>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=87" class="">Информационные технологии (СПО)</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-muted">
+                    
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <div data-region="event-list-container"
+     data-limit="10"
+     data-course-id="87"
+     data-last-id=""
+     data-midnight="1710100800"
+     id="event-list-container-87">
+
+    <div data-region="event-list-content">
+        <div data-region="event-list-group-container"
+     data-start-day="-14"
+     data-end-day="0"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 text-danger" id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Recently overdue</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="0"
+     data-end-day="1"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Today</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="1"
+     data-end-day="7"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Next 7 days</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="7"
+     data-end-day="30"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Next 30 days</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="30"
+     data-end-day=""
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Future</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+
+        <div class="text-xs-center text-center m-y-2">
+            <button type="button" class="btn btn-secondary" data-action="view-more">
+                View more
+                <span class="hidden" data-region="loading-icon-container">
+                    <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/y/loading" /></span>
+                </span>
+            </button>
+        </div>
+    </div>
+    <div class="hidden text-xs-center text-center m-y-3" data-region="empty-message">
+        <img class="empty-placeholder-image-sm"
+             src="http://moodle.ggpi.org/theme/image.php/boost/block_myoverview/1689586546/activities"
+             alt="No upcoming activities due"
+             role="presentation">
+        <p class="text-muted m-t-1">No upcoming activities due</p>
+        <a href="http://moodle.ggpi.org/course/view.php?id=87" class="btn btn-secondary text-primary"
+           aria-label="View course Информационные технологии (СПО)">
+            View course
+        </a>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+</li>
+  <li class="list-group-item m-y-1">
+<div data-region="course-events-container" id="course-events-container-3184" data-course-id="3184">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="course-info-container" id="course-info-container-3184">
+                <div class="hidden-sm-up hidden-tablet hidden-phone">
+                    <div class="progress-chart-container m-b-1">
+                        <div class="no-progress">
+                            <img class="icon " alt="" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/i/course" />
+                        </div>
+                    </div>
+                    <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3184" class="">Основы алгоритмизации и программирования</a></h4>
+                </div>
+                <div class="hidden-sm-down hidden-tablet hidden-desktop">
+                    <div class="progress-chart-container m-b-1">
+                        <div class="no-progress">
+                            <img class="icon " alt="" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/i/course" />
+                        </div>
+                    </div>
+                    <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3184" class="">Основы алгоритмизации и программирования</a></h4>
+                </div>
+                <div class="hidden-xs-down hidden-md-up visible-tablet">
+                    <div class="media">
+                        <div class="media-left">
+                            <div class="media-object">
+                                <div class="progress-chart-container m-b-1">
+                                    <div class="no-progress">
+                                        <img class="icon " alt="" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/i/course" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3184" class="">Основы алгоритмизации и программирования</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-muted">
+                    
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <div data-region="event-list-container"
+     data-limit="10"
+     data-course-id="3184"
+     data-last-id=""
+     data-midnight="1710100800"
+     id="event-list-container-3184">
+
+    <div data-region="event-list-content">
+        <div data-region="event-list-group-container"
+     data-start-day="-14"
+     data-end-day="0"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 text-danger" id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Recently overdue</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="0"
+     data-end-day="1"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Today</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="1"
+     data-end-day="7"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Next 7 days</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="7"
+     data-end-day="30"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Next 30 days</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="30"
+     data-end-day=""
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Future</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+
+        <div class="text-xs-center text-center m-y-2">
+            <button type="button" class="btn btn-secondary" data-action="view-more">
+                View more
+                <span class="hidden" data-region="loading-icon-container">
+                    <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/y/loading" /></span>
+                </span>
+            </button>
+        </div>
+    </div>
+    <div class="hidden text-xs-center text-center m-y-3" data-region="empty-message">
+        <img class="empty-placeholder-image-sm"
+             src="http://moodle.ggpi.org/theme/image.php/boost/block_myoverview/1689586546/activities"
+             alt="No upcoming activities due"
+             role="presentation">
+        <p class="text-muted m-t-1">No upcoming activities due</p>
+        <a href="http://moodle.ggpi.org/course/view.php?id=3184" class="btn btn-secondary text-primary"
+           aria-label="View course Основы алгоритмизации и программирования">
+            View course
+        </a>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+</li>
+  <li class="list-group-item m-y-1">
+<div data-region="course-events-container" id="course-events-container-3186" data-course-id="3186">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="course-info-container" id="course-info-container-3186">
+                <div class="hidden-sm-up hidden-tablet hidden-phone">
+                    <div class="progress-chart-container m-b-1">
+                        <div class="no-progress">
+                            <img class="icon " alt="" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/i/course" />
+                        </div>
+                    </div>
+                    <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3186" class="">Технология хранения, передачи и публикации цифровой мультимедийной информации</a></h4>
+                </div>
+                <div class="hidden-sm-down hidden-tablet hidden-desktop">
+                    <div class="progress-chart-container m-b-1">
+                        <div class="no-progress">
+                            <img class="icon " alt="" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/i/course" />
+                        </div>
+                    </div>
+                    <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3186" class="">Технология хранения, передачи и публикации цифровой мультимедийной информации</a></h4>
+                </div>
+                <div class="hidden-xs-down hidden-md-up visible-tablet">
+                    <div class="media">
+                        <div class="media-left">
+                            <div class="media-object">
+                                <div class="progress-chart-container m-b-1">
+                                    <div class="no-progress">
+                                        <img class="icon " alt="" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/i/course" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3186" class="">Технология хранения, передачи и публикации цифровой мультимедийной информации</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-muted">
+                    
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <div data-region="event-list-container"
+     data-limit="10"
+     data-course-id="3186"
+     data-last-id=""
+     data-midnight="1710100800"
+     id="event-list-container-3186">
+
+    <div data-region="event-list-content">
+        <div data-region="event-list-group-container"
+     data-start-day="-14"
+     data-end-day="0"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 text-danger" id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Recently overdue</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="0"
+     data-end-day="1"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Today</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="1"
+     data-end-day="7"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Next 7 days</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="7"
+     data-end-day="30"
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Next 30 days</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+        <div data-region="event-list-group-container"
+     data-start-day="30"
+     data-end-day=""
+     class="hidden">
+
+    <h5 class="h6 m-t-1 " id="event-list-title-65ef41a47109b65ef41a420fad2"><strong>Future</strong></h5>
+    <ul class="list-group unstyled" data-region="event-list" aria-describedby="event-list-title-65ef41a47109b65ef41a420fad2">
+    </ul>
+</div>
+
+        <div class="text-xs-center text-center m-y-2">
+            <button type="button" class="btn btn-secondary" data-action="view-more">
+                View more
+                <span class="hidden" data-region="loading-icon-container">
+                    <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/y/loading" /></span>
+                </span>
+            </button>
+        </div>
+    </div>
+    <div class="hidden text-xs-center text-center m-y-3" data-region="empty-message">
+        <img class="empty-placeholder-image-sm"
+             src="http://moodle.ggpi.org/theme/image.php/boost/block_myoverview/1689586546/activities"
+             alt="No upcoming activities due"
+             role="presentation">
+        <p class="text-muted m-t-1">No upcoming activities due</p>
+        <a href="http://moodle.ggpi.org/course/view.php?id=3186" class="btn btn-secondary text-primary"
+           aria-label="View course Технология хранения, передачи и публикации цифровой мультимедийной информации">
+            View course
+        </a>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+</li>
+ 
+                                            </ul>
+                                        <div class="text-xs-center text-center m-t-1">
+                                            <button type="button" class="btn btn-secondary" data-action="more-courses">
+                                                More courses
+                                                <span class="hidden" data-region="loading-icon-container">
+                                                    <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/y/loading" /></span>
+                                                </span>
+                                            </button>
+                                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade " id="myoverview_courses_view">
+                <div id="courses-view-65ef41a47109b65ef41a420fad2" data-region="courses-view">
+                    <div class="text-xs-center text-center">
+                        <div class="btn-group m-y-2" role="group" data-toggle="btns">
+                            <a class="btn btn-default active" href="#myoverview_courses_view_in_progress" data-toggle="tab">
+                                In progress
+                            </a>
+                            <a class="btn btn-default" href="#myoverview_courses_view_future" data-toggle="tab">
+                                Future
+                            </a>
+                            <a class="btn btn-default" href="#myoverview_courses_view_past" data-toggle="tab">
+                                Past
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane active fade in" id="myoverview_courses_view_in_progress">
+                                                <div id="courses-view-in-progress"
+                     data-status="1">
+                
+                    <div id="pc-for-in-progress" data-region="paging-content">
+        <div data-region="paging-content-item"
+             data-page="1"
+             class=" row">
+            <div class="col-lg-6">
+                <div class="card m-b-1 courses-view-course-item">
+                    <div class="card-block course-info-container" id="course-info-container-3185">
+                        <div class="hidden-sm-up hidden-phone">
+                            <div class="progress-chart-container m-b-1">
+                                <div class="no-progress">
+                                    <img class="icon " alt="" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/i/course" />
+                                </div>
+                            </div>
+                            <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3185" class="">Внедрение и поддержка компьютерных систем</a></h4>
+                        </div>
+                        <div class="hidden-xs-down visible-phone">
+                            <div class="media">
+                                <div class="media-left">
+                                    <div class="media-object">
+                                        <div class="progress-chart-container m-b-1">
+                                            <div class="no-progress">
+                                                <img class="icon " alt="" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/i/course" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3185" class="">Внедрение и поддержка компьютерных систем</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-muted">
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card m-b-1 courses-view-course-item">
+                    <div class="card-block course-info-container" id="course-info-container-3041">
+                        <div class="hidden-sm-up hidden-phone">
+                            <div class="progress-chart-container m-b-1">
+                                <div class="progress-doughnut">
+                                    <div class="progress-text ">0&#37;</div>
+                                    <div class="progress-indicator">
+                                        <svg xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <title aria-hidden="true">0&#37;</title>
+                                                <circle class="circle percent-0"
+                                                        r="27.5"
+                                                        cx="35"
+                                                        cy="35"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3041" class="">Дискретная математика с элементами математической логики</a></h4>
+                        </div>
+                        <div class="hidden-xs-down visible-phone">
+                            <div class="media">
+                                <div class="media-left">
+                                    <div class="media-object">
+                                        <div class="progress-chart-container m-b-1">
+                                            <div class="progress-doughnut">
+                                                <div class="progress-text ">0&#37;</div>
+                                                <div class="progress-indicator">
+                                                    <svg xmlns="http://www.w3.org/2000/svg">
+                                                        <g>
+                                                            <title aria-hidden="true">0&#37;</title>
+                                                            <circle class="circle percent-0"
+                                                                    r="27.5"
+                                                                    cx="35"
+                                                                    cy="35"/>
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3041" class="">Дискретная математика с элементами математической логики</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-muted">
+                            Курс предназначен для организации
+работы студентов СПО по соответствующей
+дисциплине
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card m-b-1 courses-view-course-item">
+                    <div class="card-block course-info-container" id="course-info-container-87">
+                        <div class="hidden-sm-up hidden-phone">
+                            <div class="progress-chart-container m-b-1">
+                                <div class="progress-doughnut">
+                                    <div class="progress-text has-percent">8&#37;</div>
+                                    <div class="progress-indicator">
+                                        <svg xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <title aria-hidden="true">8&#37;</title>
+                                                <circle class="circle percent-8"
+                                                        r="27.5"
+                                                        cx="35"
+                                                        cy="35"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=87" class="">Информационные технологии (СПО)</a></h4>
+                        </div>
+                        <div class="hidden-xs-down visible-phone">
+                            <div class="media">
+                                <div class="media-left">
+                                    <div class="media-object">
+                                        <div class="progress-chart-container m-b-1">
+                                            <div class="progress-doughnut">
+                                                <div class="progress-text has-percent">8&#37;</div>
+                                                <div class="progress-indicator">
+                                                    <svg xmlns="http://www.w3.org/2000/svg">
+                                                        <g>
+                                                            <title aria-hidden="true">8&#37;</title>
+                                                            <circle class="circle percent-8"
+                                                                    r="27.5"
+                                                                    cx="35"
+                                                                    cy="35"/>
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=87" class="">Информационные технологии (СПО)</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-muted">
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card m-b-1 courses-view-course-item">
+                    <div class="card-block course-info-container" id="course-info-container-3184">
+                        <div class="hidden-sm-up hidden-phone">
+                            <div class="progress-chart-container m-b-1">
+                                <div class="no-progress">
+                                    <img class="icon " alt="" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/i/course" />
+                                </div>
+                            </div>
+                            <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3184" class="">Основы алгоритмизации и программирования</a></h4>
+                        </div>
+                        <div class="hidden-xs-down visible-phone">
+                            <div class="media">
+                                <div class="media-left">
+                                    <div class="media-object">
+                                        <div class="progress-chart-container m-b-1">
+                                            <div class="no-progress">
+                                                <img class="icon " alt="" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/i/course" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3184" class="">Основы алгоритмизации и программирования</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-muted">
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card m-b-1 courses-view-course-item">
+                    <div class="card-block course-info-container" id="course-info-container-3186">
+                        <div class="hidden-sm-up hidden-phone">
+                            <div class="progress-chart-container m-b-1">
+                                <div class="no-progress">
+                                    <img class="icon " alt="" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/i/course" />
+                                </div>
+                            </div>
+                            <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3186" class="">Технология хранения, передачи и публикации цифровой мультимедийной информации</a></h4>
+                        </div>
+                        <div class="hidden-xs-down visible-phone">
+                            <div class="media">
+                                <div class="media-left">
+                                    <div class="media-object">
+                                        <div class="progress-chart-container m-b-1">
+                                            <div class="no-progress">
+                                                <img class="icon " alt="" src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/i/course" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="h5"><a href="http://moodle.ggpi.org/course/view.php?id=3186" class="">Технология хранения, передачи и публикации цифровой мультимедийной информации</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-muted">
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    </div>
+                
+                    <div class="text-xs-center text-center">
+                        <nav aria-label=""
+                             id="pb-for-in-progress"
+                             data-region="paging-bar"
+                             data-page-count="1">
+                        
+                            <ul class="pagination">
+                                                            <li class="page-item  disabled"
+                            data-region="page-item"
+                            data-page-number="first">
+                        
+                            <a href="#"
+                               class="page-link"
+                               data-region="page-link">
+                                    &laquo;
+                            </a>
+                        </li>
+                                    <li class="page-item active disabled"
+                                        data-region="page-item"
+                                        data-page-number="1">
+                                    
+                                        <a href="#"
+                                           class="page-link"
+                                           data-region="page-link">
+                                                1
+                                        </a>
+                                    </li>
+                                    <li class="page-item  disabled"
+                            data-region="page-item"
+                            data-page-number="last">
+                        
+                            <a href="#"
+                               class="page-link"
+                               data-region="page-link">
+                                    &raquo;
+                            </a>
+                        </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                        </div>
+                        <div class="tab-pane fade" id="myoverview_courses_view_future">
+                <div class="text-xs-center text-center m-t-3">
+                                    <img class="empty-placeholder-image-lg"
+                                         src="http://moodle.ggpi.org/theme/image.php/boost/block_myoverview/1689586546/courses"
+                                         alt="No future courses"
+                                         role="presentation">
+                                    <p class="text-muted m-t-1">No future courses</p>
+                                </div>
+                        </div>
+                        <div class="tab-pane fade" id="myoverview_courses_view_past">
+                <div class="text-xs-center text-center m-t-3">
+                                    <img class="empty-placeholder-image-lg"
+                                         src="http://moodle.ggpi.org/theme/image.php/boost/block_myoverview/1689586546/courses"
+                                         alt="No past courses"
+                                         role="presentation">
+                                    <p class="text-muted m-t-1">No past courses</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</aside>
+
+  <span id="sb-8"></span><aside id="inst121934"
+     class=" block block_iprbooks  card m-b-1"
+     role="complementary"
+     data-block="iprbooks"
+        aria-label="ЭБС IPR BOOKS Каталог"
+>
+
+    <div class="card-block">
+
+
+
+        <div class="card-text content">
+            <style>.ipr-item {
+    cursor: pointer;
+}
+
+.ipr-item :hover {
+    background: #e0e0e0;
+}
+
+#ipr-content {
+
+}
+
+.ipr-page {
+    cursor: pointer;
+}
+
+#ipr-items-list {
+    height: 500px;
+    overflow-y: auto;
+}
+
+#ipr-items-details {
+    height: 500px;
+    overflow-y: auto;
+}
+
+/*navigation*/
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+/*form*/
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    /*margin-right: -5px;*/
+    /*margin-left: -5px;*/
+}
+
+.form-row > .col, .form-row > [class*="col-"] {
+    /*padding-right: 5px;*/
+    /*padding-left: 5px;*/
+}
+
+.form-control {
+    display: block;
+    /*width: 100%;*/
+    /*height: calc(1.5em + .75rem + 2px);*/
+    padding: .375rem .75rem;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+    -webkit-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -o-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-group, .form-buttons, .path-admin .buttons, .fp-content-center form + div, div.backup-section + form {
+    margin-bottom: 1rem;
+}
+
+/*pagination*/
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+.mt-1, .my-1 {
+    margin-top: .25rem !important;
+}
+
+a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #1177d1;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+/*other*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-1, .col-xs-1, .col-2, .col-xs-2, .col-3, .col-xs-3, .col-4, .col-xs-4, .col-5, .col-xs-5, .col-6, .col-xs-6, .col-7, .col-xs-7, .col-8, .col-xs-8, .col-9, .col-xs-9, .col-10, .col-xs-10, .col-11, .col-xs-11, .col-12, .col-xs-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+    /*position: relative;*/
+    /*width: 100%;*/
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-sm {
+    flex-basis: 0%;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.col-sm-3 {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.col-sm-8 {
+    flex: 0 0 60.6666666667%;
+    max-width: 60.6666666667%;
+}
+
+.img-fluid, .img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn, #page-grade-grading-manage .actions .action, #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input, #rubric-rubric.gradingform_rubric .addcriterion {
+    display: inline-block;
+    font-weight: 400;
+    color: #373a3c;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: .9375rem;
+    line-height: 1.5;
+    border-radius: 0;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-secondary, .btn-default {
+    color: #212529;
+    background-color: #ced4da;
+    border-color: #ced4da;
+}
+
+.btn-secondary:hover, .btn-default:hover {
+    color: #212529;
+    background-color: #b8c1ca;
+    border-color: #b1bbc4;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #0b4f8a;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+.tab-content > .tab-pane {
+    display: none;
+}
+
+.tab-content > .active {
+    display: block;
+}
+</style><script src="https://code.jquery.com/jquery-1.9.1.min.js"></script><div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <ul class="nav nav-tabs" id="iprbooks-tab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active ipr-tab" id="book-tab" data-type="book" data-toggle="tab" href="#book" role="tab"
+               aria-controls="book" aria-selected="true">Книги ЭБС IPR BOOKS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link ipr-tab" id="journal-tab" data-type="journal" data-toggle="tab" href="#journal"
+               role="tab"
+               aria-controls="journal" aria-selected="false">Периодические издания</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="ipr-tab-content">
+        <div class="tab-pane show active" id="book" role="tabpanel" aria-labelledby="book-tab">
+            <br>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        <label for="filter-book-title">Название</label>
+                        <input type="text" class="form-control ipr-filter" id="filter-book-title"
+                               placeholder="Название книги">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="filter-book-pubhouse">Издательство</label>
+                        <input type="text" class="form-control ipr-filter" id="filter-book-pubhouse"
+                               placeholder="Издательство">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="filter-book-author">Автор</label>
+                        <input type="text" class="form-control ipr-filter" id="filter-book-author" placeholder="Автор">
+                    </div>
+
+                    <div class="form-group col-md-1">
+                        <label for="filter-book-yearleft">Год с</label>
+                        <input type="number" class="form-control ipr-filter" id="filter-book-yearleft"
+                               placeholder="Год с">
+                    </div>
+                    <div class="form-group col-md-1">
+                        <label for="filter-book-yearright">Год по</label>
+                        <input type="number" class="form-control ipr-filter" id="filter-book-yearright"
+                               placeholder="Год по">
+                    </div>
+
+                </div>
+            </form>
+        </div>
+        <div class="tab-pane" id="journal" role="tabpanel" aria-labelledby="journal-tab">
+            <br>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        <label for="filter-journal-title">Название</label>
+                        <input type="text" class="form-control ipr-filter" id="filter-journal-title"
+                               placeholder="Название издания">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="filter-journal-pubhouse">Издательство</label>
+                        <input type="text" class="form-control ipr-filter" id="filter-journal-pubhouse"
+                               placeholder="Издательство">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="ipr-content">
+        <div>
+            <a id="ipr-filter-apply" class="btn btn-secondary">Применить</a>
+            <a id="ipr-filter-clear" class="btn btn-secondary">Очистить</a>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div id="ipr-items-list" class="col-sm">
+                <!--list-->
+            </div>
+            <div id="ipr-items-details" class="col-sm">
+                <div>
+                    <div>
+                        <div>
+                            <div class="row">
+                                <div id="ipr-item-detail-image" class="col-sm-5 pub-image">
+                                    <a href=""><img src="" class="img-responsive thumbnail" alt=""></a>
+                                </div>
+                                <div class="col-sm-7">
+                                    <br>
+                                    <div id="ipr-item-detail-title"></div>
+                                    <div id="ipr-item-detail-title_additional"></div>
+                                    <div id="ipr-item-detail-pubhouse"></div>
+                                    <div id="ipr-item-detail-authors"></div>
+                                    <div id="ipr-item-detail-pubtype"></div>
+                                    <div id="ipr-item-detail-pubyear"></div>
+                                    <br>
+                                    <a id="ipr-item-detail-read" style="display: none"
+                                       class="btn btn-secondary" target="_blank">Читать</a>
+                                </div>
+                            </div>
+                            <br>
+                            <div id="ipr-details-fields">
+                                <div id="ipr-item-detail-description"></div>
+                                <br>
+                                <div id="ipr-item-detail-keywords"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div><script type="text/javascript"> var type = 'book';
+$(document).ready(function () {
+    // init
+    send_request(type);
+});
+
+// tab
+$(".ipr-tab").click(function () {
+    type = $(this).data("type");
+    send_request(type);
+});
+
+// filter
+$("#ipr-filter-apply").click(function () {
+    send_request(type);
+});
+
+// clear filter
+$("#ipr-filter-clear").click(function () {
+    $(".ipr-filter").val("");
+    send_request(type);
+});
+
+
+function send_request(type, page = 0) {
+    var filter = $(".ipr-filter")
+        .map(function () {
+            return this.id + "=" + $(this).val();
+        })
+        .get()
+        .join('&');
+
+    $.ajax({
+        url: M.cfg.wwwroot + "/blocks/iprbooks/ajax.php?action=getlist&type=" + type + "&page=" + page + "&" + encodeURI(filter)
+    }).done(function (data) {
+
+        // hide read button
+        $("#ipr-item-detail-read").hide();
+
+        // set data
+        $("#ipr-items-list").scrollTop(0);
+        $("#ipr-items-list").html(data.html);
+
+        // set details click listener
+        $(".ipr-item").click(function () {
+            set_details($(this).data("id"));
+        });
+
+        // pagination
+        $(".ipr-page").click(function () {
+            send_request(type, $(this).data('page'));
+        });
+
+        // init detail view
+        set_details($(".ipr-item").data("id"));
+    });
+}
+
+function set_details(id) {
+    this.clear_details();
+    $("#ipr-item-detail-image").html($("#ipr-item-image-" + id).html());
+    $("#ipr-item-detail-title").html($("#ipr-item-title-" + id).html());
+    $("#ipr-item-detail-pubhouse").html($("#ipr-item-pubhouse-" + id).html());
+    $("#ipr-item-detail-authors").html($("#ipr-item-authors-" + id).html());
+    $("#ipr-item-detail-pubyear").html($("#ipr-item-pubyear-" + id).html());
+    $("#ipr-item-detail-description").html($("#ipr-item-description-" + id).html());
+    $("#ipr-item-detail-keywords").html($("#ipr-item-keywords-" + id).html());
+    $("#ipr-item-detail-pubtype").html($("#ipr-item-pubtype-" + id).html());
+
+    var rb = $("#ipr-item-detail-read");
+    rb.attr("href", $("#ipr-item-url-" + id).attr("href"));
+    if ($("#ipr-item-url-" + id).attr("href")) {
+        rb.show();
+    }
+}
+
+function clear_details() {
+    $("#ipr-item-detail-image").html('');
+    $("#ipr-item-detail-title").html('');
+    $("#ipr-item-detail-pubhouse").html('');
+    $("#ipr-item-detail-authors").html('');
+    $("#ipr-item-detail-pubyear").html('');
+    $("#ipr-item-detail-description").html('');
+    $("#ipr-item-detail-keywords").html('');
+    $("#ipr-item-detail-pubtype").html('');
+}
+
+ </script>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</aside></aside></div>
+                    
+                    </div>
+                </section>
+                <section data-region="blocks-column" class="hidden-print">
+                    <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><a href="#sb-1" class="sr-only sr-only-focusable">Skip  </a>
+
+<aside id="inst121942"
+     class=" block block_html  card m-b-1"
+     role="complementary"
+     data-block="html"
+          aria-labelledby="instance-121942-header"
+     >
+
+    <div class="card-block">
+
+
+            <h3 id="instance-121942-header" class="card-title"> </h3>
+
+        <div class="card-text content">
+            <div class="no-overflow"><p><a href="http://portfolio.ggpi.org/login" target="_blank">Электронное портфолио</a></p><p><a href="http://umk.ggpi.org/files/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B%D0%92%D0%9E/%D0%9C%D0%B5%D1%82%D0%A0%D0%B5%D0%BA%20%D0%BF%D0%BE%20%D0%A1%D0%A0%D0%A1.pdf" target="_blank">Методические материалы по организации самостоятельной работы студентов</a><br></p><p><a href="http://umk.ggpi.org/files/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B%D0%92%D0%9E/%D0%9C%D0%B5%D1%82%D0%A0%D0%B5%D0%BA%20%D0%BF%D0%BE%20%D0%9E%D0%92%D0%97.pdf" target="_blank">Методические рекомендации для ППС по работе со студентами с инвалидностью и лицами с ОВЗ</a>&nbsp;</p></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</aside>
+
+  <span id="sb-1"></span><a href="#sb-2" class="sr-only sr-only-focusable">Skip Private files</a>
+
+<aside id="inst121941"
+     class=" block block_private_files  card m-b-1"
+     role="complementary"
+     data-block="private_files"
+          aria-labelledby="instance-121941-header"
+     >
+
+    <div class="card-block">
+
+
+            <h3 id="instance-121941-header" class="card-title">Private files</h3>
+
+        <div class="card-text content">
+            <div class="box generalbox p-y-1">No files available</div>
+            <div class="footer"><a href="http://moodle.ggpi.org/user/files.php?returnurl=http%3A%2F%2Fmoodle.ggpi.org%2Fmy%2Findex.php">Manage private files...</a></div>
+            
+        </div>
+
+    </div>
+
+</aside>
+
+  <span id="sb-2"></span><a href="#sb-3" class="sr-only sr-only-focusable">Skip Online users</a>
+
+<aside id="inst121940"
+     class=" block block_online_users  card m-b-1"
+     role="complementary"
+     data-block="online_users"
+          aria-labelledby="instance-121940-header"
+     >
+
+    <div class="card-block">
+
+
+            <h3 id="instance-121940-header" class="card-title">Online users</h3>
+
+        <div class="card-text content">
+            <div class="info">(last 5 minutes: 6)</div><ul class='list'>
+<li class="listentry"><div class="user"><a href="http://moodle.ggpi.org/user/view.php?id=7721&amp;course=1" title="1 sec"><img src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/u/f2" alt="" title="" class="userpicture defaultuserpic" width="16" height="16" />Анна Ивановна Корепанова</a></div></li>
+<li class="listentry"><div class="user"><a href="http://moodle.ggpi.org/user/view.php?id=8322&amp;course=1" title="27 secs"><img src="http://moodle.ggpi.org/pluginfile.php/194980/user/icon/boost/f2?rev=2045612" alt="" title="" class="userpicture" width="16" height="16" />Ирина Анатольевна Крюкова</a></div><div class="message"><a title="Send a message" href="http://moodle.ggpi.org/message/index.php?id=8322"><i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Send a message" aria-label="Send a message"></i></a></div></li>
+<li class="listentry"><div class="user"><a href="http://moodle.ggpi.org/user/view.php?id=8183&amp;course=1" title="49 secs"><img src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/u/f2" alt="" title="" class="userpicture defaultuserpic" width="16" height="16" />Алина Дмитриевна Иванова</a></div><div class="message"><a title="Send a message" href="http://moodle.ggpi.org/message/index.php?id=8183"><i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Send a message" aria-label="Send a message"></i></a></div></li>
+<li class="listentry"><div class="user"><a href="http://moodle.ggpi.org/user/view.php?id=4971&amp;course=1" title="1 min 47 secs"><img src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/u/f2" alt="" title="" class="userpicture defaultuserpic" width="16" height="16" />Анна Камашева</a></div><div class="message"><a title="Send a message" href="http://moodle.ggpi.org/message/index.php?id=4971"><i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Send a message" aria-label="Send a message"></i></a></div></li>
+<li class="listentry"><div class="user"><a href="http://moodle.ggpi.org/user/view.php?id=4853&amp;course=1" title="4 mins 7 secs"><img src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/u/f2" alt="" title="" class="userpicture defaultuserpic" width="16" height="16" />Ирина Александровна Коротких</a></div><div class="message"><a title="Send a message" href="http://moodle.ggpi.org/message/index.php?id=4853"><i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Send a message" aria-label="Send a message"></i></a></div></li>
+<li class="listentry"><div class="user"><a href="http://moodle.ggpi.org/user/view.php?id=4844&amp;course=1" title="4 mins 27 secs"><img src="http://moodle.ggpi.org/theme/image.php/boost/core/1689586546/u/f2" alt="" title="" class="userpicture defaultuserpic" width="16" height="16" />Дания Хабировна Абашева</a></div><div class="message"><a title="Send a message" href="http://moodle.ggpi.org/message/index.php?id=4844"><i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Send a message" aria-label="Send a message"></i></a></div></li>
+</ul><div class="clearer"><!-- --></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</aside>
+
+  <span id="sb-3"></span><a href="#sb-4" class="sr-only sr-only-focusable">Skip Latest badges</a>
+
+<aside id="inst121939"
+     class=" block block_badges  card m-b-1"
+     role="complementary"
+     data-block="badges"
+          aria-labelledby="instance-121939-header"
+     >
+
+    <div class="card-block">
+
+
+            <h3 id="instance-121939-header" class="card-title">Latest badges</h3>
+
+        <div class="card-text content">
+            You have no badges to display
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</aside>
+
+  <span id="sb-4"></span><a href="#sb-5" class="sr-only sr-only-focusable">Skip Calendar</a>
+
+<aside id="inst121938"
+     class=" block block_calendar_month  card m-b-1"
+     role="complementary"
+     data-block="calendar_month"
+          aria-labelledby="instance-121938-header"
+     >
+
+    <div class="card-block">
+
+
+            <h3 id="instance-121938-header" class="card-title">Calendar</h3>
+
+        <div class="card-text content">
+            <table class="minicalendar calendartable" summary="March 2024 Calendar"><caption><div class="calendar-controls"><a class="arrow_link previous" href="http://moodle.ggpi.org/my/index.php?time=1706731200" title="Previous month"><span class="arrow ">&#x25C4;</span><span class="accesshide " >&nbsp;<span class="arrow_text">Previous month</span></span></a><span class="hide"> | </span><span class="current"><a title="This month" href="http://moodle.ggpi.org/calendar/view.php?view=month&amp;time=1710178724&amp;course=1">March 2024</a></span><span class="hide"> | </span><a class="arrow_link next" href="http://moodle.ggpi.org/my/index.php?time=1711915200" title="Next month"><span class="accesshide " ><span class="arrow_text">Next month</span>&nbsp;</span><span class="arrow ">&#x25BA;</span></a><span class="clearer"><!-- --></span>
+</div></caption><tr class="weekdays"><th scope="col"><abbr title="Monday">Mon</abbr></th>
+<th scope="col"><abbr title="Tuesday">Tue</abbr></th>
+<th scope="col"><abbr title="Wednesday">Wed</abbr></th>
+<th scope="col"><abbr title="Thursday">Thu</abbr></th>
+<th scope="col"><abbr title="Friday">Fri</abbr></th>
+<th scope="col"><abbr title="Saturday">Sat</abbr></th>
+<th scope="col"><abbr title="Sunday">Sun</abbr></th>
+</tr><tr><td class="dayblank">&nbsp;</td>
+<td class="dayblank">&nbsp;</td>
+<td class="dayblank">&nbsp;</td>
+<td class="dayblank">&nbsp;</td>
+<td class="day">1</td><td class="weekend day">2</td><td class="weekend day">3</td></tr><tr><td class="day hasevent calendar_event_course calendar_event_course"><a href="http://moodle.ggpi.org/calendar/view.php?view=day&amp;time=1709496000#event_562"
+    data-container="body"
+    data-toggle="popover"
+    data-html="true"
+    data-trigger="hover"
+    data-placement="top"
+    data-title="Monday, 4 March events"
+    data-content="&lt;div&gt;&lt;img class=&quot;icon &quot; alt=&quot;chat&quot; title=&quot;chat&quot; src=&quot;http://moodle.ggpi.org/theme/image.php/boost/chat/1689586546/icon&quot; /&gt;&lt;a href=&quot;http://moodle.ggpi.org/calendar/view.php?view=day&amp;amp;time=1709496000#event_562&quot;&gt;Консультация&lt;/a&gt;&lt;/div&gt;"
+>4</a></td><td class="day">5</td><td class="day">6</td><td class="day">7</td><td class="day">8</td><td class="weekend day">9</td><td class="weekend day">10</td></tr><tr><td class="day today eventnone"><span class="accesshide " >Today Monday, 11 March </span><a href="#"
+    data-container="body"
+    data-toggle="popover"
+    data-html="true"
+    data-trigger="hover"
+    data-placement="top"
+    data-title="Today Monday, 11 March"
+    data-content="No events"
+>11</a></td><td class="day">12</td><td class="day">13</td><td class="day">14</td><td class="day">15</td><td class="weekend day">16</td><td class="weekend day">17</td></tr><tr><td class="day">18</td><td class="day">19</td><td class="day">20</td><td class="day">21</td><td class="day">22</td><td class="weekend day">23</td><td class="weekend day">24</td></tr><tr><td class="day">25</td><td class="day">26</td><td class="day">27</td><td class="day">28</td><td class="day">29</td><td class="weekend day">30</td><td class="weekend day">31</td></tr></table>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</aside>
+
+  <span id="sb-5"></span><a href="#sb-6" class="sr-only sr-only-focusable">Skip Upcoming events</a>
+
+<aside id="inst121937"
+     class=" block block_calendar_upcoming  card m-b-1"
+     role="complementary"
+     data-block="calendar_upcoming"
+          aria-labelledby="instance-121937-header"
+     >
+
+    <div class="card-block">
+
+
+            <h3 id="instance-121937-header" class="card-title">Upcoming events</h3>
+
+        <div class="card-text content">
+            <div class="post">There are no upcoming events</div>
+            <div class="footer"><div class="gotocal"><a href="http://moodle.ggpi.org/calendar/view.php?view=upcoming&amp;course=1">Go to calendar</a>...</div><div class="newevent"><a href="http://moodle.ggpi.org/calendar/event.php?action=new&amp;course=1">New event</a>...</div></div>
+            
+        </div>
+
+    </div>
+
+</aside>
+
+  <span id="sb-6"></span></aside>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="nav-drawer" data-region="drawer" class="hidden-print moodle-has-zindex " aria-hidden="false" tabindex="-1">
+        <nav class="list-group">
+            <a class="list-group-item list-group-item-action font-weight-bold" href="http://moodle.ggpi.org/my/" data-key="myhome">
+                <div class="m-l-0">
+                        Dashboard
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/?redirect=0" data-key="home">
+                <div class="m-l-0">
+                        Site home
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/calendar/view.php?view=month" data-key="calendar">
+                <div class="m-l-0">
+                        Calendar
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/user/files.php" data-key="privatefiles">
+                <div class="m-l-0">
+                        Private files
+                </div>
+            </a>
+            <div class="list-group-item" data-key="mycourses">
+                <div class="m-l-0">
+                    My courses
+                </div>
+            </div>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3186" data-key="3186">
+                <div class="m-l-1">
+                        Технология хранения, передачи и публикации цифровой мультимедийной информации
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3185" data-key="3185">
+                <div class="m-l-1">
+                        Внедрение и поддержка компьютерных систем
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3184" data-key="3184">
+                <div class="m-l-1">
+                        Основы алгоритмизации и программирования
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=3041" data-key="3041">
+                <div class="m-l-1">
+                        ДМиМЛ
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="http://moodle.ggpi.org/course/view.php?id=87" data-key="87">
+                <div class="m-l-1">
+                        ИТ
+                </div>
+            </a>
+        </nav>
+    </div>
+</div>
+<footer id="page-footer" class="p-y-1 bg-inverse">
+    <div class="container">
+        <div id="course-footer"></div>
+
+
+        <div class="logininfo">You are logged in as <a href="http://moodle.ggpi.org/user/profile.php?id=7721" title="View profile">Анна Ивановна Корепанова</a> (<a href="http://moodle.ggpi.org/login/logout.php?sesskey=0stxdx4WSB">Log out</a>)</div>
+        <div class="homelink"><a href="http://moodle.ggpi.org/">Home</a></div>
+        <nav class="nav navbar-nav hidden-lg-up">
+                <ul class="list-unstyled p-t-1">
+                                    <li><a href="#" title="Language">English ‎(en)‎</a></li>
+                                <li>
+                                    <ul class="list-unstyled m-l-1">
+                                                        <li><a href="http://moodle.ggpi.org/my/index.php?lang=ru" title="Русский ‎(ru)‎">Русский ‎(ru)‎</a></li>
+                                                        <li><a href="http://moodle.ggpi.org/my/index.php?lang=en" title="English ‎(en)‎">English ‎(en)‎</a></li>
+                                    </ul>
+                                </li>
+                </ul>
+        </nav>
+        
+        <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'http://moodle.ggpi.org/lib/requirejs.php/1689586546/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'http://moodle.ggpi.org/lib/javascript.php/1689586546/lib/jquery/jquery-3.1.0.min',
+        jqueryui: 'http://moodle.ggpi.org/lib/javascript.php/1689586546/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'http://moodle.ggpi.org/lib/javascript.php/1689586546/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="http://moodle.ggpi.org/lib/javascript.php/1689586546/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "http://moodle.ggpi.org/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("en",{
+ "Play": "Play",
+ "Pause": "Pause",
+ "Current Time": "Current Time",
+ "Duration Time": "Duration Time",
+ "Remaining Time": "Remaining Time",
+ "Stream Type": "Stream Type",
+ "LIVE": "LIVE",
+ "Loaded": "Loaded",
+ "Progress": "Progress",
+ "Fullscreen": "Fullscreen",
+ "Non-Fullscreen": "Non-Fullscreen",
+ "Mute": "Mute",
+ "Unmute": "Unmute",
+ "Playback Rate": "Playback Rate",
+ "Subtitles": "Subtitles",
+ "subtitles off": "subtitles off",
+ "Captions": "Captions",
+ "captions off": "captions off",
+ "Chapters": "Chapters",
+ "Close Modal Dialog": "Close Modal Dialog",
+ "Descriptions": "Descriptions",
+ "descriptions off": "descriptions off",
+ "Audio Track": "Audio Track",
+ "You aborted the media playback": "You aborted the media playback",
+ "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+ "No compatible source was found for this media.": "No compatible source was found for this media.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+ "Play Video": "Play Video",
+ "Close": "Close",
+ "Modal Window": "Modal Window",
+ "This is a modal window": "This is a modal window",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+ ", opens captions settings dialog": ", opens captions settings dialog",
+ ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+ ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+ ", selected": ", selected"
+});
+
+    });
+});;
+
+require(['jquery', 'block_myoverview/event_list'], function($, EventList) {
+    var root = $("#event-list-container-");
+    EventList.registerEventListeners(root);
+});
+;
+
+    require(['jquery', 'block_myoverview/event_list'], function($, EventList) {
+    var root = $("#timeline-view-dates-65ef41a47109b65ef41a420fad2").find('[data-region="event-list-container"]');
+    EventList.load(root);
+    });
+;
+
+require(['jquery', 'block_myoverview/event_list'], function($, EventList) {
+    var root = $("#event-list-container-3185");
+    EventList.registerEventListeners(root);
+});
+;
+
+require(['jquery', 'block_myoverview/event_list'], function($, EventList) {
+    var root = $("#event-list-container-3041");
+    EventList.registerEventListeners(root);
+});
+;
+
+require(['jquery', 'block_myoverview/event_list'], function($, EventList) {
+    var root = $("#event-list-container-87");
+    EventList.registerEventListeners(root);
+});
+;
+
+require(['jquery', 'block_myoverview/event_list'], function($, EventList) {
+    var root = $("#event-list-container-3184");
+    EventList.registerEventListeners(root);
+});
+;
+
+require(['jquery', 'block_myoverview/event_list'], function($, EventList) {
+    var root = $("#event-list-container-3186");
+    EventList.registerEventListeners(root);
+});
+;
+
+    require(['jquery', 'core/custom_interaction_events', 'block_myoverview/event_list_by_course'],
+        function($, CustomEvents, EventListByCourse) {
+
+        var root = $("#sort-by-courses-view-65ef41a47109b65ef41a420fad2");
+        // This flag is used so that we can delay the loading of the events until the tab
+        // is toggled by the user.
+        var seen = false;
+
+        CustomEvents.define(root, [CustomEvents.events.activate]);
+        // Show more courses and load their events when the user clicks the "more courses"
+        // button.
+        root.on(CustomEvents.events.activate, '[data-action="more-courses"]', function(e, data) {
+            var button = $(e.target);
+            var blocks = root.find('[data-region="course-block"].hidden');
+
+            if (blocks && blocks.length) {
+                var block = blocks.first();
+                EventListByCourse.init(block);
+                block.removeClass('hidden');
+            }
+
+            // If there was only one hidden block then we have no more to show now
+            // so we can disable the button.
+            if (blocks && blocks.length == 1) {
+                button.prop('disabled', true);
+            }
+
+            if (data) {
+                data.originalEvent.preventDefault();
+                data.originalEvent.stopPropagation();
+            }
+            e.stopPropagation();
+        });
+
+        // Listen for when the user changes tab so that we can show the first set of courses
+        // and load their events when they request the sort by courses view for the first time.
+        root.closest('[data-region="timeline-view"]').on('shown shown.bs.tab', function(e) {
+            if (seen) {
+                return;
+            }
+
+            var tab = $(e.target);
+            var tabTarget = $(tab.attr('href'));
+
+            if (!tabTarget || !tabTarget.length) {
+                return;
+            }
+
+            var viewCourses = tabTarget.find('#sort-by-courses-view-65ef41a47109b65ef41a420fad2');
+
+            if (viewCourses && viewCourses.length && !seen) {
+                seen = true;
+                viewCourses.find('[data-action="more-courses"]').trigger(CustomEvents.events.activate);
+            }
+        });
+    });
+;
+
+require(['jquery', 'core/custom_interaction_events'], function($, customEvents) {
+    var root = $('#timeline-view-65ef41a47109b65ef41a420fad2');
+    customEvents.define(root, [customEvents.events.activate]);
+    root.on(customEvents.events.activate, '[data-toggle="btns"] > .btn', function() {
+        root.find('.btn.active').removeClass('active');
+    });
+});
+;
+
+require(['jquery', 'block_myoverview/paging_bar'], function($, PagingBar) {
+    var root = $('#pb-for-in-progress');
+    PagingBar.registerEventListeners(root);
+});
+;
+
+require(['jquery', 'block_myoverview/paging_bar', 'block_myoverview/paging_content'],
+    function($, PagingBar, PagingContent) {
+
+    var root = $('#courses-view-in-progress');
+    var pagingBarElement = root.find(PagingBar.rootSelector);
+    var pagingContentElement = root.find(PagingContent.rootSelector);
+
+    var content = new PagingContent(pagingContentElement, pagingBarElement);
+    content.registerEventListeners();
+});
+;
+
+require(['jquery', 'core/custom_interaction_events'], function($, customEvents) {
+    var root = $('#courses-view-65ef41a47109b65ef41a420fad2');
+    customEvents.define(root, [customEvents.events.activate]);
+    root.on(customEvents.events.activate, '[data-toggle="btns"] > .btn', function() {
+        root.find('.btn.active').removeClass('active');
+    });
+});
+;
+
+require(['jquery', 'block_myoverview/tab_preferences'], function($, TabPreferences) {
+    var root = $('#block-myoverview-view-choices-65ef41a47109b65ef41a420fad2');
+    TabPreferences.registerEventListeners(root);
+});
+;
+
+require(['jquery', 'message_popup/message_popover_controller'], function($, controller) {
+    var container = $('#nav-message-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select65ef41a420fad15').change(function() {
+        $('#single_select_f65ef41a420fad14').submit();
+    });
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select65ef41a420fad18').change(function() {
+        $('#single_select_f65ef41a420fad17').submit();
+    });
+});
+;
+
+require(['theme_boost/loader']);
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+});
+;
+require(["core/notification"], function(amd) { amd.init(189247, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random65ef41a420fad19'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random65ef41a420fad19'); });
+})();
+//]]>
+</script>
+
+    </div>
+</footer>
+
+</body>
+</html>Ź���      e�A�e�A�F��xe�A�   @    O^partitionKey=%28http%2Cggpi.org%29,:http://moodle.ggpi.org/my/ strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Mon, 11 Mar 2024 17:38:44 GMT
+Server: Apache
+Cache-Control: private, pre-check=0, post-check=0, max-age=0, no-transform
+Pragma: no-cache
+Content-Language: en
+Content-Script-Type: text/javascript
+Content-Style-Type: text/css
+X-UA-Compatible: IE=edge
+Accept-Ranges: none
+X-Frame-Options: sameorigin
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Mon, 11 Mar 2024 17:38:44 GMT
+Server: Apache
+Expires: 
+Cache-Control: private, pre-check=0, post-check=0, max-age=0, no-transform
+Pragma: no-cache
+Content-Language: en
+Content-Script-Type: text/javascript
+Content-Style-Type: text/css
+X-UA-Compatible: IE=edge
+Accept-Ranges: none
+X-Frame-Options: sameorigin
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+ ctid 1 uncompressed-len 0 net-response-time-onstart 579 net-response-time-onstop 654  ��

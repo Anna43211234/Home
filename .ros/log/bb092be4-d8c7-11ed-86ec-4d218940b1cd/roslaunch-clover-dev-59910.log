@@ -1,0 +1,295 @@
+[roslaunch][INFO] 2023-04-12 03:19:46,685: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2023-04-12 03:19:46,690: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2023-04-12 03:19:46,690: roslaunch starting with args ['/opt/ros/noetic/bin/roslaunch', 'clover_simulation', 'simulator.launch', 'type:=jmavsim', 'gui:=false', '--screen']
+[roslaunch][INFO] 2023-04-12 03:19:46,690: roslaunch env is environ({'HEADLESS': '1', 'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'LANGUAGE': 'en_US:', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'PWD': '/home/clover/PX4-Autopilot', 'LOGNAME': 'clover', 'XDG_SESSION_TYPE': 'tty', 'MOTD_SHOWN': 'pam', 'HOME': '/home/clover', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'LANG': 'en_US', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'VM': '1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'PASSWORD': 'clover', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'USER': 'clover', 'SHLVL': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_SESSION_ID': '2', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_CLIENT': '10.0.2.2 49195 22', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/opt/ros/noetic/bin:/home/clover/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'OLDPWD': '/home/clover/catkin_ws/src/clover', '_': '/usr/bin/timeout', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/roslaunch-clover-dev-59910.log'})
+[roslaunch][INFO] 2023-04-12 03:19:46,690: starting in server mode
+[roslaunch.parent][INFO] 2023-04-12 03:19:46,691: starting roslaunch parent run
+[roslaunch][INFO] 2023-04-12 03:19:46,691: loading roscore config file /opt/ros/noetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2023-04-12 03:19:46,879: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2023-04-12 03:19:46,879: loading config file /home/clover/catkin_ws/src/clover/clover_simulation/launch/simulator.launch
+[roslaunch][INFO] 2023-04-12 03:19:46,933: Added node of type [px4/px4] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:19:46,933: Added node of type [px4/jmavsim_run.sh] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:19:46,956: Added node of type [mavros/mavros_node] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:19:46,957: Added node of type [tf2_ros/static_transform_publisher] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:19:46,958: Added node of type [mavros_extras/visualization] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:19:46,960: Added node of type [clover/vpe_publisher] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:19:46,961: Added node of type [clover/simple_offboard] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:19:46,964: Added node of type [rosbridge_server/rosbridge_websocket] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:19:46,965: Added node of type [rosapi/rosapi_node] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:19:46,965: Added node of type [tf2_web_republisher/tf2_web_republisher] in namespace [/]
+[roslaunch][INFO] 2023-04-12 03:19:46,965: ... selected machine [] for node of type [px4/px4]
+[roslaunch][INFO] 2023-04-12 03:19:46,966: ... selected machine [] for node of type [px4/jmavsim_run.sh]
+[roslaunch][INFO] 2023-04-12 03:19:46,966: ... selected machine [] for node of type [mavros/mavros_node]
+[roslaunch][INFO] 2023-04-12 03:19:46,966: ... selected machine [] for node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2023-04-12 03:19:46,966: ... selected machine [] for node of type [mavros_extras/visualization]
+[roslaunch][INFO] 2023-04-12 03:19:46,966: ... selected machine [] for node of type [clover/vpe_publisher]
+[roslaunch][INFO] 2023-04-12 03:19:46,966: ... selected machine [] for node of type [clover/simple_offboard]
+[roslaunch][INFO] 2023-04-12 03:19:46,966: ... selected machine [] for node of type [rosbridge_server/rosbridge_websocket]
+[roslaunch][INFO] 2023-04-12 03:19:46,966: ... selected machine [] for node of type [rosapi/rosapi_node]
+[roslaunch][INFO] 2023-04-12 03:19:46,966: ... selected machine [] for node of type [tf2_web_republisher/tf2_web_republisher]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:46,967: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2023-04-12 03:19:46,967: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2023-04-12 03:19:46,968: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2023-04-12 03:19:46,968: starting parent XML-RPC server
+[roslaunch.server][INFO] 2023-04-12 03:19:46,968: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2023-04-12 03:19:46,968: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2023-04-12 03:19:46,968: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2023-04-12 03:19:46,969: Started XML-RPC server [http://clover-dev:36643/]
+[xmlrpc][INFO] 2023-04-12 03:19:46,969: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2023-04-12 03:19:46,980: started roslaunch server http://clover-dev:36643/
+[roslaunch.parent][INFO] 2023-04-12 03:19:46,980: ... parent XML-RPC server started
+[roslaunch][INFO] 2023-04-12 03:19:46,982: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2023-04-12 03:19:46,983: auto-starting new master
+[roslaunch][INFO] 2023-04-12 03:19:46,983: create_master_process: rosmaster, /opt/ros/noetic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2023-04-12 03:19:46,983: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:46,983: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:46,983: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2023-04-12 03:19:46,983: process[master]: starting os process
+[roslaunch][INFO] 2023-04-12 03:19:46,983: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/master.log']]
+[roslaunch][INFO] 2023-04-12 03:19:46,983: process[master]: cwd will be [/home/clover/.ros]
+[roslaunch][INFO] 2023-04-12 03:19:46,996: process[master]: started with pid [59918]
+[roslaunch][INFO] 2023-04-12 03:19:46,997: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2023-04-12 03:19:47,099: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2023-04-12 03:19:47,204: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2023-04-12 03:19:47,305: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2023-04-12 03:19:47,307: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2023-04-12 03:19:47,308: ROS_MASTER_URI=http://localhost:11311
+[roslaunch][INFO] 2023-04-12 03:19:47,309: setting /run_id to bb092be4-d8c7-11ed-86ec-4d218940b1cd
+[roslaunch][INFO] 2023-04-12 03:19:47,310: setting /roslaunch/uris/host_clover_dev__36643' to http://clover-dev:36643/
+[roslaunch][INFO] 2023-04-12 03:19:47,312: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2023-04-12 03:19:47,312: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2023-04-12 03:19:47,312: process[rosout-1]: env[{'HEADLESS': '1', 'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'LANGUAGE': 'en_US:', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'PWD': '/home/clover/PX4-Autopilot', 'LOGNAME': 'clover', 'XDG_SESSION_TYPE': 'tty', 'MOTD_SHOWN': 'pam', 'HOME': '/home/clover', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'LANG': 'en_US', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'VM': '1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'PASSWORD': 'clover', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'USER': 'clover', 'SHLVL': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_SESSION_ID': '2', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_CLIENT': '10.0.2.2 49195 22', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/opt/ros/noetic/bin:/home/clover/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'OLDPWD': '/home/clover/catkin_ws/src/clover', '_': '/usr/bin/timeout', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/roslaunch-clover-dev-59910.log'}]
+[roslaunch][INFO] 2023-04-12 03:19:47,379: process[rosout-1]: args[['/opt/ros/noetic/lib/rosout/rosout', '__name:=rosout']]
+[roslaunch][INFO] 2023-04-12 03:19:47,379: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:47,379: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:47,379: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2023-04-12 03:19:47,380: ... registered process [rosout-1]
+[roslaunch][INFO] 2023-04-12 03:19:47,380: process[rosout-1]: starting os process
+[roslaunch][INFO] 2023-04-12 03:19:47,380: process[rosout-1]: start w/ args [['/opt/ros/noetic/lib/rosout/rosout', '__name:=rosout', '__log:=/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/rosout-1.log']]
+[roslaunch][INFO] 2023-04-12 03:19:47,380: process[rosout-1]: cwd will be [/home/clover/.ros]
+[roslaunch][INFO] 2023-04-12 03:19:47,395: process[rosout-1]: started with pid [59928]
+[roslaunch][INFO] 2023-04-12 03:19:47,396: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2023-04-12 03:19:47,396: load_parameters starting ...
+[roslaunch][INFO] 2023-04-12 03:19:47,445: ... load_parameters complete
+[roslaunch][INFO] 2023-04-12 03:19:47,446: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2023-04-12 03:19:47,447: ... preparing to launch node of type [px4/px4]
+[roslaunch][INFO] 2023-04-12 03:19:47,447: create_node_process: package[px4] type[px4] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2023-04-12 03:19:47,447: process[sitl_0-2]: env[{'HEADLESS': '1', 'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'LANGUAGE': 'en_US:', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'PWD': '/home/clover/PX4-Autopilot', 'LOGNAME': 'clover', 'XDG_SESSION_TYPE': 'tty', 'MOTD_SHOWN': 'pam', 'HOME': '/home/clover', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'LANG': 'en_US', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'VM': '1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'PASSWORD': 'clover', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'USER': 'clover', 'SHLVL': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_SESSION_ID': '2', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_CLIENT': '10.0.2.2 49195 22', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/opt/ros/noetic/bin:/home/clover/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'OLDPWD': '/home/clover/catkin_ws/src/clover', '_': '/usr/bin/timeout', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/roslaunch-clover-dev-59910.log', 'PX4_SIM_MODEL': 'clover', 'PX4_ESTIMATOR': 'ekf2'}]
+[roslaunch][INFO] 2023-04-12 03:19:47,761: process[sitl_0-2]: args[['/home/clover/catkin_ws/devel/lib/px4/px4', '/home/clover/catkin_ws/src/PX4-Autopilot/ROMFS/px4fmu_common', '-s', 'etc/init.d-posix/rcS', '-i', '0', '__name:=sitl_0']]
+[roslaunch][INFO] 2023-04-12 03:19:47,761: ... created process [sitl_0-2]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:47,761: ProcessMonitor.register[sitl_0-2]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:47,761: ProcessMonitor.register[sitl_0-2] complete
+[roslaunch][INFO] 2023-04-12 03:19:47,761: ... registered process [sitl_0-2]
+[roslaunch][INFO] 2023-04-12 03:19:47,761: process[sitl_0-2]: starting os process
+[roslaunch][INFO] 2023-04-12 03:19:47,761: process[sitl_0-2]: start w/ args [['/home/clover/catkin_ws/devel/lib/px4/px4', '/home/clover/catkin_ws/src/PX4-Autopilot/ROMFS/px4fmu_common', '-s', 'etc/init.d-posix/rcS', '-i', '0', '__name:=sitl_0', '__log:=/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/sitl_0-2.log']]
+[roslaunch][INFO] 2023-04-12 03:19:47,761: process[sitl_0-2]: cwd will be [/home/clover/.ros]
+[roslaunch][INFO] 2023-04-12 03:19:47,769: process[sitl_0-2]: started with pid [59936]
+[roslaunch][INFO] 2023-04-12 03:19:47,769: ... successfully launched [sitl_0-2]
+[roslaunch][INFO] 2023-04-12 03:19:47,769: ... preparing to launch node of type [px4/jmavsim_run.sh]
+[roslaunch][INFO] 2023-04-12 03:19:47,769: create_node_process: package[px4] type[jmavsim_run.sh] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2023-04-12 03:19:47,770: process[jmavsim-3]: env[{'HEADLESS': '1', 'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'LANGUAGE': 'en_US:', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'PWD': '/home/clover/PX4-Autopilot', 'LOGNAME': 'clover', 'XDG_SESSION_TYPE': 'tty', 'MOTD_SHOWN': 'pam', 'HOME': '/home/clover', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'LANG': 'en_US', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'VM': '1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'PASSWORD': 'clover', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'USER': 'clover', 'SHLVL': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_SESSION_ID': '2', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_CLIENT': '10.0.2.2 49195 22', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/opt/ros/noetic/bin:/home/clover/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'OLDPWD': '/home/clover/catkin_ws/src/clover', '_': '/usr/bin/timeout', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/roslaunch-clover-dev-59910.log'}]
+[roslaunch][INFO] 2023-04-12 03:19:48,284: process[jmavsim-3]: args[['/home/clover/catkin_ws/src/PX4-Autopilot/Tools/jmavsim_run.sh', '__name:=jmavsim']]
+[roslaunch][INFO] 2023-04-12 03:19:48,284: ... created process [jmavsim-3]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,284: ProcessMonitor.register[jmavsim-3]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,284: ProcessMonitor.register[jmavsim-3] complete
+[roslaunch][INFO] 2023-04-12 03:19:48,284: ... registered process [jmavsim-3]
+[roslaunch][INFO] 2023-04-12 03:19:48,285: process[jmavsim-3]: starting os process
+[roslaunch][INFO] 2023-04-12 03:19:48,285: process[jmavsim-3]: start w/ args [['/home/clover/catkin_ws/src/PX4-Autopilot/Tools/jmavsim_run.sh', '__name:=jmavsim', '__log:=/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/jmavsim-3.log']]
+[roslaunch][INFO] 2023-04-12 03:19:48,285: process[jmavsim-3]: cwd will be [/home/clover/.ros]
+[roslaunch][INFO] 2023-04-12 03:19:48,293: process[jmavsim-3]: started with pid [60105]
+[roslaunch][INFO] 2023-04-12 03:19:48,293: ... successfully launched [jmavsim-3]
+[roslaunch][INFO] 2023-04-12 03:19:48,293: ... preparing to launch node of type [mavros/mavros_node]
+[roslaunch][INFO] 2023-04-12 03:19:48,294: create_node_process: package[mavros] type[mavros_node] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2023-04-12 03:19:48,294: process[mavros-4]: env[{'HEADLESS': '1', 'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'LANGUAGE': 'en_US:', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'PWD': '/home/clover/PX4-Autopilot', 'LOGNAME': 'clover', 'XDG_SESSION_TYPE': 'tty', 'MOTD_SHOWN': 'pam', 'HOME': '/home/clover', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'LANG': 'en_US', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'VM': '1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'PASSWORD': 'clover', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'USER': 'clover', 'SHLVL': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_SESSION_ID': '2', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_CLIENT': '10.0.2.2 49195 22', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/opt/ros/noetic/bin:/home/clover/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'OLDPWD': '/home/clover/catkin_ws/src/clover', '_': '/usr/bin/timeout', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/roslaunch-clover-dev-59910.log', 'ROSCONSOLE_FORMAT': '[${severity}] [${time}]: ${logger}: ${message}'}]
+[roslaunch][INFO] 2023-04-12 03:19:48,295: process[mavros-4]: args[['/opt/ros/noetic/lib/mavros/mavros_node', 'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', '__name:=mavros']]
+[roslaunch][INFO] 2023-04-12 03:19:48,295: ... created process [mavros-4]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,295: ProcessMonitor.register[mavros-4]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,295: ProcessMonitor.register[mavros-4] complete
+[roslaunch][INFO] 2023-04-12 03:19:48,295: ... registered process [mavros-4]
+[roslaunch][INFO] 2023-04-12 03:19:48,295: process[mavros-4]: starting os process
+[roslaunch][INFO] 2023-04-12 03:19:48,295: process[mavros-4]: start w/ args [['/opt/ros/noetic/lib/mavros/mavros_node', 'mavros/distance_sensor/rangefinder_sub:=rangefinder/range', '__name:=mavros', '__log:=/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/mavros-4.log']]
+[roslaunch][INFO] 2023-04-12 03:19:48,295: process[mavros-4]: cwd will be [/home/clover/.ros]
+[roslaunch][INFO] 2023-04-12 03:19:48,307: process[mavros-4]: started with pid [60108]
+[roslaunch][INFO] 2023-04-12 03:19:48,307: ... successfully launched [mavros-4]
+[roslaunch][INFO] 2023-04-12 03:19:48,310: ... preparing to launch node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2023-04-12 03:19:48,311: create_node_process: package[tf2_ros] type[static_transform_publisher] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2023-04-12 03:19:48,311: process[rangefinder_frame-5]: env[{'HEADLESS': '1', 'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'LANGUAGE': 'en_US:', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'PWD': '/home/clover/PX4-Autopilot', 'LOGNAME': 'clover', 'XDG_SESSION_TYPE': 'tty', 'MOTD_SHOWN': 'pam', 'HOME': '/home/clover', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'LANG': 'en_US', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'VM': '1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'PASSWORD': 'clover', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'USER': 'clover', 'SHLVL': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_SESSION_ID': '2', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_CLIENT': '10.0.2.2 49195 22', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/opt/ros/noetic/bin:/home/clover/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'OLDPWD': '/home/clover/catkin_ws/src/clover', '_': '/usr/bin/timeout', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/roslaunch-clover-dev-59910.log', 'ROSCONSOLE_FORMAT': '[${severity}] [${time}]: ${logger}: ${message}'}]
+[roslaunch][INFO] 2023-04-12 03:19:48,312: process[rangefinder_frame-5]: args[['/opt/ros/noetic/lib/tf2_ros/static_transform_publisher', '0', '0', '-0.05', '0', '1.5707963268', '0', 'base_link', 'rangefinder', '__name:=rangefinder_frame']]
+[roslaunch][INFO] 2023-04-12 03:19:48,312: ... created process [rangefinder_frame-5]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,312: ProcessMonitor.register[rangefinder_frame-5]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,312: ProcessMonitor.register[rangefinder_frame-5] complete
+[roslaunch][INFO] 2023-04-12 03:19:48,312: ... registered process [rangefinder_frame-5]
+[roslaunch][INFO] 2023-04-12 03:19:48,312: process[rangefinder_frame-5]: starting os process
+[roslaunch][INFO] 2023-04-12 03:19:48,312: process[rangefinder_frame-5]: start w/ args [['/opt/ros/noetic/lib/tf2_ros/static_transform_publisher', '0', '0', '-0.05', '0', '1.5707963268', '0', 'base_link', 'rangefinder', '__name:=rangefinder_frame', '__log:=/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/rangefinder_frame-5.log']]
+[roslaunch][INFO] 2023-04-12 03:19:48,313: process[rangefinder_frame-5]: cwd will be [/home/clover/.ros]
+[roslaunch][INFO] 2023-04-12 03:19:48,337: process[rangefinder_frame-5]: started with pid [60115]
+[roslaunch][INFO] 2023-04-12 03:19:48,338: ... successfully launched [rangefinder_frame-5]
+[roslaunch][INFO] 2023-04-12 03:19:48,338: ... preparing to launch node of type [mavros_extras/visualization]
+[roslaunch][INFO] 2023-04-12 03:19:48,338: create_node_process: package[mavros_extras] type[visualization] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2023-04-12 03:19:48,338: process[visualization-6]: env[{'HEADLESS': '1', 'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'LANGUAGE': 'en_US:', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'PWD': '/home/clover/PX4-Autopilot', 'LOGNAME': 'clover', 'XDG_SESSION_TYPE': 'tty', 'MOTD_SHOWN': 'pam', 'HOME': '/home/clover', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'LANG': 'en_US', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'VM': '1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'PASSWORD': 'clover', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'USER': 'clover', 'SHLVL': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_SESSION_ID': '2', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_CLIENT': '10.0.2.2 49195 22', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/opt/ros/noetic/bin:/home/clover/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'OLDPWD': '/home/clover/catkin_ws/src/clover', '_': '/usr/bin/timeout', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/roslaunch-clover-dev-59910.log', 'ROSCONSOLE_FORMAT': '[${severity}] [${time}]: ${logger}: ${message}'}]
+[roslaunch][INFO] 2023-04-12 03:19:48,339: process[visualization-6]: args[['/opt/ros/noetic/lib/mavros_extras/visualization', 'local_position:=mavros/local_position/pose', 'local_setpoint:=mavros/setpoint_position/local', '__name:=visualization']]
+[roslaunch][INFO] 2023-04-12 03:19:48,339: ... created process [visualization-6]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,339: ProcessMonitor.register[visualization-6]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,340: ProcessMonitor.register[visualization-6] complete
+[roslaunch][INFO] 2023-04-12 03:19:48,340: ... registered process [visualization-6]
+[roslaunch][INFO] 2023-04-12 03:19:48,340: process[visualization-6]: starting os process
+[roslaunch][INFO] 2023-04-12 03:19:48,340: process[visualization-6]: start w/ args [['/opt/ros/noetic/lib/mavros_extras/visualization', 'local_position:=mavros/local_position/pose', 'local_setpoint:=mavros/setpoint_position/local', '__name:=visualization', '__log:=/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/visualization-6.log']]
+[roslaunch][INFO] 2023-04-12 03:19:48,340: process[visualization-6]: cwd will be [/home/clover/.ros]
+[roslaunch][INFO] 2023-04-12 03:19:48,369: process[visualization-6]: started with pid [60119]
+[roslaunch][INFO] 2023-04-12 03:19:48,369: ... successfully launched [visualization-6]
+[roslaunch][INFO] 2023-04-12 03:19:48,369: ... preparing to launch node of type [clover/vpe_publisher]
+[roslaunch][INFO] 2023-04-12 03:19:48,369: create_node_process: package[clover] type[vpe_publisher] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2023-04-12 03:19:48,369: process[vpe_publisher-7]: env[{'HEADLESS': '1', 'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'LANGUAGE': 'en_US:', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'PWD': '/home/clover/PX4-Autopilot', 'LOGNAME': 'clover', 'XDG_SESSION_TYPE': 'tty', 'MOTD_SHOWN': 'pam', 'HOME': '/home/clover', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'LANG': 'en_US', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'VM': '1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'PASSWORD': 'clover', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'USER': 'clover', 'SHLVL': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_SESSION_ID': '2', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_CLIENT': '10.0.2.2 49195 22', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/opt/ros/noetic/bin:/home/clover/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'OLDPWD': '/home/clover/catkin_ws/src/clover', '_': '/usr/bin/timeout', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/roslaunch-clover-dev-59910.log', 'ROSCONSOLE_FORMAT': '[${severity}] [${time}]: ${logger}: ${message}'}]
+[roslaunch][INFO] 2023-04-12 03:19:48,419: process[vpe_publisher-7]: args[['/home/clover/catkin_ws/devel/lib/clover/vpe_publisher', '~vpe:=mavros/vision_pose/pose', '__name:=vpe_publisher']]
+[roslaunch][INFO] 2023-04-12 03:19:48,419: ... created process [vpe_publisher-7]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,419: ProcessMonitor.register[vpe_publisher-7]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,419: ProcessMonitor.register[vpe_publisher-7] complete
+[roslaunch][INFO] 2023-04-12 03:19:48,420: ... registered process [vpe_publisher-7]
+[roslaunch][INFO] 2023-04-12 03:19:48,420: process[vpe_publisher-7]: starting os process
+[roslaunch][INFO] 2023-04-12 03:19:48,420: process[vpe_publisher-7]: start w/ args [['/home/clover/catkin_ws/devel/lib/clover/vpe_publisher', '~vpe:=mavros/vision_pose/pose', '__name:=vpe_publisher', '__log:=/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/vpe_publisher-7.log']]
+[roslaunch][INFO] 2023-04-12 03:19:48,420: process[vpe_publisher-7]: cwd will be [/home/clover/.ros]
+[roslaunch][INFO] 2023-04-12 03:19:48,451: process[vpe_publisher-7]: started with pid [60139]
+[roslaunch][INFO] 2023-04-12 03:19:48,454: ... successfully launched [vpe_publisher-7]
+[roslaunch][INFO] 2023-04-12 03:19:48,454: ... preparing to launch node of type [clover/simple_offboard]
+[roslaunch][INFO] 2023-04-12 03:19:48,454: create_node_process: package[clover] type[simple_offboard] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2023-04-12 03:19:48,455: process[simple_offboard-8]: env[{'HEADLESS': '1', 'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'LANGUAGE': 'en_US:', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'PWD': '/home/clover/PX4-Autopilot', 'LOGNAME': 'clover', 'XDG_SESSION_TYPE': 'tty', 'MOTD_SHOWN': 'pam', 'HOME': '/home/clover', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'LANG': 'en_US', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'VM': '1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'PASSWORD': 'clover', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'USER': 'clover', 'SHLVL': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_SESSION_ID': '2', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_CLIENT': '10.0.2.2 49195 22', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/opt/ros/noetic/bin:/home/clover/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'OLDPWD': '/home/clover/catkin_ws/src/clover', '_': '/usr/bin/timeout', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/roslaunch-clover-dev-59910.log', 'ROSCONSOLE_FORMAT': '[${severity}] [${time}]: ${logger}: ${message}'}]
+[roslaunch][INFO] 2023-04-12 03:19:48,537: process[simple_offboard-8]: args[['/home/clover/catkin_ws/devel/lib/clover/simple_offboard', '__name:=simple_offboard']]
+[roslaunch][INFO] 2023-04-12 03:19:48,537: ... created process [simple_offboard-8]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,538: ProcessMonitor.register[simple_offboard-8]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,538: ProcessMonitor.register[simple_offboard-8] complete
+[roslaunch][INFO] 2023-04-12 03:19:48,538: ... registered process [simple_offboard-8]
+[roslaunch][INFO] 2023-04-12 03:19:48,538: process[simple_offboard-8]: starting os process
+[roslaunch][INFO] 2023-04-12 03:19:48,538: process[simple_offboard-8]: start w/ args [['/home/clover/catkin_ws/devel/lib/clover/simple_offboard', '__name:=simple_offboard', '__log:=/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/simple_offboard-8.log']]
+[roslaunch][INFO] 2023-04-12 03:19:48,538: process[simple_offboard-8]: cwd will be [/home/clover/.ros]
+[roslaunch][INFO] 2023-04-12 03:19:48,579: process[simple_offboard-8]: started with pid [60147]
+[roslaunch][INFO] 2023-04-12 03:19:48,579: ... successfully launched [simple_offboard-8]
+[roslaunch][INFO] 2023-04-12 03:19:48,579: ... preparing to launch node of type [rosbridge_server/rosbridge_websocket]
+[roslaunch][INFO] 2023-04-12 03:19:48,579: create_node_process: package[rosbridge_server] type[rosbridge_websocket] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2023-04-12 03:19:48,580: process[rosbridge_websocket-9]: env[{'HEADLESS': '1', 'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'LANGUAGE': 'en_US:', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'PWD': '/home/clover/PX4-Autopilot', 'LOGNAME': 'clover', 'XDG_SESSION_TYPE': 'tty', 'MOTD_SHOWN': 'pam', 'HOME': '/home/clover', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'LANG': 'en_US', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'VM': '1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'PASSWORD': 'clover', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'USER': 'clover', 'SHLVL': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_SESSION_ID': '2', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_CLIENT': '10.0.2.2 49195 22', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/opt/ros/noetic/bin:/home/clover/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'OLDPWD': '/home/clover/catkin_ws/src/clover', '_': '/usr/bin/timeout', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/roslaunch-clover-dev-59910.log', 'ROSCONSOLE_FORMAT': '[${severity}] [${time}]: ${logger}: ${message}'}]
+[roslaunch][INFO] 2023-04-12 03:19:48,581: process[rosbridge_websocket-9]: args[['/opt/ros/noetic/lib/rosbridge_server/rosbridge_websocket', '__name:=rosbridge_websocket']]
+[roslaunch][INFO] 2023-04-12 03:19:48,581: ... created process [rosbridge_websocket-9]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,581: ProcessMonitor.register[rosbridge_websocket-9]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,581: ProcessMonitor.register[rosbridge_websocket-9] complete
+[roslaunch][INFO] 2023-04-12 03:19:48,581: ... registered process [rosbridge_websocket-9]
+[roslaunch][INFO] 2023-04-12 03:19:48,581: process[rosbridge_websocket-9]: starting os process
+[roslaunch][INFO] 2023-04-12 03:19:48,581: process[rosbridge_websocket-9]: start w/ args [['/opt/ros/noetic/lib/rosbridge_server/rosbridge_websocket', '__name:=rosbridge_websocket', '__log:=/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/rosbridge_websocket-9.log']]
+[roslaunch][INFO] 2023-04-12 03:19:48,600: process[rosbridge_websocket-9]: cwd will be [/home/clover/.ros]
+[roslaunch][INFO] 2023-04-12 03:19:48,654: process[rosbridge_websocket-9]: started with pid [60152]
+[roslaunch][INFO] 2023-04-12 03:19:48,662: ... successfully launched [rosbridge_websocket-9]
+[roslaunch][INFO] 2023-04-12 03:19:48,664: ... preparing to launch node of type [rosapi/rosapi_node]
+[roslaunch][INFO] 2023-04-12 03:19:48,667: create_node_process: package[rosapi] type[rosapi_node] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2023-04-12 03:19:48,673: process[rosapi-10]: env[{'HEADLESS': '1', 'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'LANGUAGE': 'en_US:', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'PWD': '/home/clover/PX4-Autopilot', 'LOGNAME': 'clover', 'XDG_SESSION_TYPE': 'tty', 'MOTD_SHOWN': 'pam', 'HOME': '/home/clover', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'LANG': 'en_US', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'VM': '1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'PASSWORD': 'clover', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'USER': 'clover', 'SHLVL': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_SESSION_ID': '2', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_CLIENT': '10.0.2.2 49195 22', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/opt/ros/noetic/bin:/home/clover/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'OLDPWD': '/home/clover/catkin_ws/src/clover', '_': '/usr/bin/timeout', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/roslaunch-clover-dev-59910.log', 'ROSCONSOLE_FORMAT': '[${severity}] [${time}]: ${logger}: ${message}'}]
+[roslaunch][INFO] 2023-04-12 03:19:48,678: process[rosapi-10]: args[['/opt/ros/noetic/lib/rosapi/rosapi_node', '__name:=rosapi']]
+[roslaunch][INFO] 2023-04-12 03:19:48,684: ... created process [rosapi-10]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,687: ProcessMonitor.register[rosapi-10]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,687: ProcessMonitor.register[rosapi-10] complete
+[roslaunch][INFO] 2023-04-12 03:19:48,687: ... registered process [rosapi-10]
+[roslaunch][INFO] 2023-04-12 03:19:48,687: process[rosapi-10]: starting os process
+[roslaunch][INFO] 2023-04-12 03:19:48,687: process[rosapi-10]: start w/ args [['/opt/ros/noetic/lib/rosapi/rosapi_node', '__name:=rosapi', '__log:=/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/rosapi-10.log']]
+[roslaunch][INFO] 2023-04-12 03:19:48,687: process[rosapi-10]: cwd will be [/home/clover/.ros]
+[roslaunch][INFO] 2023-04-12 03:19:48,738: process[rosapi-10]: started with pid [60158]
+[roslaunch][INFO] 2023-04-12 03:19:48,738: ... successfully launched [rosapi-10]
+[roslaunch][INFO] 2023-04-12 03:19:48,738: ... preparing to launch node of type [tf2_web_republisher/tf2_web_republisher]
+[roslaunch][INFO] 2023-04-12 03:19:48,739: create_node_process: package[tf2_web_republisher] type[tf2_web_republisher] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2023-04-12 03:19:48,739: process[tf2_web_republisher-11]: env[{'HEADLESS': '1', 'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/home/clover/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'LANGUAGE': 'en_US:', 'SSH_AUTH_SOCK': '/tmp/ssh-4w8BNHlRrx/agent.724', 'ROS_PACKAGE_PATH': '/home/clover/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/clover/catkin_ws/devel/share/common-lisp', 'PWD': '/home/clover/PX4-Autopilot', 'LOGNAME': 'clover', 'XDG_SESSION_TYPE': 'tty', 'MOTD_SHOWN': 'pam', 'HOME': '/home/clover', 'GAZEBO_PLUGIN_PATH': '/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins:', 'LANG': 'en_US', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'VM': '1', 'CMAKE_PREFIX_PATH': '/home/clover/catkin_ws/devel:/opt/ros/noetic', 'GAZEBO_RESOURCE_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo:', 'SSH_CONNECTION': '10.0.2.2 49195 10.0.2.15 22', 'PASSWORD': 'clover', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/clover/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'USER': 'clover', 'SHLVL': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_SESSION_ID': '2', 'LD_LIBRARY_PATH': '/home/clover/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/clover/catkin_ws/install/lib/mavlink_sitl_gazebo/plugins', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_CLIENT': '10.0.2.2 49195 22', 'GAZEBO_MODEL_PATH': '/home/clover/catkin_ws/install/share/mavlink_sitl_gazebo/models:', 'PATH': '/opt/ros/noetic/bin:/home/clover/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'OLDPWD': '/home/clover/catkin_ws/src/clover', '_': '/usr/bin/timeout', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/roslaunch-clover-dev-59910.log', 'ROSCONSOLE_FORMAT': '[${severity}] [${time}]: ${logger}: ${message}'}]
+[roslaunch][INFO] 2023-04-12 03:19:48,740: process[tf2_web_republisher-11]: args[['/opt/ros/noetic/lib/tf2_web_republisher/tf2_web_republisher', '__name:=tf2_web_republisher']]
+[roslaunch][INFO] 2023-04-12 03:19:48,740: ... created process [tf2_web_republisher-11]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,740: ProcessMonitor.register[tf2_web_republisher-11]
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,740: ProcessMonitor.register[tf2_web_republisher-11] complete
+[roslaunch][INFO] 2023-04-12 03:19:48,740: ... registered process [tf2_web_republisher-11]
+[roslaunch][INFO] 2023-04-12 03:19:48,740: process[tf2_web_republisher-11]: starting os process
+[roslaunch][INFO] 2023-04-12 03:19:48,740: process[tf2_web_republisher-11]: start w/ args [['/opt/ros/noetic/lib/tf2_web_republisher/tf2_web_republisher', '__name:=tf2_web_republisher', '__log:=/home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/tf2_web_republisher-11.log']]
+[roslaunch][INFO] 2023-04-12 03:19:48,741: process[tf2_web_republisher-11]: cwd will be [/home/clover/.ros]
+[roslaunch][INFO] 2023-04-12 03:19:48,785: process[tf2_web_republisher-11]: started with pid [60162]
+[roslaunch][INFO] 2023-04-12 03:19:48,785: ... successfully launched [tf2_web_republisher-11]
+[roslaunch][INFO] 2023-04-12 03:19:48,785: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2023-04-12 03:19:48,785: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 139856791648000)>
+[roslaunch.parent][INFO] 2023-04-12 03:19:48,786: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2023-04-12 03:19:48,795: spin
+[roslaunch][ERROR] 2023-04-12 03:19:59,978: ================================================================================REQUIRED process [sitl_0-2] has died!
+process has finished cleanly
+log file: /home/clover/.ros/log/bb092be4-d8c7-11ed-86ec-4d218940b1cd/sitl_0-2*.log
+Initiating shutdown!
+================================================================================
+[roslaunch.pmon][INFO] 2023-04-12 03:20:00,079: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 139856791648000)>
+[roslaunch.pmon][INFO] 2023-04-12 03:20:00,079: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 139856791648000)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7f32f26c3b80>, <roslaunch.nodeprocess.LocalProcess object at 0x7f32f2842be0>, <roslaunch.nodeprocess.LocalProcess object at 0x7f32f2716df0>, <roslaunch.nodeprocess.LocalProcess object at 0x7f32f282bc40>, <roslaunch.nodeprocess.LocalProcess object at 0x7f32f289d310>, <roslaunch.nodeprocess.LocalProcess object at 0x7f32f264c460>, <roslaunch.nodeprocess.LocalProcess object at 0x7f32f264c610>, <roslaunch.nodeprocess.LocalProcess object at 0x7f32f264c1c0>, <roslaunch.nodeprocess.LocalProcess object at 0x7f32f264c400>, <roslaunch.nodeprocess.LocalProcess object at 0x7f32f264c670>, <roslaunch.nodeprocess.LocalProcess object at 0x7f32f264c340>, <roslaunch.nodeprocess.LocalProcess object at 0x7f32f264c9a0>]
+[roslaunch.pmon][INFO] 2023-04-12 03:20:00,079: ProcessMonitor exit: killing tf2_web_republisher-11
+[roslaunch][INFO] 2023-04-12 03:20:00,079: [tf2_web_republisher-11] killing on exit
+[roslaunch][INFO] 2023-04-12 03:20:00,080: process[tf2_web_republisher-11]: killing os process with pid[60162] pgid[60162]
+[roslaunch][INFO] 2023-04-12 03:20:00,080: [tf2_web_republisher-11] sending SIGINT to pgid [60162]
+[roslaunch][INFO] 2023-04-12 03:20:00,080: [tf2_web_republisher-11] sent SIGINT to pgid [60162]
+[roslaunch.pmon][INFO] 2023-04-12 03:20:00,080: ProcessMonitor exit: killing rosapi-10
+[roslaunch][INFO] 2023-04-12 03:20:00,080: [rosapi-10] killing on exit
+[roslaunch][INFO] 2023-04-12 03:20:00,080: process[rosapi-10]: killing os process with pid[60158] pgid[60158]
+[roslaunch][INFO] 2023-04-12 03:20:00,080: [rosapi-10] sending SIGINT to pgid [60158]
+[roslaunch][INFO] 2023-04-12 03:20:00,088: [rosapi-10] sent SIGINT to pgid [60158]
+[roslaunch.pmon][INFO] 2023-04-12 03:20:00,089: ProcessMonitor exit: killing rosbridge_websocket-9
+[roslaunch][INFO] 2023-04-12 03:20:00,089: [rosbridge_websocket-9] killing on exit
+[roslaunch][INFO] 2023-04-12 03:20:00,089: process[rosbridge_websocket-9]: killing os process with pid[60152] pgid[60152]
+[roslaunch][INFO] 2023-04-12 03:20:00,089: [rosbridge_websocket-9] sending SIGINT to pgid [60152]
+[roslaunch][INFO] 2023-04-12 03:20:00,090: [rosbridge_websocket-9] sent SIGINT to pgid [60152]
+[roslaunch.pmon][INFO] 2023-04-12 03:20:00,090: ProcessMonitor exit: killing simple_offboard-8
+[roslaunch][INFO] 2023-04-12 03:20:00,090: [simple_offboard-8] killing on exit
+[roslaunch][INFO] 2023-04-12 03:20:00,091: process[simple_offboard-8]: killing os process with pid[60147] pgid[60147]
+[roslaunch][INFO] 2023-04-12 03:20:00,091: [simple_offboard-8] sending SIGINT to pgid [60147]
+[roslaunch][INFO] 2023-04-12 03:20:00,091: [simple_offboard-8] sent SIGINT to pgid [60147]
+[roslaunch.pmon][INFO] 2023-04-12 03:20:00,091: ProcessMonitor exit: killing vpe_publisher-7
+[roslaunch][INFO] 2023-04-12 03:20:00,091: [vpe_publisher-7] killing on exit
+[roslaunch][INFO] 2023-04-12 03:20:00,091: process[vpe_publisher-7]: killing os process with pid[60139] pgid[60139]
+[roslaunch][INFO] 2023-04-12 03:20:00,091: [vpe_publisher-7] sending SIGINT to pgid [60139]
+[roslaunch][INFO] 2023-04-12 03:20:00,094: [vpe_publisher-7] sent SIGINT to pgid [60139]
+[roslaunch.pmon][INFO] 2023-04-12 03:20:00,094: ProcessMonitor exit: killing visualization-6
+[roslaunch][INFO] 2023-04-12 03:20:00,094: [visualization-6] killing on exit
+[roslaunch][INFO] 2023-04-12 03:20:00,094: process[visualization-6]: killing os process with pid[60119] pgid[60119]
+[roslaunch][INFO] 2023-04-12 03:20:00,094: [visualization-6] sending SIGINT to pgid [60119]
+[roslaunch][INFO] 2023-04-12 03:20:00,095: [visualization-6] sent SIGINT to pgid [60119]
+[roslaunch.pmon][INFO] 2023-04-12 03:20:00,095: ProcessMonitor exit: killing rangefinder_frame-5
+[roslaunch][INFO] 2023-04-12 03:20:00,095: [rangefinder_frame-5] killing on exit
+[roslaunch][INFO] 2023-04-12 03:20:00,095: process[rangefinder_frame-5]: killing os process with pid[60115] pgid[60115]
+[roslaunch][INFO] 2023-04-12 03:20:00,095: [rangefinder_frame-5] sending SIGINT to pgid [60115]
+[roslaunch][INFO] 2023-04-12 03:20:00,095: [rangefinder_frame-5] sent SIGINT to pgid [60115]
+[roslaunch.pmon][INFO] 2023-04-12 03:20:00,095: ProcessMonitor exit: killing mavros-4
+[roslaunch][INFO] 2023-04-12 03:20:00,095: [mavros-4] killing on exit
+[roslaunch][INFO] 2023-04-12 03:20:00,096: process[mavros-4]: killing os process with pid[60108] pgid[60108]
+[roslaunch][INFO] 2023-04-12 03:20:00,096: [mavros-4] sending SIGINT to pgid [60108]
+[roslaunch][INFO] 2023-04-12 03:20:00,096: [mavros-4] sent SIGINT to pgid [60108]
+[roslaunch.pmon][INFO] 2023-04-12 03:20:00,096: ProcessMonitor exit: killing jmavsim-3
+[roslaunch][INFO] 2023-04-12 03:20:00,096: [jmavsim-3] killing on exit
+[roslaunch][INFO] 2023-04-12 03:20:00,096: process[jmavsim-3]: killing os process with pid[60105] pgid[60105]
+[roslaunch][INFO] 2023-04-12 03:20:00,126: [jmavsim-3] sending SIGINT to pgid [60105]
+[roslaunch][INFO] 2023-04-12 03:20:00,127: [jmavsim-3] sent SIGINT to pgid [60105]
+[roslaunch.pmon][INFO] 2023-04-12 03:20:00,127: ProcessMonitor exit: killing sitl_0-2
+[roslaunch][INFO] 2023-04-12 03:20:00,127: [sitl_0-2] killing on exit
+[roslaunch][INFO] 2023-04-12 03:20:00,545: process[jmavsim-3]: SIGINT killed with return value 130
+[roslaunch][INFO] 2023-04-12 03:20:00,606: process[visualization-6]: SIGINT killed with return value 0
+[roslaunch][INFO] 2023-04-12 03:20:00,711: process[rangefinder_frame-5]: SIGINT killed with return value 0
+[roslaunch][INFO] 2023-04-12 03:20:00,816: process[tf2_web_republisher-11]: SIGINT killed with return value 0
+[roslaunch][INFO] 2023-04-12 03:20:01,128: process[rosapi-10]: SIGINT killed with return value 0
+[roslaunch][INFO] 2023-04-12 03:20:01,230: process[simple_offboard-8]: SIGINT killed with return value 0
+[roslaunch][INFO] 2023-04-12 03:20:01,336: process[rosbridge_websocket-9]: SIGINT killed with return value 0
+[roslaunch][INFO] 2023-04-12 03:20:01,443: process[mavros-4]: SIGINT killed with return value 0
+[roslaunch][INFO] 2023-04-12 03:20:01,544: process[vpe_publisher-7]: SIGINT killed with return value -6
+[roslaunch.pmon][INFO] 2023-04-12 03:20:01,545: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2023-04-12 03:20:01,545: [rosout-1] killing on exit
+[roslaunch][INFO] 2023-04-12 03:20:01,545: process[rosout-1]: killing os process with pid[59928] pgid[59928]
+[roslaunch][INFO] 2023-04-12 03:20:01,546: [rosout-1] sending SIGINT to pgid [59928]
+[roslaunch][INFO] 2023-04-12 03:20:01,546: [rosout-1] sent SIGINT to pgid [59928]
+[roslaunch][INFO] 2023-04-12 03:20:01,754: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2023-04-12 03:20:01,755: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2023-04-12 03:20:01,755: [master] killing on exit
+[roslaunch][INFO] 2023-04-12 03:20:01,755: process[master]: killing os process with pid[59918] pgid[59918]
+[roslaunch][INFO] 2023-04-12 03:20:01,755: [master] sending SIGINT to pgid [59918]
+[roslaunch][INFO] 2023-04-12 03:20:01,756: [master] sent SIGINT to pgid [59918]
+[roslaunch][INFO] 2023-04-12 03:20:01,967: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2023-04-12 03:20:01,967: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2023-04-12 03:20:01,967: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2023-04-12 03:20:01,986: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2023-04-12 03:20:01,987: runner.stop()
+[roslaunch][INFO] 2023-04-12 03:20:01,987: shutting down processing monitor...
+[roslaunch][INFO] 2023-04-12 03:20:01,987: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 139856791648000)>
+[roslaunch.pmon][INFO] 2023-04-12 03:20:01,987: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 139856791648000)>
+[roslaunch][INFO] 2023-04-12 03:20:01,988: ... shutting down processing monitor complete
+[roslaunch][INFO] 2023-04-12 03:20:01,988: done
+[roslaunch.pmon][INFO] 2023-04-12 03:20:01,988: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 139856791648000)>
+[rospy.core][INFO] 2023-04-12 03:20:01,990: signal_shutdown [atexit]

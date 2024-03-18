@@ -1,0 +1,4 @@
+WARNING    libindicator-plugin       Error opening directory “/usr/lib/indicators3/7/”: No such file or directory
+WARNING    libindicator-plugin       Error opening directory “/usr/share/unity/indicators”: No such file or directory
+DEBUG      GLib                      posix_spawn avoided (automatic reaping requested) (fd close requested) 
+CRITICAL   libindicator              indicator_object_get_location: assertion 'INDICATOR_IS_OBJECT(io)' failed

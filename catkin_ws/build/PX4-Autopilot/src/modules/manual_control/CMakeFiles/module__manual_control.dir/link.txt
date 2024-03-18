@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/clover/catkin_ws/devel/lib/libmodule__manual_control.a  CMakeFiles/module__manual_control.dir/ManualControl.cpp.o CMakeFiles/module__manual_control.dir/ManualControlSelector.cpp.o
+/usr/bin/ranlib /home/clover/catkin_ws/devel/lib/libmodule__manual_control.a

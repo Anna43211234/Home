@@ -1,0 +1,59 @@
+[roslaunch][INFO] 2024-03-18 22:00:24,004: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2024-03-18 22:00:24,022: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2024-03-18 22:00:24,022: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 2024-03-18 22:00:24,022: roslaunch env is environ({'LANGUAGE': 'en_US:', 'USER': 'clover', 'ROS_PACKAGE_PATH': '/opt/ros/noetic/share', 'LD_LIBRARY_PATH': '/opt/ros/noetic/lib', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'HOME': '/home/clover', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'noetic', 'LOGNAME': 'clover', 'JOURNAL_STREAM': '9:18390', 'PKG_CONFIG_PATH': '/opt/ros/noetic/lib/pkgconfig', 'ROS_VERSION': '1', 'PATH': '/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'INVOCATION_ID': 'e8ec5d6194ff4d0faacb2948bc7050a5', 'LANG': 'en_US', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://localhost:11311', 'PWD': '/', 'PYTHONPATH': '/opt/ros/noetic/lib/python3/dist-packages', 'ROS_HOSTNAME': 'clover-dev.local', 'CMAKE_PREFIX_PATH': '/opt/ros/noetic', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/c6430968-e559-11ee-8bfa-15c7a369d79e/roslaunch-clover-dev-427.log'})
+[roslaunch][INFO] 2024-03-18 22:00:24,022: starting in server mode
+[roslaunch.parent][INFO] 2024-03-18 22:00:24,022: starting roslaunch parent run
+[roslaunch][INFO] 2024-03-18 22:00:24,022: loading roscore config file /opt/ros/noetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2024-03-18 22:00:24,356: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2024-03-18 22:00:24,356: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2024-03-18 22:00:24,356: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2024-03-18 22:00:24,356: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2024-03-18 22:00:24,356: starting parent XML-RPC server
+[roslaunch.server][INFO] 2024-03-18 22:00:24,357: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2024-03-18 22:00:24,357: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2024-03-18 22:00:24,357: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-03-18 22:00:24,357: Started XML-RPC server [http://clover-dev.local:38061/]
+[xmlrpc][INFO] 2024-03-18 22:00:24,357: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2024-03-18 22:00:24,368: started roslaunch server http://clover-dev.local:38061/
+[roslaunch.parent][INFO] 2024-03-18 22:00:24,368: ... parent XML-RPC server started
+[roslaunch][INFO] 2024-03-18 22:00:24,368: master.is_running[http://clover-dev.local:11311/]
+[roslaunch][INFO] 2024-03-18 22:00:24,372: auto-starting new master
+[roslaunch][INFO] 2024-03-18 22:00:24,372: create_master_process: rosmaster, /opt/ros/noetic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2024-03-18 22:00:24,372: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2024-03-18 22:00:24,372: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2024-03-18 22:00:24,372: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2024-03-18 22:00:24,372: process[master]: starting os process
+[roslaunch][INFO] 2024-03-18 22:00:24,372: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/clover/.ros/log/c6430968-e559-11ee-8bfa-15c7a369d79e/master.log']]
+[roslaunch][INFO] 2024-03-18 22:00:24,372: process[master]: cwd will be [/home/clover/.ros]
+[roslaunch][INFO] 2024-03-18 22:00:24,382: process[master]: started with pid [741]
+[roslaunch][INFO] 2024-03-18 22:00:24,382: master.is_running[http://clover-dev.local:11311/]
+[roslaunch][INFO] 2024-03-18 22:00:24,483: master.is_running[http://clover-dev.local:11311/]
+[roslaunch][INFO] 2024-03-18 22:00:24,583: master.is_running[http://clover-dev.local:11311/]
+[roslaunch][INFO] 2024-03-18 22:00:24,684: master.is_running[http://clover-dev.local:11311/]
+[roslaunch][INFO] 2024-03-18 22:00:24,784: master.is_running[http://clover-dev.local:11311/]
+[roslaunch][INFO] 2024-03-18 22:00:24,786: master.is_running[http://clover-dev.local:11311/]
+[roslaunch][INFO] 2024-03-18 22:00:24,786: ROS_MASTER_URI=http://clover-dev.local:11311/
+[roslaunch][INFO] 2024-03-18 22:00:24,787: setting /run_id to c6430968-e559-11ee-8bfa-15c7a369d79e
+[roslaunch][INFO] 2024-03-18 22:00:24,788: setting /roslaunch/uris/host_clover_dev_local__38061' to http://clover-dev.local:38061/
+[roslaunch][INFO] 2024-03-18 22:00:24,789: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2024-03-18 22:00:24,789: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://clover-dev.local:11311/]
+[roslaunch][INFO] 2024-03-18 22:00:24,789: process[rosout-1]: env[{'LANGUAGE': 'en_US:', 'USER': 'clover', 'ROS_PACKAGE_PATH': '/opt/ros/noetic/share', 'LD_LIBRARY_PATH': '/opt/ros/noetic/lib', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'HOME': '/home/clover', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'noetic', 'LOGNAME': 'clover', 'JOURNAL_STREAM': '9:18390', 'PKG_CONFIG_PATH': '/opt/ros/noetic/lib/pkgconfig', 'ROS_VERSION': '1', 'PATH': '/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'INVOCATION_ID': 'e8ec5d6194ff4d0faacb2948bc7050a5', 'LANG': 'en_US', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://clover-dev.local:11311/', 'PWD': '/', 'PYTHONPATH': '/opt/ros/noetic/lib/python3/dist-packages', 'ROS_HOSTNAME': 'clover-dev.local', 'CMAKE_PREFIX_PATH': '/opt/ros/noetic', 'ROS_LOG_FILENAME': '/home/clover/.ros/log/c6430968-e559-11ee-8bfa-15c7a369d79e/roslaunch-clover-dev-427.log'}]
+[roslaunch][INFO] 2024-03-18 22:00:24,817: process[rosout-1]: args[['/opt/ros/noetic/lib/rosout/rosout', '__name:=rosout']]
+[roslaunch][INFO] 2024-03-18 22:00:24,818: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2024-03-18 22:00:24,818: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2024-03-18 22:00:24,818: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2024-03-18 22:00:24,818: ... registered process [rosout-1]
+[roslaunch][INFO] 2024-03-18 22:00:24,818: process[rosout-1]: starting os process
+[roslaunch][INFO] 2024-03-18 22:00:24,818: process[rosout-1]: start w/ args [['/opt/ros/noetic/lib/rosout/rosout', '__name:=rosout', '__log:=/home/clover/.ros/log/c6430968-e559-11ee-8bfa-15c7a369d79e/rosout-1.log']]
+[roslaunch][INFO] 2024-03-18 22:00:24,818: process[rosout-1]: cwd will be [/home/clover/.ros]
+[roslaunch][INFO] 2024-03-18 22:00:24,821: process[rosout-1]: started with pid [774]
+[roslaunch][INFO] 2024-03-18 22:00:24,821: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2024-03-18 22:00:24,821: load_parameters starting ...
+[roslaunch][INFO] 2024-03-18 22:00:24,825: ... load_parameters complete
+[roslaunch][INFO] 2024-03-18 22:00:24,825: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2024-03-18 22:00:24,825: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2024-03-18 22:00:24,825: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140489051768576)>
+[roslaunch.parent][INFO] 2024-03-18 22:00:24,826: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2024-03-18 22:00:24,826: spin

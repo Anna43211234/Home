@@ -1,0 +1,13 @@
+# Target labels
+ simulation-ignition
+# Source files and their labels
+/home/clover/catkin_ws/build/PX4-Autopilot/platforms/posix/CMakeFiles/simulation-ignition
+/home/clover/catkin_ws/build/PX4-Autopilot/platforms/posix/CMakeFiles/simulation-ignition.rule
+/home/clover/catkin_ws/build/PX4-Autopilot/platforms/posix/CMakeFiles/simulation-ignition-complete.rule
+/home/clover/catkin_ws/build/PX4-Autopilot/external/Stamp/simulation-ignition/simulation-ignition-install.rule
+/home/clover/catkin_ws/build/PX4-Autopilot/external/Stamp/simulation-ignition/simulation-ignition-mkdir.rule
+/home/clover/catkin_ws/build/PX4-Autopilot/external/Stamp/simulation-ignition/simulation-ignition-download.rule
+/home/clover/catkin_ws/build/PX4-Autopilot/external/Stamp/simulation-ignition/simulation-ignition-update.rule
+/home/clover/catkin_ws/build/PX4-Autopilot/external/Stamp/simulation-ignition/simulation-ignition-patch.rule
+/home/clover/catkin_ws/build/PX4-Autopilot/external/Stamp/simulation-ignition/simulation-ignition-configure.rule
+/home/clover/catkin_ws/build/PX4-Autopilot/external/Stamp/simulation-ignition/simulation-ignition-build.rule

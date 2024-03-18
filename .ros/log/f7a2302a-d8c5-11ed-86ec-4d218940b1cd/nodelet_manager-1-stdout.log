@@ -1,0 +1,3 @@
+[0m[ INFO] [1681258029.533956242]: Initializing nodelet with 1 worker threads.[0m
+[0m[ INFO] [1681258029.744762860]: loading /home/clover/catkin_ws/src/clover/aruco_pose/test/test_parser_pass.txt complete (6 markers)[0m
+[0m[ INFO] [1681258029.898278636]: ready[0m

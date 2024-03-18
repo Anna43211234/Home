@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/clover/catkin_ws/devel/lib/libtunes.a  CMakeFiles/tunes.dir/default_tunes.cpp.o CMakeFiles/tunes.dir/tunes.cpp.o
+/usr/bin/ranlib /home/clover/catkin_ws/devel/lib/libtunes.a

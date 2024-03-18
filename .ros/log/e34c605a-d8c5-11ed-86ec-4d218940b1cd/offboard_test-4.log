@@ -1,0 +1,104 @@
+[rospy.client][INFO] 2023-04-12 03:06:36,614: init_node, name[/offboard_test], pid[47909]
+[xmlrpc][INFO] 2023-04-12 03:06:36,614: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2023-04-12 03:06:36,615: Started XML-RPC server [http://ubuntu:44169/]
+[rospy.impl.masterslave][INFO] 2023-04-12 03:06:36,615: _ready: http://ubuntu:44169/
+[rospy.registration][INFO] 2023-04-12 03:06:36,615: Registering with master node http://ubuntu:41755/
+[xmlrpc][INFO] 2023-04-12 03:06:36,615: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-12 03:06:36,616: ROS Slave URI: [http://ubuntu:44169/]
+[rospy.init][INFO] 2023-04-12 03:06:36,616: registered with master
+[rospy.rosout][INFO] 2023-04-12 03:06:36,616: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-12 03:06:36,617: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-12 03:06:36,618: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2023-04-12 03:06:36,632: topic[/tf] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:36,635: topic[/tf_static] adding connection to [http://ubuntu:36327/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:36,637: topic[/tf_static] adding connection to [http://ubuntu:35881/], count 1
+[rospy.internal][INFO] 2023-04-12 03:06:36,639: topic[/tf_static] adding connection to [http://ubuntu:46123/], count 2
+[rospy.internal][INFO] 2023-04-12 03:06:37,355: topic[/mavros/state] adding connection to [/simple_offboard], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:39,769: topic[/mavros/local_position/pose] adding connection to [/simple_offboard], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:40,183: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:40,192: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:40,192: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:40,221: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:40,230: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:40,231: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:40,237: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:40,246: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:40,246: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:40,252: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:40,261: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:40,261: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:41,670: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:41,679: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:41,680: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:42,689: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:42,698: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:42,698: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:42,706: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:42,715: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:42,715: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:42,721: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:42,730: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:42,731: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:42,736: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:42,745: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:42,746: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:42,751: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:42,760: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:42,761: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:42,766: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:42,776: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:42,776: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:42,782: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:42,791: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:42,791: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:42,797: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:42,807: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:42,807: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:42,813: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:42,822: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:42,822: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:42,848: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:42,858: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:42,858: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:42,866: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:42,875: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:42,875: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:42,879: topic[/mavros/setpoint_attitude/attitude] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:42,909: topic impl's ref count is zero, deleting topic /mavros/setpoint_attitude/attitude...
+[rospy.internal][INFO] 2023-04-12 03:06:42,909: topic[/mavros/setpoint_attitude/attitude] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:42,913: topic[/mavros/setpoint_attitude/thrust] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:42,942: topic impl's ref count is zero, deleting topic /mavros/setpoint_attitude/thrust...
+[rospy.internal][INFO] 2023-04-12 03:06:42,943: topic[/mavros/setpoint_attitude/thrust] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:42,948: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:42,957: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:42,958: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:42,965: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:42,974: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:42,974: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:42,978: topic[/mavros/setpoint_raw/attitude] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:43,007: topic impl's ref count is zero, deleting topic /mavros/setpoint_raw/attitude...
+[rospy.internal][INFO] 2023-04-12 03:06:43,008: topic[/mavros/setpoint_raw/attitude] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:43,014: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:43,023: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:43,023: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:43,029: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:43,038: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:43,038: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:43,042: topic[/mavros/setpoint_raw/attitude] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:43,071: topic impl's ref count is zero, deleting topic /mavros/setpoint_raw/attitude...
+[rospy.internal][INFO] 2023-04-12 03:06:43,072: topic[/mavros/setpoint_raw/attitude] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:43,078: topic[/simple_offboard/state] adding connection to [http://ubuntu:46123/], count 0
+[rospy.internal][INFO] 2023-04-12 03:06:43,087: topic impl's ref count is zero, deleting topic /simple_offboard/state...
+[rospy.internal][INFO] 2023-04-12 03:06:43,087: topic[/simple_offboard/state] removing connection to http://ubuntu:46123/
+[rospy.core][INFO] 2023-04-12 03:06:43,297: signal_shutdown [atexit]
+[rospy.internal][INFO] 2023-04-12 03:06:43,301: topic[/mavros/state] removing connection to /simple_offboard
+[rospy.internal][INFO] 2023-04-12 03:06:43,303: topic[/mavros/local_position/pose] removing connection to /simple_offboard
+[rospy.internal][INFO] 2023-04-12 03:06:43,304: topic[/tf] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:43,304: topic[/tf] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:43,305: topic[/tf_static] removing connection to http://ubuntu:36327/
+[rospy.internal][INFO] 2023-04-12 03:06:43,305: topic[/tf_static] removing connection to http://ubuntu:36327/
+[rospy.internal][INFO] 2023-04-12 03:06:43,305: topic[/tf_static] removing connection to http://ubuntu:35881/
+[rospy.internal][INFO] 2023-04-12 03:06:43,305: topic[/tf_static] removing connection to http://ubuntu:35881/
+[rospy.internal][INFO] 2023-04-12 03:06:43,306: topic[/tf_static] removing connection to http://ubuntu:46123/
+[rospy.internal][INFO] 2023-04-12 03:06:43,306: topic[/tf_static] removing connection to http://ubuntu:46123/
+[rospy.impl.masterslave][INFO] 2023-04-12 03:06:43,306: atexit

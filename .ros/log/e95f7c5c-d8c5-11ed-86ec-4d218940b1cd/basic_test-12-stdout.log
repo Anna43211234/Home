@@ -1,0 +1,10 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+rootdir: /home/clover/catkin_ws/build/test_results/clover
+plugins: cov-2.8.1
+collected 5 items
+
+../catkin_ws/build/test_results/clover .....                             [100%]
+
+- generated xml file: /home/clover/catkin_ws/build/test_results/clover/rosunit-basic_test.xml -
+=========================== 5 passed in 1.44 seconds ===========================

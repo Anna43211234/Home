@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2023-04-12 03:19:40,431: init_node, name[/spawn_clover_dev_59352_7714706151760075533], pid[59435]
+[xmlrpc][INFO] 2023-04-12 03:19:40,470: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2023-04-12 03:19:40,470: Started XML-RPC server [http://clover-dev:39223/]
+[rospy.impl.masterslave][INFO] 2023-04-12 03:19:40,470: _ready: http://clover-dev:39223/
+[rospy.registration][INFO] 2023-04-12 03:19:40,471: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-12 03:19:40,474: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-12 03:19:40,477: ROS Slave URI: [http://clover-dev:39223/]
+[rospy.init][INFO] 2023-04-12 03:19:40,477: registered with master
+[rospy.rosout][INFO] 2023-04-12 03:19:40,477: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-12 03:19:40,495: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-12 03:19:40,498: initializing /clock core topic
+[rospy.simtime][INFO] 2023-04-12 03:19:40,508: connected to core topic /clock
+[rosout][INFO] 2023-04-12 03:19:40,511: Loading model XML from ros parameter drone_description
+[rosout][INFO] 2023-04-12 03:19:40,537: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2023-04-12 03:19:40,788: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2023-04-12 03:19:42,048: topic[/clock] adding connection to [http://clover-dev:40397/], count 0
+[rosout][INFO] 2023-04-12 03:19:42,067: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2023-04-12 03:19:42,491: Spawn status: SpawnModel: Successfully spawned entity
+[rospy.core][INFO] 2023-04-12 03:19:42,494: signal_shutdown [atexit]
+[rospy.internal][INFO] 2023-04-12 03:19:42,496: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2023-04-12 03:19:42,497: topic[/clock] removing connection to http://clover-dev:40397/
+[rospy.internal][INFO] 2023-04-12 03:19:42,497: topic[/clock] removing connection to http://clover-dev:40397/
+[rospy.impl.masterslave][INFO] 2023-04-12 03:19:42,497: atexit
